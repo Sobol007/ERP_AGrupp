@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb7504c2-5c19-4278-adcf-f08960f0d597">
+  <name>Настройка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияПаспортаСделки</content>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияСправкиОВалютныхОперациях</content>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияСправкиОПодтверждающихДокументах</content>
+  <content>InformationRegister.РЭЙ_СрокиКонтроляПриближенияОжидаемыхСроков</content>
+  <content>InformationRegister.РЭЙ_РолиИИсполнители</content>
+  <content>InformationRegister.РЭЙ_НастройкиПараметровВалютногоКонтроля</content>
+  <content>Catalog.РЭЙ_РолиИсполнителей</content>
+  <content>04a0d492-a414-4aa8-a807-001f84312054</content>
+  <content>InformationRegister.РЭЙ_СопоставлениеСтороныПоСделкеСКонтрагентом</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

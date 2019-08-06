@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c657f0e8-2825-4ef3-ac89-755e11bfc83f">
+  <producedTypes>
+    <objectType typeId="5a2a3251-8ba9-4aaf-8f80-2ef2b7ba6943" valueTypeId="9c7f5d13-c180-4ece-884c-e7b5ab657bb2"/>
+    <managerType typeId="73a25499-15f3-4b82-bbb8-aadcdf2cd5b1" valueTypeId="977122f5-c8a4-4f86-a487-f24a74e607ee"/>
+  </producedTypes>
+  <name>АГ_ИсторияТендеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>История тендеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АГ_ИсторияТендеров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e5345bdd-92f2-4993-b52d-018caad24b57">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8126f4e8-7f43-46b4-afc1-f0383264ea58">
+  <name>РЭЙ_СрокиПредставленияДокументовВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки представления документов валютного контроля</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

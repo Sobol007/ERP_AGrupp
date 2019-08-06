@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ee15b07-9ed8-4d16-adc3-cf306a26562f">
+  <name>ОсновныеСредстваИНМА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные средства и НМА</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Fixed assets and IA</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Основные средства и нематериальные активы</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Fixed and intangible assets</value>
+  </explanation>
+  <content>02d643ef-8a26-4e6c-acac-0aff0ed0f26c</content>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивамиКлиентСервер</content>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивами</content>
+  <content>Report.АнализСчета</content>
+  <content>Report.АнализСубконто</content>
+  <content>Report.ГлавнаяКнига</content>
+  <content>Report.КарточкаСубконто</content>
+  <content>Report.КарточкаСчета</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.ОборотноСальдоваяВедомостьПоСчету</content>
+  <content>Report.ОборотыМеждуСубконто</content>
+  <content>Report.ОборотыСчета</content>
+  <content>Report.ОтчетПоПроводкам</content>
+  <content>Report.СводныеПроводки</content>
+  <content>Report.ШахматнаяВедомость</content>
+  <content>Report.ВедомостьПоОС</content>
+  <content>Report.ИнвентарнаяКнигаОС</content>
+  <content>55434f97-25bc-4212-91f2-ffaac6e8c389</content>
+  <parentSubsystem>Subsystem.РегламентированныйУчетПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

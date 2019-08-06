@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d2c45ab-4e95-46c9-ba93-15bbd261e476">
+  <name>ДобавлениеИзменениеПорядкаОтраженияРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение порядка отражения резервов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Add change reserve record order</value>
+  </synonym>
+</mdclass:Role>

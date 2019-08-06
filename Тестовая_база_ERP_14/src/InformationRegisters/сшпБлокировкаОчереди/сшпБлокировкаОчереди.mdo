@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a729fb26-5e49-4e8c-a2ab-748ce00a7c8f">
+  <producedTypes>
+    <selectionType typeId="e78da8a1-af65-4143-8cf9-90831ad206ad" valueTypeId="cd4e73d4-8353-41c1-a3ee-f5910fd94d0c"/>
+    <listType typeId="48cbbd11-f53d-444b-b00f-a115c73e300c" valueTypeId="9f12a374-371d-4ee2-b5a6-411d1eb90405"/>
+    <managerType typeId="f98495d9-e174-4518-8716-eee346aa00e0" valueTypeId="42b37ae7-dcb3-4ea5-89d1-2713533034a5"/>
+    <recordSetType typeId="c8f2449a-e44b-4092-a78a-fcaa67b26ebd" valueTypeId="dfab9f5d-f588-4e37-8dc1-d70051d5391e"/>
+    <recordKeyType typeId="fdc995b1-233c-4d13-8bc0-2f7c431c1590" valueTypeId="67c2bd70-e75f-45b3-a01b-96ffcfa3d573"/>
+    <recordType typeId="1a21b38c-2d95-49fe-9e1b-2e113b81c39d" valueTypeId="27991bb0-abd2-4336-9c7f-9ee42a75d38c"/>
+    <recordManagerType typeId="3992ec07-9d79-48db-93ab-19c8b8c269ef" valueTypeId="76ac10b6-3503-4ae6-9463-f961cc0191e4"/>
+  </producedTypes>
+  <name>сшпБлокировкаОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка очереди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e32ba124-d5ff-4e4c-91fc-91a14afc51d6">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор временной блокировки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

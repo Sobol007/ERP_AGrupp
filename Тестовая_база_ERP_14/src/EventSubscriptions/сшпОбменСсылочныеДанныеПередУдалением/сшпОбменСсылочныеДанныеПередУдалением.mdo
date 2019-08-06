@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97858dff-6cfa-4a8e-b8a0-173d5c18f8bc">
+  <name>сшпОбменСсылочныеДанныеПередУдалением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ссылочные данные перед удалением</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.сшпОбработкаСобытий.ОбменСправочникиДокументыПередУдалениемПередУдалением</handler>
+</mdclass:EventSubscription>

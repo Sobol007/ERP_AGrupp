@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aef643ef-3173-4d15-aa9e-1a2172be51ee">
+  <name>АГ_ЧтениеНадежностьКонтрагентовИЛСО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра сведений Надежность контрагентов и ЛСО</value>
+  </synonym>
+</mdclass:Role>

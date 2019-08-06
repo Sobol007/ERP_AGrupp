@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4870943c-7370-43d1-b61c-8245f48c9caa">
+  <name>CRM_ОткрытьСписокМаркетинговыеКампании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинговые мероприятия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Marketing Events</value>
+  </synonym>
+  <group>CommandGroup.CRM_Маркетинг1Документы</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

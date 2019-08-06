@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e059df37-347e-4e56-a38c-751665e0f65a">
+  <name>сшпИмяТочкиПодключенияESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя точки подключения ESB</value>
+  </synonym>
+  <location>Constant.сшпИмяТочкиПодключенияESB</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

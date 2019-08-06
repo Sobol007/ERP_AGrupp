@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dab5881-9c5e-46d2-b53b-5d03b7f6fe36">
+  <name>CRM_РазделМаркетинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркетинг</value>
+  </synonym>
+  <comment>Маркетинг и планирование</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>0</picture>
+  </picture>
+  <content>Document.CRM_Телемаркетинг</content>
+  <content>Catalog.CRM_ВидыМаркетинговыхКампаний</content>
+  <content>Document.CRM_РассылкаЭлектронныхПисем</content>
+  <content>CommonCommand.CRM_ПанельОтчетов_Маркетинг</content>
+  <content>Report.CRM_АнализТелемаркетинга</content>
+  <content>Report.CRM_АнализМаркетинговыхКампаний</content>
+  <content>Role.CRM_ПроведениеТелемаркетинга</content>
+  <content>Role.CRM_ПроведениеЭлектронныхРассылок</content>
+  <content>Role.CRM_УправлениеМаркетингом</content>
+  <content>Document.удалитьCRM_Планирование</content>
+  <content>Role.CRM_ПланироватьПоВсемПодразделениямМенеджерам</content>
+  <content>68f9afa9-d503-4dbe-a96e-f440cb93eac4</content>
+  <content>6e876bdf-b8a0-420e-a98d-2e9669ee98dd</content>
+  <content>Report.CRM_АнализПервичныхИнтересов</content>
+  <content>DataProcessor.CRM_Календарь</content>
+  <content>DataProcessor.CRM_УниверсальныйЖурналДокументов</content>
+  <content>Catalog.CRM_СпискиРассылок</content>
+  <content>Enum.CRM_ВидыМастераПоПродвижению</content>
+  <content>CommonPicture.CRM_УчастиеВМероприятии</content>
+  <content>CommonModule.CRM_МероприятияСервер</content>
+  <content>CommonCommand.CRM_РазделМаркетингНастройкиИСправочники</content>
+  <content>Report.CRM_ПричиныПотериИнтересовКлиентов</content>
+  <content>Report.CRM_АнализРезультатовEmailРассылок</content>
+  <content>CommonCommand.CRM_Модуль_ОткрытьПрайсЛист</content>
+  <content>DataProcessor.CRM_АРМ_РабочееМестоСквознаяАналитика</content>
+  <subsystems>CRM_РазделАнкетирование</subsystems>
+  <subsystems>CRM_Сегменты</subsystems>
+  <subsystems>CRM_Продвижение</subsystems>
+  <subsystems>CRM_Классификаторы</subsystems>
+  <subsystems>CRM_РаспознаваниеЛиц</subsystems>
+  <subsystems>CRM_СквознаяАналитика</subsystems>
+  <parentSubsystem>Subsystem.CRM_МодульCRM</parentSubsystem>
+</mdclass:Subsystem>

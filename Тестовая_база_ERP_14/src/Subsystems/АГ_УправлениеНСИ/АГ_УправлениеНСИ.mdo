@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a80a4ab-2c38-4fae-a8fb-1ce99f8f068e">
+  <name>АГ_УправлениеНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АГ_УправлениеНСИ</picture>
+  </picture>
+  <content>Document.АГ_ЗаявкаНаСозданиеИзменениеНовогоКонтрагента</content>
+  <content>Document.АГ_ЗаявкаНаСозданиеИзменениеНовогоЭлементаНоменклатуры</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Партнеры</content>
+  <content>Enum.АГ_ТипыОперацийЗаявок</content>
+  <content>Enum.АГ_СтатусыЗаявок</content>
+  <content>Enum.АГ_СрочностьЗаявок</content>
+  <content>CommonPicture.АГ_УправлениеНСИ</content>
+  <content>Catalog.АГ_ЗаявкаНаСозданиеИзменениеНовогоЭлементаНоменклатурыПрисоединенныеФайлы</content>
+  <content>InformationRegister.АГ_РеестрПартнеров</content>
+  <content>Document.АГ_ЗаявкаНаСозданиеИзменениеПользователя</content>
+</mdclass:Subsystem>

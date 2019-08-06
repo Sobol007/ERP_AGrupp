@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c03bca04-95d9-414d-9dd2-7fe013efb1cc">
+  <name>РЭЙ_ВнешнеэкономическаяДеятельность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешнеэкономическая деятельность</value>
+  </synonym>
+  <location>InformationRegister.РЭЙ_НастройкиВидимостиПодсистемыВЭД.Resource.Значение</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</content>
+</mdclass:FunctionalOption>

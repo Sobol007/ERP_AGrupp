@@ -1,0 +1,2150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтступ</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтступExtendedTooltip</name>
+      <id>103</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтступКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаНастроекМеждународныйФинансовыйУчет</name>
+    <id>8</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНастроекМеждународныйФинансовыйУчетВерхняя</name>
+      <id>21</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаУчетныеПолитики</name>
+        <id>35</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьСправочникУчетныеПолитики</name>
+          <id>34</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьСправочникУчетныеПолитикиExtendedTooltip</name>
+            <id>108</id>
+            <title>
+              <key>ru</key>
+              <value>Настройки способов ведения международного финансового учёта.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Set up methods of international financial accounting.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьСправочникУчетныеПолитики</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Учетные политики</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Accounting policies</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаУчетныеПолитикиExtendedTooltip</name>
+          <id>107</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаТиповыеОперации</name>
+        <id>147</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьСправочникТиповыеОперации</name>
+          <id>149</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьСправочникТиповыеОперацииРасширеннаяПодсказка</name>
+            <id>150</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка шаблонов повторно используемых операций международного учета.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Configure templates of reused international accounting transactions.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьСправочникТиповыеОперации</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Типовые операции</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Standard transactions</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаТиповыеОперацииРасширеннаяПодсказка</name>
+          <id>148</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настроек международный финансовый учет верхняя</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Settings international financial accounting top</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаНастроекМеждународныйФинансовыйУчетВерхняяРасширеннаяПодсказка</name>
+        <id>105</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНастроекМеждународныйФинансовыйУчетНижняя</name>
+      <id>39</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПланСчетов</name>
+        <id>40</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПланСчетовМеждународный</name>
+          <id>44</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьПланСчетовМеждународный</name>
+            <id>38</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьПланСчетовМеждународныйExtendedTooltip</name>
+              <id>113</id>
+              <title>
+                <key>ru</key>
+                <value>Настройка структуры счетов международного финансового учета.</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Set up the structure of accounts of international financial accounting.</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОткрытьПланСчетовМеждународный</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>План счетов международный</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>International chart of accounts </value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаПланСчетовМеждународныйExtendedTooltip</name>
+            <id>112</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>DontUse</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа настроек стандарты учета и финансовой отчетности1</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Setting group standards of accounting and financial reporting1</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаПланСчетовExtendedTooltip</name>
+          <id>111</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаВидыСубконто</name>
+        <id>41</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьВидыСубконто</name>
+          <id>76</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьВидыСубконтоExtendedTooltip</name>
+            <id>116</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка списка аналитических срезов для плана счетов международного финансового учета.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Set up the list of analytical sections for chart of accounts of international financial accounting.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьВидыСубконто</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа виды субконто международного учета</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group extra dimension types of international accounting</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа настроек стандарты учета и финансовой отчетности1</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Setting group standards of accounting and financial reporting1</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаВидыСубконтоExtendedTooltip</name>
+          <id>115</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настроек международный финансовый учет нижняя</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Settings international financial accounting bottom</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа настроек международный финансовый учет вложенная1</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Setting group international financial accounting nested1</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаНастроекМеждународныйФинансовыйУчетНижняяРасширеннаяПодсказка</name>
+        <id>110</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаДатаЗапретаФормирования</name>
+      <id>186</id>
+      <items xsi:type="form:Button">
+        <name>УстановитьДатуЗапрета</name>
+        <id>188</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>УстановитьДатуЗапретаРасширеннаяПодсказка</name>
+          <id>189</id>
+          <title>
+            <key>ru</key>
+            <value>Изменения документов закрытого периода будут отражаться корректировочными проводками на дату следующую за датой запрета формирования проводок.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Changes of the closed period documents will be recorded using adjustment postings as of the date which follows the closing date of posting generation.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.УстановитьДатуЗапрета</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дата запрета формирования</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Generation closing date</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа учетные политики</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group accounting policies</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаДатаЗапретаФормированияРасширеннаяПодсказка</name>
+        <id>187</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Международный финансовый учет</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>International financial accounting</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаНастроекМеждународныйФинансовыйУчетExtendedTooltip</name>
+      <id>104</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаНастроекГруппыФинансовогоУчета</name>
+    <id>57</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНастроекГруппыФинансовогоУчетаВложенная1</name>
+      <id>58</id>
+      <items xsi:type="form:Button">
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаДенежныхСредств</name>
+        <id>65</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьСправочникГруппыФинансовогоУчетаДенежныхСредствExtendedTooltip</name>
+          <id>124</id>
+          <title>
+            <key>ru</key>
+            <value>Классификатор денежных средств, используемый для отражения в международном финансовом учете.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Cash classifier used for recording in international financial accounting.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьСправочникГруппыФинансовогоУчетаДенежныхСредств</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаДоходовРасходов</name>
+        <id>73</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьСправочникГруппыФинансовогоУчетаДоходовРасходовExtendedTooltip</name>
+          <id>131</id>
+          <title>
+            <key>ru</key>
+            <value>Классификатор доходов/расходов, используемый для отражения в международном финансовом учете.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Classifier of income/expenses used for recording in international financial accounting.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьСправочникГруппыФинансовогоУчетаДоходовРасходов</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настроек группы финансового учета вложенная 1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Settings of financial accounting group nested 1</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаНастроекГруппыФинансовогоУчетаВложенная1ExtendedTooltip</name>
+        <id>119</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНастроекГруппыФинансовогоУчетаВложенная2</name>
+      <id>59</id>
+      <items xsi:type="form:Button">
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаРасчетов</name>
+        <id>69</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьСправочникГруппыФинансовогоУчетаРасчетовExtendedTooltip</name>
+          <id>128</id>
+          <title>
+            <key>ru</key>
+            <value>Классификатор расчетов с контрагентами, используемый для отражения в международном финансовом учете.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Classifier of settlements with counterparties used for recording in international financial accounting.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьСправочникГруппыФинансовогоУчетаРасчетов</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаНоменклатуры</name>
+        <id>190</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьСправочникГруппыФинансовогоУчетаНоменклатурыРасширеннаяПодсказка</name>
+          <id>191</id>
+          <title>
+            <key>ru</key>
+            <value>Классификатор номенклатуры, используемый для отражения в международном финансовом учете.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Product classifier used for recording in international financial accounting.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.ОткрытьСправочникГруппыФинансовогоУчетаНоменклатуры</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа настроек группы финансового учета вложенная1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group of financial accounting group settings nested1</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаНастроекГруппыФинансовогоУчетаВложенная2ExtendedTooltip</name>
+        <id>126</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группы финансового учета</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Financial accounting group</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаНастроекГруппыФинансовогоУчетаExtendedTooltip</name>
+      <id>118</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаФормированиеПроводокМеждународногоУчета</name>
+    <id>154</id>
+    <items xsi:type="form:FormGroup">
+      <name>Группа1</name>
+      <id>192</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаФормированиеПроводокМеждународногоУчетаВложенная1</name>
+        <id>156</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьНастройкуФормированияПроводокПоДаннымОперативногоУчета</name>
+          <id>160</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьНастройкуФормированияПроводокПоДаннымОперативногоУчетаРасширеннаяПодсказка</name>
+            <id>161</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка шаблонов проводок по хозяйственным операциям оперативного учета. </value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Configure posting templates for business transactions of real-time accounting.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьНастройкуФормированияПроводокПоДаннымОперативногоУчета</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Формирование проводок международного учета вложенная 1</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>International accounting posting generation nested 1</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаФормированиеПроводокМеждународногоУчетаВложенная1РасширеннаяПодсказка</name>
+          <id>157</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаФормированиеПроводокМеждународногоУчетаВложенная2</name>
+        <id>158</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьНастройкуФормированияПроводокПоДаннымРеглУчета</name>
+          <id>162</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьНастройкуФормированияПроводокПоДаннымРеглУчетаРасширеннаяПодсказка</name>
+            <id>163</id>
+            <title>
+              <key>ru</key>
+              <value>Настройка соответствия счетов и оборотов регламентированного и международного учета.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Set up correspondence between accounts and turnovers of compliance and international accounting.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьНастройкуФормированияПроводокПоДаннымРеглУчета</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа формирование проводок международного учета вложенная1</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group generation of international accounting postings nested1</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаФормированиеПроводокМеждународногоУчетаВложенная2РасширеннаяПодсказка</name>
+          <id>159</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Группа1РасширеннаяПодсказка</name>
+        <id>193</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Формирование проводок международного учета</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>International accounting posting generation</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаФормированиеПроводокМеждународногоУчетаРасширеннаяПодсказка</name>
+      <id>155</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <slaveItemsWidth>Equal</slaveItemsWidth>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаНастроекФинансоваяОтчетность</name>
+    <id>79</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНастроекФинансоваяОтчетностьВложенная1</name>
+      <id>80</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНастроекКомплектовИВидовФинансовыхОтчетов1</name>
+        <id>81</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПоказатели</name>
+          <id>96</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьСправочникНемонетарныеПоказатели</name>
+            <id>100</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьСправочникНемонетарныеПоказателиExtendedTooltip</name>
+              <id>145</id>
+              <title>
+                <key>ru</key>
+                <value>Хранимые периодические числовые или суммовые значения, которые не ведутся в учете по плану счетов, но могут использоваться в отчетности или формулах производных показателей.</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Stored periodical numeric or amount values which are not kept in the chart of accounts but can be used in reporting or derived indicator formulas.</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОткрытьСправочникНемонетарныеПоказателиОтчетов</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Показатели</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Indicators</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаПоказателиExtendedTooltip</name>
+            <id>144</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>DontUse</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настроек комплектов и видов финансовых отчетов 1</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Settings of sets and financial report kinds 1</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаНастроекКомплектовИВидовФинансовыхОтчетов1ExtendedTooltip</name>
+          <id>135</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНастроекКомплектовИВидовФинансовыхОтчетов2</name>
+        <id>86</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаНастроекВидыФинансовыхОтчетов</name>
+          <id>87</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьСправочникВидыФинансовыхОтчетов</name>
+            <id>88</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьСправочникВидыФинансовыхОтчетовExtendedTooltip</name>
+              <id>141</id>
+              <title>
+                <key>ru</key>
+                <value>Управление видами финансовых отчетов и их настройка.</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Financial report kind management and its settings.</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОткрытьСправочникВидыФинансовыхОтчетов</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Настроек виды финансовых отчетов</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Settings financial report kinds</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаНастроекВидыФинансовыхОтчетовExtendedTooltip</name>
+            <id>140</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>DontUse</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настроек комплектов и видов финансовых отчетов 2</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Settings of sets and financial report kinds 2</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаНастроекКомплектовИВидовФинансовыхОтчетов2ExtendedTooltip</name>
+          <id>139</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Настроек финансовая отчетность вложенная 1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Settings financial reporting nested 1</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаНастроекФинансоваяОтчетностьВложенная1ExtendedTooltip</name>
+        <id>134</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Финансовая отчетность</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Financial reporting</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаНастроекФинансоваяОтчетностьExtendedTooltip</name>
+      <id>133</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОсновныеСредстваИНематериальныеАктивы</name>
+    <id>170</id>
+    <items xsi:type="form:FormGroup">
+      <name>Группа2</name>
+      <id>194</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОсновныеСредстваИНематериальныеАктивыВложенная1</name>
+        <id>172</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьГруппыОС</name>
+          <id>176</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьГруппыОСРасширеннаяПодсказка</name>
+            <id>177</id>
+            <title>
+              <key>ru</key>
+              <value>Классификатор учета основных средств.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Classifier of fixed assets.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьГруппыОС</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Основные средства и нематериальные активы вложенная 1</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Fixed assets and intangible assets nested 1</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаОсновныеСредстваИНематериальныеАктивыВложенная1РасширеннаяПодсказка</name>
+          <id>173</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаОсновныеСредстваИНематериальныеАктивыВложенная2</name>
+        <id>174</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьГруппыНМА</name>
+          <id>178</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьГруппыНМАРасширеннаяПодсказка</name>
+            <id>179</id>
+            <title>
+              <key>ru</key>
+              <value>Классификатор учета нематериальных активов.</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Classifier of intangible assets.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьГруппыНМА</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Основные средства и нематериальные активы вложенная 2</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Fixed assets and intangible assets nested 2</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаОсновныеСредстваИНематериальныеАктивыВложенная2РасширеннаяПодсказка</name>
+          <id>175</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>Группа2РасширеннаяПодсказка</name>
+        <id>195</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основные средства и нематериальные активы</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Fixed and intangible assets</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаОсновныеСредстваИНематериальныеАктивыРасширеннаяПодсказка</name>
+      <id>171</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <slaveItemsWidth>Equal</slaveItemsWidth>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ОткрытьСправочникУчетныеПолитики</name>
+    <title>
+      <key>ru</key>
+      <value>Учетные политики</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Accounting policies</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник учетные политики</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Accounting policies&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникУчетныеПолитики</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПланСчетовМеждународный</name>
+    <title>
+      <key>ru</key>
+      <value>План счетов &quot;Международный&quot;</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>International chart of accounts</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть план счетов международный</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open international chart of accounts</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПланСчетовМеждународный</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникГруппыФинансовогоУчетаДенежныхСредств</name>
+    <title>
+      <key>ru</key>
+      <value>Группы финансового учета денежных средств</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Groups of financial cash management</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник группы финансового учета денежных средств</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Groups of financial cash management&quot; catalog </value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаДенежныхСредств</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникГруппыФинансовогоУчетаРасчетов</name>
+    <title>
+      <key>ru</key>
+      <value>Группы финансового учета расчетов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Groups of financial accounting of settlements</value>
+    </title>
+    <id>11</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник группы финансового учета расчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Financial settlement accounting groups&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаРасчетов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникГруппыФинансовогоУчетаДоходовРасходов</name>
+    <title>
+      <key>ru</key>
+      <value>Группы финансового учета доходов/расходов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Groups of financial accounting of income/expenses</value>
+    </title>
+    <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник группы финансового учета доходов расходов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Groups of financial accounting of income/expenses&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаДоходовРасходов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьВидыСубконто</name>
+    <title>
+      <key>ru</key>
+      <value>Виды субконто международного учета</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Extra dimension type of international accounting </value>
+    </title>
+    <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть виды субконто</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open extra dimension types</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьВидыСубконто</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникВидыФинансовыхОтчетов</name>
+    <title>
+      <key>ru</key>
+      <value>Виды финансовых отчетов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Financial report kinds</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник виды финансовых отчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Financial report kinds&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникВидыФинансовыхОтчетов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникКомплектыФинансовыхОтчетов</name>
+    <title>
+      <key>ru</key>
+      <value>Комплекты финансовых отчетов</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Financial report sets</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник комплекты финансовых отчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Financial report sets&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникКомплектыФинансовыхОтчетов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникНемонетарныеПоказателиОтчетов</name>
+    <title>
+      <key>ru</key>
+      <value>Немонетарные показатели финансовой отчетности</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Non-monetary indicators of financial reporting</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник немонетарные показатели отчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Non-monetary report indicators&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникНемонетарныеПоказателиОтчетов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникТиповыеОперации</name>
+    <title>
+      <key>ru</key>
+      <value>Типовые операции</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Standard transactions</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник типовые операции</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Standard transactions&quot; catalog </value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникТиповыеОперации</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьНастройкуФормированияПроводокПоДаннымОперативногоУчета</name>
+    <title>
+      <key>ru</key>
+      <value>Настройка формирования проводок по данным опер. учета</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Configure posting generation acc. to real-time accounting data</value>
+    </title>
+    <id>7</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть настройку формирования проводок по данным оперативного учета</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open a setting of posting generation according to real-time accounting data</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьНастройкуФормированияПроводокПоДаннымОперативногоУчета</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьНастройкуФормированияПроводокПоДаннымРеглУчета</name>
+    <title>
+      <key>ru</key>
+      <value>Настройка формирования проводок по данным регл. учета</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Configure posting generation acc. to the compl. accounting data</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть настройку формирования проводок по данным регл. учета</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open setting of posting generation according to compl. accounting data</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьНастройкуФормированияПроводокПоДаннымРеглУчета</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьГруппыОС</name>
+    <title>
+      <key>ru</key>
+      <value>Группы ОС</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>FA groups</value>
+    </title>
+    <id>14</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть группы ОС</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open FA groups</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьГруппыОС</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьГруппыНМА</name>
+    <title>
+      <key>ru</key>
+      <value>Группы НМА</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>IA groups</value>
+    </title>
+    <id>15</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть группы НМА</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open IA groups</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьГруппыНМА</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановитьДатуЗапрета</name>
+    <title>
+      <key>ru</key>
+      <value>Даты запрета формирования проводок</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Closing dates of posting generation</value>
+    </title>
+    <id>16</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить дату запрета</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Set closing date</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьДатуЗапрета</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСправочникГруппыФинансовогоУчетаНоменклатуры</name>
+    <title>
+      <key>ru</key>
+      <value>Группы финансового учета номенклатуры</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Groups of financial accounting of products</value>
+    </title>
+    <id>10</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть справочник группы финансового учета расчетов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open the &quot;Financial settlement accounting groups&quot; catalog</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСправочникГруппыФинансовогоУчетаНоменклатуры</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

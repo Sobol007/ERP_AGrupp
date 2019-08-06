@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ec0026a-aaab-41d0-984e-e02693b37247">
+  <producedTypes>
+    <selectionType typeId="a122c40b-9c19-495b-a062-0d1fe1efc1a2" valueTypeId="ad8fc796-47e4-4a5c-a6df-28b643ff085a"/>
+    <listType typeId="ad44d2b0-56ed-4fa8-ba67-d6e69fe24fd3" valueTypeId="a37b992b-9ee5-448b-a0b1-1232f53e47da"/>
+    <managerType typeId="2833e167-c487-4914-9e69-f9648fb9059c" valueTypeId="7893a90a-301f-4442-ab29-ad4595886283"/>
+    <recordSetType typeId="1f4061a1-c72b-4bfb-84a4-bb867612f3bc" valueTypeId="232730dd-a077-4d2d-a40c-3fa9136114be"/>
+    <recordKeyType typeId="b997d90c-d64b-4950-b74c-a76c1aeb07a5" valueTypeId="29a7c76e-3878-4f04-b396-4f7657a372f0"/>
+    <recordType typeId="d077034b-7e75-49b7-af09-dc17e5f728bc" valueTypeId="eef10830-8ee1-4a5d-883c-1c3a2e251c15"/>
+    <recordManagerType typeId="7c914544-b4ec-4e27-a83c-fb330651d8ff" valueTypeId="52a8d86a-8970-47ae-8b7f-980eaba9562b"/>
+  </producedTypes>
+  <name>РЭЙ_СрокиПредставленияСправкиОВалютныхОперациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки представления справки о кодах видов операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РЭЙ_СрокиПредставленияСправкиОВалютныхОперациях.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c247c5c-058f-47ee-b59d-0685696d16b9">
+    <name>Дни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f9cfa2c6-e766-41f0-93d0-d18c8271027a">
+    <name>ДатаСтартаТаймера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата старта таймера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f7c2a84-35ef-490d-b8e0-b04447d4170e">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="129bb86d-7676-4b9c-a1bc-258c2160f957">
+    <name>ВидСправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид справки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РЭЙ_ВидыОперацийСправкаОВалютныхОперациях</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac76b06d-476b-4c64-90b7-74dad5b6e132">
+    <name>НаправлениеПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление платежа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="5085edaf-24d2-466b-9cce-2c20bf4ed64c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ac6ec5b5-da41-4059-854c-e6c3046e0f7d">
+    <name>ИнициализационныеНастройки_20121001</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки 20121001</value>
+    </synonym>
+  </templates>
+  <templates uuid="780ed6ef-dfc7-45b6-9cca-a1c210f6aa04">
+    <name>ИнициализационныеНастройки_20180301</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки с 01.03.2018</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

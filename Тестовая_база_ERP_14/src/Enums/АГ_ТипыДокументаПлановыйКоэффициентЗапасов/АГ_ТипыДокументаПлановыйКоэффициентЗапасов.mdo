@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eea41fd7-ce35-4030-942d-40235651935a">
+  <producedTypes>
+    <refType typeId="fc435d49-1e17-4941-8c20-ed8459a6bda8" valueTypeId="bee6aa73-170b-42cd-944e-a3134d2d0e91"/>
+    <listType typeId="e85b8ace-7932-428c-891e-259e8445d27f" valueTypeId="e7f76749-b428-4392-a444-bd457fa88395"/>
+    <managerType typeId="efdaf61a-63a3-4e87-bfaa-2c49447a13df" valueTypeId="5f532d9c-f290-4191-b5d8-48425e6e5921"/>
+  </producedTypes>
+  <name>АГ_ТипыДокументаПлановыйКоэффициентЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>А г типы документа плановый коэффициент запасов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfd5a890-217d-416e-9f51-7eec55f7bb43">
+    <name>Базовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1888790-5f87-48ec-9a69-18f0cc63b02d">
+    <name>КорректировочныйОСН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный - ОСН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea0e3431-592b-4741-8930-de6e1f71bd5f">
+    <name>КорректировочныйХРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный - ХРН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b01e19a-800a-4e8a-9f5b-f115f24a5b4d">
+    <name>КорректировочныйИнвестиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировочный - Инвестиция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

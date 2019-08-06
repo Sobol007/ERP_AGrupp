@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="149bbca0-c768-4dd4-85cf-28fbb76becd9">
+  <producedTypes>
+    <selectionType typeId="721944c0-0528-4a08-9589-13e5cbe7dfbd" valueTypeId="ec1ddbe0-534c-45b6-840a-8f3583e7c2e9"/>
+    <listType typeId="ca8ec307-5d5f-4a4e-bdb9-872a22b30ff9" valueTypeId="db067ed1-e519-4471-bf2b-9d135e616148"/>
+    <managerType typeId="361f00f4-9832-4115-89d4-2f8135010a16" valueTypeId="12ee2203-1629-4e51-8b9e-75e361a6751e"/>
+    <recordSetType typeId="e2146a6b-e57d-48c4-9b8f-53bea2493bb7" valueTypeId="79c0a71a-a1b0-40fd-9f66-bfe279508295"/>
+    <recordKeyType typeId="6ee3b1bd-c472-483d-97cc-a9d8a5b0b14d" valueTypeId="b709c9e5-7753-46eb-bd5f-137f439840cf"/>
+    <recordType typeId="8e0d9e38-801a-4b76-9f70-b0aafc7f3a45" valueTypeId="e8335129-c8e3-4139-97d2-ed90dffebdee"/>
+    <recordManagerType typeId="cbb83243-8938-4488-b500-5a04499ed680" valueTypeId="def070ad-3f5f-4a87-8f18-a8a5f798a576"/>
+  </producedTypes>
+  <name>АГ_СрокВыкупаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок выкупа товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АГ_СрокВыкупаТоваров.Form.АГ_ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4dc343ee-fff8-4b48-ae5c-fdbcc7b15f74">
+    <name>КоличествоДнейХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней хранения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b35240ab-de92-4e63-9009-8c0f6c345d97">
+    <name>Соглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СоглашенияСПоставщиками</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6a6315d1-72d3-4ab2-9cd7-abff1ac8c117">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="77f53468-054a-444b-8fb0-181ee456c3ec">
+    <name>ХарактеристикаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>InformationRegister.АГ_СрокВыкупаТоваров.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="833c0a21-6dbd-4b32-9414-6269ede8daa4">
+    <name>АГ_ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>А г форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ab87d4c-81b0-4513-ada5-981c0953718e">
+    <name>АГ_ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4c6b0266-da7d-4ec4-b00c-e4c6e15f596f">
+    <name>АГ_Создать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e7832d88-45c5-4987-af16-3fc6b3c0bbcf">
+    <name>АГ_СрокВыкупаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок выкупа товаров</value>
+    </synonym>
+    <group>FormNavigationPanelImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.СоглашенияСПоставщиками</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

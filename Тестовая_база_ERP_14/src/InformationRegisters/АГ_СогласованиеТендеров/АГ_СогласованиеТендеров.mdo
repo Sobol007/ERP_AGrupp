@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="935c5c1f-3ca2-47da-92d9-aa1f9bca8e6e">
+  <producedTypes>
+    <selectionType typeId="224232d7-f516-461b-9b64-630ddac99ffd" valueTypeId="718280dc-b5af-4c44-9470-8a23ed4edbcd"/>
+    <listType typeId="deee0ab0-7023-409f-8ce5-6ee986bec33b" valueTypeId="4fce16a5-e7e7-4a9f-9538-04b33bb3d0cc"/>
+    <managerType typeId="ec51885f-1e07-46cd-b557-3859a405c86a" valueTypeId="f4682625-8cb5-485e-8eb4-e388e92a18ea"/>
+    <recordSetType typeId="ad7d8c65-24c5-4d85-877f-5538d9de53a7" valueTypeId="ea22cdf4-7537-48f0-b928-4a5f7762aa24"/>
+    <recordKeyType typeId="e7592570-2a43-446b-8a26-9b5e60a99165" valueTypeId="d205a81c-57f1-4cb3-a2dc-21267866d2d6"/>
+    <recordType typeId="8595d336-0450-4bda-8dfa-aa8a3db8c55b" valueTypeId="80f31dd3-468c-47d7-8334-88b46ee46db7"/>
+    <recordManagerType typeId="a05ca356-796b-41fe-bdcd-80272bf4ab1f" valueTypeId="a3ffb691-26bb-4e3b-a8ca-114f36e988e1"/>
+  </producedTypes>
+  <name>АГ_СогласованиеТендеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование тендеров</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_20][17.02.2019 15:45][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="8f5543cf-7a29-467f-a6e3-09b48b687cb4">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_РолиСогласованияТендера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="61aaa835-517e-46c1-8116-23e8d7f109f9">
+    <name>СуммаОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ab3563e-89bc-4248-9146-1fdec5a0d41b">
+  <producedTypes>
+    <selectionType typeId="3acf0ad5-8843-48f4-9c08-2683e27080f0" valueTypeId="1a3c7356-e675-4778-83a5-f115e9c58e1c"/>
+    <listType typeId="9b90b978-40ec-431a-8dbd-2f511db7b35d" valueTypeId="e92cbcae-d1f7-443d-917b-e70de6b4145e"/>
+    <managerType typeId="8873c1ae-d438-4034-98e2-e64154844d5e" valueTypeId="9ad66738-2114-4759-ab6e-38211122f992"/>
+    <recordSetType typeId="8739974b-bb2a-48dd-b99e-03e54ec78133" valueTypeId="fd4e538c-4832-4da4-bfa4-d854437cf8dc"/>
+    <recordKeyType typeId="50b80b65-ed92-414e-8c5b-a59a23468584" valueTypeId="8df3d2d7-8891-45e9-8948-81d149079821"/>
+    <recordType typeId="710e24d5-8f1e-4ea4-a351-a6ab2c7d03f3" valueTypeId="af8aa237-7b7d-4459-9b82-3f7b04ef1c21"/>
+    <recordManagerType typeId="6ad12b3a-691d-4b61-8a56-262c66307164" valueTypeId="7abf9ab5-682d-4a23-8f56-aac40d406691"/>
+  </producedTypes>
+  <name>АГ_КлючиMDMОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи MDM объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7ab4e493-40b9-4260-8537-1c41f1bb039f">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eb3ae9fc-b5e8-49cf-ab6d-b45aad6cb966">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="364842c2-c383-44a0-a43b-fa3dbc2c7d21">
+    <name>Префикс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Префикс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

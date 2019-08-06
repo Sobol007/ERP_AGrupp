@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16339fd3-4ea5-4f87-938c-d9f19246a984">
+  <producedTypes>
+    <refType typeId="28bd17e7-0f04-45a2-bfbe-69802b715e29" valueTypeId="9915f95b-5815-4f24-8df5-e8f249d6dd31"/>
+    <listType typeId="62a941ae-73be-4174-90ca-d9464f7d01bb" valueTypeId="7070a063-ba0d-405d-b3c9-80a011c2b1e0"/>
+    <managerType typeId="a743e1d9-b8a9-476d-a366-9137564bfa1e" valueTypeId="fc5d7db7-e4e9-4668-8ef9-4a65e691494e"/>
+  </producedTypes>
+  <name>АГ_СтатусыФормированияКвотЗакупа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы формирования квот закупа</value>
+  </synonym>
+  <comment>АГ:[+][УЗП0001][27.05.2019 21:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b731dca0-c521-4648-ba8a-fb414130c431">
+    <name>НаУтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>На утверждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12cb10e3-21a1-4cfb-ad6f-98da85ea8470">
+    <name>Утвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утвержден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c55fc94-40f3-4891-928d-1220457b14b2">
+  <producedTypes>
+    <managerType typeId="a98f086b-d131-4934-9d80-d3f641c13298" valueTypeId="91585631-2fee-4bcd-96c3-1eb822def65c"/>
+    <valueManagerType typeId="09d6c107-7451-49a3-8449-dcbe030ace36" valueTypeId="df6fc376-67da-42f9-a145-298cd43f4437"/>
+    <valueKeyType typeId="d77cb153-13ef-5655-8acc-e900613477b0" valueTypeId="6eccff3c-2694-50de-ba29-c8b6325d2df9"/>
+  </producedTypes>
+  <name>НеЗакрыватьЭтапыПроизводстваБезПолнойОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не закрывать этапы производства без полной отгрузки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Do not close production stages without complete shipment</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

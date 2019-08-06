@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7af24a7-a60a-4e94-8ac8-90b933e823bc">
+  <producedTypes>
+    <refType typeId="22362398-3611-497c-9317-34b1baecf7bf" valueTypeId="b56a68ea-57ba-4606-89f9-599a3c7bea72"/>
+    <listType typeId="5a993efa-4caf-4cd6-82b4-83d6cc91028f" valueTypeId="ddb4f697-2781-4ba3-af04-8b75eeac72e1"/>
+    <managerType typeId="3935a593-88b1-478e-8377-3c03a606248e" valueTypeId="c583b4b6-eee9-4f38-8108-ae38acfe079f"/>
+  </producedTypes>
+  <name>АГ_СрочностьЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срочность заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4234f7f-91dc-4dd0-b96f-d1ab910e0ef8">
+    <name>Высокая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="881589ba-4e29-42bc-b652-ed9f1cb0336d">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5336a6b5-b17c-4e56-b8db-0429c43ac776">
+    <name>Низкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

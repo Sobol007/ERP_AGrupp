@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="567df1a0-e61c-4549-a030-01493f727479">
+  <producedTypes>
+    <objectType typeId="6267932e-e0b9-41b5-a758-3dac5fcfd554" valueTypeId="aa8cf167-e6c1-4b00-b5f0-7ee7486d609d"/>
+    <refType typeId="ff2dd461-c85b-4f01-be02-ae0dfec910ad" valueTypeId="708de9ce-034b-4aa9-91a4-8851ec982e6f"/>
+    <selectionType typeId="d7da4b0e-e97a-4acf-8539-58ae8598dfdf" valueTypeId="08dbea79-ecc6-47fe-b9b8-a5f81199d447"/>
+    <listType typeId="99b6c07e-66ba-418a-bd8f-22df5a248fa0" valueTypeId="89d55353-41a0-49e5-9385-201d62490e8b"/>
+    <managerType typeId="941a771e-8d75-43ed-a59c-19f429651f47" valueTypeId="b186637d-72cd-4657-8f31-49f58b82eff8"/>
+  </producedTypes>
+  <name>РЭЙ_Инкотермс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инкотермс 2010</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перечень видов валютных операций</value>
+  </synonym>
+  <comment>Incoterms 2010</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РЭЙ_Инкотермс.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Международные торговые термины Инкотермс 2010</value>
+  </extendedObjectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Международные торговые термины Инкотермс 2010</value>
+  </extendedListPresentation>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="f4349729-7ac3-43ae-b4e7-4cc519f31a1e">
+      <name>CostAndFreight</name>
+      <description>Cost and Freight</description>
+      <code xsi:type="core:StringValue">
+        <value>CFR</value>
+      </code>
+    </items>
+    <items id="40d71695-3177-4178-b894-60ceb43c8edd">
+      <name>CostInsuranceAndFreight</name>
+      <description>Cost, Insurance and Freight</description>
+      <code xsi:type="core:StringValue">
+        <value>CIF</value>
+      </code>
+    </items>
+    <items id="d38acbfc-d53b-40db-b897-ada2120baa09">
+      <name>CarriageAndInsurancePaidTo</name>
+      <description>Carriage and Insurance Paid to</description>
+      <code xsi:type="core:StringValue">
+        <value>CIP</value>
+      </code>
+    </items>
+    <items id="e80b74bf-85be-4bfe-a36f-6cd98a8ae34a">
+      <name>CarriagePaidTo</name>
+      <description>Carriage Paid to</description>
+      <code xsi:type="core:StringValue">
+        <value>CPT</value>
+      </code>
+    </items>
+    <items id="20ecd1dd-7f01-488a-9b9e-de48830a9bec">
+      <name>DeliveredAtPlace</name>
+      <description>Delivered at Place</description>
+      <code xsi:type="core:StringValue">
+        <value>DAP</value>
+      </code>
+    </items>
+    <items id="c0cf666e-86b5-45d1-bf29-2325443e4cf8">
+      <name>DeliveredAtTerminal</name>
+      <description>Delivered at Terminal</description>
+      <code xsi:type="core:StringValue">
+        <value>DAT</value>
+      </code>
+    </items>
+    <items id="8dbc09f5-d918-4b92-88d2-8a55e8f0b1ed">
+      <name>DeliveredDutyPaid</name>
+      <description>Delivered Duty Paid</description>
+      <code xsi:type="core:StringValue">
+        <value>DDP</value>
+      </code>
+    </items>
+    <items id="626faf98-3bb4-4ac2-a330-5c8c18afc118">
+      <name>ExWorks</name>
+      <description>Ex Works</description>
+      <code xsi:type="core:StringValue">
+        <value>EXW</value>
+      </code>
+    </items>
+    <items id="730b90c7-c492-4def-b3f9-8b816643acff">
+      <name>FreeAlongsideShip</name>
+      <description>Free Alongside Ship</description>
+      <code xsi:type="core:StringValue">
+        <value>FAS</value>
+      </code>
+    </items>
+    <items id="bb46bd74-249f-4ebb-bd21-a8fd14c50c78">
+      <name>FreeCarrier</name>
+      <description>Free Carrier</description>
+      <code xsi:type="core:StringValue">
+        <value>FCA</value>
+      </code>
+    </items>
+    <items id="4ab03804-ccc2-4177-b299-38f5d6b403a3">
+      <name>FreeOnBoard</name>
+      <description>Free on Board</description>
+      <code xsi:type="core:StringValue">
+        <value>FOB</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.РЭЙ_Инкотермс.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РЭЙ_Инкотермс.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РЭЙ_Инкотермс.Form.ФормаСписка</defaultChoiceForm>
+  <auxiliaryObjectForm>Catalog.РЭЙ_Инкотермс.Form.ФормаЭлемента</auxiliaryObjectForm>
+  <attributes uuid="45a30238-093d-4845-8eda-7e3e179ce6df">
+    <name>НаименованиеКраткое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15e46ac3-bcea-43bb-9dbd-e9167b675fcf">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="336d7b01-6efa-4f59-9604-9f0aa2783709">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce4e5d41-3c78-4f12-8139-b52a75d31b7c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ff204b4b-54de-4855-85d2-16fbf903ada1">
+    <name>Инкотермс2010</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инкотермс 2010</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d9c31d4-917d-42ce-9260-4d3b4af90003">
+  <producedTypes>
+    <managerType typeId="ebd28012-754f-4a36-9d98-ebe4e70f3930" valueTypeId="1b778d8d-041d-4583-ae44-0a107ff8c261"/>
+    <valueManagerType typeId="f884cc5a-49a2-4e26-b447-64d2d93b2e94" valueTypeId="958eb3f3-67d2-4cf3-b9f5-0f8c4e4b3f56"/>
+    <valueKeyType typeId="c4c29bae-e1e7-579a-9bc4-cefdf2f7dbf4" valueTypeId="51bf3b1a-ae30-5304-ba94-89658c8097e5"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_КоличествоНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Количество номеров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Number of rooms</value>
+  </synonym>
+  <comment>Количество номеров отправителя</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Количество номеров отправителя</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Number of sender's numbers</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Количество номеров отправителя</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Number of sender's numbers</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

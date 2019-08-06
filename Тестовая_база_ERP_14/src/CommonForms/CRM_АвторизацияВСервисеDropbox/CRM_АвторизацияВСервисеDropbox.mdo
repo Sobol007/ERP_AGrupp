@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d81d5459-7c51-4119-80c6-a131209fb3cb">
+  <name>CRM_АвторизацияВСервисеDropbox</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авторизация в сервисе dropbox (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Authorization in the dropbox service (iCRM)</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

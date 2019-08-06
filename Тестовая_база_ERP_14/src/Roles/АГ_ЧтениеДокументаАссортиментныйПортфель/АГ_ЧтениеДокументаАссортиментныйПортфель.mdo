@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a13568ea-a1a6-40a2-a208-217a47bd98a5">
+  <name>АГ_ЧтениеДокументаАссортиментныйПортфель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документов ассортиментный портфель (АГРУПП)</value>
+  </synonym>
+</mdclass:Role>

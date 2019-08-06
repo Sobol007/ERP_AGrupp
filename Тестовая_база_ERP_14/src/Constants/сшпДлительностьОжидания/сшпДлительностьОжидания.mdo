@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86afb8ef-5926-4bf1-979f-6c4d1d720ad5">
+  <producedTypes>
+    <managerType typeId="1e47a3c7-0547-4ef1-a726-d306dd1f537d" valueTypeId="04a94b84-a8f3-4fcb-b291-f7e12d82371d"/>
+    <valueManagerType typeId="6bb12510-7394-4388-b1cd-14e3f02dcfaa" valueTypeId="f632a05b-bb59-42e5-9829-f1dc07ba1957"/>
+    <valueKeyType typeId="dd1c123c-5f92-5a12-b174-dda7bbaf2900" valueTypeId="19a6799b-fe95-5375-8c87-33516c27b7f7"/>
+  </producedTypes>
+  <name>сшпДлительностьОжидания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность ожидания (сек.)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Длительность ожидания обработчиком сообщений в очереди на обработку.</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Длительность ожидания обработчиком сообщений в очереди на обработку.</value>
+  </toolTip>
+  <minValue xsi:type="core:StringValue">
+    <value>10</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

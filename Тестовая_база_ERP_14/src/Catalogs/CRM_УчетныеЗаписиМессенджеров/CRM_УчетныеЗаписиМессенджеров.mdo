@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="878c4901-770a-4a3c-b282-7e72a1ccac1b">
+  <producedTypes>
+    <objectType typeId="d022ef85-fa7c-4f08-8dde-95b5a850c61a" valueTypeId="e53f5b7b-b2d8-49ef-b5e0-9bcf65300538"/>
+    <refType typeId="b7b49ba7-87b4-492f-bfb2-8207efcdcc5f" valueTypeId="b9c80e61-9a25-480b-bf71-251d08dc917e"/>
+    <selectionType typeId="5e1ff009-a97d-41bf-b68c-6d719960a191" valueTypeId="419af63f-5e27-4704-9605-fa26485acf20"/>
+    <listType typeId="9b654b52-a628-459c-bfb7-c879bf095954" valueTypeId="24e87b0b-96f4-452a-9fda-6ba359bf62a3"/>
+    <managerType typeId="3ca31721-70e5-4a5c-9da6-1baa7c9d00f4" valueTypeId="a7be38b8-59e7-4a66-a064-d2b0f6f74a91"/>
+  </producedTypes>
+  <name>CRM_УчетныеЗаписиМессенджеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи мессенджеров и социальных сетей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Messenger and social networking accounts</value>
+  </synonym>
+  <inputByString>Catalog.CRM_УчетныеЗаписиМессенджеров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.CRM_УчетныеЗаписиМессенджеров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.CRM_УчетныеЗаписиМессенджеров.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.CRM_УчетныеЗаписиМессенджеров.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ca397ea4-2e99-4f2a-8dc4-28b816384fcc">
+    <name>УдалитьТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Токен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9de1e51d-89a2-451c-accb-e08da3303498">
+    <name>ТипМессенджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип мессенджера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Messenger type</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c703662a-d851-49f9-8060-f71bc02ec1b2">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77b502bf-f11c-4048-8f93-08e3ac5dff67">
+    <name>УникальныйИдентификаторЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unique job identifier</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4426ef61-4cc9-403f-88b1-93ab494357b8">
+    <name>УдалитьIDГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) IDГруппы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Group ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73941058-8bd6-4e7d-8646-094a594fb9d7">
+    <name>УдалитьТокенГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Токен группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Group Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66050b1e-85b7-49d5-9df8-6483a86a8cb2">
+    <name>РазрешитьПросмотрСообщенийВсемПользователям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить просмотр сообщений всем пользователям системы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Allow messages to be viewed by all users of the system</value>
+    </synonym>
+    <comment>Разрешить просмотр сообщений всем пользователям, независимо от настройки доступа</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешить просмотр писем всем пользователям, независимо от настройки доступа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Allow all users to view messages, regardless of access settings</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5890f344-f5b0-462f-8139-d4ca7e64c515">
+    <name>УдалитьДатаНачальнойЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Дата начальной загрузки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Boot date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="687037d7-6867-40e5-a3e3-97ce7a5a66a6">
+    <name>CRM_ИсточникЛидов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник лидов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lead source</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45f8783a-48b3-4ba9-9388-0d5ef4580943">
+    <name>CRM_УказыватьПричинуОтклонения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать причину отклонения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicate the reason for rejection</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b945bf1-4185-4630-b7a9-91dd6afdad98">
+    <name>CRM_РольОтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль ответственного за обработку заявок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The role of the person responsible for processing requests</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="679f3621-6797-45ea-9c7f-14141c48c7ad">
+    <name>ХранилищеПараметровДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище параметров доступа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Access Parameter Store</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a83226ba-a7fd-45ae-b97a-b3e5371a5270">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an element</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d5538131-d359-47dd-ae49-f6bc38435deb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="22bfaa30-1ddc-4b47-8ae1-66d9fe513206">
+    <name>УчетныеЗаписиМессенджеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные записи мессенджеров и социальных сетей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Messenger and social networking accounts</value>
+    </synonym>
+    <group>CommandGroup.CRM_Настройки1НСИ</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

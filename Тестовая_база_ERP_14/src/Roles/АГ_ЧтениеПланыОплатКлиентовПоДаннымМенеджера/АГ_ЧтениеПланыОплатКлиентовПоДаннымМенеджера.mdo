@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68c5d92a-0d65-480f-85dd-1da84861decc">
+  <name>АГ_ЧтениеПланыОплатКлиентовПоДаннымМенеджера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Планы оплат клиентов по данным менеджера (А ГРУПП)</value>
+  </synonym>
+  <comment>АГ:[+][PLAN_001_2][03.05.2019 18:30][Фирсанов]</comment>
+</mdclass:Role>

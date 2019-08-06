@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07029764-c304-4057-a353-71d75a7d59da">
+  <producedTypes>
+    <refType typeId="7cf055c5-fcbe-48a0-9e5d-2ce723f5fdb0" valueTypeId="13cd608a-3d1a-4f8c-91bc-7a54fd28a171"/>
+    <listType typeId="2fc00539-524d-4392-a75d-6f5ff0f9856d" valueTypeId="94c176fb-f6db-4c86-a9e6-2cc9c3c62acd"/>
+    <managerType typeId="6f8d9d21-1e83-49be-bc4e-afa07351bd92" valueTypeId="e924a3b9-df33-4146-b1a0-38695660894b"/>
+  </producedTypes>
+  <name>АГ_ОснованиеКВыкупу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание к выкупу</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1fe84bae-b88e-437a-83a8-5a696e657950">
+    <name>ДосрочныйВыкуп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Досрочный выкуп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f22f070-e2b9-4b65-90a1-4177818c9d41">
+    <name>ИнвестиционныйВыкуп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвестиционный выкуп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b637646-a160-4b99-99dc-762bdcae7e71">
+    <name>ПополнениеСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пополнение склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9f5464d-d4e0-45a5-bc92-1e48931306de">
+    <name>ПодЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под заказ клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="492af489-b724-4c1f-a02c-fba7af0a3584">
+    <name>ПоРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>По реализации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

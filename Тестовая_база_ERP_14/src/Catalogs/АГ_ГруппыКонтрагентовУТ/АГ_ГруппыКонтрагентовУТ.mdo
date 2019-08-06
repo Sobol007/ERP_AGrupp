@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe0eee6c-c0da-4c59-b9af-c49c8d790a88">
+  <producedTypes>
+    <objectType typeId="8f5cd0fd-8b01-41ed-80cd-f470a45770c2" valueTypeId="abceb650-b109-4dd0-a1cb-6f78a20236f4"/>
+    <refType typeId="0dadf04c-bfb6-4e25-8b82-4d026b3ddbe7" valueTypeId="2f9de531-4b54-466a-a752-a795801acb82"/>
+    <selectionType typeId="b0c049ac-d100-4eb2-8627-096bdf31ec6c" valueTypeId="15666719-8256-4db0-8a63-4cd3531a170a"/>
+    <listType typeId="68d65480-54c3-411e-a591-0f7346b8304c" valueTypeId="0dfd0e10-9d46-408c-8032-0ba8fd5520d9"/>
+    <managerType typeId="80124909-0db2-4bb1-8490-2b26a21eb216" valueTypeId="e513af50-f86a-45a3-a520-7aeb83eacbf3"/>
+  </producedTypes>
+  <name>АГ_ГруппыКонтрагентовУТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы контрагентов УТ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_ГруппыКонтрагентовУТ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_ГруппыКонтрагентовУТ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа контрагентов УТ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Группы контрагентов УТ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

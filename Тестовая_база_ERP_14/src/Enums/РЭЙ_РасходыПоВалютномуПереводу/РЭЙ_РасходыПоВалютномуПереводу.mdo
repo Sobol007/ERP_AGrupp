@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa2fe313-0421-443b-bfb8-f40c4638ebaa">
+  <producedTypes>
+    <refType typeId="1cb07ff0-d98a-4047-b661-5543e8a92224" valueTypeId="010eeaca-d1b9-47cb-b101-1e11ac00434f"/>
+    <listType typeId="2db72a05-49fd-4172-a62b-3a6e442f6ba3" valueTypeId="9f731d61-0015-4e70-89c6-51f79a270f81"/>
+    <managerType typeId="6d61debc-3b22-4eb3-b7f9-eb9c2bdd2307" valueTypeId="412f0860-a22b-4eaf-b2c1-063f0d031d6e"/>
+  </producedTypes>
+  <name>РЭЙ_РасходыПоВалютномуПереводу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы по валютному переводу</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Очередность платежа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e028d8a5-7162-4989-bfe3-7d3ca3b7618c">
+    <name>OUR</name>
+    <synonym>
+      <key>ru</key>
+      <value>За счет плательщика</value>
+    </synonym>
+    <comment>Our</comment>
+  </enumValues>
+  <enumValues uuid="fd2aec07-7c60-40b3-a53d-1f19d1415617">
+    <name>BEN</name>
+    <synonym>
+      <key>ru</key>
+      <value>За счет получателя</value>
+    </synonym>
+    <comment>Beneficiary</comment>
+  </enumValues>
+  <enumValues uuid="ce14f11a-54fa-4cfb-ac2b-4ee6fc2cb704">
+    <name>SHA</name>
+    <synonym>
+      <key>ru</key>
+      <value>В России - за счет плательщика, вне России - за счет получателя</value>
+    </synonym>
+    <comment>Share</comment>
+  </enumValues>
+</mdclass:Enum>

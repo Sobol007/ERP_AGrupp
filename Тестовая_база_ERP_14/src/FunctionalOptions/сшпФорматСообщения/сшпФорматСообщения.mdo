@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edeb60b8-6968-497f-bc40-2403c6dfed5c">
+  <name>сшпФорматСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат сообщения</value>
+  </synonym>
+  <comment>Формат информационных пакетов всех типов потоков</comment>
+  <location>Constant.сшпФорматСообщений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7dfc272-0fac-4dd3-8955-8dd0ed0b2018">
+  <name>АГ_ЗапускОбработкиПарсингСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск обработки парсинг сайта</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6100120c-9226-4351-949b-aad8612df060">
+  <producedTypes>
+    <managerType typeId="183dd54e-96e9-4ea7-9aee-c59ff7610627" valueTypeId="96cb9d58-7e61-48a4-953c-518b6817c1e5"/>
+    <valueManagerType typeId="d08a6866-aad9-440a-b379-8fc7935f542a" valueTypeId="6cd933ae-6ca3-4ef0-b2b9-0e9add2c3ec7"/>
+    <valueKeyType typeId="a2f952ef-4284-521d-afa9-5cb2c2173e30" valueTypeId="ab9b551c-1595-5932-8eff-5c28ba1cc955"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_КонецПериодаЗапрета</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Конец периода запрета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) End of ban period</value>
+  </synonym>
+  <comment>Конец периода запрета</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2d3862b-36b6-405d-9714-f737bb5db6e8">
+  <name>АГ_ДобавлениеИзменениеШаблоновПравДоступаПоДолжностнымПозициям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение шаблонов прав доступа по должностным позициям</value>
+  </synonym>
+  <comment>АГ:[+][Permission _004][13.03.2019 18:05][Давиденко]</comment>
+</mdclass:Role>

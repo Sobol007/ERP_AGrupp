@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa6e1891-27b7-46bf-8adb-afe96e30292c">
+  <producedTypes>
+    <refType typeId="c898431b-50bb-4239-b8fc-abd4072e4f4c" valueTypeId="92dd4108-3516-4814-bec8-34704e9865a0"/>
+    <listType typeId="a59e58d8-8320-4f83-990d-769a991d4109" valueTypeId="7f958ab4-1de5-4841-aa45-4921ceb17a6c"/>
+    <managerType typeId="803a3bf9-168e-454e-8d9f-30c70147c830" valueTypeId="8e329e15-4248-4cca-b752-db59f66b811b"/>
+  </producedTypes>
+  <name>РЭЙ_СрокиИсполненияВалютообменныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки исполнения валютообменных операций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="039be98e-472f-427e-a848-1c9cd0e36f9a">
+    <name>TOD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегодня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de7b273a-b951-49b7-b240-eee3c0307c6c">
+    <name>TOM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завтра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50b8ae52-9fc1-4048-b075-e8c6c22c9aaa">
+    <name>SPOT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Послезавтра</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

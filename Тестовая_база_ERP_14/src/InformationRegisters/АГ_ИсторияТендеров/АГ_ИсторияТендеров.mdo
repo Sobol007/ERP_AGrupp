@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca24ba7f-ea35-4e95-bb2f-2b62b62ba45f">
+  <producedTypes>
+    <selectionType typeId="558c67cc-44f4-4bdd-8348-a4be7fa752b7" valueTypeId="f5ef404a-6f12-4be7-96b6-5eef962fac0d"/>
+    <listType typeId="fdf1efc4-8210-45b0-bcbc-9b321bc5b7c2" valueTypeId="7264c29c-27ed-4c48-9a81-1e0998524e7f"/>
+    <managerType typeId="e52faada-bc18-478a-a036-c5777e29a2e8" valueTypeId="3d0db9d6-5dfc-42ad-986d-99d7f4943190"/>
+    <recordSetType typeId="87fff692-466b-43a4-84cd-fa265c7354cc" valueTypeId="245bd0f4-78f4-4fa3-b6fc-226fda89d0b3"/>
+    <recordKeyType typeId="d251d356-6ca6-4549-bbda-4e3b9dcb5850" valueTypeId="dab2be4d-014d-46d7-8c36-89c76c99f5e3"/>
+    <recordType typeId="d1629bbc-ff7b-4ec1-893a-c903c2d8003f" valueTypeId="57b7e8d0-49ca-485f-8b34-716786942696"/>
+    <recordManagerType typeId="2554bdf4-c5b1-460c-8e18-37c1dec02dc1" valueTypeId="837b86b6-bfd7-41ed-962f-33263d3d3d75"/>
+  </producedTypes>
+  <name>АГ_ИсторияТендеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>История тендеров</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_17][04.02.2019 21:45][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="2ce5725b-b013-4d31-acf6-49a815cf1da9">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3442738-1e57-4e9f-8fcc-fa5ed7e13a3d">
+    <name>ОПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОПЗ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="37045702-9428-4031-ad0d-c65650b74747">
+    <name>Сортамент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортамент</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_Сортамент</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43b6bd24-d782-47b4-a161-653e48ee2f34">
+    <name>НМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НМЦ</value>
+    </synonym>
+    <comment>Начальная минимальная цена лота</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef896c04-1834-469f-bd82-bc68ae13dc58">
+    <name>СтатусТендера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус тендера</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_СтатусТендера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7191e32-8bba-4305-824b-e9b72820f8bf">
+    <name>ПричинаНеучастия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина неучастия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АГ_ПричиныНеучастияВТендере</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bc22501-827d-453d-bfdf-d1514d750cac">
+    <name>ИтогиОЭТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги и рекомендации к будущим торгам (ОЭТ) </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="d5d57e2b-3e04-458f-a2dd-b57b83a289b7">
+    <name>ИтогиМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги и рекомендации к будущим торгам (МП) </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="e11b8643-64ea-4b97-8e72-161c71ae56d8">
+    <name>Тендер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тендер</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.АГ_Тендер</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

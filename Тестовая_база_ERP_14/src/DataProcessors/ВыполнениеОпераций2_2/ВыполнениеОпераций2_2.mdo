@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64b1b0bb-d472-4d28-8208-951f9aa9ecf2">
+  <producedTypes>
+    <objectType typeId="be64eab4-6ba8-4429-b7cc-61677e5d1ad2" valueTypeId="5965b79b-7f63-41ba-9722-4ff28dd28ae2"/>
+    <managerType typeId="160e950b-79fc-42be-83ab-9b91509a7e2e" valueTypeId="34156238-ec6c-4e35-b4f6-ae2fea8368f9"/>
+  </producedTypes>
+  <name>ВыполнениеОпераций2_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение операций (2.2)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Execute operations (2.2)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВыполнениеОпераций2_2.Form.РабочееМесто</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="26351f8f-5c7b-4898-8816-7dc071328c2b">
+    <name>РабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение операций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operation performance</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="673f5dd3-b273-42a1-a755-a83a4f329fc6">
+    <name>ДобавитьОперацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить операцию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Add operation</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee96d5d9-1852-4f5a-8c79-68f59896cd61">
+    <name>СписокОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список операций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transaction list </value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6bdc4e72-2729-43a2-926f-bf67f8121bae">
+    <name>ВыборЗначенийПеречисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор значений перечисления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select enumeration values</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f36efc36-b43e-4ccd-8b23-80d2497c2df7">
+    <name>ВыполнениеОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение операций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operation performance</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

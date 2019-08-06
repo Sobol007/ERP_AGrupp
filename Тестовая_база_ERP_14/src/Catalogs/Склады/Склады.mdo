@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07b3c407-9a3a-4f94-b798-226c96d66840">
+  <producedTypes>
+    <objectType typeId="534b848f-38c7-44f1-a446-9a2d426ad135" valueTypeId="f83792b1-e206-4f1e-8e7f-e4a250270f8b"/>
+    <refType typeId="e63fc7d1-3d01-4fbb-8cbe-9d4bf8fe2126" valueTypeId="f132f278-26f0-4d91-89a6-3c8762173f8d"/>
+    <selectionType typeId="c2076bc4-76eb-41cd-9a0e-524aa5c59eff" valueTypeId="8a59b72e-908a-4dcb-b42b-2948c0a2caae"/>
+    <listType typeId="16ebbeb0-507b-42b5-b6b5-1aecb0190b05" valueTypeId="516256b6-43a1-467a-9bbc-40b544005fc8"/>
+    <managerType typeId="4c991974-609c-4663-936d-9a2cac56ba8b" valueTypeId="b864866b-404e-4e41-b857-32a1383b0e77"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Warehouses</value>
+  </synonym>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа складов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Warehouse group</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Можно выбрать группу складов.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>You can select a warehouse group.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Склады.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование склада</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Warehouse name</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_Склады</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_Склады</value>
+    </typesFilterValue>
+    <characteristicValues>Catalog.Склады.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.Склады.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.Склады.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.Склады.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.ВидыКонтактнойИнформации</characteristicTypes>
+    <keyField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Ref</keyField>
+    <typesFilterField>Catalog.ВидыКонтактнойИнформации.StandardAttribute.Parent</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ВидыКонтактнойИнформации.СправочникСклады</value>
+    </typesFilterValue>
+    <characteristicValues>Catalog.Склады.TabularSection.КонтактнаяИнформация</characteristicValues>
+    <objectField>Catalog.Склады.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
+    <valueField>Catalog.Склады.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад (складская территория)</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Warehouse (warehouse area)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Склады и магазины</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Warehouses and stores</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Сведения о местах хранения товаров (складах), их структуре и физических лицах, назначенных материально ответственными (МОЛ) за тот или иной склад</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Information on goods storage locations (warehouses), their structure and individuals assigned as inventory custodians for a given warehouse</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6440f1cd-4ea3-4111-8e7c-f375aab22f6c">
+      <name>АГ_Транзитный</name>
+      <description>Транзитный</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Склады.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.Склады.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Склады.Form.ФормаВыбора</defaultChoiceForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="39299529-e597-4f8e-a8bf-4eb5dc180cbb">
+    <name>ВыборГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Select group</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВыборГруппыСкладов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбор группы складов в табличную часть документов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Select a warehouse group to the document tabular section</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВыборГруппыСкладов.EnumValue.Запретить</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff476f7c-83dd-4bf3-b877-ee64c1fc2c1c">
+    <name>ИспользоватьАдресноеХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать адресное хранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use bin location warehousing</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования адресного хранения. Это служебный реквизит. Значение устанавливается перед записью объекта и зависит от значения реквизита &quot;Настройка адресного хранения&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows usage of bin location warehousing. This is a service attribute. Value is set before writing the object and depends on attribute value &quot;Customize bin location warehousing.&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc9bd71d-d667-4afd-9eed-abe3cf6ad536">
+    <name>ИспользоватьАдресноеХранениеСправочно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать адресное хранение справочно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use bin location warehousing for information</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования справочного размещения номенклатуры по ячейкам. Это служебный реквизит. Значение устанавливается перед записью объекта и зависит от значения реквизита &quot;Настройка адресного хранения&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows that reference-address warehousing of products by bins is used. This is a service attribute. Value is set before the object is written and depends on the value of attribute &quot;Customize bin location warehousing.&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f41c975-1f0d-4d95-b6fc-9938d4d8d4ff">
+    <name>ИспользоватьОрдернуюСхемуПриОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ордерную схему при отгрузке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use the advanced warehousing when shipping goods</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включенный флаг означает, что при отгрузке товаров со склада используется ордерная схема документооборота</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Selected check box means that advanced warehousing is used for shipping goods from warehouse</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f459e2e3-93ba-4b46-9b48-38ca910f782c">
+    <name>ИспользоватьОрдернуюСхемуПриОтраженииИзлишковНедостач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ордерную схему при отражении излишков и недостач</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use the advanced warehousing when recording surplus and shortages</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включенный флаг означает, что при отражении излишков и недостач товаров на складе используется ордерная схема документооборота</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Selected check box means that advanced warehousing is used when recording surplus and shortage of goods in warehouse</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e8f132c-946f-45cd-bc8f-57819f36624e">
+    <name>ИспользоватьОрдернуюСхемуПриПоступлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ордерную схему при поступлении</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use the advanced warehousing on goods receipt</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включенный флаг означает, что при поступлении товаров на склад используется ордерная схема документооборота</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Selected check box means that advanced warehousing is used to receive goods in warehouse</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df718bac-f408-4171-8960-29c3fc786c43">
+    <name>ИспользоватьСерииНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать серии номенклатуры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use product series</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак использования серий на складе. Если признак установлен, то в документах по этому складу нужно будет указывать серии согласно поддерживаемым политикам учета серий. На ордерном складе серии указываются в ордерах, на неордерном - в актах и накладных.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows that series are used in the warehouse. If the check box is selected, then series must be specified according to the supported policies of series record in documents for this warehouse. In the advanced warehouse, series are specified in notes, in the non-advanced warehouse - in certificates and invoices.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8447539a-9f16-4fa7-9ce9-c5b28e7d9e4f">
+    <name>ИспользоватьСкладскиеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать складские помещения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use warerooms</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установке этого признака становится доступным и обязательным указание в ордерах на товары, складского помещения: таким образом реализуется хранение остатков ТМЦ в разрезе отдельных помещений в составе одной складской территории.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>When this check box is selected, indication of a wareroom becomes available and mandatory: this way remaining inventory are stored in different warerooms inside one warehouse area.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57e0aed5-e49a-43a9-9de3-168a2b8ab3a5">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Work schedule</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График работы, определяющий рабочие дни, в которые товар доступен на логистическом центре/складе (в т.ч. используется для расчета доступных дней совершения отгрузки).</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Work schedule defining work days in which the goods are available in logistics center/warehouse (also used to calculate days available for shipment).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Календари.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fa0a18b-71bc-4262-a64b-d02e9ba948a0">
+    <name>КонтролироватьОперативныеОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать оперативные остатки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Control real-time balance</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Флаг управляет использованием контроля остатков при проведении расходных ордеров на товары и заданий на отбор (размещение) товаров в ячейках. На неордерном складе флаг определяет контроль остатков по сериям, указываемым при планировании отбора</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows whether balance control is used on posting goods issue notes and goods picking (placement) jobs. If the advanced warehousing is not enabled for the warehouse, the check box shows whether balance control by series specified in the picking plan is used</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e7df8c54-b75d-4bea-98ad-344c4dd6e693">
+    <name>НастройкаАдресногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка адресного хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customize bin location warehousing</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиАдресногоХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка использования складских ячеек.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Customize storage bin use.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.НастройкиАдресногоХранения.EnumValue.НеИспользовать</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c471353-9c40-4232-adee-979899e9bf76">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Department</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, отвечающее за склад.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Department responsible for the warehouse.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1a977da-a51e-4146-b4ce-26c08254e82e">
+    <name>БизнесРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-регион</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business region</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f9ce8f1-8c66-4086-96dc-b98cd095f6d8">
+    <name>РозничныйВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничный вид цены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Retail price type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид цен розничной торговли (указывается только для розничного склада).</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Retail price type (specified for retail warehouse only).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ИспользоватьПриПродаже</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93814f1d-821f-41fb-85af-3077eee60871">
+    <name>ТекущаяДолжностьОтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Position</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность материально ответственного лица складской территории.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Position of warehouse area financially liable person</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cfebe7e-1d28-4aa9-82bc-ad1239d29edc">
+    <name>ТекущийОтветственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Материально ответственное лицо складской территории.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Warehouse area financially liable person.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5bcff01-098c-4767-97ce-2ea12d0b26a3">
+    <name>ТипСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад / Магазин</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Warehouse / Store</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСкладов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Необходимо определить тип склада (оптовый или розничный).</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Warehouse type (wholesale or retail)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыСкладов.EnumValue.ОптовыйСклад</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cbd1be32-a456-4bd1-8725-e33dae2f94ef">
+    <name>УровеньОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень обслуживания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service level</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УровниОбслуживания</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вероятность того, что страховой запас товаров покроет неожиданные колебания спроса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Probability that safety stock will cover unexpected demand fluctuations</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.УровниОбслуживания.EnumValue.УровеньОбслуживания84_0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="705875bd-327b-4406-8971-1f2e3104e325">
+    <name>УчетныйВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетный вид цены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accounting price type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Этот вид цен будет подставляться в складские документы для возможности печати цен, в печатных формах.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>This price type will be used to print prices, in warehouse document print forms.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Статус</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9dfbebb5-e50e-4c85-a0c1-cacc79b509c1">
+    <name>НачинатьОтгрузкуПослеФормированияЗаданияНаПеревозку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начинать отгрузку после формирования задания на перевозку</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start shipment once the transportation job is created</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установке данного флага распоряжения на отгрузку с доставкой обрабатываются только после попадания в маршрут задания на перевозку в статусе &quot;На погрузку&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>When this check box is selected, shipment references with delivery are processed only after they get into transportation job route in status &quot;For lading&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3d21729-12db-4820-9c42-0d90411f1408">
+    <name>ИспользованиеРабочихУчастков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование рабочих участков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Work area usage</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИспользованиеСкладскихРабочихУчастков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ИспользованиеСкладскихРабочихУчастков.EnumValue.НеИспользовать</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c012553b-3166-4faa-8b26-aa4fa06f3d49">
+    <name>ИсточникИнформацииОЦенахДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать цены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Print prices</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИсточникиИнформацииОЦенахДляПечати</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ИсточникиИнформацииОЦенахДляПечати.EnumValue.ПоСебестоимости</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7c7e034-87e6-46a2-95d8-673727c1a2d2">
+    <name>ИспользоватьСтатусыРасходныхОрдеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать статусы расходных ордеров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use goods issue note statuses</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="645fc2cd-4dd7-4d17-bb7b-03bd709a1390">
+    <name>ИспользоватьСтатусыПриходныхОрдеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать статусы приходных ордеров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use goods receipt note statuses</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f317d59f-53ea-4eb3-960e-51d09cc25737">
+    <name>ИспользоватьСтатусыПересчетовТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать статусы пересчетов товаров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use goods recount statuses</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14004998-ff9c-4a15-8918-de3992d8a065">
+    <name>ДатаНачалаОрдернойСхемыПриОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при отгрузке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use for shipment</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при отгрузке</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use for shipment</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11614cb8-99b7-4fc6-a60f-6b632a30543a">
+    <name>ДатаНачалаОрдернойСхемыПриПоступлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при поступлении</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use for goods receipt</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при поступлении</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use for goods receipt</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f555b3a4-c778-4c47-b2cd-59b56ab921ff">
+    <name>ДатаНачалаОрдернойСхемыПриОтраженииИзлишковНедостач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при отражении излишков недостач</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use when recording surplus shortage</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала использования ордерной схемы при отражении излишков недостач</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Start date of the advanced warehousing use when recording surplus shortage</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="105516fc-fd0b-4415-ac14-2256fcb2b0d1">
+    <name>ДатаНачалаИспользованияСкладскихПомещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала использования складских помещений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start date of wareroom use</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала использования складских помещений</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Start date of wareroom use</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="abcd819f-8d0a-483d-a65a-0472e3c63461">
+    <name>ДатаНачалаАдресногоХраненияОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала адресного хранения остатков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start date of bin location warehousing of remaining goods</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала адресного хранения остатков</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Start date of bin location warehousing of remaining goods</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6187958-5444-45c0-9c75-38bc0757c5c6">
+    <name>УчитыватьСебестоимостьПоСериям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать себестоимость по сериям</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use cost by series</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5081eff1-d952-4031-97b3-331ef7b010b2">
+    <name>КонтролироватьОбеспечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать обеспечение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Control supply</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48ad469d-df85-4464-8ca3-e9fcc864ba3c">
+    <name>СкладОтветственногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад ответственного хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Safekeeping warehouse</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, определяющий, что склад работает в режиме ответственного хранения товаров</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Shows whether a warehouse is a safekeeping one</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e933db5d-0f38-49b9-92ed-bba817c3e00f">
+    <name>ВидПоклажедержателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид поклажедержателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Depository kind</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыПоклажедержателей</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид организации-хранителя (поклажедержателя)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Depository company kind</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>e98a6e75-ca9d-426f-b12b-aa1510d4982b.68044d13-48ad-45e9-a1ff-169f454cda29</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b38b5782-8012-489e-a0be-96a12b32bbb7">
+    <name>Поклажедержатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поклажедержатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Depository</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация - хранитель товаров</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Custodian organization</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9ead028-91d6-4d89-9189-930ed33a5700">
+    <name>СрокОтветственногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок ответственного хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Safekeeping period</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Срок, на который товары передаются на склад ответственного хранения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Period during which the goods will be kept by the safekeeping warehouse</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="029f6a98-c4f0-4c44-a91a-1c8d22e0c99b">
+    <name>ОтветственноеХранениеДоВостребования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственное хранение до востребования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Safekeeping until called for</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Товары хранятся на складе до востребования</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Goods are stored in the warehouse until called for</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41c573c8-0ef1-48ef-bed0-cc4478683f45">
+    <name>ОсобыеОтметки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особые отметки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Special notes</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Custom text</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55cd413c-548f-4565-bb7a-08d168e4eb62">
+    <name>УсловияХраненияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия хранения товаров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Goods storage conditions</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Custom text</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94ad3eb3-99b0-4182-a385-cf78a614dd8e">
+    <name>ЦеховаяКладовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цеховая кладовая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shop storeroom</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70083d58-45f0-44c3-a2fc-ae0780019ce7">
+    <name>АГ_ОсновнойВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основная цена продажи с текущего склада.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Статус</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="719440e2-2929-43a6-9273-d179cbe14bb1">
+    <name>АГ_ВидЦеныМРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид цены МРЦ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимально разрешенная цена продажи с текущего склада, ниже которой продажа запрещена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Статус</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1780837-38ef-43ac-80d1-d262a5531355">
+    <name>АГ_МинимальныйВидЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный вид цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальная цена продажи с текущего склада, ниже которой продажа запрещена.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Статус</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="538a1df4-71fc-4f13-acda-2cf3b0b20b64">
+    <name>АГ_ВидЦеныВнешнийПрайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний прайс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Статус</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СтатусыДействияВидовЦен.EnumValue.Действует</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="205c222c-3a36-4b9a-8834-fd770de893ac">
+    <name>АГ_СкладWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад WMS</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="12732361-20fe-4ecf-8d3f-80f91f9d85e4">
+    <name>АГ_ОсновнойСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной склад</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="e8730c7b-15a6-449b-aba1-f18a22e7ca5a">
+    <producedTypes>
+      <objectType typeId="6cc42730-9173-41d3-8083-bc7bbc1abd0f" valueTypeId="e486c34e-c3f4-4ac4-a94c-1eb2addaf711"/>
+      <rowType typeId="59ffc499-e212-4b12-a03d-8cda81011003" valueTypeId="22b76e43-f018-4020-9a76-dd6d8f40936d"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contact information</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Контактная информация, соответствующая связи между партнером и физическим лицом.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Contact information corresponding to the connection between partner and individual.</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bc0e7ae3-2168-4cec-b0cf-a893dcd67ff8">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип контактной информации (телефон, адрес и т.п.)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contact information type (address, phone, etc.)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01dd3b13-ef80-4c26-9c50-a4ab89e3ab59">
+      <name>Вид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Kind</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contact information kind</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d38def98-2c03-47a8-8c09-629c9760ac50">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Presentation</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление контактной информации для отображения в формах</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contact information presentation to show in forms</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f76101b2-a11a-44e7-9454-e1508c7f159d">
+      <name>ЗначенияПолей</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значения полей</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Field values</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебное поле, для хранения контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Service field for storing contact information</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ccc5ba60-9431-4933-85e7-e18d26c696e9">
+      <name>Страна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страна</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Country</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Страна (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Country (filled in for address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="94d83021-47bc-497b-b08d-6ccb159c738b">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Region</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Регион (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Region (filled in for address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bbd49e4-3049-436c-864a-a932d33d4440">
+      <name>Город</name>
+      <synonym>
+        <key>ru</key>
+        <value>Город</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>City</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Город (заполняется для адреса)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>City (populated for address)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61b64524-1fa4-4237-9808-f9f8ea118d09">
+      <name>АдресЭП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес ЭП</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>DS address</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Email address</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef4f5814-9f93-410a-a93f-1bd03bc98734">
+      <name>ДоменноеИмяСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доменное имя сервера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Server domain name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Доменное имя сервера электронной почты или веб-страницы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Domain name of an email server or a web page.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4011cb1-0d48-4b8d-bd85-4595d7171f7a">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Phone number</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный номер телефона</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full phone number</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c1d1aa9-6cc8-4ba2-a26f-36eb08e129a7">
+      <name>НомерТелефонаБезКодов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона без кодов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Phone number without codes</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер телефона без кодов и добавочного номера</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Phone number without codes and extension</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f6e7f43-cef1-4a09-8527-155559e56f33">
+      <name>ВидДляСписка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид для списка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>List kind</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид контактной информации для списка</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contact information kind for list</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d6aac397-14c7-4ff0-bc06-675b8d4c0e31">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебное поле, для хранения контактной информации</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Service field for storing contact information</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="733fda55-7600-4f6b-835f-7c1c6c2390f8">
+    <producedTypes>
+      <objectType typeId="603e171a-275b-4522-88b5-7f8311216f94" valueTypeId="328b7cec-9732-46e7-9dcc-82f428017e66"/>
+      <rowType typeId="5229fcb3-85dc-4271-bafe-0a6ca9dd2bb0" valueTypeId="d9320274-d858-4d28-ae38-792dbbc19dff"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional attributes</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор реквизитов, состав которого определяется компанией.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Set of attributes the composition of which is determined by the company.</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="81a219a0-e656-459e-b693-8c4476f368b0">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="def842a7-0900-4895-be0f-074a332af0d8">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional attribute value</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.Склады.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c98da205-51f0-41a7-b9d6-892e66d35520">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of additional attribute of string type</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="97b70e9d-3bbc-4dc5-8215-dc7f0fdbb707">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="280ea6c5-73bc-4948-9a45-b1cf91667bce">
+    <name>РазблокированиеРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокирование реквизитов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unlock attributes</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73f54091-4603-4e08-ba0a-48c83fe8f00e">
+    <name>РазблокированиеРеквизитовГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокирование реквизитов группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unlock group attributes</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc766aed-e276-4c07-b931-7eea2aa411d4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="460017e5-de45-42d7-b66c-d4b1b44ddef2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9da881a4-852e-4a9a-afd0-9f3d788919d8">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73a7eab0-6ab9-4a90-8b23-1354d12e65ad">
+    <name>ФормаВыбораПоОстаткам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора по остаткам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form by balance</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3e9b9e4-28a9-41f6-a97f-b69fe182805e">
+    <name>ЗаполнениеПомещенияВСправочниках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение помещения в справочниках</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fill in warerooms in catalogs</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6672bb82-1aed-4e58-816a-0f6f2da5e044">
+    <name>ЗаполнениеУсловийОтветственногоХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение условий ответственного хранения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fill out safekeeping conditions</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="049e6e35-ac45-4149-ab1c-c80551c5cb72">
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады и магазины</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Warehouses and stores</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

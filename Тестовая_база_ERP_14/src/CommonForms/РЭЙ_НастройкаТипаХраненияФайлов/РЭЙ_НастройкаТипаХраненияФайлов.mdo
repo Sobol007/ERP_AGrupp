@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f0fafcd-a6de-48e3-ba28-eb98669c5a2a">
+  <name>РЭЙ_НастройкаТипаХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ хранения файлов подсистемы ВЭД</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

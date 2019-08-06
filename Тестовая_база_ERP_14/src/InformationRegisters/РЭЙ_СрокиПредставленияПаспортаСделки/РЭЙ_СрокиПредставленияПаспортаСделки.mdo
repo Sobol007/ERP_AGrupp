@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d6c8457-6e4e-47b5-b444-365bcf522788">
+  <producedTypes>
+    <selectionType typeId="c246996d-7deb-4a75-8ae8-b30a0dfc65de" valueTypeId="8fb1cfcc-70f0-4c41-aea5-3b1dbf79967a"/>
+    <listType typeId="6a0a97d5-2be9-41d3-8ff4-b8055ffb70e9" valueTypeId="e4fd6ac4-5e24-4787-969d-ffe72f943f8b"/>
+    <managerType typeId="06a15bd0-8d08-470a-a641-74910363ea65" valueTypeId="112708a5-92a9-44a9-b815-3e45b0d58c37"/>
+    <recordSetType typeId="c5d58dab-475a-44a9-bb32-976091d075a5" valueTypeId="388dafb3-d5cc-4d39-9121-a4321643a33b"/>
+    <recordKeyType typeId="3aeda953-645f-4cd3-9e4b-29c1d04f88af" valueTypeId="1dbfad5b-be5c-4fcf-bf98-3f24742d6541"/>
+    <recordType typeId="0a6a9ca9-737c-473f-90d3-f4ba86cf8a07" valueTypeId="c6556ddd-caed-49fe-9a31-fedc8d880245"/>
+    <recordManagerType typeId="96946733-41a2-4f62-ae93-a2662d30541b" valueTypeId="319c27ce-2787-4624-913b-04634e3c98c6"/>
+  </producedTypes>
+  <name>РЭЙ_СрокиПредставленияПаспортаСделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сроки представления на учет контракта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РЭЙ_СрокиПредставленияПаспортаСделки.Form.ФормаСписка</defaultListForm>
+  <auxiliaryListForm>InformationRegister.РЭЙ_СрокиПредставленияПаспортаСделки.Form.ФормаСписка</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7acdfd80-2f33-45df-a3fe-f70f83a80736">
+    <name>Дни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дни</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8e3d00d-ec29-4ae6-8cb2-f24c9514f632">
+    <name>ДатаСтартаТаймера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата старта таймера</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b1e5403-7a13-4b03-9b25-a24904d9d15d">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1a53ad26-9817-4eaa-9db0-9304fff9f47b">
+    <name>Процедура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процедура</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="685ad881-1dfd-45a5-b7ec-179c79952a85">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5745b950-add7-41dd-8bdf-360140e2317d">
+    <name>ИнициализационныеНастройки_20121001</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки 20121001</value>
+    </synonym>
+  </templates>
+  <templates uuid="d24147c0-5cff-4902-8b16-291b1c59ff6d">
+    <name>ИнициализационныеНастройки_20180301</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки с 01.03.2018</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

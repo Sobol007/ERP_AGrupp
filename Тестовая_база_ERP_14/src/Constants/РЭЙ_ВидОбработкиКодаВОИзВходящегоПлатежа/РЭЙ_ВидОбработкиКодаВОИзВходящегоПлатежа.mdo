@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4acd725-9218-4247-a6d7-6fa1c494a1c1">
+  <producedTypes>
+    <managerType typeId="ba4dbff9-6f81-4f73-af02-6c33af7aa35a" valueTypeId="5b60c1d3-6a3a-470a-acdc-43d20192f670"/>
+    <valueManagerType typeId="45967192-7244-482b-9994-5eaafba1a202" valueTypeId="5af2fb7e-ef82-48d9-8bc6-dab06cbef598"/>
+    <valueKeyType typeId="3af3da7b-d01f-52bb-a92f-517836ab8fb4" valueTypeId="0c2b3147-70f5-5215-86f3-087741608322"/>
+  </producedTypes>
+  <name>РЭЙ_ВидОбработкиКодаВОИзВходящегоПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид обработки кода ВО из входящего платежа</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

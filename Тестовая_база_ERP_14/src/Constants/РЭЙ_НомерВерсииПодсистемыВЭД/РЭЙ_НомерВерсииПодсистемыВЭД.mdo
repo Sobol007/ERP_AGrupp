@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94f2f145-0c19-4568-93e7-8ef6a37f0379">
+  <producedTypes>
+    <managerType typeId="fb957ee3-d72e-4a0c-8cee-1d9a13b3e2d6" valueTypeId="517038e3-62d7-4ff9-8e1e-431feb1077de"/>
+    <valueManagerType typeId="9c6b7436-bf91-43d3-9dc0-bba3d6432809" valueTypeId="a69fbb55-f76e-4a59-9049-c60c78424f81"/>
+    <valueKeyType typeId="6b162ef6-006c-540d-97ec-be99e811a2a3" valueTypeId="19458d62-2697-5315-ae29-872c2cbcb6f4"/>
+  </producedTypes>
+  <name>РЭЙ_НомерВерсииПодсистемыВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер версии подсистемы ВЭД</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfd322e3-3266-41e5-8f46-37e0577e803e">
+  <name>АГ_СкладИДоставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад и доставка</value>
+  </synonym>
+  <comment>АГ:[УСЛ0017][11.05.2019 18:05][Давиденко А.В.]</comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

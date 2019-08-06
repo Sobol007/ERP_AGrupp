@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f67d1c1-9270-4586-b71a-9809a8e21ab5">
+  <producedTypes>
+    <managerType typeId="a662e180-4709-4eb7-93e4-3e3a4fafab45" valueTypeId="dff93794-61eb-44d6-bcf7-cf1c60221156"/>
+    <valueManagerType typeId="853fd34e-a870-4144-87ad-b756711df2bb" valueTypeId="b46fe2b9-754b-4b4a-b5a1-c87f6b0dedc2"/>
+    <valueKeyType typeId="2f8b438e-5d1d-55d9-9265-acd13e97d212" valueTypeId="adcd30d1-8104-59be-a685-0bc2965ed9a3"/>
+  </producedTypes>
+  <name>сшпДлительностьХраненияСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность хранения сообщений по умолчанию</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Длительность хранения обработанного сообщения в архиве</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

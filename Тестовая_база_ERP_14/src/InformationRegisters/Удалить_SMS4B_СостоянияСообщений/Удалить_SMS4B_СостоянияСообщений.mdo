@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c424eb6c-f08a-4e64-b1a0-54e2a9e59592">
+  <producedTypes>
+    <selectionType typeId="1a013679-8af7-4b5f-87f2-ab1d556becab" valueTypeId="da56bfb3-d760-4fbd-87dc-757af2e5f6ec"/>
+    <listType typeId="d7f47369-2bf9-4d4d-8254-2eed8048a83d" valueTypeId="4e1ef46a-6288-402b-abfa-4f118da53314"/>
+    <managerType typeId="b14f2487-b43b-406e-98ec-478bc976bd47" valueTypeId="0faa7059-790d-42a8-89ba-9f40615ede99"/>
+    <recordSetType typeId="0dbc49e4-7f7e-4647-8cd3-27a277d76db3" valueTypeId="b8747f08-50da-46d2-a72e-1b342ee46f05"/>
+    <recordKeyType typeId="91e5f563-a804-4bd1-8aab-fa09713ed294" valueTypeId="19f9d497-1510-40a5-b552-3264eba05547"/>
+    <recordType typeId="77cc669c-bb29-4246-9d18-fd4abfe4712f" valueTypeId="16815f29-6974-4a8b-832c-2ae9514a02c7"/>
+    <recordManagerType typeId="844a6aa6-b4ad-431f-ac3b-16a545963ccd" valueTypeId="105557e1-f56a-49e2-9724-e5302907f04e"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_СостоянияСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Состояния сообщений</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Message states</value>
+  </synonym>
+  <comment>Состояния сообщений</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="4fdf0a0f-1902-4b74-88a2-bb399a51b290">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>GUID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>GUID</value>
+    </synonym>
+    <comment>Идентификатор сообщения</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Message identifier</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b235be22-35dd-4db8-82ff-8c934c9585ae">
+    <name>СостояниеСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>0</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияСообщенияSMS</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние сообщения SMS адресату.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The status of the SMS message to the recipient.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="2b47a978-b207-40b8-8274-af159a98b78a">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text of an error</value>
+    </synonym>
+    <comment>Текст сообщения об ошибке</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст сообщения об ошибке</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Error message text</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9f9d51aa-f5a4-4213-9678-e271aad56f95">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Message</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СообщениеSMS</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Document</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2c6f0c30-5ef8-4e91-8244-c9241105f8a5">
+    <name>НомерСтрокиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Row number of the document</value>
+    </synonym>
+    <comment>Номер строки документа</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер строки документа</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Row number of the document</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

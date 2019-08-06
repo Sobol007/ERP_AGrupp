@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eca25ea8-3d80-4149-91cf-bf7f1c9f7a27">
+  <producedTypes>
+    <objectType typeId="bdfd12f4-ce22-42a3-af34-92684853a5ca" valueTypeId="b0ec76d7-b169-4f05-9f6a-18f15230d802"/>
+    <managerType typeId="dbfaaae0-e4d2-4567-a111-7889bf2eaf62" valueTypeId="a6b81da2-4e8e-46b8-9497-ad6f2553ebf1"/>
+  </producedTypes>
+  <name>CRM_Мессенджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диалоги</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dialogs</value>
+  </synonym>
+  <defaultForm>DataProcessor.CRM_Мессенджер.Form.ФормаМессенджера</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="514e2572-f325-4709-aab3-319375d9fb89">
+    <name>ФормаМессенджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мессенджера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the messenger</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ae7bffed-d491-4a93-8f84-982553369470">
+    <name>ДиалогиПоОбъекту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалоги</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dialogs</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="1aa06d01-8356-4215-b583-a3629b54dcdf">
+    <name>Диалоги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалоги</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dialogs</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a89077-a5d9-4bb2-bf24-a59fe14fdb6b">
+  <name>РЭЙ_ОчисткаРеквизитовПриКопировании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка реквизитов при копировании</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КлассификаторБанков</types>
+    <types>DocumentObject.СписаниеБезналичныхДенежныхСредств</types>
+    <types>CatalogObject.Валюты</types>
+  </source>
+  <event>OnCopy</event>
+  <handler>CommonModule.РЭЙ_СлужебныйСервер.ОчисткаРеквизитовПриКопировании</handler>
+</mdclass:EventSubscription>

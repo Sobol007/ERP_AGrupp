@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b199ff4-7225-4440-bf0b-d73220e32ac2">
+  <producedTypes>
+    <refType typeId="65ba0726-33cc-4710-8d9a-f6d745a2e83b" valueTypeId="a54f9a85-c436-414e-9110-ad47bea33d4c"/>
+    <listType typeId="06cf8414-b752-4769-9186-267fe69f8735" valueTypeId="86a30717-8187-4a83-9f95-20cd1a147cc3"/>
+    <managerType typeId="14b18cb9-cce9-4ad6-a917-58dcabc0128b" valueTypeId="25452af8-ed9d-49ab-9cb1-be74bb17d6e7"/>
+  </producedTypes>
+  <name>РЭЙ_ПлощадкиВалютныхТоргов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Площадки валютных торгов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды контрактов ВЭД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="21b50941-29e8-4a74-a540-50327841fec0">
+    <name>ЕдинаяТорговаяСессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единая торговая сессия валютных бирж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8affcc2-714e-4dce-bb03-59cba1602ea5">
+    <name>ДневнаяТорговаяСессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная торговая сессия валютных бирж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a9152d-a0e6-4870-a451-b35bc1ec0e89">
+    <name>МежбанковскийВалютныйРынок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Межбанковский валютный рынок</value>
+    </synonym>
+    <comment>Внебиржевой рынок</comment>
+  </enumValues>
+</mdclass:Enum>

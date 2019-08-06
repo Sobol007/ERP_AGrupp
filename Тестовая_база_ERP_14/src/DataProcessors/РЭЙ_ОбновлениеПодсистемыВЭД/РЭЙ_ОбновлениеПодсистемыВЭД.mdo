@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7d46c0b-f946-4ad5-8ee5-c82c75e3d3a9">
+  <producedTypes>
+    <objectType typeId="89a7203b-0e73-4e27-b7c0-038364dce85f" valueTypeId="ec7dc97c-84d2-4abc-95aa-dbd81ada22ed"/>
+    <managerType typeId="195637fc-f161-439a-8272-2aca463ddef2" valueTypeId="c63342b8-37ca-4168-bc1f-4c4a15eb2f76"/>
+  </producedTypes>
+  <name>РЭЙ_ОбновлениеПодсистемыВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление подсистемы ВЭД</value>
+  </synonym>
+  <attributes uuid="5b443dc5-6117-4dc2-83d6-e07cb60a1989">
+    <name>ОбновленоРасширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлено расширение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1026d9b9-fb38-4924-a16c-a3da6d9db4e3">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+    <type>
+      <types>SpreadsheetDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3372f7a0-b68b-4401-9c69-f0b2cc433a21">
+    <name>РезультатОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="35a6f499-12a9-476e-b177-4f4a937888c5">
+    <name>ТекстВыполненныхОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст выполненных обновлений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="63f2ccf7-3fea-47f1-92c2-317c302c71ab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="de063d48-984c-4974-961c-27ae9c2991de">
+    <name>ОписаниеОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание обновлений</value>
+    </synonym>
+  </templates>
+  <templates uuid="993c79ce-c915-45ba-853e-20911b4304a9">
+    <name>Расширение_РЭЙ_ВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение РЭЙ ВЭД</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

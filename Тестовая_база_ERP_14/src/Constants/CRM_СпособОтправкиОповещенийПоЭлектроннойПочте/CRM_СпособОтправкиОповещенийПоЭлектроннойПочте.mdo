@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d35c397a-938b-405d-8294-d980afa7528d">
+  <producedTypes>
+    <managerType typeId="d8ffea63-d465-4414-a4b1-e27bbea0e94d" valueTypeId="f67d7f6a-3c39-4a35-bc15-4c965592acf1"/>
+    <valueManagerType typeId="d7f0b5ab-a048-4d2e-bc50-82fadae5b40d" valueTypeId="1dd933a9-a356-479c-a417-597ac94e8836"/>
+    <valueKeyType typeId="0e7d43ee-3d40-5162-9699-11c20f3d75ea" valueTypeId="48969a77-4688-585c-8d60-88f06ab399e9"/>
+  </producedTypes>
+  <name>CRM_СпособОтправкиОповещенийПоЭлектроннойПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ отправки оповещений по электронной почте</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>How to send email notifications</value>
+  </synonym>
+  <type>
+    <types>EnumRef.CRM_СпособыОтправкиРассылок</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fe1c53e-8319-4b91-9760-db9613ef3aa3">
+  <producedTypes>
+    <refType typeId="51eae537-4646-4199-b98e-b6286fa40be8" valueTypeId="e26aae9f-d090-4a17-b12a-d40b8182be41"/>
+    <listType typeId="652b5193-ac19-47a8-a4ff-a68d77503919" valueTypeId="33b3712b-2cf2-4bd8-8563-f0eb442bedcc"/>
+    <managerType typeId="f8edab6b-4f19-4a6f-a8fd-6c5d9fa268bd" valueTypeId="4cfe19d0-aafe-4ac1-bfbb-71c2cc782517"/>
+  </producedTypes>
+  <name>РЭЙ_СтатусыСправокВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы справок валютного контроля</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46c5446e-b4f3-4d57-9430-21c34e460c51">
+    <name>СправкаПодлежитСозданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК подлежит созданию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="756f8944-e155-49e7-b101-e9b58714bd93">
+    <name>СправкаПодлежитСдачеПослезавтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК подлежит сдаче послезавтра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62616a0b-045a-4c62-9962-38c0b70bd338">
+    <name>СправкаПодлежитСдачеЗавтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК подлежит сдаче завтра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80adc05b-0211-424b-bca8-0020c37483ff">
+    <name>СправкаПодлежитСдачеСегодня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК подлежит сдаче сегодня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11baeb77-85da-4ce0-be19-91b031db6fae">
+    <name>СправкаПросрочена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1ae3ddc-4277-4406-9b5e-3e51257099bb">
+    <name>СправкаСоздана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК создан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a228306-8871-4ac4-8464-12a5850da3b1">
+    <name>СправкаРаспечатана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК распечатан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcd62530-fc83-4fef-ad66-7c937cfcedbc">
+    <name>СправкаСозданаДокументПерезаписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК создан, но расчетный документ перезаписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1168f74-c92a-402d-922f-d5e1ab2bc90a">
+    <name>СправкаРаспечатанаДокументПерезаписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ВК распечатан, но расчетный документ перезаписан</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

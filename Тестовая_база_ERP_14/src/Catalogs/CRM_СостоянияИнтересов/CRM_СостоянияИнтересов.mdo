@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c76383-5993-49f0-abd8-72d2ffced449">
+  <producedTypes>
+    <objectType typeId="3099eaf5-62b8-42b2-aa7e-8ccc402ce3aa" valueTypeId="bc1059a6-431f-4907-92fd-abea105dedd6"/>
+    <refType typeId="40e50a8a-a6f2-4a07-abd5-9956c30855c4" valueTypeId="454dfce2-d988-461e-a857-5de22c118732"/>
+    <selectionType typeId="04e19eb3-b349-4525-8151-dc76749f45c3" valueTypeId="dd7f5f4f-18d5-4147-9acf-b81ecb8b127a"/>
+    <listType typeId="6e2788a6-2718-4d2d-83a4-d40be732fdeb" valueTypeId="81a25de2-4669-4790-bf39-da947852e102"/>
+    <managerType typeId="2ff064ee-f9de-449b-9359-8d5ab32aaf4e" valueTypeId="3bb7838b-fecf-4054-9a11-fc64731c1111"/>
+  </producedTypes>
+  <name>CRM_СостоянияИнтересов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии продаж</value>
+  </synonym>
+  <comment>Сценарии продаж</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.CRM_СостоянияИнтересов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.CRM_СостоянияИнтересов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование состояния</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name of state</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Code</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Код состояния</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Status Code</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Состояние интереса</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Lead Status</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Состояния и сценарии  интересов</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>States and scripts of leads</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.CRM_СостоянияИнтересов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.CRM_СостоянияИнтересов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.CRM_СостоянияИнтересов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0ab01cbe-58ae-45ee-9628-dc3f2ef29176">
+    <name>ВероятностьСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вероятность, %</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Probability,%</value>
+    </synonym>
+    <comment>Вероятность сделки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вероятность сделки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Transaction Probability</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dbb6d21-d107-41b6-bb34-0da684a1a6c6">
+    <name>ВидДела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дела (не используеться)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of business (do not use)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.CRM_ВидыДелВзаимодействий</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид дела</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of case</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.CRM_ВидыДелВзаимодействий.Документ_CRM_Интерес</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f4f4884-1c5b-4333-a051-ce05e72237c8">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить интерес (не используеться)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>End lead (do not use)</value>
+    </synonym>
+    <comment>Состояние завершения интереса</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние завершения интереса</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>End of lead status</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98599bea-9ff7-4be8-a0b8-4e54d7d10e12">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для упорядочивания (служебный)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Used in arrangement (service)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29c6d7ba-eb0e-487c-b083-5b1eb4db5ed1">
+    <name>УказаниеОжидаемойВыручки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное указание ожидаемой выручки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mandatory indication of expected revenue</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обязательное указание ожидаемой выручки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Mandatory indication of expected revenue</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92bafa3d-85af-42de-a25b-93aa0f2b2d85">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is used</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffbf5456-cf63-4de1-94cc-01d66c842908">
+    <name>ВидСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид состояния</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of condition</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CRM_ВидыСостоянияИнтереса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0aba1395-072c-4383-bc76-e643fb3ea1b6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Department</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c03254b2-e863-443d-ae8b-d9480c482a44">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Office</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.CRM_ОфисыКомпании</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fdc675d-dd7a-4beb-81b1-c300bcd46cb4">
+    <name>ОбязательноеЗаполнениеКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное заполнение клиента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mandatory filling of customer</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="590f9581-699d-4745-a697-e43e0614a551">
+    <name>ОбязательноеПланированиеАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное планирование активности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mandatory activity planning</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CRM_ПланируемыеТипыАктивности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57d060da-be07-4f71-be32-79303953edae">
+    <name>ИнтерактивноеПланированиеАктивностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерактивное планирование активностей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Interactive activity planning</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44f4b44c-a1af-47f6-9b29-cb05971d0140">
+    <name>ЗавершатьЗапланированныеАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершать запланированные активности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Finish planned activities</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CRM_ЗавершаемыеТипыАктивности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="784f7bf6-a98d-4375-8823-486032cc2866">
+    <name>ОтборЗавершаемыхАктивностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия завершения  активностей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Conditions for completing activities</value>
+    </synonym>
+    <type>
+      <types>EnumRef.CRM_ОтборыЗавершаемыхАктивностей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.CRM_ОтборыЗавершаемыхАктивностей.EnumValue.ПросроченныеИНаСегодня</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f59c3e7d-024e-43df-a365-09c343b9976f">
+    <name>УказыватьДостигнутыйРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать достигнутый результат при заврешение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicate the achieved result at the completion</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d312658-846e-41ba-b98f-e8513e381e9c">
+    <name>ДобавитьВероятностьВпредставлениеСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить вероятность в представление состояния</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Add probability to the status view</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="695bcc8f-c29a-4fad-ab91-654c7d73a9bc">
+    <name>ИдентификаторПредопределенногоЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор предопределенного элемента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27821812-078a-41e7-aefe-b02dd9506e4b">
+    <name>ИндексЦвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс цвета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d7fdd594-0e82-4612-b09d-533609e4ebba">
+    <producedTypes>
+      <objectType typeId="4b4b6472-e5d3-4848-a4a9-ceb9c0fd12f8" valueTypeId="02e7ce29-99a4-47d6-b59b-9eadb4598c87"/>
+      <rowType typeId="ff3f94fa-ba17-4add-951d-3d73bd391c18" valueTypeId="8c2c9aee-1653-4f94-adfd-6da6bc04ac2a"/>
+    </producedTypes>
+    <name>ТипыУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы услуг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Types of services</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cb289312-96e9-49ac-90a5-1f421da545a6">
+      <name>ТипУслуги</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип услуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Service Type</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.CRM_ТипУслуги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="396456a2-3792-4fe0-89a8-51a63d932418">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of a choice</value>
+    </synonym>
+    <comment>Форма выбора справочника</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af2000a0-7046-408c-9ddf-74d297b0e636">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of the list</value>
+    </synonym>
+    <comment>Форма списка справочника</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7667a298-adc2-45b5-8198-189310155660">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of an element</value>
+    </synonym>
+    <comment>Форма элемента справочника</comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="312db7e0-3958-4989-b134-cb8aa50cabec">
+    <name>ФормаЭлементаСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Shape element form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48f77b16-af11-4af4-a444-d04843194a84">
+    <name>ФормаНастройкиСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки состояния</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b280b18-555d-4581-835a-e25760cf883f">
+  <producedTypes>
+    <objectType typeId="4e53278d-8e74-4421-a816-b8cd74efaf6f" valueTypeId="cbf21e71-84d8-4a36-b3da-19c05893b8e1"/>
+    <refType typeId="763bc122-ddfd-42d1-8360-a44085874b69" valueTypeId="5928be17-b814-40ae-914b-2c2d516558a9"/>
+    <selectionType typeId="6956a0bf-c71b-4277-a755-0e64a855856d" valueTypeId="50da5b18-970f-469e-a099-605c6e0ab2c6"/>
+    <listType typeId="30018370-a5d5-4eb9-b82f-e17bdb0a8881" valueTypeId="55fcf5b0-16aa-4c94-86f6-3ff41d949cb0"/>
+    <managerType typeId="406ad49b-6ede-44dc-b038-daff1e756589" valueTypeId="bcb46cb6-f2fe-4c41-94e9-2c1f94017bb1"/>
+  </producedTypes>
+  <name>АГ_СтруктураРазделовСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура разделов сайта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_СтруктураРазделовСайта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_СтруктураРазделовСайта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АГ_СтруктураРазделовСайта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АГ_СтруктураРазделовСайта.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="17e32b5e-24dd-4411-bf47-b8d9bde685dc">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0d3c70c5-9048-4b1b-8807-7fb5b15d36b6">
+    <producedTypes>
+      <objectType typeId="de12fdb7-2356-4f99-8c5d-11e71a4762a4" valueTypeId="40bcb9df-0704-41db-99b3-8e0ff88ba5bf"/>
+      <rowType typeId="e7e0e555-3800-4742-8b89-da704984414c" valueTypeId="59a2cb92-89c8-4f79-834f-49e39f626bd9"/>
+    </producedTypes>
+    <name>СтруктураРазделов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура разделов</value>
+    </synonym>
+    <attributes uuid="249c1c7a-4e29-4da6-9688-17e46ce7633f">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6cf88ad8-7aac-4bbf-b3d4-92765935067e">
+      <name>ИмяНаСайте</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя на сайте</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="65098dd9-c47f-452e-a32a-6ee3f30585f6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d167bdf-de74-477f-ad78-13595a7fe1d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

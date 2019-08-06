@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60597d13-e83e-4557-961a-80671d4c987b">
+  <producedTypes>
+    <refType typeId="4f3da973-ecc1-4fc8-aa6e-fd7f4c4338ea" valueTypeId="1f9ca6cc-49a4-44e3-94f0-8d86b3133efb"/>
+    <listType typeId="57ce154a-326e-4515-a4de-1772496bdfe8" valueTypeId="96910d2f-ad6e-4cf8-9ffe-d847be801528"/>
+    <managerType typeId="75289cbd-d89d-43f7-9449-7cc0fe8b3f04" valueTypeId="3022add8-3341-437f-ac33-3bb41f8686c0"/>
+  </producedTypes>
+  <name>РЭЙ_КредитыЗаймы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3c0a340-98d3-4447-9696-068e0cda5ece">
+    <name>Тело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной долг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3419aa17-bba8-4ff3-9cab-b4038a4db08b">
+    <name>Проценты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проценты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

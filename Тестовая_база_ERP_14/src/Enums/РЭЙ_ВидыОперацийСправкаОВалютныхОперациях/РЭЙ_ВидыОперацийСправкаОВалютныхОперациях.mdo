@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e16a6ff-8c5b-4b58-b2c5-a85ef0736eb4">
+  <producedTypes>
+    <refType typeId="d4becce0-2993-4580-b151-008fd60065fe" valueTypeId="24155271-f1f1-475c-94dd-869a52a7c087"/>
+    <listType typeId="691823b2-6cb3-4b23-ad08-0d3662627ffe" valueTypeId="00751b21-7296-48aa-8c58-1fc7f0d0b560"/>
+    <managerType typeId="c9e2a4a9-c2f0-4dc5-918c-143f66aab6c5" valueTypeId="965325c3-c527-4540-a385-7379370660a7"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыОперацийСправкаОВалютныхОперациях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа Справка о кодах видов операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9392ab49-8c57-4e65-9ac7-d848db384e97">
+    <name>СправкаОВалютныхОперациях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты через валютные счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ed7a792-1113-4daf-9190-1d95ab793257">
+    <name>СправкаОПоступленииВалютыРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты через рублевые счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37291bc6-51af-48c3-9657-a880f49d0b84">
+    <name>СправкаОРасчетахЧерезСчетаЗаРубежом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты через счета за рубежом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

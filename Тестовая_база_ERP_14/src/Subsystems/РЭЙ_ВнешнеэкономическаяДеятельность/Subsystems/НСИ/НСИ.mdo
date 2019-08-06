@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d62e6158-75b5-48b9-81f6-3a106e1a5976">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РЭЙ_Инкотермс</content>
+  <content>Catalog.СтраныМира</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.РЭЙ_ВидыВалютныхОпераций</content>
+  <content>Catalog.РЭЙ_ВидыПодтверждающихДокументов</content>
+  <content>Catalog.РЭЙ_ПунктыПереходаРисков</content>
+  <content>Catalog.РЭЙ_СистемыКлиентБанк</content>
+  <content>Catalog.РЭЙ_КлиринговыеСистемы</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8c72582-617c-4d2c-983b-ca1e1ef3bf4a">
+  <producedTypes>
+    <refType typeId="888ce57e-742d-4b13-8839-e5383a425e18" valueTypeId="37b5e0d4-be4f-413f-bb68-dc6b25c12127"/>
+    <listType typeId="f2bca607-ba4c-437e-a3a5-65c686f805a0" valueTypeId="71894e4f-e913-4506-9c3c-ed1ea50d908f"/>
+    <managerType typeId="34184076-c18a-4e1f-a801-015a4b318adf" valueTypeId="d08922c2-ae9b-4746-ae75-f79e90685161"/>
+  </producedTypes>
+  <name>АГ_ВидыНормативныхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды нормативных показателей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5e7e7dd8-7b03-4a0a-9ccd-5e357bfa3568">
+    <name>ВероятностьОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вероятность отгрузки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9121dc7-084d-439a-b7de-6c45d085e8b0">
+    <name>ВнутриотраслевоеПотребление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутриотраслевое потребление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e31eea5-86ce-43d3-b7c9-4a6ce39d41ed">
+    <name>ДомашниеРегионы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домашние регионы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc90e6a2-78b7-4c3f-9113-3ec08258b85d">
+    <name>КоэффициентыСезонности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициенты сезонности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="722d52da-6931-40ac-89b5-e8b72b9e084d">
+    <name>СилаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сила товаров</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

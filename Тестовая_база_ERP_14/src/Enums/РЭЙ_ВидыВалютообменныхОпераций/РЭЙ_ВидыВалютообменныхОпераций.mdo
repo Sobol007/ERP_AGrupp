@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ec5d4e3-55cb-491a-8dc2-6e2021593c51">
+  <producedTypes>
+    <refType typeId="68c2fbfc-26f6-459c-bcf8-496ef88d5f1e" valueTypeId="914b644e-5438-42da-86dc-bf91c4b76418"/>
+    <listType typeId="997cba94-05da-4aff-bda8-a5778e50253a" valueTypeId="499b12c4-50b7-4f4c-8143-c5792b97e9de"/>
+    <managerType typeId="b0439904-f93d-4eea-be21-cbb3debb640c" valueTypeId="4c582510-14bc-4b9b-be0d-014c8401cd38"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыВалютообменныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа Заявление на валютообменную операцию</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a996be31-e69a-4053-80b5-8b5655c81c4f">
+    <name>ПродажаСТранзитногоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа валюты с транзитного счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96d71b95-c917-496a-9481-5241d62c603a">
+    <name>ПродажаСТекущегоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа валюты с текущего счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3eab8130-6421-4b6f-a43f-b62a080a48a3">
+    <name>ПереводСТранзитногоНаТекущий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод валюты с транзитного счета на текущий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dd015fb-784e-4bb0-878b-ed488b4a2703">
+    <name>ПокупкаВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка валюты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bac659ec-6e0c-4d90-8072-dc3bfcafd1e5">
+    <name>ОбменВалюты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен одной валюты на другую валюту</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

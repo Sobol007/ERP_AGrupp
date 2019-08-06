@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e73f52d8-f5b4-4123-bdd8-40f0d86eb5fd">
+  <name>CRM_БыстрыйСтарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрый старт</value>
+  </synonym>
+</mdclass:CommonPicture>

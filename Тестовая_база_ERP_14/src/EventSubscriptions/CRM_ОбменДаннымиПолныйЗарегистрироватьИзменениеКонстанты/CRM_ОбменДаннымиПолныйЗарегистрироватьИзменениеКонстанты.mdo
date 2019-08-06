@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a35a55-d386-44be-ba85-9c504fa6cc30">
+  <name>CRM_ОбменДаннымиПолныйЗарегистрироватьИзменениеКонстанты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными полный зарегистрировать изменение константы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Data interchange the completed to register change of a constant</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.CRM_РеквизитыРасчетаПотенциалаКлиента</types>
+    <types>ConstantValueManager.CRM_СквознаяАналитика</types>
+    <types>ConstantValueManager.CRM_ВестиИсториюРеквизитовКлиентов</types>
+    <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
+    <types>ConstantValueManager.CRM_ПериодОповещенияОПросроченныхСобытиях</types>
+    <types>ConstantValueManager.CRM_ИспользоватьИнтеграциюСМессенджерами</types>
+    <types>ConstantValueManager.CRM_ВерсияНачалаРаботыСПрограммой</types>
+    <types>ConstantValueManager.CRM_ИспользоватьОповещенияЭлектроннаяПочта</types>
+    <types>ConstantValueManager.CRM_РеквизитыПоискаДублейПартнеров</types>
+    <types>ConstantValueManager.CRM_ЗаполнятьПервичныйИнтерес</types>
+    <types>ConstantValueManager.CRM_ДанныеДоступаКUniSender</types>
+    <types>ConstantValueManager.CRM_ИспользоватьВидыДеятельностиУПартнеров</types>
+    <types>ConstantValueManager.CRM_ВыполнятьПоискДублейПриЗаписиПартнера</types>
+    <types>ConstantValueManager.CRM_КоличествоПисемЭлектроннойРассылкиВОтправляемомПакете</types>
+    <types>ConstantValueManager.CRM_ПланироватьПродажи</types>
+    <types>ConstantValueManager.CRM_ИспользоватьПодсистемуУправленияПроектами</types>
+    <types>ConstantValueManager.CRM_ГлубинаПересчетаПоказателей</types>
+    <types>ConstantValueManager.CRM_ПериодПроверкиНовыхНапоминаний</types>
+    <types>ConstantValueManager.CRM_ДатаАктуальностиЦелевыхПоказателей</types>
+    <types>ConstantValueManager.CRM_ИспользоватьДолжностныеПозиции</types>
+    <types>ConstantValueManager.CRM_ИспользоватьОповещенияСМС</types>
+    <types>ConstantValueManager.CRM_ИспользоватьНапоминания</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.CRM_ОбменДаннымиСобытия.ОбменДаннымиПолныйПередЗаписьюКонстанты</handler>
+</mdclass:EventSubscription>

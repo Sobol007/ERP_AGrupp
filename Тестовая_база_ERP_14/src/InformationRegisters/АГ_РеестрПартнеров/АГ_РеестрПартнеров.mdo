@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="923dc69a-1307-451d-8e49-ce375278cc38">
+  <producedTypes>
+    <selectionType typeId="47fb6287-5f48-43bd-9476-49e899e93349" valueTypeId="ce1077fa-42ac-45a6-a394-cdb9912ba2fa"/>
+    <listType typeId="f0671b2e-3d89-409c-a2db-609d98ddaccb" valueTypeId="c8d0760d-4af1-4e91-9eed-f2e522777202"/>
+    <managerType typeId="f3f03dc9-9f13-45bf-9335-3952c0267e5b" valueTypeId="ceffacb5-a7e2-44b8-9657-67f819738017"/>
+    <recordSetType typeId="03135eda-b478-4ad3-9e48-4ddfb1780c92" valueTypeId="055087e3-c433-4c8c-bc20-0c2a0789a015"/>
+    <recordKeyType typeId="7857d011-6a7a-4e47-bdd8-23ffcd18278b" valueTypeId="a6baa5da-69f7-4eac-82a0-41208dc6397e"/>
+    <recordType typeId="44b747f0-9568-494a-8e4d-fdb018f0c311" valueTypeId="6ac83b41-1cf0-4a76-b744-b9a120b2ebac"/>
+    <recordManagerType typeId="dac4a3b9-1734-4a8c-98aa-169d291d061b" valueTypeId="680abfb2-2666-46bf-b00a-37d5689db532"/>
+  </producedTypes>
+  <name>АГ_РеестрПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр партнеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7e14acf0-005e-4f9a-a1ca-809da68c7d29">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5724195a-f2d2-466c-8b62-ae7681bef88c">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="6540f39b-d1bf-44f0-9465-6242c544ba0a">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1eca6459-0576-4f30-9d18-f510b645c7fa">
+    <name>ОсновнойМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной менеджер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="99d7acd4-74e2-4cf7-a1fc-2cd485539066">
+    <name>ДатаПоследнейОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней отгрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4fa86dfd-c9f1-44e2-ba4d-39d9a2f3d09d">
+    <name>КлючMDM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ MDM</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

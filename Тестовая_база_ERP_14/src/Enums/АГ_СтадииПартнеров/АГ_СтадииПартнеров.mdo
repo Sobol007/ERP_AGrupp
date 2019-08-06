@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2e35c64-a751-4152-a0d5-bfdc581b0c85">
+  <producedTypes>
+    <refType typeId="2f3057b8-2678-44d9-9f80-d0ca810303dc" valueTypeId="e6bebb8e-c4db-4e07-b45a-422ce83d3260"/>
+    <listType typeId="ec3e2ffc-c79c-4a85-9d5e-d27c9d1b0431" valueTypeId="6c3a36fb-77c2-4ec4-99b2-0fb3bf5b166e"/>
+    <managerType typeId="136b48d6-4aab-4bde-ac2a-5cce0ddc6ead" valueTypeId="23485de4-d693-45ac-ac8b-e3e426e1f454"/>
+  </producedTypes>
+  <name>АГ_СтадииПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии</value>
+  </synonym>
+  <comment>АГ:[+][MDM_0001_11][31.01.2019 09:36][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a1b8c160-7a01-46d0-bd06-03e0fc73520f">
+    <name>АкцептованМаркетингом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцептован маркетингом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c96eebc-9829-43f8-ba29-770b13e83ac2">
+    <name>АкцептованМенеджером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцептован менеджером</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c0e0d98-9502-4dc0-9dd1-4c2a3221f993">
+    <name>АкцептованРуководителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцептован руководителем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec1dd65b-6610-440e-84d2-22c70ebeed45">
+    <name>ВзаимодействийНеПроизводилось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействий с клиентом не производилось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5acb99f9-9ac1-4399-ba38-58c8966de16a">
+    <name>ВтораяОтгрузкаПозже30Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторая отгрузка выполнена позже 30 дней после первой или не наступила вовсе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f699a2c3-2ace-454c-97ea-9c60c0c13757">
+    <name>СложныйКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент входит в категорию сложных контрагентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c74d6db-5cea-471b-ba4c-fc20c3f78e35">
+    <name>НулевойПотенциал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент имеет нулевой потенциал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e60cbde3-c7f1-4b32-aefb-d62b294f82d5">
+    <name>КомпанияЛиквидирована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компания ликвидирована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="995456f4-e8ec-40f8-99a1-69e801eaa73a">
+    <name>КонтактнаяИнформацияНеАктуальна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация не актуальна</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4260530a-477a-4a92-a127-52cbe596bf5f">
+    <name>КонтактнаяИнформацияПодтвердилась</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация подтвердилась</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee12ceb5-b0bd-4a6a-a9cc-80fa3dfbc134">
+    <name>НеУчаствуетВВоронкеПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не участвует в воронке продаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ded95b49-100d-43e4-a732-9fc9a8801d04">
+    <name>НеритмичноеПотребление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неритмичное потребление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89810765-b3af-49cd-a4cc-664b0dbef022">
+    <name>ПерваяОтгрузкаВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая отгрузка выполнена, отводится 30 дней на вторую отгрузку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4df38661-7491-4b25-8944-738540dc14ec">
+    <name>ПоследняяОтгрузкаБолее180Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя отгрузка выполнена более 180 дней назад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27efbc10-808d-469b-889e-ab252680839a">
+    <name>ПоследняяОтгрузкаБолее90Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя отгрузка выполнена более 90 дней назад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ea33498-265b-4a7e-b15e-97af8e1c4236">
+    <name>ПоследняяОтгрузкаПозже90ДнейПослеПредпоследней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последняя отгрузка выполнена позже 90 дней после предпоследней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="751df906-232d-481f-8aaa-5908eeb7c369">
+    <name>ПроработкаМенеджером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проработка менеджером, отводится 15 дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ed7f61d-c204-4e8e-ae25-72b4686d61c4">
+    <name>ПроработкаМенеджеромПросрочена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проработка просрочена, прошло более 15 дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="149d0eb0-47b3-4eee-81bc-e27b10e7c278">
+    <name>РегулярныеОтгрузкиИнтервалНеБолее90Дней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регулярные отгрузки с интервалом не более 90 дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46b3a41f-2f0e-478a-aab1-3958e9ed2fd3">
+    <name>РекомендуетсяЗаменаМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендуется замена менеджера, прошло более 45 дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c83fee6b-9330-4914-9634-add311dba71c">
+    <name>ВыявленаПотребностьПослеХолодногоЗвонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холодный звонок выявил потребность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

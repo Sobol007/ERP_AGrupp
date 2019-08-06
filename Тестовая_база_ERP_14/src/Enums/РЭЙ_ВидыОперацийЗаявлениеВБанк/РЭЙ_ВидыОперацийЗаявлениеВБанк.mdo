@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17445b8f-e1d2-49de-aae8-40073704d7f2">
+  <producedTypes>
+    <refType typeId="0a14f7cb-ec57-4697-96b4-27457e1e6d70" valueTypeId="c43a8379-6f7e-49b6-b4d3-b1b5f2f0d898"/>
+    <listType typeId="56e53dd6-585f-4bc7-9cac-943c7c69d21d" valueTypeId="07ac9a25-6f01-44d7-bedd-2b8b8508547f"/>
+    <managerType typeId="139e4cb1-4ceb-4ebf-a910-952de1991abf" valueTypeId="29a06f4c-62df-48ad-88fa-65e2e9ea2c92"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыОперацийЗаявлениеВБанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа Заявление в банк учета контракта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="91136133-fcc1-48b8-ad24-bca234c022a1">
+    <name>ЗакрытиеПаспортаСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие паспорта сделки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ceb1403-2896-4853-a8e7-834df923e1dd">
+    <name>ПереоформлениеПаспортаСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоформление паспорта сделки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74d58bc8-163a-4690-ac8b-9b7135167755">
+    <name>ПредоставлениеВедомостиБанковскогоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставление ведомости банковского контроля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e7b9e06-197c-4da7-80d7-56303fd700ff">
+    <name>пункт181_7_1_ВнесениеИзмененийВРаздел1ВБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внесение изменений в раздел I ВБК</value>
+    </synonym>
+    <comment>п.6.9, п.7.1, п.7.9 Инструкции от 16.08.2017 №181-И</comment>
+  </enumValues>
+  <enumValues uuid="b9ef228d-459b-4ca5-932d-8e4441d2f5c1">
+    <name>пункт181_2_25_ИзменениеКодовВидовОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение кодов видов операций</value>
+    </synonym>
+    <comment>п.2.25 Инструкции от 16.08.2017 №181-И</comment>
+  </enumValues>
+  <enumValues uuid="9cefe773-0a24-4cc1-8395-800e5da75147">
+    <name>пункт181_17_4_ПредоставлениеВБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставление ВБК</value>
+    </synonym>
+    <comment>п.17.4 Инструкции от 16.08.2017 №181-И</comment>
+  </enumValues>
+  <enumValues uuid="0495fc41-8de9-4bff-a41f-1cdc94382a79">
+    <name>пункт181_6_1_СнятиеСУчетаКонтракта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие с учета контракта</value>
+    </synonym>
+    <comment>п/п.6.1.1-6.1.6 Инструкции от 16.08.2017 №181-И</comment>
+  </enumValues>
+</mdclass:Enum>

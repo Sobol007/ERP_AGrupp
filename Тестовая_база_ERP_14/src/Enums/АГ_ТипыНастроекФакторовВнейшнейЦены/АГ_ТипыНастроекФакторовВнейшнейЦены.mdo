@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7086a68-238d-4b7a-bcb5-671fec66a821">
+  <producedTypes>
+    <refType typeId="16aaa4e4-dc49-427f-956c-4d77acbac80f" valueTypeId="c2790cef-0dd2-427c-a176-a85939ecf316"/>
+    <listType typeId="283f7c75-8a25-4938-8691-c795e9a0b855" valueTypeId="412ef01c-cd8f-4e08-aa2a-a3ea07646936"/>
+    <managerType typeId="e2f7e1c2-6e95-44cf-848d-3cb47344f398" valueTypeId="e5ebe9b3-9581-41ec-a46c-b284a89e2b54"/>
+  </producedTypes>
+  <name>АГ_ТипыНастроекФакторовВнейшнейЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы настроек факторов внейшней цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="355abc35-3de2-4fc2-9084-477ad5e9a78c">
+    <name>УровеньОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень остатков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5168d6c-6de7-45df-b0a1-e25c8d25f269">
+    <name>СкоростьПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скорость продаж</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

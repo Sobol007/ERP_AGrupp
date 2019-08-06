@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="433f1e9c-86a5-44a8-aa36-f32c1d667e6e">
+  <name>CRM_Тригеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM тригеры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.CRM_ДействияТриггеров</content>
+  <content>Catalog.CRM_Триггеры</content>
+  <content>Enum.CRM_СобытияТриггеров</content>
+  <content>EventSubscription.яCRM_ТригерыДокументыПриЗаписи</content>
+  <content>CommonModule.CRM_ТригерыСервер</content>
+  <content>EventSubscription.яCRM_ТригерыБизнесПроцессыПередЗаписью</content>
+  <content>EventSubscription.яCRM_ТригерыБизнесПроцессыПриЗаписи</content>
+  <content>EventSubscription.яCRM_ТригерыДокументыПередЗаписью</content>
+  <content>EventSubscription.яCRM_ТригерыЗадачиПередЗаписью</content>
+  <content>EventSubscription.яCRM_ТригерыЗадачиПриЗаписи</content>
+  <content>EventSubscription.яCRM_ТригерыСправочникиПередЗаписью</content>
+  <content>EventSubscription.яCRM_ТригерыСправочникиПриЗаписи</content>
+  <content>InformationRegister.CRM_ОбработанныеОбъектыТриггеров</content>
+  <content>InformationRegister.CRM_ЛогиТриггеров</content>
+  <content>CommonModule.CRM_ТриггерыПовтИсп</content>
+  <content>ScheduledJob.CRM_ОтложенноеВыполнениеТриггеров</content>
+  <content>InformationRegister.CRM_ОчередьОтложенногоВыполненияТриггеров</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM</parentSubsystem>
+</mdclass:Subsystem>

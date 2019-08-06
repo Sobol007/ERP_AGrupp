@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a582040-ef11-4ae3-99d8-ebcf4e0575bf">
+  <producedTypes>
+    <managerType typeId="bfb03b30-6a1c-4d77-9504-449a86abd99c" valueTypeId="2b333238-481b-4f7b-847b-a9e2a36274c0"/>
+    <valueManagerType typeId="6e296c5b-4ce5-4aa3-8745-441946f0e277" valueTypeId="aaac336d-c85b-4691-b771-f42f3c27cef8"/>
+    <valueKeyType typeId="f36d36b1-19e7-4f55-8743-7eac597ff6ff" valueTypeId="ed6cc338-aa08-409d-9f7f-40c310c516bf"/>
+  </producedTypes>
+  <name>АГ_УчетСерийОтклонениеСуммыНеБолее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклонение суммы не более</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

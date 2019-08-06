@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0bb4212-ef09-4af6-bd02-8be02fdf8a69">
+  <producedTypes>
+    <objectType typeId="ba92ac3a-81d2-4d5d-aaa2-4a4a4a19be70" valueTypeId="9cc34498-a82e-4e8b-b165-8e363131ffb9"/>
+    <refType typeId="ecef4323-11fc-49c3-a4a8-795568e5d76b" valueTypeId="ab4e2946-22c8-4302-bfcd-22d1d357c811"/>
+    <selectionType typeId="fc5f39f5-97e2-42c1-a52c-07d8f9f7a875" valueTypeId="d177129f-ef60-4997-b969-308104f3f238"/>
+    <listType typeId="81a2dfde-f763-4314-8965-dc107b88b6b5" valueTypeId="589e1cbd-28c4-4394-8542-d1070862a134"/>
+    <managerType typeId="13267ea0-aca6-4939-b56b-b9bd7cc44205" valueTypeId="5d0cf557-af87-43ad-8fbd-9e160cd5958f"/>
+  </producedTypes>
+  <name>CRM_Отрасли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отрасли</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Sectors</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.CRM_Отрасли.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Folder</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Родитель</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Parent</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.CRM_Отрасли.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отрасль</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Sector</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Отрасли деятельности клиентов</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Fields of activity of customers</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="82c8c987-96ff-4d4d-958c-8c48436cabb4">
+      <name>ПрочиеОтрасли</name>
+      <description>Прочие отрасли</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <content id="869291f0-c70b-474f-a708-1a1b63271333">
+        <name>ПрочаяОтрасль</name>
+        <description>Прочая отрасль</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.CRM_Отрасли.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="21a05eb3-bf21-4f02-b476-812e0762ca54">
+    <name>АГ_ФедеральныйОтраслевойМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Федеральный отраслевой менеджер (ЗОР)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0e3f7b3d-e5e5-4882-b3fa-811fa1267ed5">
+    <producedTypes>
+      <objectType typeId="d828bc78-a268-4ae0-ac9e-5497c74afb02" valueTypeId="4f4dd443-74a5-4064-b79a-e28e8e22d87a"/>
+      <rowType typeId="081daa1a-2c89-4987-a3c9-1f13487e3e00" valueTypeId="c15834e2-f5b3-4425-9660-fbd31953a3ed"/>
+    </producedTypes>
+    <name>АГ_КодыОКВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды ОКВЭД</value>
+    </synonym>
+    <attributes uuid="a4a9ee98-773d-4045-8dc6-7b4b3b385a41">
+      <name>КодОКВЭД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код ОКВЭД</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлассификаторВидовЭкономическойДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="481983b4-b0ec-49b0-afae-fb456635f232">
+    <producedTypes>
+      <objectType typeId="77e5793a-67a9-4d86-9521-54e4c3822b28" valueTypeId="c8c8a672-e85f-4a91-9f9e-efd32a5a8e3c"/>
+      <rowType typeId="52e76963-d641-48a0-8b4d-9842a16c5bc8" valueTypeId="b5b9caf2-b485-4197-9699-658c829cd41e"/>
+    </producedTypes>
+    <name>АГ_ВероятностьОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вероятность отгрузки</value>
+    </synonym>
+    <attributes uuid="7ea708e1-285a-452b-8c62-6c2bc7784940">
+      <name>СтатусКонтрагента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус контрагента</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_СтатусыКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1f15a222-7520-464e-8509-6be44b5bc840">
+      <name>ВероятностьОтгрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вероятность отгрузки, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7e82d639-d970-42df-bcdc-10a46ad6a9fa">
+    <producedTypes>
+      <objectType typeId="ecfff6c5-57d9-4310-942f-897e166cd9e2" valueTypeId="7d12f764-e665-42c7-9adb-a70bdb31bc7e"/>
+      <rowType typeId="db319abf-b2ac-4e03-b41c-ccd4205dcb69" valueTypeId="5a3d1d48-0e2b-4bb0-b201-971b7f9eeb3b"/>
+    </producedTypes>
+    <name>АГ_ПотреблениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потребление номенклатуры</value>
+    </synonym>
+    <attributes uuid="36789866-69df-4058-a876-4254226b21cb">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4ad154d-7a7a-4d93-a336-a2afeb8e58d7">
+      <name>ДоляПотребления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доля потребления, %</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d659ff9b-fe30-4400-8951-3b36add3dea9">
+    <producedTypes>
+      <objectType typeId="44f74aed-e1b8-4914-831e-882f970bccda" valueTypeId="c5563ba8-04e1-4552-a20d-34faa43dc651"/>
+      <rowType typeId="466863db-49f2-4626-a3dc-1de592c43457" valueTypeId="a837f1bf-fc3c-4b76-8b95-535df01fed62"/>
+    </producedTypes>
+    <name>АГ_ОтраслевыеМенеджеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отраслевые менеджеры</value>
+    </synonym>
+    <attributes uuid="562881e6-2911-4f37-8df4-9886902f3355">
+      <name>ОтраслевойМенеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отраслевой менеджер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8f1abafd-5ec8-4786-af10-a7ee16d62be7">
+      <name>Металлоцентр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Металлоцентр</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ef9aadeb-ac43-4871-9508-245c66fe1a35">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11469623-f8c6-427e-b7fc-fb13b0d92891">
+  <producedTypes>
+    <objectType typeId="7f178fc6-e266-4fc3-a775-199f8158376d" valueTypeId="193cfe1c-d909-48d5-81f6-6e28d960cf0c"/>
+    <managerType typeId="ee6dc3af-c48d-4884-b27c-d565d0201865" valueTypeId="443d5c39-df0c-42c8-b8c4-984b0f648853"/>
+  </producedTypes>
+  <name>АГ_ВедомостьДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сводная форма ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АГ_ВедомостьДДС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c7df4112-917c-460f-a522-e1115d662e85">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

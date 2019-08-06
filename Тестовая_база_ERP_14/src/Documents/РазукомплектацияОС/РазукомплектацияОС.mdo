@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a81c880c-c131-4fe5-8668-89c8d695d754">
+  <producedTypes>
+    <objectType typeId="b7a9cbd3-0802-4d8d-a373-e71ba5f472da" valueTypeId="c968d43f-52c7-4900-a816-f677965b57bc"/>
+    <refType typeId="59f06b37-6db0-486c-82e3-d987be9711ab" valueTypeId="fae89511-bd87-42d4-ae44-0a33161658c1"/>
+    <selectionType typeId="64f845eb-de87-48a1-8ea6-c64a19449f27" valueTypeId="143a6520-245a-4ab6-8f27-fbf63d734298"/>
+    <listType typeId="ce70537b-01ec-40b6-a409-7d925fb28c12" valueTypeId="4724104d-f72a-4128-aff8-ed0aef260766"/>
+    <managerType typeId="22965dcc-c645-4b9b-8e87-463569d025a2" valueTypeId="173cda56-a96b-4a1c-91ac-02550213f2b5"/>
+  </producedTypes>
+  <name>РазукомплектацияОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разукомплектация ОС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>FA dismantling</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РазукомплектацияОС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Документ_РазукомплектацияОС</value>
+    </typesFilterValue>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РазукомплектацияОС.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РазукомплектацияОС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.РазукомплектацияОС.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>InformationRegister.ПараметрыАмортизацииОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>InformationRegister.МестонахождениеОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыАмортизацииОСУУ</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыАмортизацииОСНалоговыйУчет</registerRecords>
+  <registerRecords>InformationRegister.СобытияОСОрганизаций</registerRecords>
+  <registerRecords>AccumulationRegister.ПрочиеАктивыПассивы</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыАмортизацииОСБУ</registerRecords>
+  <registerRecords>InformationRegister.ОтражениеДокументовВРеглУчете</registerRecords>
+  <registerRecords>AccumulationRegister.ДвиженияДоходыРасходыПрочиеАктивыПассивы</registerRecords>
+  <registerRecords>InformationRegister.ПервоначальныеСведенияОС</registerRecords>
+  <registerRecords>InformationRegister.СпособыОтраженияРасходовПоАмортизацииОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>InformationRegister.ПервоначальныеСведенияОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>InformationRegister.ПорядокУчетаОСБУ</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыЦелевогоФинансированияОС</registerRecords>
+  <registerRecords>InformationRegister.ГрафикиАмортизацииОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>AccumulationRegister.ФактическиеДанныеБюджетирования</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <registerRecords>InformationRegister.ОтражениеДокументовВМеждународномУчете</registerRecords>
+  <registerRecords>InformationRegister.СостоянияОСОрганизаций</registerRecords>
+  <registerRecords>AccountingRegister.Международный</registerRecords>
+  <registerRecords>InformationRegister.НачислениеАмортизацииОСБухгалтерскийУчет</registerRecords>
+  <registerRecords>InformationRegister.МестонахождениеОС</registerRecords>
+  <registerRecords>InformationRegister.ПорядокУчетаОСУУ</registerRecords>
+  <registerRecords>InformationRegister.СчетаБухгалтерскогоУчетаОС</registerRecords>
+  <registerRecords>InformationRegister.ПорядокУчетаОС</registerRecords>
+  <registerRecords>AccumulationRegister.АмортизацияОС</registerRecords>
+  <registerRecords>InformationRegister.НачислениеАмортизацииОССпециальныйКоэффициентНалоговыйУчет</registerRecords>
+  <registerRecords>InformationRegister.СпособыОтраженияРасходовПоИмущественнымНалогам</registerRecords>
+  <registerRecords>InformationRegister.ПервоначальныеСведенияОСНалоговыйУчет</registerRecords>
+  <registerRecords>AccumulationRegister.СтоимостьОС</registerRecords>
+  <registerRecords>InformationRegister.НачислениеАмортизацииОСНалоговыйУчет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="b5a0c533-3115-4cae-97ca-0dd0c5cf2423">
+    <name>ДокументВДругомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ в другом учете</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document in another accounting</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РазукомплектацияОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b1986d28-82ee-4c2c-80b5-0b839c698f02">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Arbitrary comment.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3146ab02-5135-4c81-be78-772a6e2bf892">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой оформляется документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Company whose document is registered.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87b31156-0485-4733-935d-a138aac7e059">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Person responsible for the document.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d6c8740-bf0a-4cc6-9208-68e9d6073fc3">
+    <name>ОтражатьВРеглУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в регл учете</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record in compl accounting</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="568eceb2-9f9c-4e89-946b-3e6d63b598a4">
+    <name>ОтражатьВУпрУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отражать в упр учете</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record in man accounting</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e834b42-052a-426f-b603-a3e29b3f6ef6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Department</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Местонахождение основного средства.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Fixed asset location.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec2111ac-0341-4ec9-b45c-d2bc9aaa9ef9">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fixed asset</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное средство, которое нужно разукомплектовать.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Fixed asset that should be disassembled</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>ДатаСведений</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.StandardAttribute.Date</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ОтражатьВРеглУчете</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.Attribute.ОтражатьВРеглУчете</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ОтражатьВУпрУчете</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.Attribute.ОтражатьВУпрУчете</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Подразделение</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.Attribute.Подразделение</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>ТекущийРегистратор</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.РазукомплектацияОС.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.Состояние</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.СостоянияОС.EnumValue.ПринятоКУчету</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Контекст</name>
+      <value xsi:type="core:StringValue">
+        <value>БУ, УУ</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6ec63ea8-af39-4f7a-a59b-9afec077fb5b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5b9242c6-532f-42a2-a193-4da50c48305a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65bfcc31-6c07-4cea-8ea1-2336f32231d7">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b638cf88-5225-49ae-8a49-fc9cdb63ab5d">
+    <producedTypes>
+      <objectType typeId="e1632056-c9fb-4403-b524-24bdab0c18e0" valueTypeId="9534ecea-d343-4873-9edf-5917871f5d47"/>
+      <rowType typeId="3a910487-24b3-4c06-a2ea-415d1425b994" valueTypeId="23c14913-185f-46ec-a411-4414ac7b4e8b"/>
+    </producedTypes>
+    <name>ОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принимаемые к учету основные средства</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fixed assets for recognition</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b0416019-5c6b-4bc0-b958-1057f6fdafc0">
+      <name>ОсновноеСредство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основное средство</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Fixed asset</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбъектыЭксплуатации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Основное средство, которое получено при разукомплектации.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Fixed asset received while disassembling</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>ДатаСведений</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.РазукомплектацияОС.StandardAttribute.Date</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ОтражатьВРеглУчете</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.РазукомплектацияОС.Attribute.ОтражатьВРеглУчете</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>Отбор.ОтражатьВУпрУчете</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.РазукомплектацияОС.Attribute.ОтражатьВУпрУчете</field>
+      </choiceParameterLinks>
+      <choiceParameterLinks>
+        <name>ТекущийРегистратор</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.РазукомплектацияОС.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>Отбор.Состояние</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.СостоянияОС.EnumValue.НеПринятоКУчету</value>
+        </value>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Контекст</name>
+        <value xsi:type="core:StringValue">
+          <value>БУ, УУ</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="807efd49-baff-48aa-9828-27b2e583c5c8">
+      <name>СтоимостьБУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость в бухгалтерском учете</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Cost in bookkeeping</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость в валюте регл. учета.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Cost in the compliance accounting currency</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="da3dc3f9-2ad9-47ed-8929-aabc7eb4b884">
+      <name>СтоимостьНУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость в налоговом учете</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Cost in tax accounting</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость в налоговом учете</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Cost in tax accounting</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4643fb8-7230-461d-94eb-8683be405625">
+      <name>СтоимостьПР</name>
+      <synonym>
+        <key>ru</key>
+        <value>Постоянная разница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Permanent difference</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Постоянная разница</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Permanent difference</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="98ea821f-f890-4e8a-92ef-1c36e11244be">
+      <name>СтоимостьВР</name>
+      <synonym>
+        <key>ru</key>
+        <value>Временная разница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Temporary difference</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Временная разница</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Temporary difference</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="baefd2df-0797-4a67-8637-4df62975f26e">
+      <name>СтоимостьУУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость в управленческом учете</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Cost in management accounting</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость в валюте упр. учета.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Cost in the man. accounting currency</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e0cb5846-14b8-4b1a-ba95-8a1ce53e82bd">
+      <name>ЛиквидационнаяСтоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ликвидационная стоимость (упр)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Residual value (man)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма, которую организация ожидает получить за актив в конце срока его полезной службы за вычетом ожидаемых затрат на его выбытие в валюте упр. учета.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount the company is expected to receive for the asset at the end of its useful period of service after deduction of expected cost for its outflow in the management accounting currency.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="74d78a58-2f93-4ad0-9eb8-a84b35a5a320">
+      <name>ЛиквидационнаяСтоимостьРегл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ликвидационная стоимость (регл)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Residual value (compl)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма, которую организация ожидает получить за актив в конце срока его полезной службы за вычетом ожидаемых затрат на его выбытие в валюте регл. учета.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount the company is expected to receive for the asset at the end of its useful period of service after deduction of expected cost for its outflow in the management accounting currency.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="fdadc8c4-868a-43ff-9a60-9d80cee379fb">
+    <name>ПФ_MXL_ОС4</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС4</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FA4</value>
+    </synonym>
+  </templates>
+  <templates uuid="5ea12ae5-a4ba-449f-be9f-9a90eea72dec">
+    <name>ПФ_MXL_ОС4а</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС4а</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FA4a</value>
+    </synonym>
+  </templates>
+  <templates uuid="422f1ea2-56ea-4313-bbb9-24666a21862c">
+    <name>ПФ_MXL_ОС4б</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОС4б</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FA4b</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

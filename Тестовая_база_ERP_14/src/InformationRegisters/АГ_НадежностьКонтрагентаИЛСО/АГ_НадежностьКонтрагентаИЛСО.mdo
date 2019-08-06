@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35550856-eaa6-4991-b8ea-a5b7b36fb1a1">
+  <producedTypes>
+    <selectionType typeId="e339872e-ed80-4a0d-924d-a4e6f992d329" valueTypeId="0000b990-5a26-48dc-b111-5e05f735d7ff"/>
+    <listType typeId="d8ea0f86-367b-4d5f-a61e-96ba786f6d8f" valueTypeId="16da21f0-66fb-4c91-9051-2e21191c50a7"/>
+    <managerType typeId="7d6bdb89-bb35-4135-b0af-55d232c948c2" valueTypeId="45c59b66-9654-4517-ac10-1f4432ec0338"/>
+    <recordSetType typeId="4bc52c96-a47a-40a7-8b9a-edaca59acfb1" valueTypeId="7be08e1b-0695-4238-8950-45c865902791"/>
+    <recordKeyType typeId="4b9227c7-846d-49cc-93f2-4949c0625985" valueTypeId="af53a505-e360-40e8-a710-54b4ef3ac55f"/>
+    <recordType typeId="66587538-1884-4bbd-9c72-a950b89bbab0" valueTypeId="fafa3aa0-a180-4aff-ae81-739e05f0b024"/>
+    <recordManagerType typeId="8862b0a8-ee0c-47ba-ba7f-745ede8ab2e8" valueTypeId="aee94ad3-4249-473f-91f8-0b3f40992eae"/>
+  </producedTypes>
+  <name>АГ_НадежностьКонтрагентаИЛСО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Надежность контрагента и ЛСО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АГ_НадежностьКонтрагентаИЛСО.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="11caff33-7fc4-405d-8b0e-dacedd438db1">
+    <name>Надежность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Надежность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_НадежностьПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a60de9c3-d683-4694-9f11-3fed1146e6a8">
+    <name>СтепеньНадежности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень надежности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_СтепениНадежностиКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78446754-57ab-4b7c-ae10-c61f30c0a82a">
+    <name>ДействуетДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee17784c-1dda-407f-aded-3fd952c8f778">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4f4b6f55-2e6f-49a9-aaab-9f9b54bf3194">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4235d15a-67f7-42cc-98f0-2968385dff5a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

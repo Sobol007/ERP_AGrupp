@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef6a2c1c-2a33-449e-9133-81bdcbbe3236">
+  <producedTypes>
+    <objectType typeId="757f5c87-bc92-4ed8-9aac-9bee58f3523b" valueTypeId="7ae30ff3-2de6-4e96-938b-cbda6d757441"/>
+    <managerType typeId="446fbeaa-9659-48c4-9e7a-9c344b61f8a5" valueTypeId="dd7a2289-ff1e-4b31-bab7-2b0d4a95483a"/>
+  </producedTypes>
+  <name>CRM_ОбработчикиКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики конвертации (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Conversion Handlers (iCRM)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+</mdclass:DataProcessor>

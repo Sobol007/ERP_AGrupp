@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92e77668-55f5-4b9b-b5bb-7ec13bf0998f">
+  <name>CRM_Мессенджеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мессенджеры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.CRM_РаботаСМессенджерамиСервер</content>
+  <content>CommonModule.CRM_РаботаСМессенджерамиСерверПовтИсп</content>
+  <content>ScheduledJob.CRM_ОжиданиеСобытийМессенджера</content>
+  <content>CommonPicture.CRM_Мессенджеры</content>
+  <content>Catalog.CRM_УчетныеЗаписиМессенджеров</content>
+  <content>Document.CRM_СообщениеМессенджера</content>
+  <content>61243e72-ef88-4da8-a440-24de370dbc39</content>
+  <content>Enum.CRM_ВидыСообщенияМессенджера</content>
+  <content>Constant.CRM_ИспользоватьИнтеграциюСМессенджерами</content>
+  <content>FunctionalOption.CRM_ИспользоватьИнтеграциюСМессенджерами</content>
+  <content>DataProcessor.CRM_Мессенджер</content>
+  <content>InformationRegister.CRM_УчетныеЗаписиМессенджеров</content>
+  <content>InformationRegister.CRM_СобытияМессенджеров</content>
+  <content>Enum.CRM_СобытияМессенджеров</content>
+  <content>Catalog.CRM_СообщениеМессенджераПрисоединенныеФайлы</content>
+  <content>DataProcessor.CRM_РаботаСМессенджеромTelegram</content>
+  <content>DataProcessor.CRM_РаботаСМессенджеромВКонтакте</content>
+  <content>DataProcessor.CRM_РаботаСМессенджеромViber</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM</parentSubsystem>
+</mdclass:Subsystem>

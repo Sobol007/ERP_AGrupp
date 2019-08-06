@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f0bf81-f737-4e4a-9062-73560ff57381">
+  <producedTypes>
+    <managerType typeId="88c77913-07fd-427c-a4c2-9bc3cbcbdf37" valueTypeId="19b6be95-c07c-4b88-b8e6-75e66f0e1153"/>
+    <valueManagerType typeId="b3b4b8d3-df91-49ea-9935-5e333fecb820" valueTypeId="6d9119a1-dc70-4326-b1c2-257031380f14"/>
+    <valueKeyType typeId="50381141-4bee-5504-b350-98704a0438d4" valueTypeId="86fd33fd-accd-5b5d-85f2-c7525e2904e7"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_КорректировкаUTC</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Корректировка UTC</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) UTC adjustment</value>
+  </synonym>
+  <comment>Корректировка времени в секундах сервера относительно UTC</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

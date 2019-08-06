@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aac7c47a-cf72-4df2-84a2-3c83adb99feb">
+  <name>ТМЦВЭксплуатации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТМЦ в эксплуатации</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Inventory in operation</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВнутреннееПотреблениеТоваров</content>
+  <content>Document.ЗаказНаВнутреннееПотребление</content>
+  <content>Document.ПрочееОприходованиеТоваров</content>
+  <content>Document.ПеремещениеВЭксплуатации</content>
+  <content>Document.СписаниеИзЭксплуатации</content>
+  <content>Enum.СпособыПогашенияСтоимостиТМЦ</content>
+  <content>AccumulationRegister.ТМЦВЭксплуатации</content>
+  <content>Document.ПогашениеСтоимостиТМЦВЭксплуатации</content>
+  <content>Catalog.ПартииТМЦВЭксплуатации</content>
+  <content>Document.НаработкаТМЦВЭксплуатации</content>
+  <content>InformationRegister.ПорядокОтраженияТМЦВЭксплуатации</content>
+  <content>InformationRegister.НаработкиТМЦВЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеПеремещенийВЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеСписанийИзЭксплуатации</content>
+  <content>Role.ДобавлениеИзменениеНаработкиТМЦВЭксплуатации</content>
+  <content>Role.ЧтениеТМЦВЭксплуатации</content>
+  <content>InformationRegister.ПакетыПогашенияСтоимостиТМЦ</content>
+  <content>DataProcessor.ЖурналДокументовПоТМЦВЭксплуатации</content>
+  <content>Role.ИспользованиеОбработкиЖурналДокументовПоТМЦВЭксплуатации</content>
+  <content>CommonModule.ТМЦВЭксплуатацииВызовСервера</content>
+  <content>CommonModule.ТМЦВЭксплуатации</content>
+  <parentSubsystem>Subsystem.Склад</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4884e7cc-1555-4248-b9f2-f1ae131e620b">
+  <producedTypes>
+    <selectionType typeId="c314b1a3-3a2c-4f09-9ce3-0c13d803ab11" valueTypeId="8477aba8-19cc-4880-a159-90ad78e49c32"/>
+    <listType typeId="928a3fa5-b6fd-465f-b72e-ed0eab028928" valueTypeId="3266ef95-4f07-4285-a8d4-dbf5ca3ae6d9"/>
+    <managerType typeId="c1699773-31c0-4917-a8b9-5f60e899a793" valueTypeId="89916beb-f211-4f20-8986-d5f1450b18ea"/>
+    <recordSetType typeId="23f5f5c1-2464-4671-ab6a-ea237e5e76ce" valueTypeId="62fdacdb-285f-4ed7-a9be-c432e2f09d4d"/>
+    <recordKeyType typeId="f592daaf-7312-4e1d-997b-05746d699e7b" valueTypeId="c6ed2a53-f953-4ab5-9491-3a760ca6d422"/>
+    <recordType typeId="268f0955-ae06-4bf2-a736-ee1943079212" valueTypeId="37bfb34a-f108-428d-8145-8137ba704192"/>
+    <recordManagerType typeId="297dacca-8ea6-453d-9c44-02d44ae31322" valueTypeId="2554fda9-8d3e-419d-96b1-e38f98e955b4"/>
+  </producedTypes>
+  <name>CRM_СоответсвияОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответсвия объектов обмена (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Correspondence of exchange objects (iCRM)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="acfd11c8-cc50-4c8c-8f13-a302b47de6ca">
+    <name>ИдентификаторПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор приемника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Receiver ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="8d989e7d-706d-45bc-ad26-c5336d7aa193">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Node of an exchange</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.CRM_СинхронизацияСМобильнымПриложением</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="365e28d5-e2e5-4678-932b-9f2876a6742c">
+    <name>ИдентификаторИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор источника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Source identifier</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="12d923b4-618a-4b62-87f4-6e19d1f5f649">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of a source</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b225ef4a-d04c-4552-8288-1dd10f328b8c">
+    <name>СсылкаПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка приемника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Receiver reference</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c4de61d5-1502-481e-a7e9-1ff98aa35aeb">
+    <name>ТипПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип приемника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of the receiver</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

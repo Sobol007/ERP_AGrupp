@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b48ff8d-e5ae-45ab-898a-03ba7d278cfe">
+  <producedTypes>
+    <refType typeId="12991438-628c-4e39-b8bc-a633ddafe076" valueTypeId="d1cb348c-0df9-4309-9949-20e7669ba0d3"/>
+    <listType typeId="ea3d9362-0caa-4e68-9b6f-07017e0226f3" valueTypeId="2ac57661-4949-4b90-900f-0f35ecaa1d8f"/>
+    <managerType typeId="faec6da7-5db7-4c23-8cb0-d93b1139a537" valueTypeId="aae893fd-6303-4813-a2d0-0d2b7639f637"/>
+  </producedTypes>
+  <name>РЭЙ_ПроцентныеПлатежиПоКредитамВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процентные и иные платежи, предусмотренные кредитным договором ВЭД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c76827d9-93ab-49b0-87bd-92ffbb46ab05">
+    <name>ФиксированнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированный размер ставки, % годовых</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdae1137-f054-48b5-8434-c7f8e8b539d3">
+    <name>ЛИБОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ЛИБОР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ed5a492-3889-4a49-8605-1419b525b6a4">
+    <name>ДругиеСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другие методы определения процентной ставки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

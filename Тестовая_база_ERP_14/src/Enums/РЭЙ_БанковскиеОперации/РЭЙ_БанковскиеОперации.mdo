@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b726dcf7-7da4-4f2a-8683-cb0f7f9041a3">
+  <producedTypes>
+    <refType typeId="1ca84e9b-9bf4-42ea-948a-7f7c156002fb" valueTypeId="ad16f657-9a81-4f88-9bbc-1f5132b7ea4d"/>
+    <listType typeId="ae28061a-1ce0-4843-b187-3e4f939182dc" valueTypeId="da40c6c0-5741-42d2-bac4-d5b13fd63a46"/>
+    <managerType typeId="c7ca92ad-c73c-4d43-aa2d-7607d88f15ed" valueTypeId="40dc85b4-8c23-4e4e-bf0b-2f80752c3e63"/>
+  </producedTypes>
+  <name>РЭЙ_БанковскиеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские операции</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды контрактов ВЭД</value>
+  </synonym>
+  <comment>Банковские операции согласно SLA (SWIFT tag 23B)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3f7a20e8-d1db-4b43-b7ea-f8b1e1d50f4c">
+    <name>CRED</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление средств, не связанное с уровнем обслуживания SWIFT</value>
+    </synonym>
+    <comment>This message contains a credit transfer where there is no SWIFT Service Level involved</comment>
+  </enumValues>
+  <enumValues uuid="44647638-f903-4c73-91c1-5126bdb650b6">
+    <name>CRTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовое зачисление средств</value>
+    </synonym>
+    <comment>This message contains a credit transfer for test purposes</comment>
+  </enumValues>
+  <enumValues uuid="c0fa10ce-66b2-4a39-b376-c947fad5444a">
+    <name>SPAY</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление средств, обрабатываемое в соответствии с уровнем обслуживания SWIFTPay</value>
+    </synonym>
+    <comment>This message contains a credit transfer to be processed according to the SWIFTPay Service Level</comment>
+  </enumValues>
+  <enumValues uuid="6d7a3154-5bf9-419f-affb-39e608cf885c">
+    <name>SPRI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление средств, обрабатываемое в соответствии с приоритетным уровнем обслуживания</value>
+    </synonym>
+    <comment>This message contains a credit transfer to be processed according to the Priority Service Level</comment>
+  </enumValues>
+  <enumValues uuid="74f5f2a8-bff7-41eb-962c-0d1b6aae425e">
+    <name>SSTD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление средств, обрабатываемое в соответствии со стандартным уровнем обслуживания</value>
+    </synonym>
+    <comment>This message contains a credit transfer to be processed according to the Standard Service Level</comment>
+  </enumValues>
+</mdclass:Enum>

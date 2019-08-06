@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba425d0c-187e-4fba-a1cc-ab8e3d882d0b">
+  <name>АГ_ЧтениеФакторыВнешнейЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Факторы внешней цены</value>
+  </synonym>
+</mdclass:Role>

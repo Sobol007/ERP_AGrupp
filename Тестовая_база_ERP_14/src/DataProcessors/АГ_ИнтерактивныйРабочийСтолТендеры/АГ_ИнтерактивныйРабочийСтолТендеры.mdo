@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa040a22-f300-4e89-8810-95d8b697d3bb">
+  <producedTypes>
+    <objectType typeId="4bb199c3-3d19-4c81-8995-1b3fe7851d52" valueTypeId="7d69961e-b09d-481f-bed3-fedafd5853dc"/>
+    <managerType typeId="09e53932-0d9c-4df3-b4f4-d31fc1729300" valueTypeId="a3c50801-4987-4bb1-9d20-3522b39856de"/>
+  </producedTypes>
+  <name>АГ_ИнтерактивныйРабочийСтолТендеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивный рабочий стол по тендерам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_ИнтерактивныйРабочийСтолТендеры.Form.Форма</defaultForm>
+  <forms uuid="890e0b23-845b-43a3-8027-d1d614513718">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e415a5f-582d-4ce9-98de-df37ef9ed57e">
+    <name>ФормаВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="78e2db68-c203-48d8-95ff-1a50b4d8359d">
+    <name>МакетВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет выгрузки</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

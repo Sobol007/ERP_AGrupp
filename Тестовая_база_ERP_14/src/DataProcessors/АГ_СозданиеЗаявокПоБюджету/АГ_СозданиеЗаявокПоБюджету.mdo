@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37443d53-bdc5-49f6-8f8d-6105cdf1bc3e">
+  <producedTypes>
+    <objectType typeId="fa2d8a9d-adfe-4516-a5fd-779ce8e51168" valueTypeId="9d5ba2a3-f4c1-452e-996a-9846a2eebeb5"/>
+    <managerType typeId="198a8d47-b70c-42be-a269-099c362470ae" valueTypeId="c89473fa-cc5c-4793-ae59-f9fc0b44a6ba"/>
+  </producedTypes>
+  <name>АГ_СозданиеЗаявокПоБюджету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание заявок по бюджету</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_СозданиеЗаявокПоБюджету.Form.Форма</defaultForm>
+  <attributes uuid="0ef61176-2e11-4625-a2be-09fb83b64727">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭкземплярБюджета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2381e8e-9877-46cb-8a43-8e8b376dddfb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, по которому осуществляется планирование.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91168d8d-7dca-4099-bed1-a52a99842e5a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, по которому осуществляется планирование.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ffcf99dd-d5ed-4818-8c7b-48b397d0cabf">
+    <name>ДатаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата платежа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9a3cab88-bfbe-48d8-bd2f-2fc4207dc9cf">
+    <producedTypes>
+      <objectType typeId="15cbb114-d69e-4f0d-9e86-9f2b1769b13a" valueTypeId="dfd8420d-48e4-49a6-a0cc-5875323f3455"/>
+      <rowType typeId="a5e4d73b-7b86-4b11-855e-e8c5064d4bcd" valueTypeId="2f5fe44e-ce71-49dc-a5d3-8bf986a6cf8c"/>
+    </producedTypes>
+    <name>ТаблицаЛимитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица лимитов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="63df0c4b-db6e-455d-8205-95c9fcebb22d">
+      <name>СтатьяДДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья ДДС</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ee563ce8-7306-48a8-9acf-c25f155066d2">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f146b94b-b869-4913-ae15-48504f772bc9">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1b405b01-ce35-419e-bb3c-7c4a184be086">
+      <name>СтатьяРасходов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья расходов</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9305788c-e3da-4c50-b89b-037434887d91">
+      <name>СуммаЛимита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма лимита</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4f7e89c7-b7c5-4f69-86ef-892ac64d720a">
+      <name>СуммаЗаявки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма заявки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="be542af6-c8bf-4a65-bf75-f0277cb2f14f">
+      <name>ХозяйственнаяОперация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Хозяйственная операция</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ХозяйственныеОперации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид операции расхода денежных средств.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:ReferenceValue">
+        <value>Enum.ХозяйственныеОперации.EnumValue.ОплатаПоставщику</value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0b80b858-549a-4a04-ba8d-0e50080ee9ad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

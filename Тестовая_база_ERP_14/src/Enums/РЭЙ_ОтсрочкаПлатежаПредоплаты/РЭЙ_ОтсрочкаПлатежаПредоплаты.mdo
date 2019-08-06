@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="226a746e-6fdb-4cec-a1b3-d8f0bbbce57c">
+  <producedTypes>
+    <refType typeId="18f22c61-5300-4cb0-8573-34fe7c7f560c" valueTypeId="75cd8089-cff4-4d8c-b202-b11c8b10e6a0"/>
+    <listType typeId="3884eae5-9035-49dc-83ed-c72a41abd5a7" valueTypeId="d5dbce23-9713-4bc6-8396-412212bc43b8"/>
+    <managerType typeId="4c83ae47-ba84-4a83-af6d-8a59240d44fb" valueTypeId="f169d47d-359d-48dc-b261-8e6972d14d25"/>
+  </producedTypes>
+  <name>РЭЙ_ОтсрочкаПлатежаПредоплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсрочка платежа или предоплаты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Отсрочка платежа или предварительная оплата</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8cac3b83-8e1c-41b1-85f3-3adbfd52bc6d">
+    <name>_0000</name>
+    <synonym>
+      <key>ru</key>
+      <value>0000    - в размере 100%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90503854-9fee-42f2-ba5a-446de4a2c488">
+    <name>nnnn</name>
+    <synonym>
+      <key>ru</key>
+      <value>nnnn    - не превышает 3-х лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="320fcfbf-b145-4445-8b3d-64776c234f2f">
+    <name>СВТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>СВТР   - свыше 3-х лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="550cced9-e4b4-40a1-98a8-b1428f9c9699">
+    <name>НДАН</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДАН - нет данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f970ced0-b4e6-4fc4-a16d-7fa7ba76e1be">
+    <name>КоличествоКалендарныхДнейПоКонтракту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество календарных дней по контракту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4ec8c6f-b8cd-4b0a-87c9-fd132d189aa1">
+    <name>ОжидаемыйСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидаемый срок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

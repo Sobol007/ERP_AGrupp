@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90e5f316-0154-4243-9b1f-a138c83a3621">
+  <name>CRM_ПриВыполненииЗадачиИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>При выполнении задачи исполнителя</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>At execution of the task of the executor</value>
+  </synonym>
+  <source>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+  </source>
+  <event>OnExecute</event>
+  <handler>CommonModule.CRM_БизнесПроцессыСервер.ПриВыполненииЗадачиИсполнителя</handler>
+</mdclass:EventSubscription>

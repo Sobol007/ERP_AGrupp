@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fdaa7fc-fb69-4c82-be9d-51a348462243">
+  <producedTypes>
+    <selectionType typeId="ec8a5577-8ce0-4c87-8b63-4b869acb9b0c" valueTypeId="347b15fe-0939-42cf-85e7-9aca4d51c46d"/>
+    <listType typeId="872249b4-5395-4f26-99e7-0e54cf907a29" valueTypeId="957f0139-44be-44ad-8768-5baa3148f318"/>
+    <managerType typeId="6c90770e-11f0-4490-9aa1-45846f8f524b" valueTypeId="4405b77f-0df3-44dd-bb0a-b2653c4f07ef"/>
+    <recordSetType typeId="7a271d57-48d1-479d-a53a-3694485be35c" valueTypeId="1b2c07a6-f216-4990-8a5a-198e1be01cb5"/>
+    <recordKeyType typeId="f44c6e4c-af61-4f23-8550-cdba1105727f" valueTypeId="6842662c-f309-47f4-890d-d1c60e415426"/>
+    <recordType typeId="662468ef-5994-489d-b2ae-f766bc612358" valueTypeId="3e38ad50-b4e5-49fd-8f93-aa1350226800"/>
+    <recordManagerType typeId="c985315c-7510-4c60-adc6-9acedba9668e" valueTypeId="0e9ee032-0844-4a20-a789-3d7f11aa911d"/>
+  </producedTypes>
+  <name>ПорядокУчетаНМАБУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок учета НМА (бухгалтерский и налоговый учет)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>IA bookkeeping procedure (bookkeeping and tax accounting)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a1ed9f23-eadb-49b6-ad9a-a166c4e91ec3">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>State</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСостоянийНМА</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f27fca11-987f-47e3-8b21-0223c683c927">
+    <name>НачислятьАмортизациюБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять амортизацию (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accrue depreciation (AC)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90d60321-8048-4ebe-b703-eed559c64b04">
+    <name>НачислятьАмортизациюНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислять амортизацию (НУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accrue depreciation (FA)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="76ecf373-79b0-4ec5-b439-3ebbbcef94b7">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expense item</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.СтатьиРасходов.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e4812bcf-23d5-4ad5-9608-b0268f423428">
+    <name>АналитикаРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика расходов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expenditure dimension</value>
+    </synonym>
+    <type>
+      <types>Characteristic.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>0:bec666cb-4c51-4cae-bc38-431537d5f4ef</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>0:bec666cb-4c51-4cae-bc38-431537d5f4ef</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+  </resources>
+  <resources uuid="a94e9eac-aa0d-4b16-a83c-5c4cb7d008db">
+    <name>ПередаватьРасходыВДругуюОрганизацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передавать расходы в другую организацию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transfer expenses to another company</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что расходы по амортизации передаются в другую организацию</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Indicates that depreciation expenses are transferred to another company</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c12bb05-3e1b-4811-b1f0-a9498b9a9229">
+    <name>ОрганизацияПолучательРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация-получатель расходов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expense recipient company</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация-получатель расходов по амортизации</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Company recipient of depreciation expenses</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e6ac0c04-419c-4381-97a2-9011fb657fbf">
+    <name>СпособОтраженияРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отражения расходов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expense record method</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИзменениеПараметровНМА2_4</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ способа отражения амортизационных расходов</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Document of depreciation expense record method</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0073c2a6-4249-4c34-a112-fc6fec303289">
+    <name>НематериальныйАктив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нематериальный актив</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Intangible asset</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НематериальныеАктивы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="55f314b6-4776-4adc-b65b-e637e182767e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="615da509-ed25-4443-80a4-65970887b786">
+  <producedTypes>
+    <refType typeId="826171d1-661b-4f6b-a118-1a4697c54e1f" valueTypeId="c7c56eba-3452-45c4-8b1a-3b94269fcfa8"/>
+    <listType typeId="3b55d20a-4891-42a2-b921-1e665cfca504" valueTypeId="76fb855d-55bb-455e-876a-aaf19c83f095"/>
+    <managerType typeId="c2bef4e1-246c-47a7-acf5-4acb8ab01410" valueTypeId="a11f7975-9e3b-45df-be75-c7fe5f12c8f7"/>
+  </producedTypes>
+  <name>АГ_ABCD</name>
+  <synonym>
+    <key>ru</key>
+    <value>ABCD</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24cdc542-03d3-4cac-8627-9bcc41444e34">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aafd872-daac-4a59-94e9-86366ff78ab7">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="764e4702-6182-4bde-97df-b55ccbd55468">
+    <name>C</name>
+    <synonym>
+      <key>ru</key>
+      <value>C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1718812e-74a5-4704-aab2-ce7798526b38">
+    <name>D</name>
+    <synonym>
+      <key>ru</key>
+      <value>D</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

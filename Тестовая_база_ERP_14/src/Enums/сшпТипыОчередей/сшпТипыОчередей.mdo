@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59402f5c-4c7a-4123-b2f5-7b0af76e9433">
+  <producedTypes>
+    <refType typeId="581290ed-970c-4ab0-97e3-35215eb6faf8" valueTypeId="b24798bb-312c-491d-a3b9-f9de1c39e7f5"/>
+    <listType typeId="8d3d0079-c0e0-47ad-95f4-4bf5d19da589" valueTypeId="c85371d8-c14a-410d-887c-17e87f181b2c"/>
+    <managerType typeId="9c05605e-b36f-45e0-b629-0ccd8b6a5626" valueTypeId="39cca9e2-5f8d-4529-834e-68bbfca9c62c"/>
+  </producedTypes>
+  <name>сшпТипыОчередей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы очередей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41b91dd2-56bd-45c5-bb8e-cbeb0291607f">
+    <name>Входящая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5221fe8c-b78d-4c19-855c-0cae2dde4e35">
+    <name>Исходящая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3df5243f-ef52-46af-93ba-459ab484167c">
+    <name>Системная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Системная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="436717f8-f690-4e7a-8cf2-c86fbb2ebbf5">
+    <name>Отправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4758eaff-297d-4b1a-a221-d5e8caba2996">
+    <name>ОтправкиСистемныхСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправки системных сообщений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

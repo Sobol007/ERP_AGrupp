@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e5fabdb-a4d7-4bc7-8e60-3c4344ca6f69">
+  <name>АГ_ЗаполнениеНадежностиКонтрагентовУПросроченныхЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение надежности контрагентов у просроченных записей</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_8][14.03.2019 20:45][Фирсанов]</comment>
+  <methodName>CommonModule.АГ_РегламентныеЗаданияСерверный.ЗаполнениеНизкойНадежностиПокупателейДляПросроченныхЗаписей</methodName>
+  <description>Заполнение надежности контрагентов у просроченных записей</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

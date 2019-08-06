@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fd655b7-8c80-4f85-94c4-a743f9858d9d">
+  <producedTypes>
+    <managerType typeId="0ac89221-0a53-4b16-b7be-e59bac08c8ca" valueTypeId="5fa68d98-b933-4f1d-8aa8-c908ee74017c"/>
+    <valueManagerType typeId="a28d3c08-8d41-4d40-9502-a6c96079d863" valueTypeId="796ac9d0-4842-4e4c-88c2-cb52329053ad"/>
+    <valueKeyType typeId="cc70d7ce-10eb-5c43-9572-b953839aa6ee" valueTypeId="b1540215-aef1-5dce-9f0d-c022e8a4ebf6"/>
+  </producedTypes>
+  <name>РЭЙ_ТипХраненияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ хранения файлов подсистемы ВЭД</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыХраненияФайлов</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

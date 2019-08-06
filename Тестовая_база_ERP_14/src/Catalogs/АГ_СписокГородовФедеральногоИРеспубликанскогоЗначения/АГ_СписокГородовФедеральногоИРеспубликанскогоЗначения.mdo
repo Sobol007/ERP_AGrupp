@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="859dbb93-bba3-436e-93fa-6eb2ee20d59f">
+  <producedTypes>
+    <objectType typeId="a733462b-16dd-48f2-9830-e2ddf43864ef" valueTypeId="d9f79773-4a8f-4cfb-a97d-12ced739fe9a"/>
+    <refType typeId="ce52c897-d242-4326-a60f-40be48d8aca8" valueTypeId="16ddde2e-6054-44a9-9818-a0411f775a02"/>
+    <selectionType typeId="325f0169-3dec-48c9-a130-29905d52d191" valueTypeId="2ff29598-2a4e-41a7-94ff-aad5d237d067"/>
+    <listType typeId="03ca7a92-49a1-448a-952b-66923c4f3f2b" valueTypeId="2864608c-e214-405e-88dd-b29647139a75"/>
+    <managerType typeId="c907c373-b96f-4596-830d-8d0ae57bbc08" valueTypeId="0ec6787d-149e-48f0-a773-d0ee16c05453"/>
+  </producedTypes>
+  <name>АГ_СписокГородовФедеральногоИРеспубликанскогоЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список городов Федерального и республиканского значения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_СписокГородовФедеральногоИРеспубликанскогоЗначения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_СписокГородовФедеральногоИРеспубликанскогоЗначения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АГ_СписокГородовФедеральногоИРеспубликанскогоЗначения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АГ_СписокГородовФедеральногоИРеспубликанскогоЗначения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b838c145-03e4-491b-a93e-7bda265afbad">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99656d93-ee44-4e19-8ee4-5ce1344d1cd8">
+    <name>СопоставленныйРегион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставленный регион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="33e9567a-72f0-488b-9dc7-5bc6f6afc390">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f736103c-beed-41df-a02c-8cc6b7f0cf92">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

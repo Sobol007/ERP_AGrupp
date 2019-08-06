@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВыкупПринятыхНаХранениеТоваров.Command.ВыкупыКОформлению</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ВыкупПринятыхНаХранениеТоваров.Command.ВыкупыКОформлению</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>Document.ВыкупПринятыхНаХранениеТоваров.Command.ВыкупыКОформлению</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de55df03-f82c-4dc1-b3ed-88099f05e637">
+  <name>РЭЙ_Светофор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Светофор</value>
+  </synonym>
+</mdclass:CommonPicture>

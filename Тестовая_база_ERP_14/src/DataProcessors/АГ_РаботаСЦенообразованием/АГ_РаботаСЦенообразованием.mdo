@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="daead0d7-bed9-4f13-8f57-96d6054dae2e">
+  <producedTypes>
+    <objectType typeId="e2a40453-7769-4bf1-8318-99d619041acf" valueTypeId="d9fa46df-d04c-43cb-9aa9-36a5a646788b"/>
+    <managerType typeId="ba83ffd7-f6ee-4c72-a201-99eb8aaf9e8f" valueTypeId="1e20719a-76a8-47e5-b8a3-b471a271bffd"/>
+  </producedTypes>
+  <name>АГ_РаботаСЦенообразованием</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ &quot;Ценообразование&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_РаботаСЦенообразованием.Form.Форма</defaultForm>
+  <tabularSections uuid="b875e537-a970-40a1-b20e-f6f9a70e6724">
+    <producedTypes>
+      <objectType typeId="b62a8528-2ccf-428d-b975-10425a447bb8" valueTypeId="14a1437e-4a3e-4e6f-99ad-2754be79ca47"/>
+      <rowType typeId="16c906b5-4217-4398-b75b-0f7610f223e6" valueTypeId="a9913e53-bda5-40de-b14b-af26d4985f3c"/>
+    </producedTypes>
+    <name>УстановкаЦенНаНоменклатурныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка цен на номенклатурные группы</value>
+    </synonym>
+    <attributes uuid="9c9e9a71-1793-4276-809a-2382fda2b095">
+      <name>РегионЦФО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион ЦФО</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="40d6a348-2982-4525-8cc1-043857e2e0f8">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0773cd68-9655-4433-a3b2-907c38feaf69">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="dc17c864-efae-4d09-8592-ff0a56312c60">
+      <name>ЦенаПродажиПредыдущегоМесяца</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена продажи предыдущего месяца</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2ce715a7-80ec-4896-99e3-0305d68f5ccf">
+      <name>ЦенаДействующегоПрайсЛиста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена действующего прайс листа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4eac36ea-7f31-4be6-a2d4-8b9d6bf1b689">
+      <name>ДействующаяЦенаПоГруппе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действующая цена по группе</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6961c114-25fc-45f2-9109-c718bae8a596">
+      <name>УстанавливаемаяЦенаПоГруппе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Устанавливаемая цена по группе</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0a3cc7f6-74ba-4c6a-9429-7db19a386aed">
+      <name>Отклонение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отклонение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8f5afea0-34a4-4c0d-927f-a2351a3b8030">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="40e90e2e-3f8f-4903-bbb8-329a3626fd64">
+      <name>ЦенаМинимальногоПрайсЛиста</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена минимального прайс листа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="004184eb-8469-4d25-9996-4b8963accde2">
+      <name>НомСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ном строки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5741a365-2b96-4b93-b0bf-25c0a3e39709">
+    <producedTypes>
+      <objectType typeId="4b717387-bb17-4187-b5bb-331dd1f44ba0" valueTypeId="9292ae3c-7f32-41cb-a8ec-042e63a9e74f"/>
+      <rowType typeId="4b251eff-ec1c-4298-be0d-45d3790ddf1e" valueTypeId="358bac3c-66ab-40ff-85a7-3934b377974e"/>
+    </producedTypes>
+    <name>РегионыУстановкиЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регионы установки цен</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ac9839ba-1c16-45e0-a434-cfef0a10175c">
+      <name>РегионЦФО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион ЦФО</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e1fcbb20-cbd9-4711-b25e-2298bf9e6c18">
+    <producedTypes>
+      <objectType typeId="b5cba6d0-bca7-4217-b74f-52ee711c3456" valueTypeId="3d889523-01ca-4a20-9d5b-deb5dbfacc87"/>
+      <rowType typeId="e702d646-4a2c-42c5-9608-b8462401b756" valueTypeId="93f5a424-7f0c-4e27-a807-dad9b12e8db7"/>
+    </producedTypes>
+    <name>ПараметрыЦенообразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры ценообразования</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c0581850-4f1d-48af-bb9d-c257830cc334">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f51ce743-fa38-4b7c-bfd7-4d5d04a2e9d8">
+      <name>ПлановаяНаценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая наценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="29186b2f-5c20-4528-8afa-fa59d7776706">
+      <name>Стратегия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стратегия</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="38d2ae29-2749-435c-86f1-5ad34c43a634">
+      <name>КатегорийныйМенеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категорийный менеджер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a709ddf7-9ad3-4e1e-8866-e4727b88744a">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0c40509f-fa4e-4ad6-8c70-286da60050ce">
+      <name>Ретроспектива</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ретроспектива</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5352377d-d39b-4668-844f-646c5e633128">
+      <name>ДниРетроспективы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дни ретроспективы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a90b3b64-3524-449e-bef0-89ad6b628035">
+      <name>ЦеновойКоридор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценовой коридор</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a7f4ea49-5112-41dd-a2b3-da1d692e09fc">
+      <name>БазаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>База расчета</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8c28eb57-4b13-4696-ab0d-40f73f8136a5">
+      <name>БазаРасчета2</name>
+      <synonym>
+        <key>ru</key>
+        <value>База расчета2</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5ba91a4d-9b48-4ae9-8c66-67704dfb0ed2">
+      <name>БазаРасчета3</name>
+      <synonym>
+        <key>ru</key>
+        <value>База расчета3</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8a119fff-1470-4e5c-8a6a-a85536af77cb">
+      <name>РегионМеталлоцентра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион металлоцентра</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e1eced5d-a77b-46a7-8f9a-1f8c16b67164">
+      <name>Доставка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доставка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="33b0309d-8a48-4e69-8893-71cd89c1c98a">
+      <name>ОбязательнаяСкидка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обязательная скидка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a6a148d2-9743-4d8f-9da0-e4218011d096">
+      <name>ИзмерениеОС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение ОС</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="827f0209-0bda-4c1a-918b-5cbf70210129">
+      <name>УценочнаяСкидка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уценочная скидка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7706af62-bf43-4227-9575-247f148b9ef2">
+      <name>ИзмерениеНаценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение наценки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="496fa941-8e13-4b0d-8c99-34fe37b93472">
+      <name>ИзмерениеСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение скидки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="808c82d2-4eb7-40cb-a12e-35730d242ad1">
+      <name>ВключитьКомплексноеЦО</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включить комплексное ЦО</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3cd656a9-1e79-4282-9b5e-824416fad701">
+      <name>СкидкаМОП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка МОП</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9138df72-dd47-4b45-8e13-9681e6473f4f">
+      <name>СкидкаНОП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка НОП</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1ec1f86c-a4a6-42a0-9df0-50d226610b17">
+      <name>СкидкаДМЦ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка ДМЦ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4b8b9ac0-dade-4391-b786-48b1092ae32d">
+      <name>СкидкаРДН</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка РДН</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d01bc66a-a4fa-461d-a05b-1612e594b87c">
+      <name>ВключитьНаценкиВЗаказе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Включить наценки в заказе</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cc5693b5-4e3c-4672-b451-627f814da24d">
+    <producedTypes>
+      <objectType typeId="99f65892-66ac-456e-a5ec-fbcb9cfbbfbd" valueTypeId="ea0d04ae-5116-4f3e-b5fa-57a14c56197b"/>
+      <rowType typeId="231f9da4-5d5e-4bc7-b261-0f6d7a389fd1" valueTypeId="0ef09a1d-2c52-4585-af66-69b55049584c"/>
+    </producedTypes>
+    <name>КонкурентыМеталлоцентров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конкуренты металлоцентров</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8833f0bb-cc31-45b1-87d3-64bdc873db7a">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="903f6cfc-4ffe-45c4-b9c6-89977dd0d396">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Партнеры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d6921b7b-fa58-4c1a-b5d8-351219ac0400">
+      <name>Рейтинг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рейтинг</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bf240952-4bd7-478d-ac96-034b8ea61cb9">
+      <name>Парсинг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Парсинг</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="38b5cf06-0e32-428b-b679-9f38a9397818">
+      <name>ИДКонкурента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор 23met</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="96117ec8-8a37-4c65-a244-05f79d6edbc6">
+    <producedTypes>
+      <objectType typeId="ea5a3550-f25b-4354-8bf5-9207b18c1545" valueTypeId="79c02b53-dd9b-44ca-a448-1d94eddd14be"/>
+      <rowType typeId="fad65ed9-ca9a-4f67-824b-c4b5318707fc" valueTypeId="3573a003-1f97-4d97-af53-dd588fa9189f"/>
+    </producedTypes>
+    <name>СписокДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список документов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bea2cc3b-8b2d-424d-946d-3fef4ed3140f">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c559a6cd-a511-4ddb-923a-8e56447b6baa">
+    <producedTypes>
+      <objectType typeId="b868d048-5eb9-4c17-8dfe-bf03530bb502" valueTypeId="73aa5f71-4d8b-4262-8b74-630741e37bb6"/>
+      <rowType typeId="6c0bdec4-f15f-4627-8cae-4751a79419d2" valueTypeId="4bf65fea-c760-487f-9d1a-fe63e2c1c4ed"/>
+    </producedTypes>
+    <name>ПарсингЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парсинг цен</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a116200c-f704-4020-9c93-6e3ba71ec738">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="85f58975-3012-4545-9eba-9605220772a5">
+      <name>Период</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="779ac40b-ecdf-4ae0-8d23-49cad79162fd">
+      <name>КонсолидированнаяНоменклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Консолидированная номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="edb053a3-859b-4d23-aedf-5c3bfde43914">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БизнесРегионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b67358d8-d092-43d0-9843-1c35b05462d2">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Партнеры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6a0f8016-284b-4d22-88af-ae0adad75945">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="12b2348b-026c-4f6d-b010-ec2645919e7c">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="761a6666-0dc7-4f0c-894f-23f28616cec7">
+      <name>НоменклатураИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура ИД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="bc46e1d2-ea10-412f-973b-28f3dbd0ffef">
+      <name>НоменклатураНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="118ca360-f6e6-4d04-9c09-0c8ef207b5a0">
+      <name>РазделСайта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел сайта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АГ_СтруктураРазделов23met</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9b1691e7-ea76-4576-b248-bf785030d809">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fcb562aa-9861-4ff9-9663-3fff8a8ceca7">
+    <producedTypes>
+      <objectType typeId="dde679b7-4613-46cc-834f-44d7343e48a9" valueTypeId="2bcc9eac-3a32-4b8a-ba1c-ab03c4ceac08"/>
+      <rowType typeId="72d33e2b-cd4a-407f-9e2d-ac39606e794b" valueTypeId="7d8093bc-b20e-4b7d-a837-736e5e72a495"/>
+    </producedTypes>
+    <name>ВнешниеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешние цены</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0f1fed61-ab95-4872-8250-fa896cd8bf66">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dbf30c3b-f494-4b6c-9c97-7414bcadd026">
+      <name>КонсолидированнаяНоменклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="44b5ad59-bdfb-4728-98df-b46e4f4ab599">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БизнесРегионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="55d95b78-bd06-477d-a6f9-e44cc37b6183">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dceb5511-40ad-46ba-9924-8f8dc8e588f5">
+      <name>СредневзвешеннаяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Средневзвешенная цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a5b5eebb-f396-4226-94df-4a6f96e47f73">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4045e781-88b4-4d69-8345-b2cef2d5f220">
+      <name>Стратегия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стратегия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>400</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="bb4bd2f9-bdbf-4376-bda9-cb9344e985b5">
+      <name>База</name>
+      <synonym>
+        <key>ru</key>
+        <value>База</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="186fa222-c22f-4781-9900-bfdee105563b">
+      <name>БазаРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>База расчета</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1da9cd95-c7b1-4fdd-9af9-8a1c7d5d3dee">
+      <name>ЦенаСУчетомСтратегии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена с учетом стратегии</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5285a65a-106c-4a6f-b712-ed9a1a12f08e">
+      <name>ВнешняяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Внешняя цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="caed3dba-1161-471a-966a-6fbde7ad397c">
+      <name>УровеньОстатков</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уровень остатков</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e61df816-8b09-44f7-a21b-d7b84c9b30d6">
+      <name>СкоростьПродаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скорость продаж</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="64e7f526-974a-4879-9fec-b25be4ed8dbb">
+      <name>ПроцентНаценкиОстатки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент наценки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>1</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5a3920f6-1a8a-4db9-b153-2adb2cf6dc28">
+      <name>ПроцентНаценкиПродажи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент наценки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>1</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="338ea26c-7eb6-4f7a-bf1a-f2225bd60673">
+      <name>ВеличинаСкидкиОстатки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Величина скидки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="57bcbc64-ef20-49bc-bc72-65db162536d2">
+      <name>ВеличинаСкидкиПродажи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Величина скидки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bbe2a354-a2e0-4537-bf9f-1dd6e665af8c">
+      <name>ВлияниеСкоростиПродаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Влияние скорости продаж</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d620bf92-e76d-428a-81cf-4fba540a0915">
+      <name>Остаток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Остаток</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4dd9f883-0b4a-4ffa-a216-e3d8fd5f1e57">
+      <name>ВлияниеНормативногоЗапаса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Влияние нормативного запаса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e5cd26d8-e2f1-41f7-abbe-da6eb0e9c36f">
+      <name>ЦенаСУчетомФакторов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена с учетом факторов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="42a293fe-3c04-4a91-9576-ae0980c28909">
+      <name>ЗонаПродаж</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зона продаж</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_НаименованияЗонФакторовВнешнейЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9b842814-6a85-4b3d-83d9-65306999676a">
+      <name>ЗонаОстатков</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зона остатков</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_НаименованияЗонФакторовВнешнейЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f7647b98-9c87-42bf-a20b-672f151d42f1">
+      <name>ДействующаяЦена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действующая цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b685aac1-6fab-4264-97eb-4f0afc073355">
+      <name>Отклонение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отклонение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="07031fd5-5067-44fa-83c7-946a5ebfa42c">
+      <name>ЦенаМРЦ</name>
+      <synonym>
+        <key>ru</key>
+        <value>МРЦ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0e363ff0-c8ab-40d1-8bf2-3cc1ad505655">
+      <name>ПлановаяНаценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая наценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e46168ac-7cc1-4784-ae89-995fbd9ebc13">
+      <name>Доставка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доставка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c46064d-3e73-485d-9827-200be1e0be8e">
+      <name>РегионПриемник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион приемник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БизнесРегионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a4be537a-6c0e-4b70-8d2d-1d71605c3e30">
+      <name>База2</name>
+      <synonym>
+        <key>ru</key>
+        <value>База2</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8ce1aeb4-3866-443b-b698-a1128262e877">
+      <name>База3</name>
+      <synonym>
+        <key>ru</key>
+        <value>База3</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2cee73f8-21c5-4a27-bdcf-2c6c1a1c14b5">
+      <name>ТекОтбор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тек отбор</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="313de982-242a-4ae8-82b5-3c648ed7ce30">
+    <producedTypes>
+      <objectType typeId="b694630b-c144-43ea-bd2a-f80fd7c38e02" valueTypeId="cf1950f3-bf8a-43bf-9143-37bee8d55d1a"/>
+      <rowType typeId="9ec8f6f4-bdbf-4715-b112-8607f34c4e4f" valueTypeId="9053c7ca-7f55-498e-8868-8992dbd255c6"/>
+    </producedTypes>
+    <name>КонтрольСопоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль сопоставления</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c3c7445-af4c-46ca-aeff-8a959e1f046f">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0075c48d-8fad-4530-8ea7-040e07d08b28">
+      <name>КонсолидированнаяНоменклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Консолидированная номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="00995034-9154-4e68-8ac0-d96c9cd37ade">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БизнесРегионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0d2a46bc-770c-4afd-b525-b822cfe3267d">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="538ac311-4a55-400a-8115-fade0ccab73f">
+      <name>НоменклатураИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор 23 met</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="69ff25bb-2e5f-4e7f-9548-54a35b225fe9">
+      <name>НоменклатураНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удаленная номенклатура с 23 met</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5573f35e-3666-4571-8967-12d41fca945e">
+      <name>РазделСайта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АГ_СтруктураРазделов23met</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7b698117-15b2-47f6-ad6a-60555b3a72d9">
+      <name>НоваяНоменклатураНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предлагаемая замена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="961a2678-efd6-4a31-8e58-d3be57942f32">
+      <name>НоваяНоменклатураИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор 23 met</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="735228c1-b317-49e5-9227-756868db7c74">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0e367cbc-cd8c-4420-b4fa-5748dbe8687e">
+      <name>ДоступноДляЗамены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доступно для замены</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="abced995-d357-4d10-b026-60c8eea97a68">
+      <name>ЦенаТекущая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f3859479-eeeb-4a7d-9abd-e45fd58d822b">
+      <name>ЦенаСайта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="86aad564-fa1c-4ab0-b09d-a5d58f52513a">
+    <producedTypes>
+      <objectType typeId="02988017-f52d-4960-8249-a066fab0f184" valueTypeId="dbf1af59-ea76-431e-ba39-c179cd536e40"/>
+      <rowType typeId="614b3ffc-fb62-40b0-840d-5f8740b8abd5" valueTypeId="b9b2bd05-8d42-48f7-8adc-e7ae5561d501"/>
+    </producedTypes>
+    <name>НоваяНоменклатураСопоставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая номенклатура сопоставление</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dc1ab29d-0d9a-47df-b1cb-15e9a8af44ef">
+      <name>Регион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БизнесРегионы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="15da1b83-c5a2-4af4-b540-5ab03733f1df">
+      <name>Конкурент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конкурент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="85beebd6-e502-4bb3-a27b-615f6898c0bf">
+      <name>РазделСайта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АГ_СтруктураРазделов23met</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7d070a78-407b-4b5d-b5bf-3211369efa68">
+      <name>НоваяНоменклатураНаименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предлагаемая замена</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fe77b1e2-50e3-4d59-ae06-500bd795939f">
+      <name>НоваяНоменклатураИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор 23 met</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="bab8089b-1fc8-4b45-91aa-36e1dc6b7d3c">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cb2846f1-2d95-4910-8d3d-84240835df1c">
+    <producedTypes>
+      <objectType typeId="30c8e230-5cea-4fa2-8c17-d6e2533e18c3" valueTypeId="218c6049-ba5f-4a45-9a45-dee6404903a0"/>
+      <rowType typeId="9179bb9f-e76e-4b3d-b203-b50442661de2" valueTypeId="c0591833-87fa-47ff-86ab-8613ec340281"/>
+    </producedTypes>
+    <name>ФакторыВнешнейЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факторы внешней цены</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1a395d8f-ec64-45c4-873d-a6c494c8dd2f">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4ca48bbc-837a-4b01-9436-d5013709b181">
+      <name>ТипНастройки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип настройки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ТипыНастроекФакторовВнейшнейЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="18d1e894-76ed-455d-b501-ab46ca316968">
+      <name>НаименованиеЗоны</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование зоны</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_НаименованияЗонФакторовВнешнейЦены</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4964e2c5-b476-4edf-85cc-4b0f42ed29ea">
+      <name>ПроцентОтНормы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент от нормы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e2515987-be5d-4e45-be3a-a845825e727e">
+      <name>ТрансформацияЦены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Трансформация цены</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>8</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="99a808e5-11c9-4114-9e1c-def6ded21502">
+    <producedTypes>
+      <objectType typeId="a94c749c-e1be-4363-81a9-9348c0066576" valueTypeId="481e42a9-201b-4171-8e3f-29944a0e188e"/>
+      <rowType typeId="d82e310a-4197-46de-8a92-000508a90186" valueTypeId="e95f6759-657b-4f89-8b34-2dc97a17de9d"/>
+    </producedTypes>
+    <name>МатрицаМаржинальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Матрица маржинальности</value>
+    </synonym>
+    <attributes uuid="27c585c4-073b-4d3c-acb3-1d18b89d4b31">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d8e3c102-0997-4976-8491-15cad819561e">
+      <name>Рентабельность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рентабельность</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="23a5fe28-a6a6-4fdc-a58f-6334efc5eb1f">
+      <name>ДиапазонСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диапазон скидки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d2d3f58c-c844-413b-b1e5-786ad455b112">
+      <name>Текущий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущий</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bd2e9219-576b-4bb9-b2e9-728f4e768c3a">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0b94e60a-d345-46e1-bb37-e12cc73b531b">
+    <producedTypes>
+      <objectType typeId="1be4b2b8-eef0-4e68-bd46-5091e2b500be" valueTypeId="74bc8143-b82a-4315-aae1-333a19a28ee8"/>
+      <rowType typeId="2defc816-ab80-4226-baaa-65e54ec2210d" valueTypeId="1d607efe-0ff0-42f5-ab19-496ff5e2da0c"/>
+    </producedTypes>
+    <name>НаценкаЗаОтсрочкуПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка за отсрочку платежа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1bb1497d-8aa4-46e7-8add-baa2758f2663">
+      <name>Отсрочка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отсрочка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cd0a7e2d-aca1-4b35-a13b-6c1759fc3b8f">
+      <name>Наценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b65093ef-147d-46e4-aeb7-08873d55c617">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="017dbfdf-bd63-4daa-9eee-7e61fa86aae8">
+    <producedTypes>
+      <objectType typeId="44045c30-4c85-48e5-b9e7-ebab629ebc14" valueTypeId="af85c347-30db-465e-b167-0d98de052911"/>
+      <rowType typeId="d4ac34ee-ea47-4b0d-b4b0-a9e468a7a5a4" valueTypeId="43df393a-2b0b-407a-82ad-f21611b266e1"/>
+    </producedTypes>
+    <name>НаценкаЗаПросроченнуюДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка за просроченную ДЗ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="79083c9f-20aa-4316-8ff2-8d7e37be2c09">
+      <name>Просрочка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Просрочка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d2b6387d-d07e-4a5b-a880-554e31a865d3">
+      <name>Наценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b2e6da1a-dc0a-4c6c-8eeb-9cf5bcae03f3">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1230c2fd-ca6c-4f56-af0a-0588cb288054">
+    <producedTypes>
+      <objectType typeId="90c4ed86-c42b-405a-a289-555290968d49" valueTypeId="4d72ab9f-c1c9-4583-b122-6dfb95933a1c"/>
+      <rowType typeId="e145a212-8706-47ee-b92f-08dbc30a6c0a" valueTypeId="c17a1d23-1443-4127-837a-84318850e029"/>
+    </producedTypes>
+    <name>НаценкаЗаМалотоннажность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наценка за малотоннажность</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="710a40a2-eca7-4161-acb8-0ab5ff36915c">
+      <name>НоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номенклатурная группа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="68a7a2e7-fc01-48a9-a829-d6c6415828b2">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="09a50284-95b3-4f7c-a786-985a39df8eb6">
+      <name>Наценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наценка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>8</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="82a97342-f381-489e-afff-7ed47327a906">
+      <name>Измерение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3f77f589-9d64-48d0-9a5b-7ebf9779c054">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0bf40e4-2574-4cb5-9904-1db22aaa1f63">
+    <name>ФормаРасшифровкиНулевыхЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки нулевых цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98fa5827-b6fc-453d-9222-8d256baffe43">
+    <name>ФормаОтбораЧисловыхПоказателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отбора числовых показателей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bcc0c32b-cb9f-4ca9-8b03-a6abc8913cfa">
+    <name>МакетНулевыеЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет нулевые цены</value>
+    </synonym>
+  </templates>
+  <templates uuid="4a673765-2264-4809-9fa1-ba6c191cef2a">
+    <name>Макет_РасшифровкаКалькуляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет расшифровка калькуляции</value>
+    </synonym>
+  </templates>
+  <templates uuid="c155547f-9d3d-4142-a36e-c5a602cf3566">
+    <name>Макет_СоставНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет состав номенклатуры</value>
+    </synonym>
+  </templates>
+  <templates uuid="4c0aec96-3027-4e8a-b101-ec59f1b8f248">
+    <name>Макет_КонтрольМРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет контроль МРЦ</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7f5bcd2-0833-4474-aada-51f2f464833b">
+    <name>Макет_РасшифровкаЦеныСУчетомФакторов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка цены с учетом факторов</value>
+    </synonym>
+  </templates>
+  <templates uuid="261c39e7-bd01-4fd5-8475-b175a31260f9">
+    <name>Макет_ДействующаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет действующая цена</value>
+    </synonym>
+  </templates>
+  <templates uuid="07242df4-d426-4930-b6bf-d5ce4393a3e7">
+    <name>МакетРасшифровкаВнешнихЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет расшифровка внешних цен</value>
+    </synonym>
+  </templates>
+  <commands uuid="ea9fe910-a0a5-4c05-9fd1-a580d5d285cb">
+    <name>АРМЦенообразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>АРМ &quot;Ценообразование&quot;</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

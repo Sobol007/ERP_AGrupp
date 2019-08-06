@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59c0e1b8-72ba-497d-ba3c-ea434289dfe1">
+  <name>яCRM_ТригерыСправочникиПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Я CRM тригеры справочники перед записью</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>I'm CRM triggers directories before writing</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.CRM_ТригерыСервер.яCRM_ТригерыПередЗаписьюОбъекта</handler>
+</mdclass:EventSubscription>

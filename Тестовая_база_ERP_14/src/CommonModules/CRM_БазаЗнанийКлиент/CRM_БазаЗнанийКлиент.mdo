@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc71de4-28d7-4c4f-a4c2-108a2c9c316f">
+  <name>CRM_БазаЗнанийКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>База знаний (клиент)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Knowledge base (customer)</value>
+  </synonym>
+  <comment>Клиентские процедуры и функции базы знаний</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

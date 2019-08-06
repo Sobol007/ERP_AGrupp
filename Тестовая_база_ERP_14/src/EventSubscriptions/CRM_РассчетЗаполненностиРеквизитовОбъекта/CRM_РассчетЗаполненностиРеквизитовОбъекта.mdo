@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a24af1c6-1f01-4e88-a001-69459ea4350e">
+  <name>CRM_РассчетЗаполненностиРеквизитовОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассчет заполненности реквизитов объекта</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Calculation of the fullness of the details of the object</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.Партнеры</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.CRM_КонтрольЗаполненностиРеквизитовОбъектов.РассчетЗаполненностиРеквизитовОбъектаПриЗаписи</handler>
+</mdclass:EventSubscription>

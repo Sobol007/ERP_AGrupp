@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f806c953-a082-4024-9069-7566b3e6bc32">
+  <producedTypes>
+    <managerType typeId="3c85cd86-f88a-497a-b778-c3a331673746" valueTypeId="552188be-f078-45b4-b400-c9c15875716a"/>
+    <valueManagerType typeId="1dca1834-6d66-4259-9acd-501db56f59b0" valueTypeId="bdd06b78-84b1-4025-9dac-30625117e76c"/>
+    <valueKeyType typeId="cad4a23d-e7c2-5577-9610-1f286d69c750" valueTypeId="90252e76-3938-5efc-88d2-046be88a8d46"/>
+  </producedTypes>
+  <name>УдалитьCRM_ОтображатьВероятностьСделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать вероятность сделки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Display the probability of a deal</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

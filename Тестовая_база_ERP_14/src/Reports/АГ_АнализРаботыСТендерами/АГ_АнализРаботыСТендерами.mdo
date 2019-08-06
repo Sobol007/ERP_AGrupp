@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74fe2917-4186-4fb6-bbf7-a1b8b5e364ea">
+  <producedTypes>
+    <objectType typeId="adaba61d-efbc-4cd0-bf9e-141c5c6787f5" valueTypeId="00b571c6-cb38-442b-a8d2-b76a734904c3"/>
+    <managerType typeId="27d35fa8-f255-45ac-a91d-e245ecf66378" valueTypeId="6194ff56-c5b6-4b74-a1ac-8636a44c064d"/>
+  </producedTypes>
+  <name>АГ_АнализРаботыСТендерами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ работы с тендерами</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_8][04.03.2019 22:13][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АГ_АнализРаботыСТендерами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6cf635c1-9b58-4f18-a531-c5b5c02e5d0f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

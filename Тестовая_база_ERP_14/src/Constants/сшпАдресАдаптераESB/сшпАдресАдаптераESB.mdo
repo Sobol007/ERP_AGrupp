@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ba5373f-803c-4f05-84aa-f27ac0548a74">
+  <producedTypes>
+    <managerType typeId="0144a2d5-3dfb-45d0-97fd-87b24416f376" valueTypeId="fa6def7f-aa71-467e-b860-6a70c64dff2a"/>
+    <valueManagerType typeId="457f64be-9ec5-4eef-a2eb-1c5a2ac95cbb" valueTypeId="7c581073-c7cb-4b86-8032-7f189ef3aa5b"/>
+    <valueKeyType typeId="b5e6660c-7796-55ba-8ab8-876187b10305" valueTypeId="4aa954ae-47cb-5742-ada8-7347fbcdc90e"/>
+  </producedTypes>
+  <name>сшпАдресАдаптераESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес адаптера</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

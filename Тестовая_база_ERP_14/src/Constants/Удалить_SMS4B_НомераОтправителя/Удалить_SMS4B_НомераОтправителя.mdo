@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b86e5dd2-dc60-4a7c-a48e-2038b1c67b83">
+  <producedTypes>
+    <managerType typeId="d76d453d-5458-4a91-9e9f-1da571ad5588" valueTypeId="a65f00f9-6345-4960-b1d3-e367d5ac37fe"/>
+    <valueManagerType typeId="7441ee7f-a4cc-4217-b91e-197008e22f4f" valueTypeId="e8f8cf61-ec4a-472d-b2eb-d1168ee49c41"/>
+    <valueKeyType typeId="61a487fc-ca99-59b4-83a3-1922cae17322" valueTypeId="ab8a661e-cd8c-50b2-8a7d-2442a0bfb3ca"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_НомераОтправителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Номера отправителя</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Sender's numbers</value>
+  </synonym>
+  <comment>Строка, содержащая список номеров отправителя</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Строка, содержащая список номеров отправителя</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>A string containing a list of sender numbers</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

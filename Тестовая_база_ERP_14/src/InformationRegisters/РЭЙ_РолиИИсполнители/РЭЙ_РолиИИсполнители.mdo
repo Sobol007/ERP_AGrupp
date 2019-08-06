@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c531e42e-dc00-4f65-859b-454ccec355cc">
+  <producedTypes>
+    <selectionType typeId="f75059bd-b22d-4995-82b9-ad2fc7b50478" valueTypeId="7c44ea95-5753-4410-9dfd-fa2ede9f0c25"/>
+    <listType typeId="24b289bc-ce0d-490a-a529-0e9e13e73933" valueTypeId="5b59defd-0eae-4a9d-b9d9-e051fa86836b"/>
+    <managerType typeId="cd077163-4b06-41b5-8a47-14ff1f668bab" valueTypeId="94f7ee75-71b6-4772-a932-cd9e4987e5fe"/>
+    <recordSetType typeId="19b5d35c-d483-481a-92c4-438cb3b01be3" valueTypeId="be2aff72-99b4-4efe-83cd-b0166d6b5e48"/>
+    <recordKeyType typeId="e228da3d-92e4-4e5c-aa50-6a70196d80f6" valueTypeId="f3961fef-11f3-4087-aafe-b06392fb09f0"/>
+    <recordType typeId="b14b2e08-3d36-4b87-aab6-706ac634ce9f" valueTypeId="08fdf4dc-6607-4696-968c-89662c187183"/>
+    <recordManagerType typeId="240846b0-91c3-43e5-b745-0db55b4f29a8" valueTypeId="c7bcb648-1764-480c-8355-5219d387006f"/>
+  </producedTypes>
+  <name>РЭЙ_РолиИИсполнители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли и исполнители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.РЭЙ_РолиИИсполнители.Form.ФормаСписка</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.РЭЙ_РолиИИсполнители.Form.ФормаЗаписи</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.РЭЙ_РолиИИсполнители.Form.ФормаСписка</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="b1937763-a811-4ac1-b4da-f9a64daf2dbb">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e9051c00-4297-421a-843e-5f2e87bf8ed2">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7dcad1b-b28b-42fb-9f00-fa3a9a7e9f1c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="03158ffc-649b-4c2f-b0c6-9ef9d293a6d3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="683c2d2f-3e7f-4294-9997-fca316d84117">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

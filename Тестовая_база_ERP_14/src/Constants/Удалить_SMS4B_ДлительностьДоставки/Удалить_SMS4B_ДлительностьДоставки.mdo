@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b29e4f95-752e-4ec6-a3ad-aecfdfb54bb8">
+  <producedTypes>
+    <managerType typeId="ad11d82a-a634-4df5-8f1e-aaa560487213" valueTypeId="4f2209ff-10e7-485b-abec-aa68e5075ae8"/>
+    <valueManagerType typeId="f7b9f1b7-9b02-4d20-a1c7-9c22e3a504ef" valueTypeId="b3d5e57a-dd08-4670-aa7e-b16b8e372267"/>
+    <valueKeyType typeId="122ab474-3591-5a19-a1e1-e18a8c15ca05" valueTypeId="fa0b11a7-ae7a-5aa0-b977-913499d975fd"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_ДлительностьДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Максимальная длительность доставки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Maximum delivery time</value>
+  </synonym>
+  <comment>Максимальная длительность доставки</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Максимальная длительность доставки</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Maximum duration of delivery</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальная длительность доставки</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Maximum duration of delivery</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

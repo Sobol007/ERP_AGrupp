@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc6816b9-b6ed-4f1e-8593-850883c2007a">
+  <name>сшпОтменитьОбработку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменить обработку</value>
+  </synonym>
+  <group>CommandGroup.сшпИзменениеСтатусаСообщений</group>
+  <commandParameterType/>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

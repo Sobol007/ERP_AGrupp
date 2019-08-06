@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fb00e78-18d0-40ce-b8b4-93b062f9dadf">
+  <name>CRM_ЗагрузитьДанныеИзСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить данные из сервиса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Load the data from service</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

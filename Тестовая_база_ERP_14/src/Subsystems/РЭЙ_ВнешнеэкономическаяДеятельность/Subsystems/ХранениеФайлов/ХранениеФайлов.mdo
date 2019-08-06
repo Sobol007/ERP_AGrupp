@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5953c06-5efa-4bea-819a-72b410f521bc">
+  <name>ХранениеФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранение файлов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.РЭЙ_НастройкаТипаХраненияФайлов</content>
+  <content>Constant.РЭЙ_ТипХраненияФайлов</content>
+  <content>Catalog.РЭЙ_Файлы</content>
+  <content>Enum.ТипыХраненияФайлов</content>
+  <content>CommonPicture.РЭЙ_КоллекцияПиктограммФайлов</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

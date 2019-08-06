@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f85bf129-0501-4a43-b0d2-743ecfd8ec1b">
+  <producedTypes>
+    <objectType typeId="4b176f50-50c9-4909-9fbb-6ae05df65b17" valueTypeId="76ddd8ab-f76b-4a5d-ada7-d5e0cf4730fa"/>
+    <managerType typeId="8d5a0fa9-1710-487f-b2f9-eee01cd4ffbc" valueTypeId="8a06659d-5254-4358-b9f6-b3bf18cf3102"/>
+  </producedTypes>
+  <name>РЭЙ_ПечатьЗаявленияНаПереводИностраннойВалюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать документа Заявление на перевод иностранной валюты</value>
+  </synonym>
+</mdclass:DataProcessor>

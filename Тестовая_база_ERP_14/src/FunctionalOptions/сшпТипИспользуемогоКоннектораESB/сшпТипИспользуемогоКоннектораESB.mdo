@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8360385c-e2c9-4b88-a484-cbc28af4b7ef">
+  <name>сшпТипИспользуемогоКоннектораESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип используемого коннектора ESB</value>
+  </synonym>
+  <location>Constant.сшпТипИспользуемогоКоннектораESB</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

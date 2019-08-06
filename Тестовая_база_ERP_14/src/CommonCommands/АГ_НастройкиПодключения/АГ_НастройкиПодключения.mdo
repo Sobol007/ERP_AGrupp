@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6326e29b-4cc1-4c3f-9938-89f1fcc11ad1">
+  <name>АГ_НастройкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки подключения</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.АГ_ОбменУправлениеТорговлей10_3</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Настройка параметров подключения обмена данными</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

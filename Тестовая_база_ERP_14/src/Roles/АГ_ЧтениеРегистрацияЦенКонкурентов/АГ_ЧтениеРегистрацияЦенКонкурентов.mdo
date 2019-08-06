@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af5cdfb5-397c-47b2-baa2-f55f9aecb472">
+  <name>АГ_ЧтениеРегистрацияЦенКонкурентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистрация цен конкурентов</value>
+  </synonym>
+</mdclass:Role>

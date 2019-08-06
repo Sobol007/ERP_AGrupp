@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7124303-3deb-44a1-801d-802a8c93885d">
+  <producedTypes>
+    <managerType typeId="9a722fb2-9b2e-40e6-b4de-ea9dd8cb8e79" valueTypeId="cccc64d7-782c-4080-b67a-ba52fac9fa9d"/>
+    <valueManagerType typeId="a1eab3d7-bcb5-4804-9d9d-636e6309ad68" valueTypeId="c4197a4f-1729-4c1a-8a92-6c129146948a"/>
+    <valueKeyType typeId="fc6f4dca-cee1-5bcc-a980-a048aa0582e5" valueTypeId="02ace11a-b92a-54b9-9013-a9c14e40a6de"/>
+  </producedTypes>
+  <name>сшпВерсияПараметровПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия параметров подсистемы</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

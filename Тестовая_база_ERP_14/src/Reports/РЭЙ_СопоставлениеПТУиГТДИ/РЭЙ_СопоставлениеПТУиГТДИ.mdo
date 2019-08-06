@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49eae6d-f412-4ed7-ad9f-aac4ac68eb06">
+  <producedTypes>
+    <objectType typeId="9ee69505-c7c5-4590-a865-4b6cedd72b51" valueTypeId="f3410464-e04d-4e5a-9588-2481318c5f3d"/>
+    <managerType typeId="d0f2edb8-b678-4bee-84b0-acd36efab321" valueTypeId="4f853ac0-4945-4ebf-a492-4ef95ef71b66"/>
+  </producedTypes>
+  <name>РЭЙ_СопоставлениеПТУиГТДИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление документов ПТУ и ГТД по импорту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РЭЙ_СопоставлениеПТУиГТДИ.Form.ФормаОтчета</defaultForm>
+  <auxiliaryForm>Report.РЭЙ_СопоставлениеПТУиГТДИ.Form.ФормаОтчета</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Сопоставление ПТУ и ГТД по импорту</value>
+  </extendedPresentation>
+  <attributes uuid="0133a33c-6e92-4a8b-9a7d-b3d0415a704c">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="692eafbc-3bc1-4747-875e-1a640d2a91b2">
+    <name>ОкончаниеПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="baf9ec9b-7d8e-451e-9f68-250ef98e8b98">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="7f78533a-1676-4400-b418-df74a5e833ce">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.РЭЙ_НеЯвляетсяРезидентом</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="b30df06f-e780-4a9a-9d66-802462b65ff3">
+    <name>КонтрактВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт ВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab3f315f-0149-40a0-8636-286f6b6bea8c">
+    <name>ВысотаЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота заголовка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbf1e9e7-cdfb-4b3c-8229-01ccab748671">
+    <name>ВариантОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="5aa263c1-9978-44bf-b4d6-004c9f418bd8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f82bce8e-c35c-4ad9-a518-6d9e95a18bfa">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

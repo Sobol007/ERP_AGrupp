@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="348487ba-82f3-4b93-9e3e-db4bbbe7823f">
+  <name>сшпОбменРегистрыРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен регистры расчета</value>
+  </synonym>
+  <source>
+    <types>CalculationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.сшпОбработкаСобытий.ВыполнитьОбменСШПРР</handler>
+</mdclass:EventSubscription>

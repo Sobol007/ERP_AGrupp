@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dad2962-c25c-46f2-8527-1b486ea56b96">
+  <name>CRM_СквознаяАналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сквозная аналитика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.CRM_ТипДиаграммы_ГрафикСНакоплением</picture>
+  </picture>
+  <content>Catalog.CRM_ИсточникиПолученияЛидов</content>
+  <content>Constant.CRM_СквознаяАналитика</content>
+  <content>Catalog.CRM_ОбъявленияРекламныхКампаний</content>
+  <content>Enum.CRM_CallTrakingСценарии</content>
+  <content>Enum.CRM_СценарииПолученияАналитики</content>
+  <content>DataProcessor.CRM_АРМ_РабочееМестоСквознаяАналитика</content>
+  <content>CommonModule.CRM_СистемаСквознойАналитикиСервер</content>
+  <content>Report.CRM_ЗатратыСквознаяАналитика</content>
+  <content>Report.CRM_ЗаявкиПоРекламнымКампаниям</content>
+  <content>Report.CRM_СводныйОтчетПоКаналамПривлечения</content>
+  <content>InformationRegister.CRM_ЗатратыРекламныхКампаний</content>
+  <content>InformationRegister.CRM_ИсточникиКампаний</content>
+  <content>InformationRegister.CRM_ПоказателиКампаний</content>
+  <content>ScheduledJob.CRM_ЗагрузкаЛидогенерации</content>
+  <content>ScheduledJob.CRM_ЗагрузкаСквознойАналитики</content>
+  <content>Catalog.CRM_ИнтервалыВремениНаСайте</content>
+  <content>Catalog.CRM_ИсточникиРекламныхКампаний</content>
+  <content>Catalog.CRM_Сайты</content>
+  <content>Catalog.CRM_Устройства</content>
+  <content>Catalog.CRM_ЦелевыеДействия</content>
+  <content>FunctionalOption.CRM_ИспользоватьСквознуюАналитику</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM.Subsystem.CRM_РазделМаркетинг</parentSubsystem>
+</mdclass:Subsystem>

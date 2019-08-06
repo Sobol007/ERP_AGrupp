@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3faec65b-d250-4d7a-af47-e5bf6ecdc3a2">
+  <name>CRM_ВиджетыДинамикаНет</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM виджеты динамика нет</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM widgets no speaker</value>
+  </synonym>
+</mdclass:CommonPicture>

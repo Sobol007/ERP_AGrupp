@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad92725d-dd7b-4b55-af3b-9636bbd1e000">
+  <producedTypes>
+    <managerType typeId="3856c29b-fa4f-4cdb-bab7-f34edfb08ec3" valueTypeId="b800658f-e8fa-440f-84f1-6dbbb5626dc5"/>
+    <valueManagerType typeId="7f4ced0c-6a58-45d1-a671-e0a6716f55e1" valueTypeId="85117eb1-3864-4741-ac70-0d707655b6c5"/>
+    <valueKeyType typeId="a66212d2-65b7-5d48-ab1f-5ee32fb134ff" valueTypeId="4e489514-66b7-5e87-a2de-ca85d455ec9d"/>
+  </producedTypes>
+  <name>сшпИмяТочкиПодключенияESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя точки подключения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

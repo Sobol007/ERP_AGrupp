@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5abdea6-1a39-4a39-b392-50504db17dcb">
+  <name>CRM_ФильтрНеАктивный</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM фильтр не активный</value>
+  </synonym>
+</mdclass:CommonPicture>

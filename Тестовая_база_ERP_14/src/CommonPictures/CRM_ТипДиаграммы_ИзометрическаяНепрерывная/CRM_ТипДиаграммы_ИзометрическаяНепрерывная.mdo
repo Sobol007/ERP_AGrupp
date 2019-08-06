@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9fdca0e-99f7-4ff6-ab6b-369f6317260c">
+  <name>CRM_ТипДиаграммы_ИзометрическаяНепрерывная</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM тип диаграммы изометрическая непрерывная</value>
+  </synonym>
+</mdclass:CommonPicture>

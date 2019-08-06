@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60ff91a5-e296-46f4-bca2-4c8a3c0edca1">
+  <producedTypes>
+    <objectType typeId="e443ac92-65da-4550-8c1e-aa23c11a1500" valueTypeId="23fc7f8f-16e1-4368-bae8-c40b3f2fbafa"/>
+    <refType typeId="60545f68-9a99-4b38-a5b7-fa925e68304a" valueTypeId="2ce59d66-fac0-4a12-bafd-e2b8338b651e"/>
+    <selectionType typeId="d9b34e36-dc0e-4a6b-92a8-e2570833cfea" valueTypeId="2a3be700-3d9c-4aab-afb2-202b91fdc8ea"/>
+    <listType typeId="eb1364e2-539e-4fc9-b535-71861938a826" valueTypeId="d4aa7826-0423-4141-baea-f181a7efa3f3"/>
+    <managerType typeId="484ec2a2-fb7c-4977-b042-03c565624f51" valueTypeId="654c7c1d-0e53-477b-af6b-cedbe0e48aff"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыПодтверждающихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень кодов видов подтверждающих документов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перечень видов валютных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РЭЙ_ВидыПодтверждающихДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов подтверждающих документов</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов подтверждающих документов</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов подтверждающих документов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов подтверждающих документов</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="626faf98-3bb4-4ac2-a330-5c8c18afc118">
+      <name>ВывозСТерриторииРФТоваровПоГТД</name>
+      <description>О вывозе с территории РФ товаров с оформлением ДТ или документов, указанных в п/п 8.1.1 Инструкции №181-И, за исключением документов с кодом 03_3</description>
+      <code xsi:type="core:StringValue">
+        <value>01_3</value>
+      </code>
+    </items>
+    <items id="bb46bd74-249f-4ebb-bd21-a8fd14c50c78">
+      <name>ВвозНаТерриториюРФТоваровПоГТД</name>
+      <description>О ввозе на территорию РФ товаров с оформлением ДТ или документов, указанных в п/п.8.1.1 Инструкции №181-И, за исключением документов с кодом 03_4</description>
+      <code xsi:type="core:StringValue">
+        <value>01_4</value>
+      </code>
+    </items>
+    <items id="e80b74bf-85be-4bfe-a36f-6cd98a8ae34a">
+      <name>ОтгрузкаТоваровПриВывозеСТерриторииРФБезГТД</name>
+      <description>Об отгрузке товаров при их вывозе с территории РФ без оформления ДТ или документов, указ. в п/п.8.1.2 Инструкции №181-И, за искл. док-тов с кодом 03_3</description>
+      <code xsi:type="core:StringValue">
+        <value>02_3</value>
+      </code>
+    </items>
+    <items id="d38acbfc-d53b-40db-b897-ada2120baa09">
+      <name>ПолучениеТоваровПриВвозеНаТерриториюРФБезГТД</name>
+      <description>О получении товаров при их ввозе на территорию РФ без оформления ДТ или документов, указ. в п/п.8.1.2 Инструкции №181-И, за искл. док-тов с кодом 03_4</description>
+      <code xsi:type="core:StringValue">
+        <value>02_4</value>
+      </code>
+    </items>
+    <items id="c0cf666e-86b5-45d1-bf29-2325443e4cf8">
+      <name>ПередачаРезидентомНаТерриторииРФТоваровИУслугНерезидентуГСМ</name>
+      <description>О передаче резидентом товаров и оказании услуг нерезиденту по контрактам продажи ГСМ, МТЗ и иных товаров, указанным в п/п.4.1.2 Инструкции №181-И</description>
+      <code xsi:type="core:StringValue">
+        <value>03_3</value>
+      </code>
+    </items>
+    <items id="20ecd1dd-7f01-488a-9b9e-de48830a9bec">
+      <name>ПолучениеРезидентомЗаПределамиТерриторииРФТоваровИУслугОтНерезидентаГСМ</name>
+      <description>О получении резидентом товаров и услуг от нерезидента по контрактам приобретения ГСМ, МТЗ и иных товаров, указанным в п/п.4.1.2 Инструкции №181-И</description>
+      <code xsi:type="core:StringValue">
+        <value>03_4</value>
+      </code>
+    </items>
+    <items id="8dbc09f5-d918-4b92-88d2-8a55e8f0b1ed">
+      <name>ВыполненныеРезидентомРаботыУслугиПереданныеПрава</name>
+      <description>О выполненных резидентом работах, услугах, переданных информации, результатах ИД и имуществе в аренду, за искл. документов с кодами 03_3 и 15_3</description>
+      <code xsi:type="core:StringValue">
+        <value>04_3</value>
+      </code>
+    </items>
+    <items id="4ab03804-ccc2-4177-b299-38f5d6b403a3">
+      <name>ВыполненныеНерезидентомРаботыУслугиПереданныеПрава</name>
+      <description>О выполненных нерезидентом работах, услугах, переданных информации, результатах ИД и имуществе в аренду, за искл. документов с кодом 03_4 и 15_4</description>
+      <code xsi:type="core:StringValue">
+        <value>04_4</value>
+      </code>
+    </items>
+    <items id="730b90c7-c492-4def-b3f9-8b816643acff">
+      <name>ПрощениеРезидентомОсновногоДолгаНерезиденту</name>
+      <description>О прощении резидентом долга (основной долг) нерезиденту по кредитному договору</description>
+      <code xsi:type="core:StringValue">
+        <value>05_3</value>
+      </code>
+    </items>
+    <items id="f4349729-7ac3-43ae-b4e7-4cc519f31a1e">
+      <name>ПрощениеНерезидентомОсновногоДолгаРезиденту</name>
+      <description>О прощении нерезидентом долга (основной долг) резиденту по кредитному договору</description>
+      <code xsi:type="core:StringValue">
+        <value>05_4</value>
+      </code>
+    </items>
+    <items id="40d71695-3177-4178-b894-60ceb43c8edd">
+      <name>ЗачетВстречныхТребованийПрекращениемОбязательствНерезидентаПоВозвратуОсновногоДолга</name>
+      <description>О зачете встречных однородных требований, при котором обязательства нерезидента по возврату осн. долга по кредитному договору прекращаются полностью</description>
+      <code xsi:type="core:StringValue">
+        <value>06_3</value>
+      </code>
+    </items>
+    <items id="94475797-45e4-4f32-9dec-c4163af72584">
+      <name>ЗачетВстречныхТребованийПрекращениемОбязательствРезидентаПоВозвратуОсновногоДолга</name>
+      <description>О зачете встречных однородных требований, при котором обязательства резидента по возврату осн. долга по кредитному договору прекращаются полностью</description>
+      <code xsi:type="core:StringValue">
+        <value>06_4</value>
+      </code>
+    </items>
+    <items id="d6a399ce-bb68-423c-bc45-65efbc5011fe">
+      <name>УступкаРезидентомТребованияКНерезидентуПоВозвратуОсновногоДолга</name>
+      <description>Об уступке резидентом требования к должнику-нерезиденту по возврату основного долга по кредитному договору иному лицу - нерезиденту</description>
+      <code xsi:type="core:StringValue">
+        <value>07_3</value>
+      </code>
+    </items>
+    <items id="bf48a891-0bee-45bf-9447-174cbc4894ee">
+      <name>УступкаНерезидентомТребованияКРезидентуПоВозвратуОсновногоДолга</name>
+      <description>Об уступке нерезидентом требования к должнику-резиденту по возврату основного долга по кредитному договору в пользу иного лица - резидента</description>
+      <code xsi:type="core:StringValue">
+        <value>07_4</value>
+      </code>
+    </items>
+    <items id="fd54ff15-e11c-4eb7-8096-7049cdf76861">
+      <name>ПереводНерезидентомСвоегоДолгаПоВозвратуОсновногоДолга</name>
+      <description>О переводе нерезидентом своего долга по возврату основного долга по кредитному договору на иное лицо - резидента</description>
+      <code xsi:type="core:StringValue">
+        <value>08_3</value>
+      </code>
+    </items>
+    <items id="db02aa2c-6d7b-4dbb-80af-7d23e9501e7e">
+      <name>ПереводРезидентомСвоегоДолгаПоВозвратуОсновногоДолга</name>
+      <description>О переводе резидентом своего долга по возврату основного долга по кредитному договору на иное лицо - нерезидента</description>
+      <code xsi:type="core:StringValue">
+        <value>08_4</value>
+      </code>
+    </items>
+    <items id="dd733df7-fd67-47c4-8346-eef167251ebd">
+      <name>ПрекращениеОбязательствНерезидентаНовацией</name>
+      <description>О прекращении или об изменении обязательств нерезидента по кредитному договору в связи с новацией, за искл.новации передачей ценных бумаг</description>
+      <code xsi:type="core:StringValue">
+        <value>09_3</value>
+      </code>
+    </items>
+    <items id="1b41ca17-bb63-4a3c-a5de-4cee40705854">
+      <name>ПрекращениеОбязательствРезидентаНовацией</name>
+      <description>О прекращении или об изменении обязательств резидента по кредитному договору в связи с новацией, за искл.новации передачей ценных бумаг</description>
+      <code xsi:type="core:StringValue">
+        <value>09_4</value>
+      </code>
+    </items>
+    <items id="0738c01f-34fc-48d0-aac4-277c4cf4669a">
+      <name>ПрекращениеОбязательствНерезидентаПередачейРезидентуЦенныхБумаг</name>
+      <description>О прекращении или об изменении обязательств нерезидента, посредством передачи нерезидентом резиденту векселя или иных ценных бумаг</description>
+      <code xsi:type="core:StringValue">
+        <value>10_3</value>
+      </code>
+    </items>
+    <items id="3927c225-2fae-4cfe-9f29-f355542c031c">
+      <name>ПрекращениеОбязательствРезидентаПередачейНерезидентуЦенныхБумаг</name>
+      <description>О прекращении или об изменении обязательств резидента посредством передачи резидентом нерезиденту векселя или иных ценных бумаг</description>
+      <code xsi:type="core:StringValue">
+        <value>10_4</value>
+      </code>
+    </items>
+    <items id="65fe01e6-f510-4f47-9022-cf3f6cc6b579">
+      <name>ИсполнениеОбязательствПоВозвратуОсновногоДолгаНерезидентаИнымЛицомРезидентом</name>
+      <description>О полном или частичном исполнении обязательств по возврату основного долга нерезидента по кредитному договору иным лицом - резидентом</description>
+      <code xsi:type="core:StringValue">
+        <value>11_3</value>
+      </code>
+    </items>
+    <items id="95ccb66e-d151-46a8-b491-091b15346dd4">
+      <name>ИсполнениеОбязательствПоВозвратуОсновногоДолгаРезидентаТретьимЛицомНерезидентом</name>
+      <description>О полном или частичном исполнении обязательств по возврату основного долга резидента по кредитному договору третьим лицом - нерезидентом</description>
+      <code xsi:type="core:StringValue">
+        <value>11_4</value>
+      </code>
+    </items>
+    <items id="151b1124-cf5b-48b3-8817-ae4b4bcc811e">
+      <name>УвеличениеЗадолженностиПоОсновномуДолгуРезидентаПередНерезидентом</name>
+      <description>Об изменении обязательств (увеличении задолженности по основному долгу резидента перед нерезидентом) по кредитному договору</description>
+      <code xsi:type="core:StringValue">
+        <value>12_3</value>
+      </code>
+    </items>
+    <items id="d593190f-c4a4-4c93-98ac-1e01200afcf4">
+      <name>УвеличениеЗадолженностиПоОсновномуДолгуНерезидентаПередРезидентом</name>
+      <description>Об изменении обязательств (увеличении задолженности по основному долгу нерезидента перед резидентом) по кредитному договору</description>
+      <code xsi:type="core:StringValue">
+        <value>12_4</value>
+      </code>
+    </items>
+    <items id="6c677e40-712b-4975-b092-211ad6a4d229">
+      <name>ИныеСпособыИсполненияОбязательствНерезидентаПередРезидентом</name>
+      <description>Об иных способах исполнения обязательств нерезидента перед резидентом за исключением иных кодов видов подтверждающих документов</description>
+      <code xsi:type="core:StringValue">
+        <value>13_3</value>
+      </code>
+    </items>
+    <items id="2dab5aba-2f90-4abe-b1da-a09a4fc6f3ab">
+      <name>ИныеСпособыИсполненияОбязательствРезидентаПередНерезидентом</name>
+      <description>Об иных способах исполнения обязательств резидента перед нерезидентом за исключением иных кодов видов подтверждающих документов</description>
+      <code xsi:type="core:StringValue">
+        <value>13_4</value>
+      </code>
+    </items>
+    <items id="ba766b9a-552a-49bd-ac2b-2b80bc53e525">
+      <name>ПередачаРезидентомВЛизингИмущества</name>
+      <description>О переданном резидентом в финансовую аренду (лизинг) имуществе</description>
+      <code xsi:type="core:StringValue">
+        <value>15_3</value>
+      </code>
+    </items>
+    <items id="42337d07-9ec6-4ced-9093-508ee1dc8fd8">
+      <name>ПередачаНерезидентомВЛизингИмущества</name>
+      <description>О переданном нерезидентом в финансовую аренду (лизинг) имуществе</description>
+      <code xsi:type="core:StringValue">
+        <value>15_4</value>
+      </code>
+    </items>
+    <items id="c94fe845-5862-4a3e-88e9-9893e98e8515">
+      <name>УдержаниеБанкамиКомиссийЗаПереводДенежныхСредствПричитающихсяРезиденту</name>
+      <description>Об удержании банками банковских комиссий за перевод денежных средств, причитающихся резиденту</description>
+      <code xsi:type="core:StringValue">
+        <value>16_3</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаСписка</defaultChoiceForm>
+  <auxiliaryObjectForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаЭлемента</auxiliaryObjectForm>
+  <auxiliaryFolderForm>Catalog.РЭЙ_ВидыПодтверждающихДокументов.Form.ФормаГруппы</auxiliaryFolderForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="0b346004-4677-450d-b39e-2b4ee0f663e9">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70572024-8a96-48e3-a61a-6eaececfaf3d">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c141af4-0e68-4f07-a4f1-dca5b02d8cd0">
+    <name>ПериодическиеФиксированныеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодические фиксированные платежи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Периодические фиксированные платежи по контрактам, связанным с передачей недвижимого имущества по договору аренды, финансовой арендой (лизингом), оказанием услуг связи, страхованием и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="44267366-9e8f-480d-a17e-d74baf9dca11">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67b7e4ac-9fef-4339-9584-5891c5d7556e">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cb1853c-8ba0-43a3-b58f-53f389bd0f96">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="472cc1b0-9df6-4b93-8d2f-885f9f1864ea">
+    <name>КлассификаторВидовПодтверждающихДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор видов подтверждающих документов</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

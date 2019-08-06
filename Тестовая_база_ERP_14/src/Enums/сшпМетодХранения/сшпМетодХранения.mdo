@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b32cd878-d3fc-4c02-96d6-f376e3eca79b">
+  <producedTypes>
+    <refType typeId="546e21fe-30e2-48e3-b2b5-773d90194c1c" valueTypeId="998e34f8-9b71-4025-baa3-792a2b01cd26"/>
+    <listType typeId="abfa9116-b5ab-424b-9642-ed2b0d2fac2f" valueTypeId="d979419c-84b8-4ac6-9735-46e740a9477a"/>
+    <managerType typeId="944ddda9-82f1-4525-8142-5b9ee187c6ba" valueTypeId="d73d8d43-236d-4500-a780-3194207627a1"/>
+  </producedTypes>
+  <name>сшпМетодХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод хранения</value>
+  </synonym>
+  <comment>Метод сохранения объекта для исходящего потока</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41c1ae8b-52dd-49ce-8d51-f67d9970a36e">
+    <name>ПоСсылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ссылке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34201183-84b1-4635-9d07-e8f642835533">
+    <name>Сериализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сериализация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

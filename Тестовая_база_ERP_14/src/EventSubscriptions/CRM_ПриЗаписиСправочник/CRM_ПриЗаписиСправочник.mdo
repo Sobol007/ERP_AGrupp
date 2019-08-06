@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b64c4dc0-0b62-45d8-b971-6d24237716fa">
+  <name>CRM_ПриЗаписиСправочник</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM при записи справочник</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM when writing a directory</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Пользователи</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.CRM_МетодыМодулейОбъектовСправочников.ПриЗаписи</handler>
+</mdclass:EventSubscription>

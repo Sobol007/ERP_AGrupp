@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0696e8e8-bccb-4fe3-acfa-f2cfb6a31e4e">
+  <producedTypes>
+    <managerType typeId="feba1c26-8023-4076-b65a-7509d83fcf19" valueTypeId="5aa8a7c6-1fca-467d-a2f9-62c55c7b8c6f"/>
+    <valueManagerType typeId="3f790288-0d6e-4151-a807-ac516bfec208" valueTypeId="7d509c2f-b027-4f1e-9a5f-a8df50ff4680"/>
+    <valueKeyType typeId="6a9b9397-ef41-54ee-a56f-3a9e2ce362fe" valueTypeId="e51381db-84aa-5672-99d5-b0147bf0171c"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_АктуальностьДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Максимальная актуальность доставки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Maximum delivery urgency</value>
+  </synonym>
+  <comment>Максимальная актуальность доставки</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальная актуальность доставки</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Maximum urgency of delivery</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

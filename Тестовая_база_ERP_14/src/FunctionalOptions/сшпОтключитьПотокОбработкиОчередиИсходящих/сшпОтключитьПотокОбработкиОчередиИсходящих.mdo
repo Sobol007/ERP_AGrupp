@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a9730bb-eddf-4470-8097-b92d5502de81">
+  <name>сшпОтключитьПотокОбработкиОчередиИсходящих</name>
+  <location>Constant.сшпОтключитьПотокОбработкиОчередиИсходящих</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

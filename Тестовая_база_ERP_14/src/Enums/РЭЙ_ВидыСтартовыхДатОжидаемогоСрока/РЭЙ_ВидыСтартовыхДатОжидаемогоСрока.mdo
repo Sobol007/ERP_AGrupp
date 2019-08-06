@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f3b9409-47e5-4c63-aa97-542c7cd901c9">
+  <producedTypes>
+    <refType typeId="77682c93-139e-4eb7-87f3-773b94bc6790" valueTypeId="e86b3dec-a668-4b93-8917-e59dad74f18c"/>
+    <listType typeId="e9ce204a-1e94-4bdf-916c-e4016eecce6d" valueTypeId="fff2806c-7479-4acf-b804-f4876b60fe3e"/>
+    <managerType typeId="774018ab-f423-4d07-8d2f-e12715859301" valueTypeId="b7aefeb3-e959-49ce-a811-83cc1a059188"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыСтартовыхДатОжидаемогоСрока</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стартовых дат ожидаемого срока</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3049240-6e09-4753-a7e2-10b6f7770b91">
+    <name>ДатаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1c5c584-ad7a-4f51-990f-e375fcf4dcd0">
+    <name>ДатаПоставкиОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поставки/отгрузки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

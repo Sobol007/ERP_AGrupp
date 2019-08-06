@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d911d88-06fa-4911-a94a-547349b7b5bc">
+  <producedTypes>
+    <selectionType typeId="0057041d-b034-4092-bb0d-518d999a4e47" valueTypeId="f2d803e6-2a0d-40c3-9034-5f84a36205a7"/>
+    <listType typeId="7c9ea732-bf4e-4d1f-a991-0a1823846f58" valueTypeId="c33ad3c6-f1f9-4553-97a7-20b7ca2eeba9"/>
+    <managerType typeId="1cf43f9c-2085-4297-aca3-7044abd3b626" valueTypeId="05580697-b993-42f8-8eb8-5a6a431a4a8b"/>
+    <recordSetType typeId="90ce36d8-0aac-4163-b116-081f4e570c1b" valueTypeId="5cc18854-80da-489d-8fa2-ef6f3ad47f68"/>
+    <recordKeyType typeId="70fa8778-645d-484a-b388-c11cbb6ef321" valueTypeId="a71a86f9-4d28-4459-b2f1-c0d9ec20b5ee"/>
+    <recordType typeId="23866d18-9a84-4633-b90f-7f02a05ff12e" valueTypeId="067d5265-3996-4c3d-9e9f-7c599f4179a2"/>
+    <recordManagerType typeId="f91acb66-6a70-4638-a656-d6dece1c29f5" valueTypeId="dc3fa4ba-5631-4c19-afcd-3e1fe2678b3c"/>
+  </producedTypes>
+  <name>ПервоначальныеСведенияОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первоначальные сведения ОС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Initial FA information</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="0befe896-f15a-4725-a8c7-1fa32d9fb674">
+    <name>СпособПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ поступления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Receipt method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыПоступленияАктивов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="206cde33-1f73-44a0-ad82-0243c9d75a0f">
+    <name>ПорядокУчетаБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок учета (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accounting procedure (AC)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокПогашенияСтоимостиОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="32b91ebd-8b2e-4398-9551-c52e64891998">
+    <name>ПорядокУчетаНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок учета (НУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accounting procedure (FA)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокВключенияСтоимостиОСВСоставРасходовНУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a152be05-9d1c-4373-b866-658fa1936bc5">
+    <name>ПорядокУчетаУУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок учета (УУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accounting procedure (MA)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокУчетаСтоимостиВнеоборотныхАктивов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2b8b8384-d5c5-486a-8bcb-971ca77e8c10">
+    <name>МетодНачисленияАмортизацииБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод начисления амортизации (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accrual method of accounting (AC)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыНачисленияАмортизацииОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e418a051-f9cf-40b5-9a68-f3477492cb33">
+    <name>МетодНачисленияАмортизацииНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод начисления амортизации (НУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accrual method of accounting (TA)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыНачисленияАмортизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e9660cb3-82a2-4501-b3a6-43f41a6a2f2f">
+    <name>СтоимостьДо2002</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость до 2002 г.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cost before 2002</value>
+    </synonym>
+    <comment>Первоначальная (вост.) стоимость до 01.01.2002 для НУ</comment>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8bc8367a-59b7-4a27-a3d9-40629e5564be">
+    <name>АмортизацияДо2002</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация до 2002 г.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Depreciation before 2002</value>
+    </synonym>
+    <comment>Сумма амортизационных начислений до 01.01.2002 для НУ</comment>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="65aaa519-420d-4d9a-830f-c14826db01ee">
+    <name>АмортизацияДо2009</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация до 2009 г.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Depreciation before 2009</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5b8baa0-040e-490b-b940-a44b5977064b">
+    <name>ФактическийСрокИспользованияДо2009</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактический срок использования до 2009 г.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Actual useful life before 2009</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3502915b-026a-409d-abd3-46b3bfe0eadb">
+    <name>ПервоначальнаяСтоимостьБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальная стоимость (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Initial cost (AC)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5bfd7867-6967-4971-b827-85de3f9c4657">
+    <name>ПервоначальнаяСтоимостьНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальная стоимость (НУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Initial cost (TA)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="523b0a07-58e6-488a-aa36-19a37eecb2ae">
+    <name>ПервоначальнаяСтоимостьУУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальная стоимость (УУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Initial cost (MA)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="423d1f1f-cf8e-435a-9938-0324b1ef3ca1">
+    <name>ДоговорЛизинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор лизинга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lease contract</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыЛизинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="caf2f2a9-7a56-43eb-9664-dd03454d536a">
+    <name>ДатаВводаВЭксплуатациюБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ввода в эксплуатацию (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Commissioning date (AC)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7b3ba4b4-d787-4612-865f-ab6ee9add465">
+    <name>ДатаВводаВЭксплуатациюУУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ввода в эксплуатацию (УУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Commissioning date (MA)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4c95c4b2-95cf-4042-881a-4683f7ed0595">
+    <name>ДокументВводаВЭксплуатациюБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ввода в эксплуатацию (БУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Commissioning document (AC)</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПринятиеКУчетуОС</types>
+      <types>DocumentRef.РазукомплектацияОС</types>
+      <types>DocumentRef.ПоступлениеАрендованныхОС</types>
+      <types>DocumentRef.ВводОстатковВнеоборотныхАктивов2_4</types>
+      <types>DocumentRef.ВводОстатковВнеоборотныхАктивов</types>
+      <types>DocumentRef.ПринятиеКУчетуОС2_4</types>
+      <types>DocumentRef.ПоступлениеПредметовЛизинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5e3e488f-8b5f-4b34-812e-3140374f72a2">
+    <name>ДокументВводаВЭксплуатациюУУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ввода в эксплуатацию (УУ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Commissioning document (MA)</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПринятиеКУчетуОС</types>
+      <types>DocumentRef.ПринятиеКУчетуОСМеждународныйУчет</types>
+      <types>DocumentRef.ВводОстатковОСМеждународныйУчет</types>
+      <types>DocumentRef.РазукомплектацияОС</types>
+      <types>DocumentRef.ВводОстатковВнеоборотныхАктивов2_4</types>
+      <types>DocumentRef.ВводОстатковВнеоборотныхАктивов</types>
+      <types>DocumentRef.ПринятиеКУчетуОС2_4</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="288d9316-84b5-4bfe-8913-c971e5d715e1">
+    <name>ДокументСнятияСУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ снятия с учета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document for taking off the books</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СписаниеОС</types>
+      <types>DocumentRef.СписаниеОС2_4</types>
+      <types>DocumentRef.ПеремещениеОС2_4</types>
+      <types>DocumentRef.ПодготовкаКПередачеОС2_4</types>
+      <types>DocumentRef.ВыбытиеАрендованныхОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5add8712-a65c-4347-a470-72d51420bbca">
+    <name>ВариантПримененияЦелевогоФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант применения целевого финансирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Special-purpose funding application option</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыПримененияЦелевогоФинансирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыПримененияЦелевогоФинансирования.EnumValue.НеИспользуется</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c9f86f44-0a9f-43b2-9f2f-cadf8e53b1f4">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fixed asset</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="93ef8535-6c46-4872-b926-c7578c0dbbb6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Company</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

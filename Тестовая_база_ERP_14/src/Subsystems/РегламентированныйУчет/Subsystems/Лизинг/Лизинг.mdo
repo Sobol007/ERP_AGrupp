@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8964e3ff-0972-46cd-a648-6a0736fd92bb">
+  <name>Лизинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лизинг</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Leasing</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьЛизинг</content>
+  <content>Catalog.ДоговорыЛизинга</content>
+  <content>Catalog.ДоговорыЛизингаПрисоединенныеФайлы</content>
+  <content>FunctionalOption.ИспользоватьЛизинг</content>
+  <content>Report.РеестрДоговоровЛизинга</content>
+  <content>Document.ПриобретениеУслугПоЛизингу</content>
+  <content>Document.ПоступлениеПредметовЛизинга</content>
+  <content>Report.СправкаРасчетПризнаниеРасходовПоОСПоступившимВЛизинг</content>
+  <content>InformationRegister.РасчетРасходовПоАренде</content>
+  <content>DataProcessor.ЖурналДокументовЛизинга</content>
+  <parentSubsystem>Subsystem.РегламентированныйУчет</parentSubsystem>
+</mdclass:Subsystem>

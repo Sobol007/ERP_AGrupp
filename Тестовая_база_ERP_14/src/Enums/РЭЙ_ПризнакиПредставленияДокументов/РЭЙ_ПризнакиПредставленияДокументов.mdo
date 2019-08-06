@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21db7e14-986f-4034-a64c-7cb6adc67a13">
+  <producedTypes>
+    <refType typeId="e8dc0531-6a87-47e2-9d4d-7ba0756d7195" valueTypeId="1dbe909d-6e6b-4b0f-b114-359a2ab4b4fa"/>
+    <listType typeId="9706c4f1-1ea8-4c80-bbc8-fe53584341b2" valueTypeId="a04b255e-b656-4e58-842d-099351d51e26"/>
+    <managerType typeId="377addd9-bac9-4dc1-91a8-89b33395045d" valueTypeId="1fcf6a5b-afa4-4ced-8f4b-b311be639c78"/>
+  </producedTypes>
+  <name>РЭЙ_ПризнакиПредставленияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки представления документов, связанных с проведением операций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc7f86ba-4147-4733-851c-21c42f08d284">
+    <name>ДокументыНеПредставляютсяПунктыИнструкции2_6и2_8и2_14и2_16</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - документы не представляются в соответствии с пунктами 2.6, 2.8, 2.14 и 2.16 Инструкции №181-И</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06a0e726-987f-4cf1-a121-70eecc2a0387">
+    <name>ДокументыНеПредставляютсяПунктИнструкции2_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - документы не представляются в соответствии с пунктом 2.2 Инструкции №181-И</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e67bbf55-4dd1-4c7a-b779-11c482ebce56">
+    <name>ДокументыПредставляются</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - документы представляются</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

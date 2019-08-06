@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4be903e-40f4-4e2c-8d6e-14a95d05ebed">
+  <producedTypes>
+    <managerType typeId="0012f72d-dd2e-4fc2-b4f1-4f42ed9822be" valueTypeId="fb82c669-1772-440e-9fec-a07e963404b6"/>
+    <valueManagerType typeId="62c1e74f-d28d-43c1-bece-57e4ebed4825" valueTypeId="51bec46d-f7f1-4884-8d6c-e8b3f91b14d7"/>
+    <valueKeyType typeId="b39b9653-7f3a-592c-83e0-a448575827fb" valueTypeId="0fa5de2b-e51c-5031-ae61-4c7307cd9426"/>
+  </producedTypes>
+  <name>сшпОтключитьПотокиОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить потоки обработки данных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

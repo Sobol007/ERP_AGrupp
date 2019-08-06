@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f06bc73-480b-43a3-9360-b3a658ff2ee1">
+  <name>ДокументыВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы валютного контроля</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DocumentJournal.РЭЙ_ДокументыВалютногоКонтроля</content>
+  <content>Document.РЭЙ_ЗаявлениеВБанкПС</content>
+  <content>Document.РЭЙ_ПаспортСделки</content>
+  <content>Document.РЭЙ_СправкаОВалютныхОперациях</content>
+  <content>Document.РЭЙ_СправкаОПодтверждающихДокументах</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98d3a09f-629f-4679-a600-84394979f806">
+  <producedTypes>
+    <selectionType typeId="5c7298e8-6b14-4846-aaaa-e79adf71e272" valueTypeId="62b9f15b-1154-4f29-a77b-a7c3f9d55cdd"/>
+    <listType typeId="b799b0c5-712f-4a97-bbe5-3cd39b07ce23" valueTypeId="5bec11f5-4c1f-40d3-b6e8-1f5373777a04"/>
+    <managerType typeId="05a8bba4-7a62-41e9-804b-5d3eea79f84f" valueTypeId="a18ea64a-6de0-457b-9181-7afe417d93dc"/>
+    <recordSetType typeId="0030c9f6-50fa-4bb0-9956-b434017351f2" valueTypeId="d8516f00-8488-4b36-aa14-ab44cc1db26c"/>
+    <recordKeyType typeId="ac1ca37a-1823-4051-9338-6efe02cdf37e" valueTypeId="e208700c-2540-4094-a543-9c4558c17745"/>
+    <recordType typeId="5412ceb4-7d50-4e27-8b79-e9fe4e592b49" valueTypeId="f39f4176-a5be-4092-8bfa-5d395e0631c6"/>
+    <recordManagerType typeId="0b01650a-64b1-4b00-afb4-6c730abc95b2" valueTypeId="7077108a-db0a-4a35-b720-5260f9bd93a5"/>
+  </producedTypes>
+  <name>АГ_ФакторыВнешнейЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факторы внешней цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="702bb48f-30c4-4284-9f69-6b84f6b59a81">
+    <name>ТрансформацияЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трансформация цены</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c3d2a502-32c9-4937-8856-6da9eca87020">
+    <name>ИндексСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b1c5eb8e-0f9b-4784-81ad-384803223124">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1374a4f2-09eb-4392-81a7-beac60451857">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86d24e47-c3b6-4456-9fe2-6224bb7cd848">
+    <name>ТипНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип настройки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипыНастроекФакторовВнейшнейЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c2d362bb-7005-4856-91e2-b1b115b5438a">
+    <name>НаименованиеЗоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование зоны</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_НаименованияЗонФакторовВнешнейЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d416b9ad-04a2-4c8f-991e-1e5889dcb8cd">
+    <name>ПроцентОтНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от нормы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

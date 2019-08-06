@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23a30418-6112-486d-ac75-b34d15ac6077">
+  <producedTypes>
+    <selectionType typeId="aecf6c5f-8947-4739-be37-8262c9cd11f7" valueTypeId="ac71234c-b643-46c0-85da-ac70eef7990a"/>
+    <listType typeId="2c9e1afd-3d57-4e42-b2af-815de6ae6e35" valueTypeId="522e7b33-0d6a-4b8d-a804-03e61baf8093"/>
+    <managerType typeId="80f61372-7d91-4e94-a41e-53a628f4dfef" valueTypeId="9a29e9c9-a06c-4169-94c3-51839350629c"/>
+    <recordSetType typeId="c078d1ad-69dd-46f8-a02d-46c52f0cae0e" valueTypeId="dcc3faa5-cffb-4208-a0de-425b3c1dbcae"/>
+    <recordKeyType typeId="422cfb1b-437b-4e3e-ad59-cb260858482c" valueTypeId="0570d3b1-d833-4f99-a871-a0d62558c847"/>
+    <recordType typeId="19ffc622-1773-4a6a-91d0-415afaef2096" valueTypeId="70c7b777-7900-44d6-848c-dad43f63621a"/>
+  </producedTypes>
+  <name>АГ_ПланыОплатКлиентовПоДаннымМенеджера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы оплат клиентов по данным менеджера (А ГРУПП)</value>
+  </synonym>
+  <comment>АГ:[+][PLAN_001_1][03.05.2019 16:30][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d85e8381-236d-4226-a134-6d1b44bb0130">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="dba337c2-fb74-4292-b51b-ab05365245fc">
+    <name>Сценарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <comment>Сценарий документа</comment>
+    <type>
+      <types>CatalogRef.СценарииТоварногоПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d004f6df-3884-4776-b204-03b14c9a27f8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment>Статус документа</comment>
+    <type>
+      <types>EnumRef.СтатусыПланов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7fea8dcc-99a8-4eff-ab66-4b0eb4370bc6">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Клиент</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49a77b38-50e5-4ff9-8675-466582d5774b">
+  <producedTypes>
+    <objectType typeId="1f3984cd-41eb-408f-b688-12f3e2ac5e02" valueTypeId="a9ba0421-72d9-49f4-a44e-167198f89aa9"/>
+    <managerType typeId="d897bdb7-a919-4390-a202-dfa83b5f3ded" valueTypeId="b81c6925-108c-464c-a8fb-a70e4f056976"/>
+  </producedTypes>
+  <name>CRM_РаботаСМессенджеромTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с мессенджером telegram</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Working with the telegram instant messenger</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1646e959-259e-4990-b685-8e6a78ef8a55">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f3811fc1-e397-4e4b-b328-90a9f21893cb">
+    <name>НастройкиБота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки бота</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Bot settings</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12f69954-b449-4421-a92d-95c45230f6fb">
+    <name>ПроксиСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7440289b-e767-4abb-b175-06fa2047a88a">
+    <name>ПроксиПорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="daba1d3d-86f5-4634-8f11-f94adb3cbef5">
+    <name>ПроксиПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="849b2183-95e7-41ef-88bc-9d3d50062e5c">
+    <name>ПроксиПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прокси пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="061849fb-c462-4244-9b43-a1adde1fad6f">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form of settings</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

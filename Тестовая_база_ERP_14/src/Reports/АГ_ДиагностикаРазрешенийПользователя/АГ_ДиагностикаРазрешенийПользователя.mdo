@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56a74691-6538-4a7c-ae66-8729a2256107">
+  <producedTypes>
+    <objectType typeId="ede15f3b-afd4-444c-ac48-c97af095d2db" valueTypeId="a3ba1012-4d7b-4c1e-b946-2f3584448f25"/>
+    <managerType typeId="cf1710e4-aaf1-42bd-a265-2f644d75cb4c" valueTypeId="5cb18527-8ed1-4ad8-a829-70fc2171a944"/>
+  </producedTypes>
+  <name>АГ_ДиагностикаРазрешенийПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диагностика разрешений пользователя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АГ_ДиагностикаРазрешенийПользователя.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="11fb2b9e-796b-42f6-a03a-cf0ec64f2e7f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="445afeeb-ed33-464f-b069-bcf52e321f20">
+  <producedTypes>
+    <managerType typeId="a83bf7fc-cdc3-4e00-ab9d-9d3596a6b72a" valueTypeId="8427c059-69f7-4b23-9afc-79d517de0f5f"/>
+    <valueManagerType typeId="ab6a42d0-9f3d-4c21-bdc3-b4f3cab8ac7b" valueTypeId="a2d3b322-19b6-4f8a-ba2d-27cb3735bde7"/>
+    <valueKeyType typeId="8a55182e-df9e-5b77-b915-212fd35d4299" valueTypeId="8ab011f0-fa94-5147-a1ac-766886a5a23f"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_РоботРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Робот регламентных заданий</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Robot of routine tasks</value>
+  </synonym>
+  <comment>Робот регламентных заданий</comment>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

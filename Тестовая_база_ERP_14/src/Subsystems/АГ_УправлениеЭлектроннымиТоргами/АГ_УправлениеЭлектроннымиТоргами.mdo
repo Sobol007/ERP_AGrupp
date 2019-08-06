@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ec57ddd-e159-49f8-b9b0-c03d049cd612">
+  <name>АГ_УправлениеЭлектроннымиТоргами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление электронными торгами</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АГ_УправлениеЭлектроннымиТоргами</picture>
+  </picture>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.БизнесРегионы</content>
+  <content>Catalog.АГ_ЭлектронныеТорговыеПлощадки</content>
+  <content>Catalog.АГ_ПричиныНеучастияВТендере</content>
+  <content>Catalog.АГ_КритерииОценки</content>
+  <content>Document.АГ_Тендер</content>
+  <content>Enum.АГ_ВидПодачиПредложения</content>
+  <content>Enum.АГ_ОрганизацияПродавец</content>
+  <content>CommonPicture.АГ_УправлениеЭлектроннымиТоргами</content>
+  <content>Catalog.АГ_ТендерПрисоединенныеФайлы</content>
+  <content>DataProcessor.АГ_ИнтерактивныйРабочийСтолТендеры</content>
+  <content>Report.АГ_ИсторияТендеров</content>
+  <content>InformationRegister.АГ_РолиСогласованияОтказаОтУчастияВТендере</content>
+  <content>InformationRegister.АГ_СогласованиеТендеров</content>
+  <content>Enum.АГ_РолиСогласованияТендера</content>
+  <content>Enum.АГ_РезультатСогласованияТендера</content>
+  <content>InformationRegister.АГ_ТендерыПредыдущихПериодов</content>
+  <content>Report.АГ_АнализРаботыСТендерами</content>
+</mdclass:Subsystem>

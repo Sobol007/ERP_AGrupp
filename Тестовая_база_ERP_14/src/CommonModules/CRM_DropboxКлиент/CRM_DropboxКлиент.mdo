@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc146e12-a572-4dbd-b710-4f32e6540c78">
+  <name>CRM_DropboxКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dropbox клиент (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dropbox customer (iCRM)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

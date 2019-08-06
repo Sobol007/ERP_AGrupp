@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2047042b-a61a-41a9-8d61-b5a02d863f8f">
+  <name>АГ_ЗагрузитьПравилаКонвертацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить правила конвертации объектов</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.АГ_ОбменУправлениеТорговлей10_3</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

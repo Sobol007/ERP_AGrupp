@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48cf02ba-1314-4b41-aac5-bdb94ca6ed7b">
+  <producedTypes>
+    <refType typeId="e8083f68-0af3-4a8f-9bb6-5df2e838bf5e" valueTypeId="260a93cc-0f3a-477b-ae08-9d550ca63839"/>
+    <listType typeId="4d6a1daa-8da3-4d73-a20a-95c7481dbbc8" valueTypeId="b1d7da9b-a58a-4d66-b2da-4aa8cb363b02"/>
+    <managerType typeId="e6c350c8-669b-4b93-bbca-5e0a6f19e139" valueTypeId="ce028930-bcc3-4554-b806-a69aba946e5c"/>
+  </producedTypes>
+  <name>АГ_СтатусыКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы клиента</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f79dcd06-190d-40c2-8a5d-0f01286fe3c6">
+    <name>ПотенциальныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потенциальный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ec6dbe0-af5a-43cb-aa11-e70fcb81ed67">
+    <name>НовыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8ba7aa3-26b6-4d98-a729-b2ba337cbd18">
+    <name>ПостоянныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5f12094-4b5e-4907-b539-d1e2aaf0578d">
+    <name>ПроблемныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03c1de41-a6a2-491f-ae8b-26f90d5290f8">
+    <name>ПотерянныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потерянный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7608eb00-484c-4af4-8691-53e1567ffb41">
+    <name>ЗакрытыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6283a2c8-12ef-480f-afa3-a6bc3ba0d548">
+    <name>БеспотенциальныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Беспотенциальный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8830b5d-1fbd-44c9-871a-a5645e51c37e">
+    <name>ЛояльныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лояльный клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b98c0d5-fa08-4966-ad86-10dbadb5d972">
+    <name>ПрочиеОтношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие отношения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da3a8629-182e-4b3a-a1aa-f28f06c457c7">
+    <name>БесперспективныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нулевой клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c94f7ec-f9d0-49eb-8bbf-e870e1f09447">
+    <name>СезонныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерегулярный клиент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

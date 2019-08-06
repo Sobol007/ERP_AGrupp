@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e3868cc-4c92-40fd-9ffb-3ca383838564">
+  <name>CRM_МетодыОбщихФормКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM методы общих форм клиент</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM methods common forms of customer</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

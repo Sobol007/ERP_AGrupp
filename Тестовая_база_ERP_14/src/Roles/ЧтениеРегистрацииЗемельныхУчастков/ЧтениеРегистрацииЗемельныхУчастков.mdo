@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a4fbc9-9dee-499d-837d-7b32e3c48c7e">
+  <name>ЧтениеРегистрацииЗемельныхУчастков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистрации земельных участков</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Read land lot registration</value>
+  </synonym>
+</mdclass:Role>

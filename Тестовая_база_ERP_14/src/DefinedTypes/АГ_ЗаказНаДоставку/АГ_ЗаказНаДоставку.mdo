@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6bc2e3a-37ca-4926-b15a-f2d9a8f030a9">
+  <producedTypes>
+    <containerType typeId="24d56f00-577c-4125-b914-a101b9c1467c" valueTypeId="5a60decd-522c-4ee8-9015-dc2a8ad2e39a"/>
+  </producedTypes>
+  <name>АГ_ЗаказНаДоставку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на доставку</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПоставщику</types>
+    <types>DocumentRef.ЗаказПереработчику</types>
+    <types>DocumentRef.АГ_ПриказНаОтгрузку</types>
+    <types>DocumentRef.ЗаказНаСборку</types>
+    <types>DocumentRef.ЗаказНаПеремещение</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+  </type>
+</mdclass:DefinedType>

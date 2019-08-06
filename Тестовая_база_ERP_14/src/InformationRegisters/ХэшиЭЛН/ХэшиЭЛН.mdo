@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55329892-46af-40a9-881e-0eda1758f942">
+  <producedTypes>
+    <selectionType typeId="93e4b5fc-bc70-4ba2-aaa1-51c7df0ef98d" valueTypeId="bc77065d-c4a1-4ed4-98d3-caf7dccbc308"/>
+    <listType typeId="944d3926-c090-4061-ad93-72faa43e44cd" valueTypeId="0e972173-8458-4382-9e4d-83c414d6b2f7"/>
+    <managerType typeId="b6cd9a99-d086-48f0-8f39-099bb9bef438" valueTypeId="425bf6c0-5329-42df-956e-732b77a1a5a2"/>
+    <recordSetType typeId="c3dcac05-bed4-491c-9682-f15fb1a67b84" valueTypeId="0fd9a08d-6a9e-4419-ab4d-d0fcc61fa3bd"/>
+    <recordKeyType typeId="3bf8fb04-2dae-46d5-a6d3-c2f3351197ae" valueTypeId="09fdd794-b243-4687-9f0e-8116878f6561"/>
+    <recordType typeId="ed772fe9-c85f-4d43-a709-ba8247c07d7b" valueTypeId="52ed1be0-3d6e-45c8-8a17-41836de20dab"/>
+    <recordManagerType typeId="890a8b47-0d4a-4771-8652-480a8ff08bac" valueTypeId="f1eb3960-910c-4cea-b5f4-d052d8e70c77"/>
+  </producedTypes>
+  <name>ХэшиЭЛН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хэши ЭЛН</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>ESLR hashes</value>
+  </synonym>
+  <comment>Сведения об электронных листках нетрудоспособности</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="586ebac4-27a3-4709-84fd-d65a0527be31">
+    <name>Хэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Hash</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="baf9524d-cb68-4a45-a189-5d0bee0d5bb2">
+    <name>НомерЛисткаНетрудоспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер листка нетрудоспособности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sick leave record number</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

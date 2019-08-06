@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9577ee01-1e52-4e72-acfd-b6d1fcb05c3b">
+  <producedTypes>
+    <managerType typeId="f9b2c1e1-2d4d-4ef7-ab2d-eeee8407c018" valueTypeId="ee445868-b356-4a32-af49-06613b218939"/>
+    <valueManagerType typeId="3fae850b-6efd-4871-b691-b8dfd17c95e5" valueTypeId="837f8f72-5a29-4db0-83ed-7ab3d43d22b1"/>
+    <valueKeyType typeId="27c9d077-dcf0-5d63-92dd-cf6c2f2b648d" valueTypeId="f60b8f5e-8d75-5a39-a80f-ecbb88c41911"/>
+  </producedTypes>
+  <name>сшпМаксимальноеКоличествоПотоковОбработкиИсходящих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество потоков обработки исходящих</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Максимальное количество одновременных потоков обработки исходящих сообщений</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Максимальное количество одновременных потоков обработки исходящих сообщений</value>
+  </toolTip>
+  <minValue xsi:type="core:StringValue">
+    <value>1</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

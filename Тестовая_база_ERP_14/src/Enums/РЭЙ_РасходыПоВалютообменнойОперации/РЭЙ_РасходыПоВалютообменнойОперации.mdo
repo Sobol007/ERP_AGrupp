@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7fc2582-f0ea-4444-ae00-abcb0f98b9d7">
+  <producedTypes>
+    <refType typeId="ab2e6cab-84f2-4bee-8fd2-355be204ad2d" valueTypeId="21b7e311-7928-47cd-b4b8-80c256f2a90b"/>
+    <listType typeId="13ac97a4-4b8f-45ee-a728-6163f04af7e8" valueTypeId="ba2608e4-f611-45ad-9871-ac1b4bb6c4f0"/>
+    <managerType typeId="fcff7de6-4789-4cc4-a79d-752eebfda535" valueTypeId="caec225b-4a84-40e5-b2ce-09c3d1d8503d"/>
+  </producedTypes>
+  <name>РЭЙ_РасходыПоВалютообменнойОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы по купле-продаже валюты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Очередность платежа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="abd0e5c9-eb8a-4938-abd7-191104ed707c">
+    <name>ВычестьИзСуммыПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычесть из суммы перевода</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e9d0a2d-ec2d-4737-a710-7c5498b6dbe7">
+    <name>СписатьСоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списать со счета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

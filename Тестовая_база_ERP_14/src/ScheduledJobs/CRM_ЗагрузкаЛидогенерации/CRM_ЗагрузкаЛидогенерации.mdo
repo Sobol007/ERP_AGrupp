@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5263ed0f-dd15-45f9-8115-9fd8009b98a8">
+  <name>CRM_ЗагрузкаЛидогенерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM загрузка лидогенерации</value>
+  </synonym>
+  <methodName>CommonModule.CRM_СистемаСквознойАналитикиСервер.CRM_ЗагрузкаЛидогенерации</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

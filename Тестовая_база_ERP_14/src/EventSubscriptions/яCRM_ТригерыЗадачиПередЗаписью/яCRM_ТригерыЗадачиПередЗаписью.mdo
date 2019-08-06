@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c24fa65-f450-4de8-a552-9b5e841613d6">
+  <name>яCRM_ТригерыЗадачиПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Я CRM тригеры задачи перед записью</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>I'm CRM task triggers before writing</value>
+  </synonym>
+  <source>
+    <types>TaskObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.CRM_ТригерыСервер.яCRM_ТригерыПередЗаписьюОбъекта</handler>
+</mdclass:EventSubscription>

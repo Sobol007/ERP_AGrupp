@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="140cbec2-c377-4754-81be-3a9ba8023a02">
+  <name>ПереоценкаНМАКлиентЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переоценка НМА (клиент, локализация)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>IA revaluation (client, localization)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

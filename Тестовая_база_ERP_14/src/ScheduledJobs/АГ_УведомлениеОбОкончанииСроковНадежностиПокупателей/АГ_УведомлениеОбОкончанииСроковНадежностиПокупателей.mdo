@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="569f3e44-99b8-4cf4-bdcf-11aa91571730">
+  <name>АГ_УведомлениеОбОкончанииСроковНадежностиПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об окончании сроков надежности покупателей</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_8][14.03.2019 20:45][Фирсанов]</comment>
+  <methodName>CommonModule.АГ_РегламентныеЗаданияСерверный.УведомлениеОбОкончанииСроковНадежностиПокупателей</methodName>
+  <description>Уведомление об окончании сроков надежности покупателей</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

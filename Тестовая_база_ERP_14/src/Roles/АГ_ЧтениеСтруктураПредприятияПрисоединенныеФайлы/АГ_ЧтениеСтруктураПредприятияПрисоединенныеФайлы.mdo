@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1a1fd6-67c3-44e8-9dad-3c0c3f20891e">
+  <name>АГ_ЧтениеСтруктураПредприятияПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочника присоединенные файлы (Структура предприятия)</value>
+  </synonym>
+  <comment>АГ:[+][MDM_0001_10][29.01.2019 23:00][Фирсанов]</comment>
+</mdclass:Role>

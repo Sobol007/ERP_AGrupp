@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16908045-6aab-493c-957c-3b51bd70245e">
+  <producedTypes>
+    <refType typeId="5011d817-93f7-4071-8cd1-07ea407ebda6" valueTypeId="918ec343-6f72-4fbd-b249-9f9a36c15a8b"/>
+    <listType typeId="511978d5-3ff0-47b2-9f70-064dbb07c79b" valueTypeId="319743c4-27e8-4481-80c9-45d784b7f02a"/>
+    <managerType typeId="648abc29-a1fe-43ff-83d3-bc1d3cfc8b0f" valueTypeId="a0e14851-26b7-49d5-b5ed-74f4e35d0d4f"/>
+  </producedTypes>
+  <name>АГ_РезультатСогласованияТендера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат согласования тендера</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d954d087-eaf0-4fcd-8a6e-39e3b79caab1">
+    <name>АкцептОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акцепт отказа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5873c185-61f8-4431-a7d9-833cfd8a2558">
+    <name>ОтправленНаДоработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен на доработку</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

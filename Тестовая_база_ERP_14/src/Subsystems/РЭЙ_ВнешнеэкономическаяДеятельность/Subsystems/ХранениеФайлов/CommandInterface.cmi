@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>CommonForm.РЭЙ_НастройкаТипаХраненияФайлов.StandardCommand.Open</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:1f9dd6eb-c34d-4f66-a322-5ccbb41e7804</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.Настройки</group>
+      <commands>CommonForm.РЭЙ_НастройкаТипаХраненияФайлов.StandardCommand.Open</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.Настройки</group>
+      <commands>CommonForm.РЭЙ_НастройкаТипаХраненияФайлов.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

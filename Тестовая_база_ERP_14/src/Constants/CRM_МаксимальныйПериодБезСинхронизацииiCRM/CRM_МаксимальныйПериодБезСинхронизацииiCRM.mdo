@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d735550c-ae4d-4475-9657-33c7a31c37a1">
+  <producedTypes>
+    <managerType typeId="78a8aa10-6a81-47ce-a67b-951941b2c39c" valueTypeId="be22fd2d-f3f4-4e38-80c3-d7444a839467"/>
+    <valueManagerType typeId="c3c4c82e-3461-476c-a875-320755731d33" valueTypeId="2098d645-fe9c-4f85-91a1-11321cab2f34"/>
+    <valueKeyType typeId="68ae26cd-a756-5036-b4ae-9fe976ab50c8" valueTypeId="9c0d09ec-7716-5c8a-b7e9-565472ca5ba9"/>
+  </producedTypes>
+  <name>CRM_МаксимальныйПериодБезСинхронизацииiCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальный период без синхронизации (дней)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Maximum period without synchronization (days)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

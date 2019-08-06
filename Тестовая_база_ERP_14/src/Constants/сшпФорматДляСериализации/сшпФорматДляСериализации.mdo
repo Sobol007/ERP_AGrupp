@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ac5785d-4297-4f8a-8f39-2ba5e6229cd8">
+  <producedTypes>
+    <managerType typeId="7a608eb7-e20b-40a4-ba58-795fef6a7765" valueTypeId="942c07f9-6b28-4f78-a6ab-3177695f1057"/>
+    <valueManagerType typeId="76e392b5-b0af-49cb-b4da-155fe3fa9d88" valueTypeId="02713e19-5afe-4f73-b4e1-f62f0e66a158"/>
+    <valueKeyType typeId="2aa29ec7-283f-5bde-bf2c-9bb863b0c6ca" valueTypeId="5c5ef87f-3614-5c39-ab8d-4ee7462edd9d"/>
+  </producedTypes>
+  <name>сшпФорматДляСериализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат для сериализации</value>
+  </synonym>
+  <type>
+    <types>EnumRef.сшпФорматыСообщений</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

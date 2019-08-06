@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e985c997-c392-46e8-85f7-a3691d20c4a8">
+  <name>CRM_СистемаЛицензированияСЛК_АНАЛИТИКА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cистема лицензирования &quot;1С-Рарус: Модуль сквозной аналитики&quot;</value>
+  </synonym>
+  <comment>71BC</comment>
+  <content>SessionParameter.слкМенеджерЗащиты</content>
+  <content>Role.ПолныеПрава</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM.Subsystem.CRM_Лицензирование</parentSubsystem>
+</mdclass:Subsystem>

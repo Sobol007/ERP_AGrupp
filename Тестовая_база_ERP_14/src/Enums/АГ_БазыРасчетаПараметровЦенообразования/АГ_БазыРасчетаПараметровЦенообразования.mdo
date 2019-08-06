@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e71c9e33-d115-440a-b4d0-06445c77373e">
+  <producedTypes>
+    <refType typeId="0bb03b93-950a-492a-9ade-e6bb0382dd2e" valueTypeId="5c745f85-48db-458b-9bf2-2cc48d6680c8"/>
+    <listType typeId="f6a723f0-0b33-45ae-af7a-4ce03ff71636" valueTypeId="05450948-5ec6-4009-b9a6-c3b90ca13b6f"/>
+    <managerType typeId="d2d6acd2-a3e2-4dcc-8b3b-613a891cf1fc" valueTypeId="c2d65290-cbe1-424f-b10c-49d53cb93366"/>
+  </producedTypes>
+  <name>АГ_БазыРасчетаПараметровЦенообразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы расчета параметров ценообразования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0e355da7-52e1-4b95-972f-f9406646b67d">
+    <name>ЦеныКонкурентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены конкурентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ca97c8e-62f3-4f8d-9be3-23395ca82d01">
+    <name>ЦеныВосстановления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены восстановления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee69d9b8-0b81-4f48-9af3-5091a93e743e">
+    <name>ЦеныДругогоМеталлоцентра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цены другого металлоцентра</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

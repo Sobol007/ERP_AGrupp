@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fb4c12-6248-4006-b80e-823912052ff6">
+  <producedTypes>
+    <managerType typeId="145b6cc9-b547-441d-aa92-0ddb9b3026b7" valueTypeId="ba47eb0a-fd74-4a76-9eb7-4052f2237f9c"/>
+  </producedTypes>
+  <name>ESBAdapter</name>
+  <synonym>
+    <key>ru</key>
+    <value>ESBAdapter</value>
+  </synonym>
+  <locationURL>https://esb.axelot.ru/wsdl/soapServerWsdl.In.String.wsdl</locationURL>
+</mdclass:WSReference>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc07a163-0ff7-4254-b575-14f81e08e1eb">
+  <producedTypes>
+    <refType typeId="33ba926e-09cb-44d0-bce9-0e2891f11947" valueTypeId="11ff4823-4c9d-46ab-bd86-14d67489472d"/>
+    <listType typeId="02b155f5-63a3-4d14-827b-6f51b0af33c2" valueTypeId="0f62a88d-5452-47aa-a8c6-4ed61ea6693d"/>
+    <managerType typeId="dde83a48-de7c-4d9e-a4ed-41f1c61d34a7" valueTypeId="97bae574-20ca-47ba-bc00-6e79a0bbe0fb"/>
+  </producedTypes>
+  <name>РЭЙ_МеждународныеФинОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Международные финансовые организации</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6923694a-9f8e-45d8-8e43-0c08acb77c17">
+    <name>МФО1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международная финансовая корпорация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c2863cb-fb0a-4180-90ec-fa32e7c69679">
+    <name>МФО2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Европейский Банк Реконструкции и Развития</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9a7f94d-6a2b-407d-aa9c-7d3ee2bfdca2">
+    <name>МФО3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мировой банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ae36a36-7f9f-4786-a06a-0373b3581847">
+    <name>МФО4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другие международные финансовые организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9b4b93b-000c-48a1-bf13-53d9bf5ad565">
+    <name>МФО5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредиторы, не являющиеся международными финансовыми организациями</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

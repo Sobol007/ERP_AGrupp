@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05583d99-9f8f-4af6-a6eb-f38aa57c2d1c">
+  <name>CRM_РазделАдминистрированиеВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Settings</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>0</picture>
+  </picture>
+  <content>Role.CRM_ДобавлениеИзменениеБазовойНСИ</content>
+  <content>CommonForm.CRM_ПерсональныеНастройки</content>
+  <content>CommonCommand.CRM_ПерсональныеНастройки</content>
+  <content>CommonCommand.сфпНастройкиСофтФон</content>
+  <content>CommonForm.CRM_НастройкаРасписаний</content>
+  <content>DataProcessor.CRM_ПанельАдминистрированияCRM</content>
+  <content>DataProcessor.ПанельАдминистрированияБСПВМоделиСервиса</content>
+  <content>CommonCommand.CRM_НастройкаОтправкиSMS</content>
+  <content>CommonCommand.CRM_ВыгрузитьДанныеВЛокальнуюВерсию</content>
+  <content>e7644583-bb57-4a9c-91c9-919f4533b871</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM.Subsystem.CRM_Лицензирование</parentSubsystem>
+</mdclass:Subsystem>

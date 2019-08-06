@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="568a2744-43da-404e-aad9-0325ea187338">
+  <producedTypes>
+    <managerType typeId="e0d656a2-29c8-4fdc-b6b5-d1c4763e3aa3" valueTypeId="61f09a0c-7c87-477e-91b4-2325c6dae7ce"/>
+    <valueManagerType typeId="4a252e79-8df3-4476-82c5-2528bf309708" valueTypeId="d8cd9df4-daa0-4a9f-ae0a-60b69d5c381a"/>
+    <valueKeyType typeId="de33a45f-ae9c-5493-8ac1-df9ce3b07031" valueTypeId="01c990fc-6e2b-5223-88a5-ceab64200ea3"/>
+  </producedTypes>
+  <name>РЭЙ_НеКонтролироватьСуммыВСправкахВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не контролировать суммы в справках валютного контроля</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

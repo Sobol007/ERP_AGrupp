@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e8455a-7edc-491c-8cf0-3c6d6e9f40cf">
+  <producedTypes>
+    <refType typeId="e52cfa0b-a3e1-4a98-a1ef-d8d84b84b398" valueTypeId="c43cf839-5b2c-44d3-86d7-4704076400dc"/>
+    <listType typeId="02d58ada-8a92-4eef-a96b-b2e2e5eeaab8" valueTypeId="c27a3a1a-048e-438d-8ee8-1d2fc1eb0dec"/>
+    <managerType typeId="f7145836-7f1a-4f74-b3e3-369dc0c44dcd" valueTypeId="de0cbfba-95c0-4ab7-a5a4-83062112178f"/>
+  </producedTypes>
+  <name>РЭЙ_ЗачислитьВалютуПокупкиНаСчетВБанке</name>
+  <synonym>
+    <key>en</key>
+    <value>Очередность платежа</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Зачисление сумм от купли-продажи валюты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d9dec015-369a-4aaf-8666-bbdc8cd2bc2a">
+    <name>ЗачислитьНаСчетВЭтомБанке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обслуживающем банке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8250f341-6af9-44d7-bcc9-4076fb5fa849">
+    <name>ЗачислитьНаСчетВДругомБанке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В другом банке</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

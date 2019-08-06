@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="683c41cd-c6f7-4189-ac25-996423820675" thisNode="e840102f-e582-4c94-92f1-d6e5af3e928f">
+  <producedTypes>
+    <objectType typeId="c942efc0-adca-4dee-87d5-ff57ee62ee65" valueTypeId="6f8f5fbc-d4a0-4129-add4-347103f0a4a2"/>
+    <refType typeId="4e601cea-9893-4761-a5cb-90d1e3277944" valueTypeId="b5abf7fb-f6c0-4a89-92ab-56199660f614"/>
+    <selectionType typeId="e6418c9f-a912-478d-b1e6-004fdef7ac92" valueTypeId="b135c51b-54f4-4ad4-ad6c-c6f097f93519"/>
+    <listType typeId="b8bb5714-ddd8-42f6-b497-dbdc93d9ff81" valueTypeId="f65d3d14-119c-41c9-b6db-c4441bd5251f"/>
+    <managerType typeId="cd76eb7c-6002-4f0a-988b-65d49fd3fcec" valueTypeId="99d61cb4-15b7-41da-9395-1b4f89eb18e5"/>
+  </producedTypes>
+  <name>CRM_СинхронизацияСМобильнымПриложением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cинхронизация с мобильным приложением (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronization</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Sincronización</value>
+  </synonym>
+  <synonym>
+    <key>it</key>
+    <value>Sincronizzazione</value>
+  </synonym>
+  <synonym>
+    <key>zh</key>
+    <value>同步功能</value>
+  </synonym>
+  <synonym>
+    <key>ko</key>
+    <value>동기화</value>
+  </synonym>
+  <synonym>
+    <key>de</key>
+    <value>Synchronisierung</value>
+  </synonym>
+  <synonym>
+    <key>pt</key>
+    <value>Sincronização</value>
+  </synonym>
+  <synonym>
+    <key>fr</key>
+    <value>Synchronisation</value>
+  </synonym>
+  <synonym>
+    <key>ja</key>
+    <value>同期</value>
+  </synonym>
+  <synonym>
+    <key>nb</key>
+    <value>Synkronisering</value>
+  </synonym>
+  <synonym>
+    <key>vi</key>
+    <value>Đồng bộ hóa</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.CRM_СинхронизацияСМобильнымПриложением.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.CRM_СинхронизацияСМобильнымПриложением.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.КоммерческоеПредложениеКлиентуПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыЦен</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.КоммерческоеПредложениеКлиенту</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Календари</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ЗаказКлиента</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.НоменклатураПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess.CRM_БизнесПроцесс</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ДоговорыКонтрагентов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_Категории</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.БанковскиеСчетаОрганизаций</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.КурсыВалют</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.РолиИсполнителей</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Проекты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ЭтапыПроектов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_Должности</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ЗадачаИсполнителяПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ХарактеристикиНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПредметыПапкиВзаимодействий</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ПартнерыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УчетныеЗаписиЭлектроннойПочты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_СостоянияИнтересов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВидыКонтактнойИнформации</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Валюты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.КонтактныеЛицаПартнеров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ПотенциальныеКлиенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ТипУслуги</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УведомленияОПрочтении</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛица</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_Отрасли</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.CRM_Интерес</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Constant.ОсновнойКалендарьПредприятия</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_Разделители</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.CRM_СостоянияИнтересов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.CRM_ЗадачиПользователей</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_РядыСобытий</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Партнеры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ВидыДелВзаимодействий</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.CRM_СобытияКалендаря</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ОфисыКомпании</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ВидыВзаимодействий</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_БизнесПроцессПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ПричиныОтказаПоИнтересам</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.CRM_Взаимодействие</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЦеныНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.КонтактныеЛицаПартнеровПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_ПричиныОтказов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.БизнесРегионы</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.CRM_Помещения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="193a103d-a029-4eb1-9e7d-05a227521d27">
+    <name>УТ_ПравилаКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>У т правила конвертации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The rules of conversion</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="3a36eb58-faa7-4160-9f3e-76c7c39f41d6">
+    <name>CRM_ПравилаКонвертации</name>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

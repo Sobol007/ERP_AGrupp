@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45b73e0-d98b-48b1-bcfb-6f4f875d157d">
+  <name>РЭЙ_ОткрытьИсточникиЗадачВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники задач ВЭД</value>
+  </synonym>
+  <group>CommandGroup.Настройки</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

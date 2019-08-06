@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eba5f61-c777-41fb-8669-0df060f1586f">
+  <producedTypes>
+    <selectionType typeId="954d995b-63a6-4747-9235-ba615f59485c" valueTypeId="9d18bc89-5904-4f7a-ad2a-e1bc4b7c132c"/>
+    <listType typeId="c4ac2e5a-85ff-4f17-bf39-95ad4065677f" valueTypeId="709ec20e-f40f-4db9-8f46-3e67db06a9e3"/>
+    <managerType typeId="a865bbf7-914f-43eb-bb02-5e5973a27078" valueTypeId="671684f3-e4e9-491d-ab74-585b9b05184a"/>
+    <recordSetType typeId="c07b52fc-d6b7-4b6f-a5e0-78f5b7805347" valueTypeId="059b8f50-f6a4-4485-bb21-c550f12e39a5"/>
+    <recordKeyType typeId="3874c9aa-7448-4177-84b2-ccec619f096d" valueTypeId="ad0190f8-d3fc-4876-af57-877f3ecdf00b"/>
+    <recordType typeId="c9d8f7be-e344-4343-a05b-9f00a361d444" valueTypeId="43b5e090-effc-49aa-8b0d-6ff073062077"/>
+    <recordManagerType typeId="cf52fa69-d670-4602-ba5c-46e5232ff757" valueTypeId="6c626b87-a7ee-48b5-92ae-07fe060f782c"/>
+  </producedTypes>
+  <name>АГ_ПлановыйКоэффициентЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановый коэффициент запасов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.АГ_ПлановыйКоэффициентЗапасов.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ff1a4d89-cfb8-43dd-9cd3-d75a94ce32de">
+    <name>ЗначениеКоэффициента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение коэффициента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8803ee1c-074f-4d5e-b2be-5baec52a55b9">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="47cd3e2d-c64e-45bb-a259-0ae8a5db89ad">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипыДокументаПлановыйКоэффициентЗапасов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4d8861f8-4d0f-48f3-9070-c46684af421a">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="69611fdd-acbc-4c2d-b81f-ce8a6cbfd7aa">
+    <name>СводнаяНоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводная номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e102e7b7-cb55-4d5f-a9df-cdbd51117414">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.CRM_ПериодыПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fbda54d0-7565-4103-8ec5-769bf6990c8b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

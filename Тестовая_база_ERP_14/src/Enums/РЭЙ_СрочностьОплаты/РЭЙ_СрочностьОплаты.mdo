@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3924827b-16e9-4670-a337-7fe4968db82d">
+  <producedTypes>
+    <refType typeId="4fa19c93-3056-41a9-8ee2-08cceff31ed4" valueTypeId="b4e12d19-1ee2-4c4e-bc1e-34a89d587f12"/>
+    <listType typeId="ebcbf648-d81a-4be8-a550-005ee996bc2f" valueTypeId="cd75358d-5ef8-49aa-a681-602bb856da77"/>
+    <managerType typeId="bc6fdaf2-d17e-4a83-8e59-f3cdc09c7808" valueTypeId="bd71d238-8d4d-4b02-848f-177514a18038"/>
+  </producedTypes>
+  <name>РЭЙ_СрочностьОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срочность оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e86ed24-d5ba-4a6f-b0fb-fc3e8b3fdc50">
+    <name>Обычный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fec16c1b-6d20-4b9d-9fb4-ec48981c97f4">
+    <name>Срочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

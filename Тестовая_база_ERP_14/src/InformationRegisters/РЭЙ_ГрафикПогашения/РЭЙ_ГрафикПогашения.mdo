@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53fdcc26-162d-4a20-a437-f1f16681d0d9">
+  <producedTypes>
+    <selectionType typeId="826a37d0-a234-4cba-8a9a-67dfa99da643" valueTypeId="9dc22a73-db02-475a-9928-de75a34f9d84"/>
+    <listType typeId="26630c02-f0c9-4be7-ac75-28e7e1d24e5c" valueTypeId="b171705f-6cfb-413a-9f16-72f91795b085"/>
+    <managerType typeId="725ffabc-5811-49c0-8f7e-9cc908d3f832" valueTypeId="69e38a67-7674-4640-94be-c22210c9d331"/>
+    <recordSetType typeId="dfa07e01-0809-4112-994f-68ef60ac0fcc" valueTypeId="1f62f1c0-8df6-4ff8-89c5-475a491c23a5"/>
+    <recordKeyType typeId="22bdd64c-fea6-42a0-916f-43973b146f59" valueTypeId="8342898c-f899-45b8-8add-da8f7165e0cb"/>
+    <recordType typeId="734a85a2-3563-441f-bb8e-7fdd45df2465" valueTypeId="a02407b5-202e-4826-9438-8d3dbe330d04"/>
+    <recordManagerType typeId="4c079d03-ec92-462b-b0bf-8c52050e7da8" valueTypeId="01945213-7aab-49a0-a760-8fca18597ba3"/>
+  </producedTypes>
+  <name>РЭЙ_ГрафикПогашения</name>
+  <synonym>
+    <key>ru</key>
+    <value>График погашения</value>
+  </synonym>
+  <auxiliaryRecordForm>InformationRegister.РЭЙ_ГрафикПогашения.Form.ФормаЗаписи</auxiliaryRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="87aa6c31-63ef-4921-bab9-914d355eae2a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb57df8e-87ef-46c6-b754-0573cbdfd51d">
+    <name>ОсобоеУсловие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особые условия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="15f72870-f5b1-4dbb-b6e5-40196ee3f014">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d9424b15-2bab-4bba-85f0-33d183f20313">
+    <name>ТипЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид долга</value>
+    </synonym>
+    <comment>0 - проценты по кредиту, 1 - тело кредита</comment>
+    <type>
+      <types>EnumRef.РЭЙ_КредитыЗаймы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0f350360-5281-4bcd-9c74-0244f720b9d4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

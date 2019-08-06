@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c44e29d6-c979-4eb1-90ff-ed976a0bd64f">
+  <producedTypes>
+    <managerType typeId="17c86b5a-0511-4b85-9f62-c003626b8026" valueTypeId="69db4149-ddfb-416c-92ad-e6d1e304fd84"/>
+    <valueManagerType typeId="d928ff0e-d73f-4ae2-a11f-8dc07556977a" valueTypeId="8b5f5e27-4741-419e-995a-d3384e879124"/>
+    <valueKeyType typeId="9bf021ad-076d-4a50-a829-5ac1c0bb1641" valueTypeId="bc7d1df9-d0df-404f-869c-68f9bfc7dc79"/>
+  </producedTypes>
+  <name>АГ_СкладПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+  <choiceParameters>
+    <name>ВыборГруппыСкладов</name>
+    <value xsi:type="core:FixedArrayValue">
+      <values xsi:type="core:ReferenceValue">
+        <value>Enum.ВыборГруппыСкладов.EnumValue.РазрешитьВЗаказах</value>
+      </values>
+      <values xsi:type="core:ReferenceValue">
+        <value>Enum.ВыборГруппыСкладов.EnumValue.РазрешитьВЗаказахИНакладных</value>
+      </values>
+    </value>
+  </choiceParameters>
+  <choiceParameters>
+    <name>ДокументПродажи</name>
+    <value xsi:type="core:BooleanValue">
+      <value>true</value>
+    </value>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

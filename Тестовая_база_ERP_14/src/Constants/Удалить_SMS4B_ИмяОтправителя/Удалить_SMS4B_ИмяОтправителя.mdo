@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713a51d7-610e-46a2-8527-8852ad88d217">
+  <producedTypes>
+    <managerType typeId="7590b804-e939-4adf-b2ea-ca6bb4a05989" valueTypeId="93ba7fd8-4dd4-457d-bf43-bc5708a1a90b"/>
+    <valueManagerType typeId="f1faa3f8-efe0-429d-a387-a1dc5f33d0d6" valueTypeId="ff4f7200-d0b4-45e6-8945-ac6d8d8447d1"/>
+    <valueKeyType typeId="25b006ba-690e-5029-9bf1-6ebd810f4339" valueTypeId="af253c94-2ea8-598a-adc9-f90f2d284ad0"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_ИмяОтправителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Имя отправителя</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Sender's name</value>
+  </synonym>
+  <comment>Имя отправителя, которое будет указываться в сообщениях</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>25</length>
+    </stringQualifiers>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя отправителя, которое будет указываться в сообщениях</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>The sender's name, which will be indicated in the messages</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

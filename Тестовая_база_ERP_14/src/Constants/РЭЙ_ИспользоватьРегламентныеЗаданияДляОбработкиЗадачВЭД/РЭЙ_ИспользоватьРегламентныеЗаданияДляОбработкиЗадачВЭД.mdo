@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2044bf95-4b44-44ef-ac2f-3d686d630cee">
+  <producedTypes>
+    <managerType typeId="2e3a4055-b895-4544-b880-f67a8d181da7" valueTypeId="9f407a0c-6e3d-4843-b628-185e3e86c83b"/>
+    <valueManagerType typeId="ab31ebc5-642d-4249-b243-a431c32abbdc" valueTypeId="f0717e4e-4e7d-491f-9257-1ac06b03eaea"/>
+    <valueKeyType typeId="bc242848-b054-5ed3-ac74-3b00e6d23fe0" valueTypeId="861db640-765c-5338-9589-8efb30d2f486"/>
+  </producedTypes>
+  <name>РЭЙ_ИспользоватьРегламентныеЗаданияДляОбработкиЗадачВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать регламентные задания для обработки задач ВЭД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

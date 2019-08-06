@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98483745-2cd0-4094-b796-d1bb43eb10c8">
+  <producedTypes>
+    <selectionType typeId="26f9ff6a-351a-4d8a-8818-aef089ba5320" valueTypeId="94f9a70f-19ab-4a87-922b-253dad652479"/>
+    <listType typeId="c74b1d5f-79e0-4787-9931-da2adf4df24b" valueTypeId="1754ae87-bcc5-442a-9022-6d03ab799e0b"/>
+    <managerType typeId="55ed285e-06ef-488b-906b-11a2af031384" valueTypeId="7c9d9fb7-83d7-4e39-aa44-84f8df17c752"/>
+    <recordSetType typeId="b3484dde-04c5-473c-9864-a82a5d4d6ddb" valueTypeId="8041f564-f34a-4b17-849d-e445066488a1"/>
+    <recordKeyType typeId="3385c9a6-4c6d-4a07-9f26-926c1b35410f" valueTypeId="e81a7a27-b6be-4fa4-8747-218e7fe5c774"/>
+    <recordType typeId="efe24888-2d3e-47f9-a343-a44ab20e7fbd" valueTypeId="6e95bacb-71a7-4b11-af10-e0f0bb62eca8"/>
+    <recordManagerType typeId="477ddf28-d4bd-45b7-80c5-a7f0f7c1ba35" valueTypeId="6cd6fef9-1ca3-4417-af42-49bc3e5e9e6b"/>
+  </producedTypes>
+  <name>РЭЙ_НастройкиВидимостиПодсистемыВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки видимости подсистемы ВЭД</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РЭЙ_НастройкиВидимостиПодсистемыВЭД.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РЭЙ_НастройкиВидимостиПодсистемыВЭД.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="026899aa-7117-4a00-a457-a3fcfbcfd491">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a9d3d627-2c03-4f68-a7cd-2f7858b5717e">
+    <name>ДоступностьПодсистемыВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступность подсистемы ВЭД</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="442bd6a7-4b62-4a8c-ac6b-ac86e94e3a98">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="23671318-b88e-4c2c-b474-2da6df39cbe7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

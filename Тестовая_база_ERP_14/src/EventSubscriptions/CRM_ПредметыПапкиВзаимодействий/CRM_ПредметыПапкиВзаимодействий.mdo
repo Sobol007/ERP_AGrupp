@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8679c37c-b006-49ae-bc2e-d9015d50c550">
+  <name>CRM_ПредметыПапкиВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM предметы папки взаимодействий</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM Interaction Folder Items</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ПредметыПапкиВзаимодействий</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.CRM_МетодыМодулейМенеджеровРегистров.CRM_ПредметыПапкиВзаимодействийПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7408930e-0c54-4fe8-8bb8-c24c9e8f3416">
+  <producedTypes>
+    <refType typeId="3276ba7f-086e-43a6-a0f2-2093f5723924" valueTypeId="cb9c7c55-3707-4836-bbf6-eb14f6d39446"/>
+    <listType typeId="4a28c31c-128f-466b-b972-bfc277786818" valueTypeId="ca75c4d8-19a6-4d07-bafa-4a01c8ec8286"/>
+    <managerType typeId="d654061d-29a2-4969-aa35-7becb099c9a5" valueTypeId="98ebd302-0408-47ed-886c-925a0a3b8811"/>
+  </producedTypes>
+  <name>АГ_СтатусТендера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус тендера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="88ff6e9e-0e3c-4a8e-beb9-aa51022209de">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4dae218-337f-4a71-a9b1-813f319545a7">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbba4872-a9e6-4fbd-a329-ca605cd721de">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2113dcc-afda-4a45-86c9-335294966eee">
+    <name>ОжиданиеРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание результата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="543c83f2-ddf1-4aac-a74e-d0ca2972d26b">
+    <name>ПроведениеАукциона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведение аукциона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="785117ae-d245-4d5c-a919-24add0ddb762">
+    <name>ОтказОтУчастия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ от участия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05dbcec0-ea83-4c17-9ddd-5545fa918ed1">
+    <name>Победа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Победа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="079c0087-db5d-43c4-864e-3d55d6d7ee9a">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2d407dd-ba81-44ac-8c6c-b0f78a96c01c">
+    <name>Поражение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поражение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93c4be67-0878-4f09-b6d6-76f53d5bb5b0">
+    <name>ЗакупкаНеСостоялась</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка не состоялась</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8ff5816-9e4b-4fab-9b48-f8192d21662f">
+    <name>ПодготовкаТКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка ТКП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be98ae9f-e843-415e-a261-dbd4cfb46ae8">
+    <name>СогласованиеТКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование ТКП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6255ed79-1e94-4d46-a23c-661dcfef0de4">
+    <name>НазначениеМенеджера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение менеджера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79977730-91cb-4912-83cd-29568a14876a">
+    <name>ОбработкаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4eedd5a6-a39d-4637-b8ea-594dadb55116">
+    <name>ПодачаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подача документов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

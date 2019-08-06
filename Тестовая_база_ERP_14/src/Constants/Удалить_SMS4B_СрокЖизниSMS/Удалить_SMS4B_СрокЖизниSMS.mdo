@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3af25b46-80e9-4510-9cbb-0de32b3dddbb">
+  <producedTypes>
+    <managerType typeId="ff8e6dfa-2e30-4b33-b0b2-19ee4968e2b0" valueTypeId="0a3529ad-e5cb-4de1-9cad-f10f4a99f0ee"/>
+    <valueManagerType typeId="f3395ae5-0a82-4325-b73e-dfd39482c0f4" valueTypeId="ff064d8f-53ed-45d0-8923-c9b1ef151c5a"/>
+    <valueKeyType typeId="2911207a-606b-5bd2-8e03-cd6ac77ba581" valueTypeId="ddea9bd0-5481-52cc-bb41-83d04ceb39c0"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_СрокЖизниSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Срок жизни SMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Lifetime SMS</value>
+  </synonym>
+  <comment>Срок жизни SMS в часах</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

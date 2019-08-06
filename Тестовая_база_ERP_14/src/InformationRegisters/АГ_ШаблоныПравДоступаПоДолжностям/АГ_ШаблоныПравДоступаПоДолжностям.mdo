@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33b035cb-f556-4aa9-9761-411414720bb1">
+  <producedTypes>
+    <selectionType typeId="5005b7e9-ba08-4f50-85cb-00a144264c7e" valueTypeId="c8ae8a51-dcc2-43ea-b5b5-5ca192448550"/>
+    <listType typeId="8d5fbd60-cce0-403a-8c8d-91d71bff3208" valueTypeId="e73cac77-7f8b-48c3-8a23-ad2c46856f3f"/>
+    <managerType typeId="50e5c5e2-1282-4982-beba-b3fb758e7c4b" valueTypeId="9095c39a-6e96-4a9b-ab7d-17022597f2db"/>
+    <recordSetType typeId="40e7b191-9b4a-46f8-ad04-36ddef750f4f" valueTypeId="0166f2e9-133e-4141-a87c-890fac5f8c0e"/>
+    <recordKeyType typeId="618be22a-0d01-419a-9817-4fd69155454e" valueTypeId="e778b034-5793-437d-88d0-eafdfb165a38"/>
+    <recordType typeId="0a37f996-0dd3-41d1-bceb-13d08faec0f2" valueTypeId="ee776649-0fcb-41d4-8cb0-1564e10f4f6b"/>
+    <recordManagerType typeId="d409a5b0-be7b-472b-8b9a-e68651b22772" valueTypeId="836fbe6f-7f29-48e6-b849-ec680f3ec9be"/>
+  </producedTypes>
+  <name>АГ_ШаблоныПравДоступаПоДолжностям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны прав доступа по должностям</value>
+  </synonym>
+  <comment>АГ:[+][Permission _002][07.04.2019 18:05][Давиденко]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АГ_ШаблоныПравДоступаПоДолжностям.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.АГ_ШаблоныПравДоступаПоДолжностям.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f4fd4f66-62e9-4691-88ae-a0e6bb991ae8">
+    <name>СвязаннаяГруппаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанная группа пользователей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e0717e3f-3f64-4054-b954-67fc80fb3476">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d176c84-d48f-454a-925f-64323b39dcd8">
+    <name>СтруктурноеПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место в структуре предприятия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e3000b54-a5d8-4cb2-81bc-3904506cec1d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f397c907-f9a1-428e-b282-00702ab0fc82">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

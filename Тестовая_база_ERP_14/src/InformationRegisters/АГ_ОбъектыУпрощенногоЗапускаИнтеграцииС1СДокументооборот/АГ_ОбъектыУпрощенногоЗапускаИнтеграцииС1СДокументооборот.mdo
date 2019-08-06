@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edeede91-e75c-4374-acc9-3cbe8c6f8ce1">
+  <producedTypes>
+    <selectionType typeId="ee8ec700-a51d-4168-9ca2-0b7395d4d907" valueTypeId="5e93e3b2-0e55-4be8-a307-eec2d859b078"/>
+    <listType typeId="6d50deec-10e8-4bc1-a2d5-fa0f3bfdf2bc" valueTypeId="df316484-e94f-4057-b88a-997770937ac5"/>
+    <managerType typeId="0f70a03c-a00c-496f-b41d-fa368e5cb34d" valueTypeId="d3b395dc-9fb3-4091-8c3f-f4ef302ff0cb"/>
+    <recordSetType typeId="322f2893-90d8-4288-b79e-e0c66056c79b" valueTypeId="9fd7847f-4951-4ad1-ab43-7ca8b8ec5127"/>
+    <recordKeyType typeId="4bf7939c-c0f8-4850-9dd6-f6fbbdba3951" valueTypeId="7e6073b6-2694-4858-be3c-078a93742f55"/>
+    <recordType typeId="9d00c35d-ec15-4e69-9ed8-4fb55f6c919c" valueTypeId="166a7360-0b2d-406a-8e4c-c9db3ad102fb"/>
+    <recordManagerType typeId="486b7bd6-d1b7-419a-9191-c60491650944" valueTypeId="b1c5d4a6-1115-4bfb-a7ef-73663ef7ea6e"/>
+  </producedTypes>
+  <name>АГ_ОбъектыУпрощенногоЗапускаИнтеграцииС1СДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты упрощенного запуска интеграции с 1с Документооборотом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АГ_ОбъектыУпрощенногоЗапускаИнтеграцииС1СДокументооборот.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.АГ_ОбъектыУпрощенногоЗапускаИнтеграцииС1СДокументооборот.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="08d8297c-414e-4683-83ef-c11b91a63819">
+    <name>ЗначениеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение объекта</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0d4f2cfd-52ef-4562-b427-37fcca70aeb2">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="35843c60-0ac1-4a26-b823-b0631af34145">
+    <name>ВидОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ca35466-bfc1-499c-a75c-54a3beef1b59">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="374cd08a-efdc-48a3-94ec-80952da75ee6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ba846b4-8259-4ac3-bc76-b0e3b99c6e3e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="50a89637-a1b4-420d-ae71-7b2d9bf1afbb">
+    <name>ОбъектыУпрощенногоЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты упрощенного запуска</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

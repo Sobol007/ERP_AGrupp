@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSource>
+		<name>ИсточникДанных2</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Авансовые</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ_Авансовый</dataPath>
+			<field>Документ_Авансовый</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодВК_Авансовый</dataPath>
+			<field>КодВК_Авансовый</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрактВЭД</dataPath>
+			<field>КонтрактВЭД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеДвижения</dataPath>
+			<field>НаправлениеДвижения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОжидаемыйСрок</dataPath>
+			<field>ОжидаемыйСрок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справка_Авансовая</dataPath>
+			<field>Справка_Авансовая</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВВалютеКонтракта_Авансовая</dataPath>
+			<field>СуммаВВалютеКонтракта_Авансовая</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	"Импорт" КАК НаправлениеДвижения,
+	СВО.ВидВалютнойОперации КАК КодВК_Авансовый,
+	СВО.ПаспортСделки.Контрагент КАК Контрагент,
+	СВО.ПаспортСделки.КонтрактВЭД КАК КонтрактВЭД,
+	СВО.Ссылка КАК Справка_Авансовая,
+	СВО.РасчетныйДокумент КАК Документ_Авансовый,
+	ВЫБОР
+		КОГДА СВО.ВалютаДокумента = СВО.ПаспортСделки.КонтрактВЭД.ДоговорКонтрагента.ВалютаВзаиморасчетов
+			ТОГДА СВО.СуммаВВалютеДокумента
+		ИНАЧЕ СВО.СуммаВВалютеКонтракта
+	КОНЕЦ КАК СуммаВВалютеКонтракта_Авансовая,
+	СВО.ОжидаемыйСрок
+ИЗ
+	Документ.РЭЙ_СправкаОВалютныхОперациях.ВалютныеОперации КАК СВО
+ГДЕ
+	СВО.Ссылка.Проведен
+	И СВО.ОжидаемыйСрок &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+	И СВО.Ссылка.Дата &lt;= &amp;ДатаОтчета
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	"Экспорт",
+	СПД.ВидДокумента,
+	СПД.Ссылка.Контрагент,
+	СПД.Ссылка.КонтрактВЭД,
+	СПД.Ссылка,
+	СПД.Документ,
+	ВЫБОР
+		КОГДА СПД.ВалютаДокумента = СПД.Ссылка.КонтрактВЭД.ДоговорКонтрагента.ВалютаВзаиморасчетов
+			ТОГДА СПД.СуммаВВалютеДокумента
+		ИНАЧЕ СПД.СуммаВВалютеКонтракта
+	КОНЕЦ,
+	СПД.ОжидаемыйСрок
+ИЗ
+	Документ.РЭЙ_СправкаОПодтверждающихДокументах.ПодтверждающиеДокументы КАК СПД
+ГДЕ
+	СПД.Ссылка.Проведен
+	И СПД.ОжидаемыйСрок &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+	И СПД.Ссылка.Дата &lt;= &amp;ДатаОтчета</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Комплементарные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ_Комплементарный</dataPath>
+			<field>Документ_Комплементарный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодВК_Комплементарный</dataPath>
+			<field>КодВК_Комплементарный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справка_Комплементарная</dataPath>
+			<field>Справка_Комплементарная</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВВалютеКонтракта_Комплементарная</dataPath>
+			<field>СуммаВВалютеКонтракта_Комплементарная</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ_Авансовый</dataPath>
+			<field>Документ_Авансовый</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справка_Авансовая</dataPath>
+			<field>Справка_Авансовая</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СПД.Ссылка КАК Справка_Комплементарная,
+	СПД.Документ КАК Документ_Комплементарный,
+	СПД_Авансы.СуммаАвансаВВалютеКонтракта КАК СуммаВВалютеКонтракта_Комплементарная,
+	СПД.ВидДокумента КАК КодВК_Комплементарный,
+	СПД_Авансы.АвансоваяСправка КАК Справка_Авансовая,
+	СПД_Авансы.АвансовыйРасчетныйДокумент КАК Документ_Авансовый
+ИЗ
+	Документ.РЭЙ_СправкаОПодтверждающихДокументах.Авансы КАК СПД_Авансы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.РЭЙ_СправкаОПодтверждающихДокументах.ПодтверждающиеДокументы КАК СПД
+		ПО СПД_Авансы.КлючСвязи = СПД.КлючСвязи
+			И СПД_Авансы.Ссылка = СПД.Ссылка
+ГДЕ
+	СПД.Ссылка.Проведен
+	И СПД.Ссылка.Дата &lt;= &amp;ДатаОтчета
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	СВО.Ссылка,
+	СВО.РасчетныйДокумент,
+	ВЫБОР
+		КОГДА СВО.ВалютаДокумента = СВО.ПаспортСделки.КонтрактВЭД.ДоговорКонтрагента.ВалютаВзаиморасчетов
+			ТОГДА СВО.СуммаВВалютеДокумента
+		ИНАЧЕ СВО.СуммаВВалютеКонтракта
+	КОНЕЦ,
+	СВО.ВидВалютнойОперации,
+	СВО.АвансоваяСправка,
+	СВО.АвансовыйРасчетныйДокумент
+ИЗ
+	Документ.РЭЙ_СправкаОВалютныхОперациях.ВалютныеОперации КАК СВО
+ГДЕ
+	СВО.Ссылка.Проведен
+	И СВО.Ссылка.Дата &lt;= &amp;ДатаОтчета</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>Авансовые</sourceDataSet>
+		<destinationDataSet>Комплементарные</destinationDataSet>
+		<sourceExpression>Справка_Авансовая</sourceExpression>
+		<destinationExpression>Справка_Авансовая</destinationExpression>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>Авансовые</sourceDataSet>
+		<destinationDataSet>Комплементарные</destinationDataSet>
+		<sourceExpression>Документ_Авансовый</sourceExpression>
+		<destinationExpression>Документ_Авансовый</destinationExpression>
+	</dataSetLink>
+	<calculatedField>
+		<dataPath>СуммаВРублях_Авансовая</dataPath>
+		<expression>РЭЙ_СлужебныйСервер.ПересчитатьИзВалютыВВалюту(СуммаВВалютеКонтракта_Авансовая, Документ_Авансовый.Дата, КонтрактВЭД.ДоговорКонтрагента.ВалютаВзаиморасчетов, &amp;ВалютаРегламентированногоУчета)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма в рублях авансовая</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>СуммаВРублях_Комплементарная</dataPath>
+		<expression>РЭЙ_СлужебныйСервер.ПересчитатьИзВалютыВВалюту(СуммаВВалютеКонтракта_Комплементарная, Документ_Комплементарный.Дата, КонтрактВЭД.ДоговорКонтрагента.ВалютаВзаиморасчетов, &amp;ВалютаРегламентированногоУчета)</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сумма в рублях комплементарная</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>СуммаВВалютеКонтракта_Авансовая</dataPath>
+		<expression>Сумма(СуммаВВалютеКонтракта_Авансовая)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВВалютеКонтракта_Комплементарная</dataPath>
+		<expression>Сумма(СуммаВВалютеКонтракта_Комплементарная)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВРублях_Авансовая</dataPath>
+		<expression>Сумма(СуммаВРублях_Авансовая)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаВРублях_Комплементарная</dataPath>
+		<expression>Сумма(СуммаВРублях_Комплементарная)</expression>
+	</totalField>
+	<parameter>
+		<name>ВалютаРегламентированногоУчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Валюта регламентированного учета</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВВалютеКонтракта_Авансовая</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВРублях_Авансовая</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВВалютеКонтракта_Комплементарная</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаВРублях_Комплементарная</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Контрагент</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemField">
+						<dcsset:field>Контрагент.Наименование</dcsset:field>
+						<dcsset:orderType>Asc</dcsset:orderType>
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>КонтрактВЭД</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>КонтрактВЭД.КонтрактДатаПодписания</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>КонтрактВЭД.КонтрактНомер</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>КонтрактВЭД.Наименование</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Справка_Авансовая</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КодВК_Авансовый</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>Справка_Авансовая.Дата</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:OrderItemField">
+								<dcsset:field>КодВК_Авансовый.Код</dcsset:field>
+								<dcsset:orderType>Asc</dcsset:orderType>
+							</dcsset:item>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Документ_Авансовый</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ОжидаемыйСрок</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>Документ_Авансовый.Дата</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Справка_Комплементарная</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>КодВК_Комплементарный</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>Справка_Комплементарная.Дата</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:OrderItemField">
+									<dcsset:field>КодВК_Комплементарный.Код</dcsset:field>
+									<dcsset:orderType>Asc</dcsset:orderType>
+								</dcsset:item>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>Документ_Комплементарный</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemField">
+										<dcsset:field>Документ_Комплементарный.Дата</dcsset:field>
+										<dcsset:orderType>Asc</dcsset:orderType>
+									</dcsset:item>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

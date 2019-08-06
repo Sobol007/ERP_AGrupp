@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bea6ac3-1a4e-4fcb-b751-689bb9b725db">
+  <name>сшпВзаимодействиеСАдаптером</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с адаптером</value>
+  </synonym>
+  <comment>Общая процедура взаимодействия с адаптером</comment>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84f377f8-6466-40a7-8a48-ffea9eb94342">
+  <producedTypes>
+    <objectType typeId="53b53556-d68d-47e7-aad4-42cda97b2506" valueTypeId="3d4be827-615c-4179-b2bb-8b84f53d8016"/>
+    <refType typeId="e2fdb499-3233-4f6c-82c9-9fe7399c11c5" valueTypeId="552f3f7a-cd3c-41cd-a0fa-c5e3e42b2827"/>
+    <selectionType typeId="e8df37a7-51db-4855-ab7c-3673731229b2" valueTypeId="2b024147-ce05-4860-8490-b504fe206cf4"/>
+    <listType typeId="fbff864d-fd76-4409-a183-55497f16252d" valueTypeId="a9e6bd53-caca-43b5-ace1-5f0fa2c0022a"/>
+    <managerType typeId="75a329cd-1435-42c0-9b35-11fe8c0d6a85" valueTypeId="817c2b8a-e7a2-40de-bd78-73e1c1b647e0"/>
+  </producedTypes>
+  <name>АГ_СтадииКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_СтадииКлиентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_СтадииКлиентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.АГ_СтадииКлиентов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АГ_СтадииКлиентов.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="5d6e3fb7-d52f-46af-8d29-f76706c0affd">
+    <name>КодСтадии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код стадии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8891f826-7b87-4cce-ad10-26d05e223b62">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="71a287ad-2c69-4af7-bb29-118447146081">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

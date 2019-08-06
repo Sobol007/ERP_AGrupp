@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ac6ea8b-c049-4a29-98ff-a886f1fc31dc">
+  <producedTypes>
+    <selectionType typeId="24cb5747-9e6b-4794-ba65-1974aff34b93" valueTypeId="5a30cfee-4b65-4ece-8166-15be619e608e"/>
+    <listType typeId="f457ed56-4bd1-430a-952c-3a5a258d0a7e" valueTypeId="2f7451eb-9e0b-4de2-8eed-9a42938fa269"/>
+    <managerType typeId="962ee3a4-9034-4855-b2e7-5475a3112957" valueTypeId="d572ea08-aee5-4f6a-86c0-da49254c732c"/>
+    <recordSetType typeId="e77fbac9-5028-4e23-b84b-d22e08946979" valueTypeId="c0925d7b-d473-423f-bc6c-0b629c3856b5"/>
+    <recordKeyType typeId="eecc3a02-ddad-4f19-9dcb-1470bd49e936" valueTypeId="e9ca244c-10b4-4d5d-908c-034aa6fd14f8"/>
+    <recordType typeId="27dc86b5-cd7d-48ab-b96d-1edea3863046" valueTypeId="878033b0-5689-49af-9ef5-44d2697315fb"/>
+    <recordManagerType typeId="cd150869-4d8a-46b9-b9f9-de5e190e0364" valueTypeId="9bfd90c2-da8e-46c4-b7d7-4931ffaeb645"/>
+  </producedTypes>
+  <name>сшпСостояниеСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Состояние сообщения</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состояние сообщений</value>
+  </listPresentation>
+  <resources uuid="4559e815-0369-4d5e-ab6e-5dd63e524b81">
+    <name>СтатусСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус сообщения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сшпСтатусыСообщений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текущий статус сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="57f129db-9fc6-44d4-b82b-eeb23e2b8019">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда сообщение было изменено</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ed7892b-5455-4c79-bd1d-cf8e79c5d314">
+    <name>Задержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время задержки обработки сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cc8e41e7-0619-452b-a6e2-04b66f53c2af">
+    <name>ЗадержкаЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задержка число</value>
+    </synonym>
+    <comment>Содержит сумму даты изменения и задержки</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f51507fd-a1eb-4213-a440-ece5b826a8ef">
+    <name>ОписаниеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="1544442e-6784-4be8-8484-ccb53f1bc23d">
+    <name>ИндексПотока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс потока</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="945268a2-6e3e-4841-b555-d5cc81a436a5">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

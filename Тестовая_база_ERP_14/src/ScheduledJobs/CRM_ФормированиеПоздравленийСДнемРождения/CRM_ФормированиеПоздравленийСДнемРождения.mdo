@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61b401e1-f1cc-4469-8b36-780bc3c6b6b2">
+  <name>CRM_ФормированиеПоздравленийСДнемРождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование поздравлений с днем рождения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Formation of congratulations happy birthday</value>
+  </synonym>
+  <methodName>CommonModule.CRM_КлиентыСервер.СоздатьЗадачиПоздравленияСДнемРождения</methodName>
+  <description>Формирование поздравлений с днем рождения</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

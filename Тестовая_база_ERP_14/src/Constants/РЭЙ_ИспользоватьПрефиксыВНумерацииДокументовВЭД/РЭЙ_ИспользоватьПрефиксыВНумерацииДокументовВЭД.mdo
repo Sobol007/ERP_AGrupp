@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce0352ca-27a5-432b-93d1-52ee85f9059c">
+  <producedTypes>
+    <managerType typeId="6af01152-3494-460b-9c2f-25edf65a9389" valueTypeId="a9435468-e546-4046-9208-3b82b97fec09"/>
+    <valueManagerType typeId="9974758d-e4e1-4cbb-9b48-9742b9ceb93e" valueTypeId="05204bf9-9b99-4966-a339-52d23ffb8c79"/>
+    <valueKeyType typeId="8f666d42-08e9-5d3d-b7c1-0438a2859f32" valueTypeId="eb03a858-1640-5daa-a99e-aaa331a6333a"/>
+  </producedTypes>
+  <name>РЭЙ_ИспользоватьПрефиксыВНумерацииДокументовВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать префиксы в нумерации документов ВЭД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

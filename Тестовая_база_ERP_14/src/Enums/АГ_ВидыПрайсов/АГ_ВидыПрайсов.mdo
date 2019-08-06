@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6db2311d-1b24-4c52-99e1-f3e1d04cd5cb">
+  <producedTypes>
+    <refType typeId="7e23943e-df7f-4dcb-bb1b-1a7755f972d4" valueTypeId="0235cbd0-fcb9-4a7e-b4cc-a96772250d10"/>
+    <listType typeId="90fe9269-f523-48ea-a462-8eed894c8170" valueTypeId="93a51266-76ac-4868-92c4-d991b924c2ac"/>
+    <managerType typeId="883147fb-ef20-4be4-a0b6-fadd1a4c7ba7" valueTypeId="8461341b-f9cf-48d3-a243-f4a3541367d9"/>
+  </producedTypes>
+  <name>АГ_ВидыПрайсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды прайсов</value>
+  </synonym>
+  <comment>АГ:[+][MDM_0001_14][04.02.2019 21:33][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c682cc17-9378-4e61-8649-abac014e91ef">
+    <name>ОсновнойПрайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной прайс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce9852dc-0dc7-42a3-aee9-98102085355e">
+    <name>ВнешнийПрайс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний прайс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc6aac5d-9306-43a6-b057-5a281b3246c7">
+    <name>МРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МРЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef6fd683-a20a-4626-b602-91d334894fe9">
+    <name>МинимальнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная цена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3247491e-df16-4f9a-b00d-3a3b1d9fc0dd">
+    <name>ТрансфертнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трансфертная цена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

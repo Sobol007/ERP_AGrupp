@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abba5701-14bf-42f7-b881-bc2956c4b30e">
+  <name>CRM_ФормаНастройкиПараметровКонтроляЗаполненностиРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры контроля заполненности реквизитов объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Parameters of the control of the fullness of the details of objects</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

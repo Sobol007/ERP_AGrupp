@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b49daf3b-5336-4244-95ee-54a4e375ba7d">
+  <producedTypes>
+    <refType typeId="4e34b288-1e86-42c1-81d5-be49662781f1" valueTypeId="46ede5a9-5ab9-4e42-87e4-f11ce7baf43f"/>
+    <listType typeId="ea844876-9a8d-49ac-890f-456ba08e2adb" valueTypeId="42125b49-3d9b-42a6-b3ba-d135b7e6f0e2"/>
+    <managerType typeId="f19075e4-be46-4735-b9f9-c562549880bb" valueTypeId="b3b697c8-2fc2-435c-a40e-1266c41b31dc"/>
+  </producedTypes>
+  <name>РЭЙ_КодыПериодичностиФиксированныхПлатежей</name>
+  <synonym>
+    <key>en</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Коды периодичности фиксированных платежей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dba08cc5-2475-4a6b-86e8-413718386a1d">
+    <name>П1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - ежедекадные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7225af6e-a53b-42ad-a407-4652f53ff617">
+    <name>П2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - ежемесячные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1912d472-4957-4c59-92d5-5fb72490cc9b">
+    <name>П3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - ежеквартальные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="550b5266-3ce4-4a91-a027-c0e9bd675eda">
+    <name>П4</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - полугодовые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d53feca2-d843-4f2e-8e95-a75d4a97a555">
+    <name>П5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 - ежегодные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9c470b4-5442-4517-a486-d6035316a017">
+    <name>П6</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 - с иной периодичностью</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

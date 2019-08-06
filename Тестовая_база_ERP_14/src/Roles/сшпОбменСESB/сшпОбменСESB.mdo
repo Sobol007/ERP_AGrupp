@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f6e4f18-bf82-4e06-9dff-0639b4f34003">
+  <name>сшпОбменСESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Datareon</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b43983-e011-4697-aef7-b1a26b738a99">
+  <name>АГ_ДобавлениеИзменениеПлановыхКоэффициентовЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение плановых коэффициентов запасов</value>
+  </synonym>
+</mdclass:Role>

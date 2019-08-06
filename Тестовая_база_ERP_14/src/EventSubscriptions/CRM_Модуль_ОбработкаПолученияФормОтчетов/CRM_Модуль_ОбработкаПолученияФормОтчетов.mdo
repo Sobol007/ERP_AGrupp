@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55e56c24-e1a1-4c74-b67c-9ad16ff54f82">
+  <name>CRM_Модуль_ОбработкаПолученияФормОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM модуль обработка получения форм отчетов</value>
+  </synonym>
+  <source>
+    <types>ReportManager</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.CRM_Модуль_МетодыМенеджеровОтчетов.ОбработкаПолученияФормОбъектов</handler>
+</mdclass:EventSubscription>

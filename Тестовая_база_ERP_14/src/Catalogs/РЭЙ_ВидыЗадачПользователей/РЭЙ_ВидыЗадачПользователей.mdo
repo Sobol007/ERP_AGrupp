@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6274274b-3577-4870-90c0-e9472cbb4862">
+  <producedTypes>
+    <objectType typeId="29c8270a-cdaa-4d8a-84ae-e4a41bedbc9b" valueTypeId="74509799-2a35-4498-a593-9fbdb4837e94"/>
+    <refType typeId="437d6627-7768-4039-acc4-4d6d40047081" valueTypeId="a4457bc6-3651-4977-97ac-ee4867c446db"/>
+    <selectionType typeId="775a68e8-2da8-4ea7-a796-4d174e5e56b5" valueTypeId="6383b67c-351a-479a-b29c-c4f4443e54ec"/>
+    <listType typeId="80f4c2dc-3abc-4ecd-b77b-8fb76bd8d5b3" valueTypeId="5b8db1be-15c9-48a1-ae72-ce9c55748710"/>
+    <managerType typeId="31ede09c-fe30-4b0d-a9e1-22807c6875b6" valueTypeId="36c7a23e-cafd-4182-ae32-0882e57038e2"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыЗадачПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники задач ВЭД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РЭЙ_ВидыЗадачПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РЭЙ_ВидыЗадачПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d6011f10-ab1d-414e-ac69-e4e22c8e8cbd">
+      <name>ПаспортСделкиПереоформлениеСрок</name>
+      <description>ЗПУК: Переоформление при превышении срока контракта ВЭД</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="aff75ea4-84af-4182-969f-5cb2085d601a">
+      <name>ПаспортСделкиПереоформлениеСумма</name>
+      <description>ЗПУК: Переоформление при превышении суммы контракта ВЭД</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="ce3fe2ad-13be-4768-9958-77bc264df91f">
+      <name>КонтрактВЭДПодтверждениеАвтопролонгации</name>
+      <description>ЗПУК: Подтверждение автопролонгации контракта ВЭД</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="e766f25a-d305-441a-b2a9-6e50e6d9a889">
+      <name>КонтрактВЭД</name>
+      <description>ЗПУК: Создание контракта ВЭД</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="55c116a8-c3d4-4ad3-845e-4e0770b4acb8">
+      <name>ПоступлениеДенежныхСредствВИностраннойВалюте</name>
+      <description>СКВО: Зачисление ДС на валютные счета</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="a57c7ba8-9512-497b-98ff-a99e3a0d235b">
+      <name>ПоступлениеДенежныхСредствНаРублевыеСчета</name>
+      <description>СКВО: Зачисление ДС на рублевые счета</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="4c37592a-a777-4d44-8b2f-b2e5a5ef1408">
+      <name>ПоступлениеДенежныхСредствЧерезСчетаЗаРубежом</name>
+      <description>СКВО: Зачисление ДС на счета за рубежом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4d05f110-cd17-4f15-8e99-6c4562ce6525">
+      <name>ОжидаемыйСрокСВО</name>
+      <description>СКВО: Ожидаемый срок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="c56c8b07-a0f4-4c54-b3a6-185baccd8b45">
+      <name>СписаниеДенежныхСредствСВалютныхСчетов</name>
+      <description>СКВО: Списание ДС с валютных счетов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="1a3d756f-9245-4996-a6fe-d57cbff1afbc">
+      <name>СписаниеДенежныхСредствСРублевыхСчетов</name>
+      <description>СКВО: Списание ДС с рублевых счетов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="530408fc-9a11-479c-97a6-35a876c42914">
+      <name>СписаниеДенежныхСредствЧерезСчетаЗаРубежом</name>
+      <description>СКВО: Списание ДС со счетов за рубежом</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="95102ea6-3b02-4f3f-9241-50059daf4fc7">
+      <name>ОжидаемыйСрокСПД</name>
+      <description>СПД:   Ожидаемый срок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="77f19060-bdcf-4aa3-a546-2dbb0ec09379">
+      <name>ПоступлениеДопРасходов</name>
+      <description>СПД:   Поступление доп. расходов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="b6e65549-15e2-4a12-b41d-15b684dcaeb5">
+      <name>ПоступлениеТоваровУслуг</name>
+      <description>СПД:   Поступление товаров и услуг / ГТД по импорту</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="84614f4e-6f0b-44a0-93fd-b7a05693aa51">
+      <name>РеализацияТоваровУслуг</name>
+      <description>СПД:   Реализация товаров и услуг</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РЭЙ_ВидыЗадачПользователей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РЭЙ_ВидыЗадачПользователей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РЭЙ_ВидыЗадачПользователей.Form.ФормаСписка</defaultChoiceForm>
+  <auxiliaryObjectForm>Catalog.РЭЙ_ВидыЗадачПользователей.Form.ФормаЭлемента</auxiliaryObjectForm>
+  <attributes uuid="dd7fcd69-0040-40e1-ab15-991869a6035e">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a6a01263-7039-451f-aa8c-95ccb700ca86">
+    <name>ИзмененВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ef029136-ba7e-42ff-88ad-ee6f7d9b8bd6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f651e61-912c-40ca-b055-9b08b06bb957">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

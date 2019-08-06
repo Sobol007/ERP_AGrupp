@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aac42fc2-b9d6-40cf-a8b2-77eb5ae0ef92">
+  <producedTypes>
+    <selectionType typeId="ba747569-4ec2-43fc-84bc-b9327bc439f4" valueTypeId="ceab81b5-a31b-4472-9707-efa36ea2e61a"/>
+    <listType typeId="abc049c5-5f28-45f6-b58c-43dee6925676" valueTypeId="032ee1ae-d5ba-45df-ad74-0531948a155e"/>
+    <managerType typeId="f14a28ed-eeab-44a2-bd0f-a5fde2df51d4" valueTypeId="6662fde4-08d3-4e5f-90e3-0e806f7a6b28"/>
+    <recordSetType typeId="9d74d90e-f4c3-4ac1-b662-6a2e230ea474" valueTypeId="630c5d16-35e4-44ac-819d-3c72aeb62328"/>
+    <recordKeyType typeId="2d8b81aa-e353-4f44-b9e1-d5617ae80751" valueTypeId="eef5454e-bde6-49ff-af19-d8f55e548d25"/>
+    <recordType typeId="75bd99f1-b2e5-4141-aca6-7efc55c75b05" valueTypeId="65eb2226-481b-4e98-a683-e5ee0e03f847"/>
+    <recordManagerType typeId="93a78fce-783e-447f-970a-92d19be6d98a" valueTypeId="6f563824-eed3-45f5-8fc8-e78c0eb91298"/>
+  </producedTypes>
+  <name>сшпИдентификаторыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы обмена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dc5adfc6-8a59-4251-93e4-2f62cd9c7758">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="5d66cfdb-d044-4b8a-b260-f56362fa077f">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АГ_ГруппыКонтрагентовУТ</types>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>CatalogRef.МаркетинговыеМероприятия</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      <types>CatalogRef.СерииНоменклатуры</types>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+      <types>CatalogRef.Валюты</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.КлассификаторТНВЭД</types>
+      <types>CatalogRef.СоглашенияСПоставщиками</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.ВидыЦен</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.КлассификаторБанков</types>
+      <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+      <types>CatalogRef.АГ_ЭлектронныеТорговыеПлощадки</types>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+      <types>CatalogRef.БанковскиеСчетаОрганизаций</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+      <types>CatalogRef.ВидыДокументовФизическихЛиц</types>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      <types>CatalogRef.CRM_ДолжностныеПозиции</types>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.ГруппыФинансовогоУчетаРасчетов</types>
+      <types>CatalogRef.CRM_ВидыМаркетинговыхКампаний</types>
+      <types>CatalogRef.МаркетинговыеМероприятияПрисоединенныеФайлы</types>
+      <types>CatalogRef.СтраныМира</types>
+      <types>CatalogRef.НомераГТД</types>
+      <types>CatalogRef.АГ_СтруктураРазделов23met</types>
+      <types>CatalogRef.Кассы</types>
+      <types>CatalogRef.КонтактныеЛицаПартнеров</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>ChartOfCharacteristicTypesRef.КаналыРекламныхВоздействий</types>
+      <types>CatalogRef.СертификатыНоменклатуры</types>
+      <types>CatalogRef.БизнесРегионы</types>
+      <types>CatalogRef.АГ_СтадииКлиентов</types>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.CRM_Отрасли</types>
+      <types>CatalogRef.АГ_СтруктураПредприятияПрисоединенныеФайлы</types>
+      <types>CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</types>
+      <types>CatalogRef.КлассификаторВидовЭкономическойДеятельности</types>
+      <types>CatalogRef.АГ_ПричиныНеучастияВТендере</types>
+      <types>CatalogRef.CRM_Должности</types>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

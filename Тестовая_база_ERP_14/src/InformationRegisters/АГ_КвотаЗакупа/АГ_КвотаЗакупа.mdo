@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80eff284-3374-42f5-9ee4-42682186acf3">
+  <producedTypes>
+    <selectionType typeId="f4c23810-cda6-41f2-90e3-139130efcc2c" valueTypeId="0ff605a1-9b49-4cc7-8b98-0b82d9dc8b88"/>
+    <listType typeId="b5215b9f-9cb8-4bb1-8c34-eb6918b3df54" valueTypeId="1063b6ec-ab0b-4206-980b-530f304a9d78"/>
+    <managerType typeId="fb9befe7-80de-412d-8395-287d60f1108e" valueTypeId="4a58e200-bdbf-4e0c-8365-433cb7e67e69"/>
+    <recordSetType typeId="c6e4eace-a51e-40ff-9dcf-534403fecd5f" valueTypeId="98fc65f0-0b9f-49ed-8d13-065c9017a84b"/>
+    <recordKeyType typeId="24400a24-3871-4802-961f-df8676a61b21" valueTypeId="7c8b35b4-7a36-4c71-9143-e796a623375a"/>
+    <recordType typeId="ddd1d922-1ad6-4386-9177-9724d777535b" valueTypeId="02953c5d-6fb1-4541-a2b2-4315bd7ee6c8"/>
+    <recordManagerType typeId="cc438e5c-e1c3-46e0-a4d5-6b129506360e" valueTypeId="0a073ee3-5046-4eca-b3c4-b432e68754b6"/>
+  </producedTypes>
+  <name>АГ_КвотаЗакупа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квота закупа (АГРУПП)</value>
+  </synonym>
+  <comment>АГ:[+][УЗП0001][27.05.2019 21:45][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a631a024-31fe-4c36-ad5c-35c2049275a1">
+    <name>КвотаЗакупа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квота закупа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="97024ff9-53ec-4d48-a879-d3b87f9b5ef1">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="443e4ae0-f01d-439c-810d-3f2df067f090">
+    <name>ГруппаАналитическогоУчетаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа аналитического учета номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

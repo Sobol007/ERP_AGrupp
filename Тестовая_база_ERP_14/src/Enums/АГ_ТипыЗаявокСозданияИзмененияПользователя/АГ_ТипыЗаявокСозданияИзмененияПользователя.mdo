@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd9098ef-0343-4c37-9152-5fc74078fdda">
+  <producedTypes>
+    <refType typeId="0806f737-8f66-4255-9928-2df29c521a38" valueTypeId="0b613b7d-ae3c-4cc1-924e-c542e76e3eba"/>
+    <listType typeId="e7832257-3f4b-46a4-bc13-8e8721eca476" valueTypeId="ee0a94d0-4803-4427-9758-5014a1956448"/>
+    <managerType typeId="c463dac0-dfe0-41e8-b68e-43ea0f596a81" valueTypeId="2703b3d6-5fb0-4560-abf3-167e7923035c"/>
+  </producedTypes>
+  <name>АГ_ТипыЗаявокСозданияИзмененияПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заявок создания изменения пользователя</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3e111c3a-4dc6-4f93-8af0-d0f1d9b3a152">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f9e2ad3c-e5e5-4ba6-bb57-2569224d47c8">
+    <name>Перевод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50d7a744-4cf8-48ad-9c4a-efed3ba80629">
+    <name>Восстановление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6faae1c-39e9-4d10-bca9-fc34424d83e2">
+    <name>ИзменениеЛичныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение личных данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf958cf7-42b9-43dc-99c2-075537328954">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b83da9db-87ca-4048-9fee-396e25fe74ab">
+    <name>ИзменениеПравДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение прав доступа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e677cbda-d4da-4bca-8a44-de8f43a01bb1">
+    <name>ПеренаправлениеПочтыЗвонков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенаправление почты звонков</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

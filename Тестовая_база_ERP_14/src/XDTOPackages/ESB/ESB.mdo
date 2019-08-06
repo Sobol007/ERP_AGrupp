@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a7f4e64-10a7-4346-9190-fc0cb5fb1328">
+  <name>ESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>ESB</value>
+  </synonym>
+  <namespace>http://esb.axelot.ru</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f123dd52-1b7c-418f-b2e3-87b870b76648">
+  <producedTypes>
+    <managerType typeId="d5d82462-fa88-4ea3-967f-f854cb24b962" valueTypeId="3f10dba3-7a6f-49cc-bb55-7d85da290991"/>
+    <valueManagerType typeId="4241e5dc-147b-4467-85d5-ede524ff21a5" valueTypeId="c41aa03e-b0b3-4f89-ad28-b0604faf9ae1"/>
+    <valueKeyType typeId="07f675b7-177d-52ff-bc74-9bf4b2f9a9aa" valueTypeId="50415871-9874-50ef-a995-ffe402957c70"/>
+  </producedTypes>
+  <name>сшпРежимПередачиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим передачи сообщений</value>
+  </synonym>
+  <type>
+    <types>EnumRef.сшпРежимыПередачиСообщений</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет максимальное количество сообщений, передаваемых в пакетном режиме</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e1415c2-faff-43c6-8d3f-f2b76da94056">
+  <name>Лизинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лизинг</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Leasing</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьЛизинг</content>
+  <content>Catalog.ДоговорыЛизинга</content>
+  <content>Catalog.ДоговорыЛизингаПрисоединенныеФайлы</content>
+  <content>FunctionalOption.ИспользоватьЛизинг</content>
+  <content>Report.РеестрДоговоровЛизинга</content>
+  <content>Document.ПриобретениеУслугПоЛизингу</content>
+  <content>Document.ПоступлениеПредметовЛизинга</content>
+  <content>Report.СправкаРасчетПризнаниеРасходовПоОСПоступившимВЛизинг</content>
+  <content>InformationRegister.РасчетРасходовПоАренде</content>
+  <content>Enum.ВариантыУчетаИмуществаПриЛизинге</content>
+  <content>DataProcessor.ЖурналДокументовЛизинга</content>
+  <content>CommonModule.ВводОстатковВнеоборотныхАктивовЛокализация</content>
+  <content>CommonModule.ВводОстатковВнеоборотныхАктивовКлиентСерверЛокализация</content>
+  <content>CommonModule.ВводОстатковВнеоборотныхАктивовКлиентЛокализация</content>
+  <parentSubsystem>Subsystem.ВнеоборотныеАктивы</parentSubsystem>
+</mdclass:Subsystem>

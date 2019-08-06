@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a279a1ce-56c9-46a2-b140-b08ca2f0ebee">
+  <producedTypes>
+    <objectType typeId="d1f402c2-ba48-4079-926e-cfcbb79db650" valueTypeId="cc4d7dbd-8f6d-4122-ace8-bbdd2481df4c"/>
+    <refType typeId="fc2b729f-7603-48e6-93f1-2fbaa86a6ed3" valueTypeId="27c9fa4b-b8e0-45ca-a4ca-fb966f7d8024"/>
+    <selectionType typeId="f7a991e3-e3b6-44c3-a37d-c6b89807d181" valueTypeId="dbced56f-a9e5-40b5-b1fd-a91eba492f7e"/>
+    <listType typeId="19dbc9a8-e690-4517-9e7b-11a4fe6fe1af" valueTypeId="24753184-0539-4f50-9b53-a77fae6ffa2d"/>
+    <managerType typeId="367edbdb-1a92-444b-b18f-be90f5888e4b" valueTypeId="8b01df63-66c6-4dfd-91c3-0e266d68cd98"/>
+  </producedTypes>
+  <name>АГ_ПлановыйКоэффицентЗапасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановый коэффицент запасов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АГ_ПлановыйКоэффицентЗапасов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.АГ_ПлановыйКоэффицентЗапасов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.АГ_ПлановыйКоэффицентЗапасов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.АГ_ПлановыйКоэффициентЗапасов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="256d4c1b-ff06-42ff-bbf6-bb73f9f750a4">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипыДокументаПлановыйКоэффициентЗапасов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03c3f92e-68af-4006-a602-d45a73f47d61">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.CRM_ПериодыПланирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a623fa74-eb83-4ea5-ae26-71f6c5d3e258">
+    <name>ПериодДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8b62a0c-63b4-47fc-a1cd-68129b406e31">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7eabf841-ce70-4a3b-a71d-0f9640fa632d">
+    <name>РегиональныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Региональный коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="568159ec-32b4-42bc-826a-0d2875c33161">
+    <name>НовыйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="480b0210-377d-4970-bc86-e7e9e4680f73">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0b42431f-82fa-4c2d-9411-7a76376f86a9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3d035ca0-b8bd-4a3e-a3ca-22fa237d4d27">
+    <producedTypes>
+      <objectType typeId="96238d7e-5a52-487c-888a-4c205ce09097" valueTypeId="7fe8ef26-7d88-4d88-a5e2-39616b153ab0"/>
+      <rowType typeId="788781a1-fead-434e-b575-a5106632d09f" valueTypeId="9da9a889-3a6c-4004-a1f6-134145e35389"/>
+    </producedTypes>
+    <name>КоэффициентыЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициенты запасов</value>
+    </synonym>
+    <attributes uuid="b350d7d3-fcd1-4091-8f4f-c4c9fb50ac8a">
+      <name>СводнаяНоменклатурнаяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сводная номенклатурная группа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eeb06ce4-0ad1-4917-bf4e-a17ef4a9a6da">
+      <name>Месяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.CRM_ПериодыПланирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="64275d03-2b28-48e7-a7f9-0d436bb6b8a8">
+      <name>ПрименяемыйКоэффициент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Применяемый коэффициент</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d5295159-267a-4f2f-917a-30c7fee3bc50">
+      <name>ЗначениеКоэффициента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение коэффициента</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

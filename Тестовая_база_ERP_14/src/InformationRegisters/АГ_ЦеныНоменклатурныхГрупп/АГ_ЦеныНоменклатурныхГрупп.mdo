@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ef5cce6-ca22-42ac-949a-7ebafffd62cb">
+  <producedTypes>
+    <selectionType typeId="26fc1281-3ebc-4d81-8a2c-a49faf5e0299" valueTypeId="b962686d-76b2-4cd3-a4c3-7d188b264b1a"/>
+    <listType typeId="a91a0c13-27b6-4700-bc0a-4efbcdc0244b" valueTypeId="ed92ebe3-c02f-4fa7-8609-721b7eb022e5"/>
+    <managerType typeId="72c8de5a-216d-4753-a944-21b5f1eda5fa" valueTypeId="519c8e16-d9a6-4b7c-b3ae-88544d33ce24"/>
+    <recordSetType typeId="a3181ca9-8e10-44eb-b957-c6685b205b91" valueTypeId="199d9bc0-b76b-4111-90db-8d2539016b5d"/>
+    <recordKeyType typeId="878e98dc-0d7f-4ab0-9915-822db034285f" valueTypeId="c97dbc48-6884-42c5-821a-79d8b4cfe478"/>
+    <recordType typeId="4118a626-d1d8-4e70-bd66-ebbf92d8e034" valueTypeId="6b6aa59a-605f-4314-af4c-1974ff04adf3"/>
+    <recordManagerType typeId="3265f2ef-29f9-478e-8a81-ba7ac485dd13" valueTypeId="d5cf4f6c-4099-40f3-823b-a19fa413344a"/>
+  </producedTypes>
+  <name>АГ_ЦеныНоменклатурныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены номенклатурных групп</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8be2cfa3-3484-4023-8870-b849d9188f36">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b7a07686-4d59-40ce-bc18-e966a8b0082a">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3ae83712-1ef5-4433-bf8d-9613b08f0518">
+    <name>Металлоцентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлоцентр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="879af112-8632-4000-b5b4-20861b5270ef">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3e5645a1-49b5-4705-89b9-3d8756f187d7">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d2d2da-3158-41f1-85a7-38fc35cfb230">
+  <name>сшпАдресАдаптераESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес адаптера ESB</value>
+  </synonym>
+  <location>Constant.сшпАдресАдаптераESB</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

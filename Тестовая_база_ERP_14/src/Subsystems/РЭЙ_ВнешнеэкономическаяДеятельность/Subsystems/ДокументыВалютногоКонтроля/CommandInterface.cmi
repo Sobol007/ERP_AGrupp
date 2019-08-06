@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DocumentJournal.РЭЙ_ДокументыВалютногоКонтроля.StandardCommand.OpenList</commands>
+      <commands>Document.РЭЙ_ПаспортСделки.StandardCommand.OpenList</commands>
+      <commands>Document.РЭЙ_СправкаОВалютныхОперациях.StandardCommand.OpenList</commands>
+      <commands>Document.РЭЙ_СправкаОПодтверждающихДокументах.StandardCommand.OpenList</commands>
+      <commands>Document.РЭЙ_ЗаявлениеВБанкПС.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

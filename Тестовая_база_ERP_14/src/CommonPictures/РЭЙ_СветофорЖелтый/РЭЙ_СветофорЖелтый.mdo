@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab8b17b-7858-4c3c-ba12-694f757dbd03">
+  <name>РЭЙ_СветофорЖелтый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Светофор - желтый цвет</value>
+  </synonym>
+</mdclass:CommonPicture>

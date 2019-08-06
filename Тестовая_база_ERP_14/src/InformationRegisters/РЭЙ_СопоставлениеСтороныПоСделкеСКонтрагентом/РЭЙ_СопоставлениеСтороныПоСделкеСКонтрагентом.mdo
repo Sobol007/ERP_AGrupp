@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bdb0c0d-4564-4a79-8620-0769b153c4cf">
+  <producedTypes>
+    <selectionType typeId="7d6fcaf6-65b3-4b6f-b7ef-c00eb6e39c52" valueTypeId="97b77e14-84f7-4c71-9706-97e6bd2dd136"/>
+    <listType typeId="99420bbe-4829-457f-a8bf-273a2bc2d3c1" valueTypeId="977760f1-520d-4f8e-83ca-1b414d21150d"/>
+    <managerType typeId="3a7cf03d-d20d-4979-ab55-6f064b81a9ef" valueTypeId="2223bbec-36b7-4685-8c45-de087971a0b6"/>
+    <recordSetType typeId="c8d53db3-34df-44d5-abb9-4fe026027931" valueTypeId="20620be4-97ef-456d-a256-d9d2385029b9"/>
+    <recordKeyType typeId="a1404a3b-011c-4831-a74e-eeeb05d297d2" valueTypeId="d79338ab-ecd7-46fb-887e-ee55a05a06be"/>
+    <recordType typeId="676b955b-9c3b-4e80-b1b4-7bd687ff3e9c" valueTypeId="9b6104c5-6a46-47a5-9bdd-fb83a08400ed"/>
+    <recordManagerType typeId="6c7b8a0b-d3e2-438b-8826-8bda3ec4b8d7" valueTypeId="6cc71fe0-88da-40cd-bbff-beee7b539904"/>
+  </producedTypes>
+  <name>РЭЙ_СопоставлениеСтороныПоСделкеСКонтрагентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сопоставление стороны по валютообменной сделке с контрагентом</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РЭЙ_СопоставлениеСтороныПоСделкеСКонтрагентом.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РЭЙ_СопоставлениеСтороныПоСделкеСКонтрагентом.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="39e6842e-eed7-4708-a5e9-f7bc769f6a31">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="4033ac90-c509-44bc-b584-602b684d7a44">
+    <name>Сторона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторона</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.КлассификаторБанков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="58f32505-c4d0-487e-855a-56ddeabfe7bf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="196043ba-5dc3-4ddd-bc6f-e031a9ccbf06">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="838e4d0e-71be-4d71-b86b-51cee0cbffbe">
+    <name>ОткрытьФормуСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление стороны по сделке с контрагентом</value>
+    </synonym>
+    <group>CommandGroup.Настройки</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

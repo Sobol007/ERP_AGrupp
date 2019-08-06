@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82faf43-0209-4a2d-85d8-7d113867ebda">
+  <producedTypes>
+    <refType typeId="eb0f1b2d-4c81-4f22-8012-8b0ee3da6f21" valueTypeId="bd9e8d1b-af52-49b7-a37f-91542da454ce"/>
+    <listType typeId="cadb41a3-2e70-4202-99de-5488b94f3f8b" valueTypeId="c2ee4369-2d3e-49ac-9e1b-4274315bb35c"/>
+    <managerType typeId="5b7bbd93-0183-4f4f-b508-dacd57c1a9db" valueTypeId="e13f4baa-5aca-44f3-ae01-3ea3b3d2d948"/>
+  </producedTypes>
+  <name>АГ_ТипыПоказателейФакторовОтпускнойЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы показателей факторов отпускной цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="865f7127-d7f1-40e2-934e-50be488bd092">
+    <name>Отсрочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсрочка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6172336f-d933-4a24-9669-2295cc465de8">
+    <name>Просрочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="afaf9cac-5686-4a06-99c5-3b6b3c229035">
+    <name>Малотоннажность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Малотоннажность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36edf069-2c50-4a75-a0c1-c48fe0b52da0">
+    <name>Маржинальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маржинальность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

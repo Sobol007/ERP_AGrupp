@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b9fdb15-a1ea-4bfc-9124-dbc335c26c77">
+  <producedTypes>
+    <objectType typeId="0ffbaac4-d630-4136-9be1-0fe1cc5b7a50" valueTypeId="ac65020a-b069-4441-81b4-bb326b508281"/>
+    <managerType typeId="9a5d40f6-22f7-449b-899f-1d2aa998273d" valueTypeId="00d69377-7592-445f-a6a8-154faddd5029"/>
+  </producedTypes>
+  <name>АГ_НастройкаПравДоступаНаОснованииШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка прав доступа на основании штатного расписания</value>
+  </synonym>
+  <comment>АГ:[+][Permission _003][14.04.2019 18:05][Давиденко]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_НастройкаПравДоступаНаОснованииШтатногоРасписания.Form.Форма</defaultForm>
+  <forms uuid="03da8416-9a22-4467-94bd-f94c771b514b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

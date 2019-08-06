@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbf66123-6535-455a-b2bc-10537bd4fb5b">
+  <producedTypes>
+    <selectionType typeId="c40a5d61-3ad3-4565-b435-cd9227bfd0ab" valueTypeId="a3c4cf17-eac4-4ec5-987d-4176e5a6b24d"/>
+    <listType typeId="af0da42e-eac9-4d76-90cc-bda96518d960" valueTypeId="db28314a-1c95-4607-97f8-02ad82f30ad0"/>
+    <managerType typeId="58f09655-38b4-41fe-b93b-f6ee196f2d75" valueTypeId="4a16136a-f81c-432b-8810-9866fe3de577"/>
+    <recordSetType typeId="0a54aaf2-3268-4791-a552-464654395ca5" valueTypeId="7a8ff6dc-831b-4fdf-9659-01adf6ed8318"/>
+    <recordKeyType typeId="db758bb4-744f-44b7-aa9d-0b8ce267f6b6" valueTypeId="ec1755b6-8ad3-49a6-a91d-130559821100"/>
+    <recordType typeId="71988750-b600-40fc-82a1-6d86641a2616" valueTypeId="09cf3b90-a1f0-496c-ab48-03a227f5ce30"/>
+    <recordManagerType typeId="a3211202-36a0-4ec6-bd11-0afae719ca48" valueTypeId="ba154d3b-659b-41a9-b470-953f3bab77e1"/>
+  </producedTypes>
+  <name>РЭЙ_НастройкиПараметровВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки параметров валютного контроля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РЭЙ_НастройкиПараметровВалютногоКонтроля.Form.ФормаСписка</defaultListForm>
+  <auxiliaryRecordForm>InformationRegister.РЭЙ_НастройкиПараметровВалютногоКонтроля.Form.ФормаЗаписи</auxiliaryRecordForm>
+  <auxiliaryListForm>InformationRegister.РЭЙ_НастройкиПараметровВалютногоКонтроля.Form.ФормаСписка</auxiliaryListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9cc65e22-0e72-4ca4-9dd7-44de63efaafe">
+    <name>ВалютаЛимитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта лимитов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="89e460a8-5989-42ea-b385-e2e44c848434">
+    <name>ЛимитБезПредоставленияДокументовВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит суммы для сделок без предоставления документов в банк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="774f2a29-e6aa-4418-b69a-1388e9dbbbb1">
+    <name>ЛимитБезПостановкиНаУчетКонтрактаИмпорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит суммы для сделок без постановки на учет контракта по импорту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cecf7ce0-5842-44d7-9816-cc7f93e314ed">
+    <name>ЛимитБезПостановкиНаУчетКонтрактаЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит суммы для сделок без постановки на учет контракта по экспорту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a04686c8-ca1d-445f-9055-ae686955e895">
+    <name>ЛимитБезПостановкиНаУчетКредитногоДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит суммы для сделок без постановки на учет кредитного договора</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <forms uuid="8a3f0306-9b98-48c6-b81b-524772015a17">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6e5ab42-78ae-47e2-a109-a25bc6d25a14">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="84f9987b-4c06-475d-8df8-f5463e1a7218">
+    <name>ИнициализационныеНастройки_20121001</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки с 01.10.2012</value>
+    </synonym>
+  </templates>
+  <templates uuid="da7723f9-8dfa-4303-8a64-8c58373beeae">
+    <name>ИнициализационныеНастройки_20180301</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализационные настройки с 01.03.2018</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

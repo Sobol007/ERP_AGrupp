@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe161933-0a6c-4d04-bb0d-c3a473c64b11">
+  <producedTypes>
+    <refType typeId="08ebde51-e263-4032-84fd-020a991fbfaa" valueTypeId="e44a319f-bff3-4637-a1cb-5fb0b64e346f"/>
+    <listType typeId="19502b7f-60f5-49c1-83ab-6bb0f3759ad2" valueTypeId="aea764fe-799e-47f2-973e-d84ddcb6645c"/>
+    <managerType typeId="8c8503e2-f6dc-4599-8a3e-7fda1bce5e06" valueTypeId="d55a6925-c48b-42f7-b0e9-a7137acb67ee"/>
+  </producedTypes>
+  <name>АГ_УровеньПодчинения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень подчинения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c692f30-250c-4cae-921e-6b2f81a8a9e3">
+    <name>Дивизион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивизион</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92e17728-b6e2-4db7-8115-94a9593e8783">
+    <name>Металлоцентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлоцентр</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6af3afe-eb57-49cc-abc4-ee9e0f77c0a4">
+    <name>ОтделПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел продаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f89934a5-896d-4da1-9d7b-b5e672e640f7">
+    <name>ОтделПродажПрямогоПодчинения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел продаж прямого подчинения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

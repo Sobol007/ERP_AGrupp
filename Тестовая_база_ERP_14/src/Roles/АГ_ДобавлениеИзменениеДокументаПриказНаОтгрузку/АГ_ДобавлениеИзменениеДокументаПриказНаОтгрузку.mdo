@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f371251e-7ccc-4121-a9cd-8229a04eb125">
+  <name>АГ_ДобавлениеИзменениеДокументаПриказНаОтгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение документа Приказ на отгрузку (АГРУПП)</value>
+  </synonym>
+</mdclass:Role>

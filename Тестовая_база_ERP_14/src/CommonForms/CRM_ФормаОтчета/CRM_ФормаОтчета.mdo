@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2954b62a-3027-4ce5-9ce5-926d62048233">
+  <name>CRM_ФормаОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма отчета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Form of report</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acb71b24-7346-42b8-88c1-cf95ba2dad4a">
+  <producedTypes>
+    <objectType typeId="33a07a62-b962-4b47-b14f-16812551ce10" valueTypeId="ce4ff34b-5f17-4125-8178-762039837f25"/>
+    <refType typeId="950ce203-6264-42a2-a444-9e9183de520d" valueTypeId="9d58a721-d6e9-4ae9-a0b9-36e955bc2bb5"/>
+    <selectionType typeId="9ebd9ffa-ba18-4bd3-9f19-c8861b9c4d9c" valueTypeId="6c0e1066-4b7d-40e1-ae0e-7438012d4076"/>
+    <listType typeId="d5f210dc-6a9c-4eca-a40a-11decb512885" valueTypeId="0f5c4aa0-8e1c-430e-9933-5ae0171fdaa6"/>
+    <managerType typeId="de6af97e-9fe5-40bf-81b7-cc1607c60dbe" valueTypeId="92e0f78c-e4a7-4ba8-8291-62709ed00d65"/>
+  </producedTypes>
+  <name>АГ_СтатусыДолгаКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы долга контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_СтатусыДолгаКонтрагентов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_СтатусыДолгаКонтрагентов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

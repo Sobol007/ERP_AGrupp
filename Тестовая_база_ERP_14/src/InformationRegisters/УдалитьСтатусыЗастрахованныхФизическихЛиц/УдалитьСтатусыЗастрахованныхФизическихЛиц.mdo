@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10a42d40-7be7-4b92-980c-9270c70e5a0a">
+  <producedTypes>
+    <selectionType typeId="c34c4fb9-8a35-4830-a5b4-8c21a4086b95" valueTypeId="c116457d-301d-48b3-b5cd-fd9745201610"/>
+    <listType typeId="d2db2b07-da69-451e-a38a-c5e953ecd4ea" valueTypeId="779d80bf-2292-465b-ab06-9b71547b2a5e"/>
+    <managerType typeId="dc2a3fa5-4142-4585-9810-0c971f7c9c4c" valueTypeId="28438ed7-50a2-4b4e-afdf-e28ccd7bba5e"/>
+    <recordSetType typeId="fb4f905a-b93d-4063-b334-e15554ada32a" valueTypeId="c71ab33d-0e3b-4a13-8029-dbb10667ddf2"/>
+    <recordKeyType typeId="cd569802-e162-43a3-8501-da7286b749a1" valueTypeId="375b0ef3-06a3-428e-b663-35d636ac5a1b"/>
+    <recordType typeId="ccd41574-94f7-4f8a-a5a9-ba07f44deae7" valueTypeId="d49b6ef8-eb9a-42e6-9703-ed68d1a8aab3"/>
+    <recordManagerType typeId="e65947fd-305d-4e7d-a4f3-fb6aa9518425" valueTypeId="f29a291e-e306-4fde-8fe2-795e98987984"/>
+  </producedTypes>
+  <name>УдалитьСтатусыЗастрахованныхФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Статусы застрахованных физических лиц</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Status of insured individuals</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи о гражданстве</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Citizenship entry date</value>
+    </synonym>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Запись о гражданстве физического лица</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>Individual's citizenship entry</value>
+  </recordPresentation>
+  <resources uuid="07f00f3c-efe9-4aeb-ae72-69c00b35bfde">
+    <name>ВидЗастрахованногоЛица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид застрахованного лица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Insured person kind</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗастрахованныхЛицОбязательногоСтрахования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыЗастрахованныхЛицОбязательногоСтрахования.EnumValue.ГражданеРФ</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="3d4e88c1-e839-4b33-b577-9dbbfd3e79d6">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Individual</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e2fe4109-b91c-4f9a-8615-563b76d25482">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Edit history</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

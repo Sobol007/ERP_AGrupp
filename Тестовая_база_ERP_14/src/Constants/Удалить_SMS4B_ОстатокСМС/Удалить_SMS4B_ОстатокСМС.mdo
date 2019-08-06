@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9787404-5a49-4dab-8ba1-01d2cde77730">
+  <producedTypes>
+    <managerType typeId="6a2b1832-b063-4534-b830-9b10a09db52e" valueTypeId="1d60c2a1-7189-4d66-90ae-b0652862f366"/>
+    <valueManagerType typeId="4cfe510d-6c29-430d-9e5b-b07112b2db75" valueTypeId="e7da0873-f836-4cb8-b17d-5affef4ff752"/>
+    <valueKeyType typeId="015ce9cf-089e-5fa3-8a5e-5fe929d6845a" valueTypeId="568815dd-d635-55b9-ae89-071c64a6bdcc"/>
+  </producedTypes>
+  <name>Удалить_SMS4B_ОстатокСМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Остаток SMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Remaining SMS</value>
+  </synonym>
+  <comment>Остаток SMS на счете</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <explanation>
+    <key>ru</key>
+    <value>Остаток SMS на счете</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>SMS balance on the account</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Остаток SMS на счете</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>SMS balance on the account</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

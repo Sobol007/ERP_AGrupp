@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="982b15bd-5799-4f2c-9414-a9187bf53d05">
+  <name>НачисленияДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления документы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Accruals documents</value>
+  </synonym>
+  <content>Document.Командировка</content>
+  <content>Document.КомандировкиСотрудников</content>
+  <content>Document.МатериальнаяПомощь</content>
+  <content>Document.ОплатаПоСреднемуЗаработку</content>
+  <content>Document.Премия</content>
+  <content>Document.ПрогулНеявка</content>
+  <content>Document.ПростойСотрудников</content>
+  <content>Document.РазовоеНачисление</content>
+  <content>Document.КомпенсацияЗаЗадержкуЗарплаты</content>
+  <content>Report.ПечатнаяФормаТ9</content>
+  <content>Report.ПечатнаяФормаТ9а</content>
+  <content>Report.ПечатнаяФормаТ11</content>
+  <content>Catalog.РазовоеНачислениеПрисоединенныеФайлы</content>
+  <content>Catalog.ПрогулНеявкаПрисоединенныеФайлы</content>
+  <content>Catalog.НачислениеЗаПервуюПоловинуМесяцаПрисоединенныеФайлы</content>
+  <content>Catalog.НачислениеЗарплатыПрисоединенныеФайлы</content>
+  <content>Catalog.КомандировкиСотрудниковПрисоединенныеФайлы</content>
+  <content>Catalog.КомпенсацияЗаЗадержкуЗарплатыПрисоединенныеФайлы</content>
+  <parentSubsystem>Subsystem.ЗарплатаКадрыРасширеннаяПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

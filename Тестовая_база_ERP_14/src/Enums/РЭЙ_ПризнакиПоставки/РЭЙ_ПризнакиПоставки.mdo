@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be606efc-78bb-4f5d-9461-6c2d414d0933">
+  <producedTypes>
+    <refType typeId="f8b9e4ee-2e55-4f73-aa2d-df130a349292" valueTypeId="e5a3c821-8bfd-4bd6-9615-641950d3d646"/>
+    <listType typeId="4f9de8fb-13d3-4d57-baac-42f5384af51d" valueTypeId="ff97c015-8df1-4f36-82d4-df61aee61455"/>
+    <managerType typeId="af01ac36-12fd-4d66-b277-aab1b37819f0" valueTypeId="ef4a2e49-5a51-4a01-8116-80d48682cf18"/>
+  </producedTypes>
+  <name>РЭЙ_ПризнакиПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки поставки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c0c7922a-e8db-4474-a7a6-19608e72b2c8">
+    <name>ИсполнениеРезидентомОбязательствВСчетАвансаОтНерезидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - исполнение резидентом обязательств по контракту в счет ранее полученного аванса от нерезидента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f560a8a-9afd-438d-a5f8-ef47944db191">
+    <name>ПредоставлениеРезидентомОтсрочкиОплатыНерезиденту</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - предоставление резидентом коммерческого кредита нерезиденту в виде отсрочки оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28c8be96-9704-4145-aa9b-b79eddabb4c3">
+    <name>ИсполнениеНерезидентомОбязательствВСчетАвансаОтРезидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - исполнение нерезидентом обязательств по контракту в счет ранее полученного аванса от резидента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="986e7ccd-9e03-420e-ad58-73b7a4a309bc">
+    <name>ПредоставлениеНерезидентомОтсрочкиОплатыРезиденту</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - предоставление нерезидентом коммерческого кредита резиденту в виде отсрочки оплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

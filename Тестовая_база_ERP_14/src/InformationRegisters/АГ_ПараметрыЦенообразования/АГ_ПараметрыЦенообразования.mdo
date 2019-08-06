@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a79755f4-4829-4713-be5d-242597e73fd4">
+  <producedTypes>
+    <selectionType typeId="f7fad13d-79e7-44c7-aa6b-fee475c3a261" valueTypeId="5e849656-f4f7-4d88-8306-724eeeba3c43"/>
+    <listType typeId="95137135-8c0f-4a5c-b096-1f7db2361888" valueTypeId="8b379cd2-4c06-4717-8011-6d012f933475"/>
+    <managerType typeId="4fed4246-b4e8-412e-8cab-75aee43324d6" valueTypeId="a4972d59-c2d1-4c52-bf27-476d01f1e109"/>
+    <recordSetType typeId="c247df3f-01d8-4636-80bb-875d75195f7d" valueTypeId="9570a8a5-1d68-44cd-a3dd-fc56e9a6ab52"/>
+    <recordKeyType typeId="26770d08-74c6-4bf0-93d4-3dbb70ab6473" valueTypeId="c46f272a-fd8c-4b3c-aae3-dbd750e0059c"/>
+    <recordType typeId="a97ffbcd-9f19-48dc-97ed-9d268334f214" valueTypeId="baf60b26-9ea2-4d86-a800-50a22d1c0c9f"/>
+    <recordManagerType typeId="b9c95ac2-a396-4bc7-9635-1b21a147b1c6" valueTypeId="1d637939-3ace-41df-a686-02d53d36d85e"/>
+  </producedTypes>
+  <name>АГ_ПараметрыЦенообразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры ценообразования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="12e82dd3-226f-4839-9ec4-c4439e1f62d4">
+    <name>ПлановаяНаценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативная наценка, %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e00eecdc-bf43-4b48-8087-8a632b8918c1">
+    <name>Стратегия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стратегия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="574f7b77-6421-4dfc-bd36-925b74ec69f8">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение стратегии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1de9ccb2-5439-4e34-aa53-a164ad967458">
+    <name>Ретроспектива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ретроспектива</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d13cec08-e5d7-43ff-8f0d-f7339ae4a6fb">
+    <name>ДниРетроспективы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина, дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="efd2ecbb-3b10-4e98-a58f-13ffaeba27d1">
+    <name>ЦеновойКоридор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премиальная наценка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dec21888-4ba3-46db-bc7b-0c1401d92087">
+    <name>ИзмерениеНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение наценки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="edebf4a4-f722-461f-98f3-7f30c021cb97">
+    <name>УценочнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уценочная скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce5c1572-0181-4eea-8caa-e463221dbb90">
+    <name>ИзмерениеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf2806a7-fd93-43cc-89c5-6fe658a714b6">
+    <name>ОбязательнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательная скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="816e3841-9730-49cf-8025-73ef4f0f89c0">
+    <name>ИзмерениеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение скидки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="06b71ccd-5698-4ee6-8bd5-29a3631a53a8">
+    <name>БазаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>База расчета1</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca0f5631-ec54-48bf-bf13-2cbca5557fe9">
+    <name>БазаРасчета2</name>
+    <synonym>
+      <key>ru</key>
+      <value>База расчета2</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7ac47156-32e5-45a6-83df-dba68c6d4065">
+    <name>БазаРасчета3</name>
+    <synonym>
+      <key>ru</key>
+      <value>База расчета3</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_БазыРасчетаПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="899f9082-5368-4785-bd90-efdae5ccfd3a">
+    <name>РегионМеталлоцентра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион металлоцентра</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d0b0550e-efc6-4ec8-bcc4-1ff0f504a0c4">
+    <name>Доставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3e341fb4-af38-457e-b877-47476bf836bd">
+    <name>ВключитьКомплексноеЦО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить комплексное ЦО</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9622dc65-7bed-4b2e-9f04-e7ac5f4ec540">
+    <name>ВключитьНаценкиВЗаказе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включить наценки в заказе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7bafa02a-b827-498b-afa9-55d7bc0b9125">
+    <name>СкидкаМОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка МОП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5594c756-0927-4657-8a40-83c43cbd6a4b">
+    <name>СкидкаНОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка НОП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe29fa01-d2a1-4883-9031-be8e3bf71bd0">
+    <name>СкидкаДМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка ДМЦ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ea1c223e-38f7-4a95-82c1-147f427f4172">
+    <name>СкидкаРДН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидка РДН</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="31dd2b86-6a7e-4a7b-a569-e876abb7933f">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="66997275-5172-4ae7-b996-0877e62742fe">
+    <name>Регион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлоцентр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

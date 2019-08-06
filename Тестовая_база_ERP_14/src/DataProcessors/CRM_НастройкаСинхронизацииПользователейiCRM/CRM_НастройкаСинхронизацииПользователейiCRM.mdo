@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bc8bf3e-fe87-4e4e-bfe2-45bc51f0bcae">
+  <producedTypes>
+    <objectType typeId="6eceab30-7acb-4981-85c8-b9051dfc5762" valueTypeId="9d71c6fc-eb53-4e9f-8932-3a23618548d5"/>
+    <managerType typeId="d4f31c68-66e3-4662-9109-7804b501ccdc" valueTypeId="a9535c26-9448-4c62-a8f9-22aba99e324d"/>
+  </producedTypes>
+  <name>CRM_НастройкаСинхронизацииПользователейiCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление пользователями мобильного приложения (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Managing users of the iCRM mobile application</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.CRM_НастройкаСинхронизацииПользователейiCRM.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5123e14d-d6f6-4ae6-9220-42f27a2f8050">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1695cdbf-3c0d-4326-a479-8d4899eb1dff">
+    <name>ШаблонПисьмаПриглашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон письма приглашения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invitation Letter Template</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

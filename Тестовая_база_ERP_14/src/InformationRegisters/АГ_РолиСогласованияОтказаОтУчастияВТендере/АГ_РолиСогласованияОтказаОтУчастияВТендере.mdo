@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd035608-5dd0-443c-882c-6dad43876853">
+  <producedTypes>
+    <selectionType typeId="bc762d3e-304a-4b86-a06c-787c0cb4e6c6" valueTypeId="d80be26a-4e73-4a16-95a7-8d04d75eabd9"/>
+    <listType typeId="b80c2c38-715f-4054-baa7-2c3790cb6e90" valueTypeId="9d66a4c0-e1e1-479a-af01-469d9115f858"/>
+    <managerType typeId="51175cc7-1a08-4a15-9415-5216cb39c7b1" valueTypeId="c7aca3f1-147d-4df6-bdb3-a4274ff7d54d"/>
+    <recordSetType typeId="22b592aa-2c4d-44fa-aa1c-3ec897355179" valueTypeId="e1d4824f-b2fb-4533-a3de-6339cee6649d"/>
+    <recordKeyType typeId="53446aba-fbb4-4325-bc48-c4a6401009b9" valueTypeId="7b53c1b1-3b55-4614-8be3-d1439d5241a8"/>
+    <recordType typeId="75aeb842-21c7-47f7-9132-097f5c300c3c" valueTypeId="a9cccdcc-81e0-4b8a-abab-ca2362706fc9"/>
+    <recordManagerType typeId="b281908d-158c-41b6-89c8-df62fb38dd4e" valueTypeId="a3d39bee-3581-4df1-8a84-a1ec5011b876"/>
+  </producedTypes>
+  <name>АГ_РолиСогласованияОтказаОтУчастияВТендере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли согласования отказа от участия в тендере</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_20][17.02.2019 15:45][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.АГ_РолиСогласованияОтказаОтУчастияВТендере.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="30a9ba66-644f-436b-83c9-77e208c63911">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="db2f1c4f-3c1a-4d97-aca6-89370d6f4aa6">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_РолиСогласованияТендера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="28b8e35a-7336-466f-99d6-8efaa06739e3">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Подразделение</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3273223d-fa77-4fcc-916d-9dbf96d6dbf5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

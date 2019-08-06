@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="860b9368-7eb4-4741-a285-720073b776fc">
+  <name>АГ_ЧтениеЗаявкаНаВыкупСХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Заявка на выкуп с хранения</value>
+  </synonym>
+</mdclass:Role>

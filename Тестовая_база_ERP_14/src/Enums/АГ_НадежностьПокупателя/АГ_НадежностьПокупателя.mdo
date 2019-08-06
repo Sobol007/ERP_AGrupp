@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="738410f8-ca40-4d56-916c-3dcf61066186">
+  <producedTypes>
+    <refType typeId="3d83f1a2-a092-4b2a-b437-19b85e6b66d9" valueTypeId="02de02f5-c02f-4b19-b3a7-cc4e663a2a30"/>
+    <listType typeId="78d8ae0a-331a-4e24-bbfe-40e94442dc3d" valueTypeId="83c1e17b-dfb8-453e-9f1d-d50599b3d6ff"/>
+    <managerType typeId="76f8f337-261b-4e7e-a048-4c707734d177" valueTypeId="0d6ebfd9-55ac-4ef9-9a41-613bbd8d21b8"/>
+  </producedTypes>
+  <name>АГ_НадежностьПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Надежность покупателя</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_2][16.03.2019 15:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0743ce1f-bfdb-443e-a6f7-1ced9c678880">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47af5c61-cfd4-4ec6-83a9-6c1b5bcd8897">
+    <name>Высокая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4a7981a-54dd-4527-ad61-f2ede44f91bd">
+    <name>Низкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

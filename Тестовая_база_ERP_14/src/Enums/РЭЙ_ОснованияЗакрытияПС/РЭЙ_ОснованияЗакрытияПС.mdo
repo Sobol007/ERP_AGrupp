@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1debeea-3e4f-41d9-b9b6-d88b964be568">
+  <producedTypes>
+    <refType typeId="ad5002c3-bcdd-43c4-96df-8e4b50e96cf7" valueTypeId="0f95a1f0-9a59-4884-b966-5d0f947f7989"/>
+    <listType typeId="ea2216a9-170e-4bf0-83d2-df9da7e947af" valueTypeId="a0562157-3547-4a07-a150-40d8f9958822"/>
+    <managerType typeId="194f368e-6675-467b-a529-cd1ae1f5275e" valueTypeId="9d097ac9-87e3-499c-b96c-8f4db2bf084f"/>
+  </producedTypes>
+  <name>РЭЙ_ОснованияЗакрытияПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания для снятия с учета контрактов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Основания закрытия ПС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5f972405-ac5b-45ab-8e06-b27b66ed4f1d">
+    <name>пункт_3_18_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.18.1 - перевод контракта на расчетное обслуживание в другой банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea056a65-0105-47b9-b1bf-ccc9372ef4c8">
+    <name>пункт_3_18_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.18.2 - исполнение сторонами обязательств или их прекращение по иным основаниям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c79b92f0-a5bc-41f6-b272-742b000964f7">
+    <name>пункт_3_18_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3.18.3 - истечение 180 календ.дней после даты завершения исполнения обязательств по контракту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27b66bc6-cd86-4ad2-86cd-c4dfb580045f">
+    <name>пункт_7_1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.1 - перевод контракта на расчетное обслуживание в другой банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1852f2b-4a08-4dee-8b06-db01284e9666">
+    <name>пункт_7_1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.2 - исполнение сторонами обязательств по контракту, вкл.третьим лицом - резидентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3036d5e4-8dfc-417e-b5e0-41d50d1e6129">
+    <name>пункт_7_1_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.3 - уступка требования по контракту резиденту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04007c55-3658-4ea7-84a0-a0f0794c26fd">
+    <name>пункт_7_1_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.4 - уступка требования по контракту нерезиденту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00f84661-d201-4e7f-a5dc-1224bd6f508a">
+    <name>пункт_7_1_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.5 - исполнение (прекращение) обязательств по контракту по иным основаниям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b040334d-c648-4e9c-9b7f-8de38193fe13">
+    <name>пункт_7_1_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1.6 - прекращение (отсутствие) оснований, требующих оформления ПС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4cb7ddd-6217-4fde-81f9-b6ae634f1c05">
+    <name>пункт_7_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.9    - закрытие ПС банком по истечении 180 календарных дней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81a0f057-6c3d-4ee6-bd47-8f85c2fa0161">
+    <name>пункт181_6_1_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.1 - перевод контракта на обслуживание в другой банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5407c7b2-9fe6-455e-9655-0028154a6e7f">
+    <name>пункт181_6_1_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.2 - исполнение сторонами всех обязательств по контракту, вкл. исполнение третьим лицом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="367254f3-dd6c-4d6c-b87a-3264afb8fac5">
+    <name>пункт181_6_1_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.3 - уступка требования по контракту другому резиденту либо перевод долга на другого резидента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5006a64b-0708-48d1-8895-7089b1ba904a">
+    <name>пункт181_6_1_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.4 - уступка требования по контракту нерезиденту либо перевод долга на нерезидента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="acbff516-591a-46df-976e-bb5cd2714cea">
+    <name>пункт181_6_1_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.5 - исполнение (прекращение) обязательств по контракту по иным основаниям, не указанным в п/п 6.1.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa136dab-0c2c-4464-b112-4a8115e785d2">
+    <name>пункт181_6_1_6</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.1.6 - прекращение оснований постановки на учет контракта, в т.ч. вследствие изменений и ошибочного принятия на учет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d00ff4d-062a-4dc0-bca5-e5b859992c96">
+    <name>пункт181_6_7</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.7    - снятие с учета контракта банком по истечении 90 календ. дней с даты завершения исполнения обязательств</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="732d04d4-a09a-4619-80ba-7baf6f754b1b">
+  <name>CRM_DropboxСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Dropbox сервер (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Dropbox server (iCRM)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

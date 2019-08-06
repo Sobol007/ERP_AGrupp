@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6e9ca3f-b2ba-46ee-afad-9efee3a22411">
+  <producedTypes>
+    <refType typeId="fd595b95-3f61-46f1-bf34-bc8c39eb48c6" valueTypeId="b822a752-b8be-4f70-9500-5b93ce6c7c04"/>
+    <listType typeId="ea5bbbb0-448b-405b-af42-089a3a550d21" valueTypeId="ea95ae8f-388b-4a96-bdd4-cccdad9d8258"/>
+    <managerType typeId="737053a4-1379-4ec6-b279-f53b514ba74d" valueTypeId="ae348d9a-1341-4e3e-860e-a3c403418fda"/>
+  </producedTypes>
+  <name>АГ_ТипыОперацийЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="154543d9-2593-4657-8b27-002af16301c6">
+    <name>Создание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb605057-3d5e-4bed-8c17-4d1e7eb1d0f3">
+    <name>Изменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

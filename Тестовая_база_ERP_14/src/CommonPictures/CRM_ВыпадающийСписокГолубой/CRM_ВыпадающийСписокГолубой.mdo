@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1284676-d354-403a-a3af-301de49a4eb2">
+  <name>CRM_ВыпадающийСписокГолубой</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM выпадающий список голубой</value>
+  </synonym>
+</mdclass:CommonPicture>

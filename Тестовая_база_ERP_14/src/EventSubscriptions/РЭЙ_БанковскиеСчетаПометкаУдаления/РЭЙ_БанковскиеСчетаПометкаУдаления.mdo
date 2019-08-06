@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ce76e91-a03c-45e8-9ba4-bac304e2ff5d">
+  <name>РЭЙ_БанковскиеСчетаПометкаУдаления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские счета - пометка удаления</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.БанковскиеСчетаОрганизаций</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РЭЙ_СлужебныйСервер.БанковскиеСчетаПометкаУдаления</handler>
+</mdclass:EventSubscription>

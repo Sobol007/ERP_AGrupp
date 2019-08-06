@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e56f59e-76d7-44da-81f3-892765fb5016">
+  <producedTypes>
+    <refType typeId="5558519b-ae09-45f2-b104-6c044021c3b5" valueTypeId="4531d1d0-581f-4d63-9ad8-7280030ac3e2"/>
+    <listType typeId="1dfc0c57-361c-46e0-b7b7-0d45a6739296" valueTypeId="707ab124-334f-4890-a64f-d92ed78f42c8"/>
+    <managerType typeId="e49476cc-339c-4015-8923-7be61be0bf92" valueTypeId="87d8fdf5-5ede-4a16-8a6f-22d2b2b93157"/>
+  </producedTypes>
+  <name>CRM_СтатусыУстановкиИспользуемыхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документа &quot;Установка используемых показателей&quot;</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70391c3d-17e2-4d12-a8e1-33c6c5d43baa">
+    <name>Запланирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eb9a03d-6299-4156-8699-17e4053988eb">
+    <name>Подготовлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b42cc6e-e17e-4bd3-a0d4-cb9b0e041a5a">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании у руководителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8a94373-460e-40a0-a18e-fec69d13077e">
+    <name>СогласованСРуководителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован с руководителем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f2b604c-f501-4db1-a5cc-2a9975f3b3bc">
+    <name>СогласованСИсполнителями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован с исполнителями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b00a2571-727b-4b31-a069-e7b774baccc2">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3084858-de3a-4d4b-9667-85ff17992399">
+    <name>ОтмененРуководителем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен руководителем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f16e01b9-31ea-43e8-97d3-87134201a36f">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

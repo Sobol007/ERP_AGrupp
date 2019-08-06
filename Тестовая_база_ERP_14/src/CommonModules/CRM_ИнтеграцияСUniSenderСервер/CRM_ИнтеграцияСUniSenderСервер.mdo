@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95aa0a1e-b9ef-45a7-8d2f-816b8f8e9b9d">
+  <name>CRM_ИнтеграцияСUniSenderСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с UniSender клиент, сервер </value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

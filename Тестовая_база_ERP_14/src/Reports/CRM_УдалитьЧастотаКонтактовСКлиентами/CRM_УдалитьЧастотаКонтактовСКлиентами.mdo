@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e89fc3-3c1e-4940-af0c-66eb57a0e2a0">
+  <producedTypes>
+    <objectType typeId="3858a797-cfc3-4da4-90c5-4e6a71332583" valueTypeId="64822327-2e06-46ea-9158-2c4622a9f93f"/>
+    <managerType typeId="25e58d19-929a-499d-99db-4cce9fd40a3c" valueTypeId="6e3a1f47-1e69-49a3-a61e-a96809c8b8ae"/>
+  </producedTypes>
+  <name>CRM_УдалитьЧастотаКонтактовСКлиентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Частота контактов с клиентами</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Frequency of contacts with customers</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.CRM_УдалитьЧастотаКонтактовСКлиентами.Template.ОсновнаяСхемаКомпановкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="8462f3f4-c4f8-487f-9bcf-843e71a0fdc7">
+    <name>ОсновнаяСхемаКомпановкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компановки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Basic layout of data compilation</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

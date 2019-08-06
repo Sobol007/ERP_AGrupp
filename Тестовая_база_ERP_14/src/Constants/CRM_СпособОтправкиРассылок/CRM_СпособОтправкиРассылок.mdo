@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a9e2837-fcfe-411d-9ed2-6bbe862a59cd">
+  <producedTypes>
+    <managerType typeId="0960510a-3032-45fc-9c6a-9cf5666bedea" valueTypeId="b9fcb56d-50e8-4093-8dab-573615aa7ed2"/>
+    <valueManagerType typeId="f7c8dd18-d847-47d6-b1c4-eea88ee58918" valueTypeId="5292c382-1f1d-4004-bd6d-87b9774e2892"/>
+    <valueKeyType typeId="76563ab7-ff55-5eab-9baa-599204b97f97" valueTypeId="03373340-3610-5432-b436-73224550c446"/>
+  </producedTypes>
+  <name>CRM_СпособОтправкиРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ отправки рассылок электронных писем</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Method for sending emails</value>
+  </synonym>
+  <type>
+    <types>EnumRef.CRM_СпособыОтправкиРассылок</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

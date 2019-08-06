@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1da89302-f54a-49d9-953d-d498676537e8">
+  <producedTypes>
+    <selectionType typeId="57fe07ea-33c2-4654-9dca-76227b2cb8f8" valueTypeId="a434309b-c351-4297-95dc-17a6bce5f23d"/>
+    <listType typeId="dba1263f-8eb3-42e7-b3e4-ffa258b84c21" valueTypeId="f61800b4-aa11-4483-bef3-15b25a616467"/>
+    <managerType typeId="f019f3d9-87c7-44c7-9240-d3eaab8d4a58" valueTypeId="086e4051-25d0-42ef-9170-d36becbfa4cb"/>
+    <recordSetType typeId="42840e12-95cc-44da-9136-7a7cfcbd9679" valueTypeId="e96c801d-fbdc-45b8-b5be-0e3f67368fa7"/>
+    <recordKeyType typeId="39abff6e-a173-47aa-84a5-edb51f0c74a0" valueTypeId="3e52098a-d447-4c49-966c-204d03accf41"/>
+    <recordType typeId="abc1c420-5168-4c12-a684-241610fe2c9f" valueTypeId="b7004e93-49e7-46c0-a93c-239a812a9374"/>
+  </producedTypes>
+  <name>АГ_ИспользованиеЛимитовОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование лимитов отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fec78ba6-f248-40ef-8839-85a7d22e4b46">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="25c15afa-daed-48c6-a4dc-8fe10a1cb9d2">
+    <name>ПользовательВоспользовалсяЛимитом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь воспользовался лимитом</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="aac87298-2b46-4bf9-8076-b2d7ffe566d0">
+    <name>ОбъектРасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект расчетов</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОбъектРасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="351290eb-259d-4bdd-8465-e571b5fdd90d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b72c9572-3a3e-450a-9822-e284d4136677">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

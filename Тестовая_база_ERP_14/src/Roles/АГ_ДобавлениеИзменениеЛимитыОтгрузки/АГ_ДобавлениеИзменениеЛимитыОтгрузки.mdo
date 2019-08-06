@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b07d699-b378-4917-bd62-12cf3cbeb166">
+  <name>АГ_ДобавлениеИзменениеЛимитыОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение регистра сведений Лимиты отгрузки</value>
+  </synonym>
+</mdclass:Role>

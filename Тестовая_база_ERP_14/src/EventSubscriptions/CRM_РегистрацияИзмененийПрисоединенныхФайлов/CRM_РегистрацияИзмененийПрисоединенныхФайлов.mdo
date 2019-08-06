@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad736983-7976-48ec-8a39-fbaaa794cb4b">
+  <name>CRM_РегистрацияИзмененийПрисоединенныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений присоединенных файлов (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Registering changes to attached files (iCRM)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.КоммерческоеПредложениеКлиентуПрисоединенныеФайлы</types>
+    <types>CatalogObject.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПартнерыПрисоединенныеФайлы</types>
+    <types>CatalogObject.КонтактныеЛицаПартнеровПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ЗадачаИсполнителяПрисоединенныеФайлы</types>
+    <types>CatalogObject.CRM_БизнесПроцессПрисоединенныеФайлы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.CRM_СинхронизацияСервер.CRM_РегистрацияИзмененийПрисоединенныхФайловПриЗаписи</handler>
+</mdclass:EventSubscription>

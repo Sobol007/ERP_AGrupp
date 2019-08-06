@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c50d30a-2d94-4fcf-b8f4-c55ff5251e52">
+  <producedTypes>
+    <objectType typeId="83fef23d-2b56-4df1-ab4b-b0aecc499d52" valueTypeId="193022f2-2e71-4de8-bb19-e6ead3115c58"/>
+    <refType typeId="6baa5cd4-e5be-4547-beff-cb2e9616cdb9" valueTypeId="5563e0a1-e17a-44a2-89ce-494641579787"/>
+    <selectionType typeId="d6f5f491-7f3f-4e51-b82d-b0e050514e1e" valueTypeId="f3d348f8-942f-4e79-8615-17b4f7e04419"/>
+    <listType typeId="4d60e4cc-9171-4eea-a1bf-52b75ae8f703" valueTypeId="d7be4bdd-352e-4638-807f-0f775ddffdf0"/>
+    <managerType typeId="67743cfe-c628-44eb-ac71-31ae93d068da" valueTypeId="c47a8427-e937-4bf2-b648-396155c3d9f9"/>
+  </producedTypes>
+  <name>АГ_ЭлектронныеТорговыеПлощадки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронные торговые площадки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_ЭлектронныеТорговыеПлощадки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_ЭлектронныеТорговыеПлощадки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АГ_ЭлектронныеТорговыеПлощадки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АГ_ЭлектронныеТорговыеПлощадки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.АГ_ЭлектронныеТорговыеПлощадки.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="dd6b2a0c-40e7-4a10-ae72-a61614101409">
+    <name>СсылкаНаЭТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на ЭТП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28609223-1926-4f5b-bda5-c103d4d1dc8a">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d10e581-5eb4-47a2-951c-6250e50d0535">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b77613ab-e3b0-44e8-aac3-92c2c00dbef6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56f76006-4884-419b-ad31-a46eb1230f31">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

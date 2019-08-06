@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="320902d7-cef5-4a48-891d-516b8571c29f">
+  <producedTypes>
+    <managerType typeId="dec93d03-a698-42d4-a549-87620f2c9a4b" valueTypeId="cdefecb3-6086-4fad-96b3-e0716e047f98"/>
+    <valueManagerType typeId="280096cd-1882-4299-8434-6a848b732efe" valueTypeId="93dbab89-86dd-4f87-a1c6-c9f32f3671df"/>
+    <valueKeyType typeId="b76cca63-516a-4d24-9af5-537924db7db1" valueTypeId="c4e8edef-ade1-46db-8e2e-8932a2a58ee2"/>
+  </producedTypes>
+  <name>АГ_ШаблоныДоступаПоДолжностям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны доступа по должностям</value>
+  </synonym>
+  <comment>АГ:[+][Permission _002][22.04.2019 18:05][Давиденко]</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

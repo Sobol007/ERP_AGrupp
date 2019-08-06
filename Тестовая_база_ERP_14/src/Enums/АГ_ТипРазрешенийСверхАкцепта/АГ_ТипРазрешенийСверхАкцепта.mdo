@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aafb72d-1a04-4514-84a8-2df1d79edeb4">
+  <producedTypes>
+    <refType typeId="25a80c3e-2bed-4ca2-b000-2ef4eed5cb79" valueTypeId="23d72bcd-f73c-470c-958b-a227ff41095a"/>
+    <listType typeId="09d99fe6-3bfb-4eb2-9141-dd1ecad51053" valueTypeId="d68261e7-2a2b-4c8f-aa41-58e876f9c7c3"/>
+    <managerType typeId="83bc7d13-2135-48dd-9a27-7ac4c5e7434c" valueTypeId="ff2731b6-2fb4-41fe-9f00-7637e39e805e"/>
+  </producedTypes>
+  <name>АГ_ТипРазрешенийСверхАкцепта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип разрешений сверх акцепта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d691f13-22f1-488d-9f10-36576e05ada3">
+    <name>МинимальнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная цена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1cfe310-7235-4c81-8081-1cc773dac692">
+    <name>РазрешениеОтгрузкиПриПревышенииДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение отгрузки при превышении ДЗ в днях</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb6a46f5-7740-40c0-a709-38a9b53a429e">
+    <name>РазрешениеОтгрузкиНеВзираяНаНадежность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение отгрузки, невзирая на надежность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="466a0faa-6452-4b21-ac5d-53a9b013f180">
+    <name>РазрешениеОтгрузкиВРамкахЛСО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение отгрузки в рамках ЛСО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="242bb939-19e8-4682-a37c-9d2d4793c24e">
+    <name>РазрешениеОплатыСверхКонтролейЗадолженностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение оплаты сверх контролей задолженностей</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

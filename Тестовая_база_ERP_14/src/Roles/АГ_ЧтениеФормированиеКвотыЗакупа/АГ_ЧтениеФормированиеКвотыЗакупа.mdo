@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1ba285-de11-4a2d-9412-373044c85f30">
+  <name>АГ_ЧтениеФормированиеКвотыЗакупа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документов Формирование квоты закупа (АГРУПП)</value>
+  </synonym>
+</mdclass:Role>

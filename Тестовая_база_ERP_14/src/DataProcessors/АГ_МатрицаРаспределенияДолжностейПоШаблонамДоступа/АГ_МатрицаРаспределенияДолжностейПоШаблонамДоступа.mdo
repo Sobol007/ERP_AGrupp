@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f7aca7b-f23d-45bf-b3a0-265845f960bc">
+  <producedTypes>
+    <objectType typeId="207ce7cd-410d-42ef-9d99-b102d33f6de8" valueTypeId="39363804-754d-497a-b175-e81a638e328d"/>
+    <managerType typeId="4c6032ba-ecd8-45bb-8015-2f844634d3fb" valueTypeId="414151e4-fab8-4546-a379-cf54ec6c5bc5"/>
+  </producedTypes>
+  <name>АГ_МатрицаРаспределенияДолжностейПоШаблонамДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Матрица распределения должностей по шаблонам доступа</value>
+  </synonym>
+  <comment>АГ:[+][Permission _002][07.04.2019 18:05][Давиденко]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_МатрицаРаспределенияДолжностейПоШаблонамДоступа.Form.Форма</defaultForm>
+  <forms uuid="d6115a75-a9ab-4051-a037-1cbb6c79b83f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

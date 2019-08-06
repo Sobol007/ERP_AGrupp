@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9393dcec-0d62-4bf0-a1f2-d5f583de110c">
+  <producedTypes>
+    <managerType typeId="3994c80b-947e-4a2d-9fed-1d5c3d987ead" valueTypeId="b6d62db7-37f2-4124-81c6-db6207576f44"/>
+    <valueManagerType typeId="6e7ea345-8c0d-499c-80b0-0b19c962dd24" valueTypeId="65f89572-9cb8-46c2-bf12-1d57d0833d0c"/>
+    <valueKeyType typeId="14c90daa-e476-516e-afc3-79a6ef82009a" valueTypeId="38d54569-7856-5c54-a83b-f0774be71511"/>
+  </producedTypes>
+  <name>сшпВерсияПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия подсистемы ESB</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

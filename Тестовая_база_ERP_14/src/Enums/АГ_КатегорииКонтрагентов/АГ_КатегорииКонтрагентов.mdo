@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e7f96dd-dd1d-4d24-91ce-07fa04716c7e">
+  <producedTypes>
+    <refType typeId="da2b1eb4-b4b4-445b-ab69-4d54966ff4bc" valueTypeId="0db2076c-df94-4382-8a26-b159e6345a86"/>
+    <listType typeId="89dbdafc-ba52-412c-a901-b0458dabf443" valueTypeId="7e60749f-c5a0-4d01-a590-693d3f30c1db"/>
+    <managerType typeId="f9de2704-5517-4ffd-ae06-e67bec043016" valueTypeId="4c1b92d8-79b9-405b-8faf-991377dae5c6"/>
+  </producedTypes>
+  <name>АГ_КатегорииКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории контрагентов</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_2][16.03.2019 15:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4414e85-41ae-45a6-aecb-51f92d3eed06">
+    <name>СтратегическийКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стратегический клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b507645-db95-4f25-b97b-e7302e33e35d">
+    <name>ЦелевойКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целевой клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59bce215-6bbb-42b3-8788-babd3e6180c7">
+    <name>БуфернаяЗона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Буферная зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de179f6e-2c69-42fc-be54-c39fceafa35b">
+    <name>СложныйКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложный контрагент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

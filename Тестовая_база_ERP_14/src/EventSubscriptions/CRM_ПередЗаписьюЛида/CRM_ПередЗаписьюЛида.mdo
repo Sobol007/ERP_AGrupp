@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf1e832-2ce4-4dd1-a689-aaa8314abfe8">
+  <name>CRM_ПередЗаписьюЛида</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью лида</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Before writing a lead</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЭлектронноеПисьмоВходящее</types>
+    <types>DocumentObject.CRM_СообщениеМессенджера</types>
+    <types>DocumentObject.ТелефонныйЗвонок</types>
+    <types>DocumentObject.CRM_Заявка</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.CRM_МетодыМодулейОбъектовСправочников.CRM_ПередЗаписьюЛида</handler>
+</mdclass:EventSubscription>

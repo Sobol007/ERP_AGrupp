@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac758ddb-25c2-410a-9e5a-2f28afaa1f55">
+  <name>сшпPipe</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сшп pipe</value>
+  </synonym>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

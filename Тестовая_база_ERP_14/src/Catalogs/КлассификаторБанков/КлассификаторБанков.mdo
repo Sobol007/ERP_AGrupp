@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56f25d2-72a9-4d80-8998-77ac3097c873">
+  <producedTypes>
+    <objectType typeId="063d2a61-13a7-4626-b1d9-fff6d3204af5" valueTypeId="41da34bd-6e4f-4ee7-bf58-025b22a8b52b"/>
+    <refType typeId="650d9d28-7c7f-4a51-a8b8-745e70345844" valueTypeId="c0b3a067-b3fc-4eaa-a69f-df3afdb0410a"/>
+    <selectionType typeId="3da59c9f-c3d8-4d13-aa39-4143ee01e6a2" valueTypeId="d47e0262-facf-4d21-824b-7793ae7bc320"/>
+    <listType typeId="f8ecbe41-1439-4121-89b6-73e5a6f7ab7e" valueTypeId="263f12a7-19a9-4b6e-bece-6a15ceaa506d"/>
+    <managerType typeId="4a17106c-e676-4bb5-9d03-e17f3057074b" valueTypeId="8b1f17a3-9b9e-40a5-bc89-c0a37f327fc0"/>
+  </producedTypes>
+  <name>КлассификаторБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор банков</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Bank classifier</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлассификаторБанков.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлассификаторБанков.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регион</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Region</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Регион, в котором находится банк</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Region where the bank is located</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.КлассификаторБанков.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <comment>Наименование банка</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank description</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Branch ID</value>
+    </synonym>
+    <comment>БИК банка</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>БИК банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank branch ID</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Банк</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Bank</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Банки</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Banks</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КлассификаторБанков.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.КлассификаторБанков.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.КлассификаторБанков.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КлассификаторБанков.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="03bd775a-e0a1-4205-82ce-6068e73ad134">
+    <name>КоррСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корр. счет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Corr. account</value>
+    </synonym>
+    <comment>Корреспондентский счет банка</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Корреспондентский счет банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Correspondent bank account</value>
+    </toolTip>
+    <mask>99999999999999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40bed47b-7754-4a70-b51a-47385fd46e83">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>City</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Город банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank city</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="773ef914-5e7e-4ec1-bcdb-b2d111b560e6">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank address</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e5a4f93-1ab9-4775-9538-2a1772215d89">
+    <name>Телефоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефоны</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Phones</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефоны банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank phones</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c25db165-0734-4fef-b161-e5164954a616">
+    <name>ДеятельностьПрекращена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деятельность прекращена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Activity ceased</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Банк по каким-либо причинам прекратил свою деятельность</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank ceased its activity for some reasons</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37e3d914-643e-4963-b4a0-7bc6727c0c9b">
+    <name>СВИФТБИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>СВИФТ БИК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SWIFT Branch ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Международный банковский идентификационный код (SWIFT BIC)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>International bank identification code (SWIFT Branch ID)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6902500-3e03-4e83-a077-00500abc00b6">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификационный номер налогоплательщика</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Taxpayer identification number</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d253aa54-a447-44aa-bb13-82fd1ce22af4">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Country</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страна регистрации банка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank registration country</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8936f114-7a0e-4a4c-8752-ccacab410778">
+    <name>МеждународноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Международное наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>International name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Международное наименование банка латиницей</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>International bank name in Latin characters</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="55649242-42fd-468f-a1e4-f6cd8871f7a4">
+    <name>ГородМеждународный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>City</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Город банка латиницей в международном формате.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>City of bank in Latin characters in international format.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="980e0883-cd8f-48c8-896f-ef185650f5c2">
+    <name>АдресМеждународный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес банка латиницей в международном формате</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Bank address in Latin characters in international format</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fce6aae3-2de9-4249-8418-3e0fe670cd8a">
+    <name>РЭЙ_АдресАнгл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес англ.</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da71ed7a-d390-46a3-89fe-92fbdffdbdec">
+    <name>РЭЙ_ВидПредоставленияДокументовПоСделке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид предоставления документов по сделке в банк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22fb3dc5-7a69-405f-a27e-484dc3c11238">
+    <name>РЭЙ_ГородАнгл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город англ.</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4c451ce-4714-46a9-801d-ac6f772c2ec5">
+    <name>РЭЙ_НаименованиеАнгл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование англ.</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1c65e5e-f923-4475-a1fb-9de2b0cbd1f3">
+    <name>РЭЙ_НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb3a972f-617a-42bd-8249-8ad2e700aa0d">
+    <name>РЭЙ_НеЯвляетсяРезидентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерезидент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is not the resident</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c899b8b-fe05-4398-bbd5-d9b470b76e85">
+    <name>РЭЙ_НомерПаспортаСделки_10_13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер паспорта сделки - символы 10-13</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc0c3173-0fa4-46de-9cb7-1a5db3330539">
+    <name>РЭЙ_НомерПаспортаСделки_15_18</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер паспорта сделки - символы 15-18</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44e11123-cc36-4b7a-858b-89a742f3a97b">
+    <name>РЭЙ_ОсновнаяКлиринговаяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная клиринговая система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КлиринговыеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9d5dbc1-011c-4a4f-9cef-083a1b7541ea">
+    <name>РЭЙ_ОсновнойКоррСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной кор/счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_БанковскиеСчетаВалютные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4ce68eb-b43f-4027-a228-6e94e065b969">
+    <name>РЭЙ_СвифтБИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>SWIFT BIC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83d7875d-678f-420e-891f-312d827d0e70">
+    <name>РЭЙ_Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="833a0b81-6ebe-4d4f-9877-e5e586d9bec6">
+    <name>РЭЙ_ТипКлиентБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиент-банка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_СистемыКлиентБанк</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00b52e0d-6aa2-4aa5-8f0e-7c48834791f3">
+    <name>АГ_Сомнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сомнительный (блокироватья заявки на расход ДС)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="aca371d2-ef42-4703-83b3-d1b72004a1ed">
+    <producedTypes>
+      <objectType typeId="191f6c24-f240-4ac7-b31e-0d3a29759877" valueTypeId="f1888345-74fb-429f-8e0f-80020a687d40"/>
+      <rowType typeId="9dead0e4-4828-41c0-b8f7-b08798af3ef1" valueTypeId="f9588257-8320-4dbc-b216-ee070d941d88"/>
+    </producedTypes>
+    <name>РЭЙ_КлиринговыеСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиринговые системы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7ab6dce6-4c7b-4a67-8bcb-1b4e6529eb3c">
+      <name>КлиринговаяСистема</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиринговая система</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РЭЙ_КлиринговыеСистемы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93160fe6-5018-4802-81a5-603b1ae15d15">
+      <name>КодВКлиринговойСистеме</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код банка в клиринговой системе</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="159675a3-040f-4840-8ed0-841b83a469e0">
+    <producedTypes>
+      <objectType typeId="3330a9fa-957b-4182-bbc5-33f0042bce6f" valueTypeId="78a3946e-18a2-474c-bce3-968ff8f15b72"/>
+      <rowType typeId="ae55b6fb-a0e1-4c8d-9646-4834b0d33b96" valueTypeId="1f814bc4-95db-4c85-8989-da861e184721"/>
+    </producedTypes>
+    <name>РЭЙ_НаименованияДляКлиентБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименования для клиент-банка</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e8e45138-5865-42ad-aa15-3632f165a85a">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ce0e015-8477-4b3b-9aac-21e76db4804a">
+      <name>ТипКлиентБанка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип клиент-банка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РЭЙ_СистемыКлиентБанк</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c31e34db-41ff-4db3-a4d0-f780f67070f6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a014fcb-a4b8-4c1c-b0de-21907a917c25">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0105122d-c1d6-48e6-90f9-18b56947298a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e7c20549-48bc-4785-8aba-5387eb741ff6">
+    <name>РЭЙ_ФормаПараметрыВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры ВЭД</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3b09b09-df2d-40e5-86ce-84dab4898231">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bd3a7cd6-ab50-4c58-9a4d-84fd9945f168">
+    <name>РЭЙ_КГРКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка из Книги государственной регистрации кредитных организаций</value>
+    </synonym>
+    <comment>Действует с 26.07.2013</comment>
+  </templates>
+  <templates uuid="5f5afcee-f63c-44d2-b981-21c6b7af7dd4">
+    <name>РЭЙ_СоответствиеБИКиСВИФТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник соответствия кодов БИК и BIC (SWIFT) для российских банков</value>
+    </synonym>
+    <comment>Действует с 10.06.2013</comment>
+  </templates>
+  <templates uuid="78f56c41-c988-47f9-a1b3-2b5f042d1907">
+    <name>РЭЙ_ТУЦБР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территориальные Управления Банка России</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

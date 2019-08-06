@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80fbeef9-c76b-415c-b575-40b8f63a6b7d">
+  <producedTypes>
+    <objectType typeId="1bf7f981-4577-4434-8e59-400d8adbd6a3" valueTypeId="eb6e35ee-3d03-4c55-90ab-f7e18f47878d"/>
+    <managerType typeId="0dd4dc28-d4d4-4952-a4bb-c7112242ec01" valueTypeId="ad29d2dd-243d-47e7-bb6d-f9dbb4318fc9"/>
+  </producedTypes>
+  <name>сшпПодключениеКАдаптеру</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключение к адаптеру</value>
+  </synonym>
+  <comment>Настройка ручного подключения к адаптеру</comment>
+  <defaultForm>DataProcessor.сшпПодключениеКАдаптеру.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка позволяет выполнить ручную настройку подключения к адаптеру ESB.</value>
+  </explanation>
+  <attributes uuid="283f4a0d-af8b-4a66-bd32-5d3c4a649cbe">
+    <name>ФорматОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат обмена</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сшпФорматыСообщений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Формат, в который будут сериализовываться исходящие сообщения для отправки в ESB </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f8b68a4-aa69-488f-8db5-1548d24d8cce">
+    <name>СерверАдаптеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер адаптеров</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя сервера адаптеров</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bbe276d3-9513-4ba7-9f81-3e3ff6242519">
+    <name>ИмяАдаптера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя адаптера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя адаптера, к которому происходит подключение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0006952f-f671-4310-a90f-29553cc71147">
+    <name>ТипКоннектора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип коннектора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сшпТипыКоннекторовESB</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Протокол, по которому будет происходит подключение и отправка сообщений в адаптер</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b29ac48f-6d58-439d-860e-23de0b1fae20">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="040652de-4680-48d2-82eb-6f5681f3a4fa">
+  <producedTypes>
+    <selectionType typeId="4f3c7706-5cff-4d55-bcc8-2460fdfd3113" valueTypeId="f215198b-f5a9-4ead-a993-c6e49077e452"/>
+    <listType typeId="a58e81d3-cc3c-4578-8886-982f37ee842a" valueTypeId="73944b07-5077-4d1e-a4be-96c7e07b683b"/>
+    <managerType typeId="fe61657e-fcd1-4421-b356-e9bd469066c7" valueTypeId="3a07fd76-2e4f-4afa-92ec-6af014f44a45"/>
+    <recordSetType typeId="f830b967-8733-4fb2-8608-1ba0e4d9beee" valueTypeId="08edd0f1-56e7-4ff0-87d4-302e969d0552"/>
+    <recordKeyType typeId="5629cfb6-ad01-4654-a575-8d6ef52d43d0" valueTypeId="32217df7-bf10-4306-944a-3cdcbd87b0e6"/>
+    <recordType typeId="9acbca04-fa67-421b-adc3-c73c56b4140a" valueTypeId="0536e453-ac70-4088-bb00-c931f6bceb5d"/>
+    <recordManagerType typeId="7f95e1d7-3f53-44dd-ba1e-703fc2f517a6" valueTypeId="fbc65d90-4be1-469c-b331-fecc7e73b8bc"/>
+  </producedTypes>
+  <name>АГ_ТендерыПредыдущихПериодов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тендеры предыдущих периодов</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_22][27.02.2019 21:45][Фирсанов]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="454921ce-3caa-46aa-b4bb-8ca7057d3700">
+    <name>ОПЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОПЗ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="73375b09-225a-486c-b8b5-4401f1e2170f">
+    <name>Сортамент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортамент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8e2afc1e-6733-4a1e-b1ed-f702293502cf">
+    <name>НМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НМЦ</value>
+    </synonym>
+    <comment>Начальная минимальная цена лота</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="998c2367-2236-4863-8651-6c10afd177a5">
+    <name>СтатусТендера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус тендера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f25f3f34-816a-44bb-a63f-979483088e5f">
+    <name>ПричинаНеучастия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина неучастия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="971c90d3-8b4f-441e-9d7a-9cd5a1629323">
+    <name>ИтогиОЭТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги и рекомендации к будущим торгам (ОЭТ) </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="e17d48fc-d724-4c3e-b0bb-a261b38fabdf">
+    <name>ИтогиМП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Итоги и рекомендации к будущим торгам (МП) </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="d52e7458-61d3-4920-bd66-a64cee45b935">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d523194-5c1a-43b3-b946-3905bd1c320a">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

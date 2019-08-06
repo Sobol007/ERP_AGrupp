@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9abff1b8-8e69-43bb-a3de-fe786f0a8a50">
+  <producedTypes>
+    <objectType typeId="d86211f1-af3b-4a6f-a5e5-0ce5d4298089" valueTypeId="0b0e0541-6238-4667-9b67-df62dcc3068c"/>
+    <refType typeId="fb1586d3-7b7a-40e4-aa23-37954813b54b" valueTypeId="8c4dad21-3565-4bfd-ae7e-968f16504042"/>
+    <selectionType typeId="bf8f0150-6044-455b-a599-aa7e49267773" valueTypeId="df0346df-d01a-4782-9e83-4e159db59233"/>
+    <listType typeId="93fe94d8-bf8b-4064-aef1-5ee210fbe60e" valueTypeId="f4cc522a-cf2a-40ad-a8d9-706d2c206dbc"/>
+    <managerType typeId="5cc692b0-6188-4ce6-89b3-1f3e252e5c41" valueTypeId="36d3909a-f706-4695-89e3-59ab4e90fc21"/>
+  </producedTypes>
+  <name>АГ_КритерииОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критерии оценки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_КритерииОценки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_КритерииОценки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

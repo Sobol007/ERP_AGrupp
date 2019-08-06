@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d18eea57-236b-4488-94b9-5a63f55ffc74">
+  <name>ДополнительныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные объекты</value>
+  </synonym>
+  <content>Document.СписаниеБезналичныхДенежныхСредств</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>InformationRegister.РЭЙ_ПутьВыгрузкиКлиентБанк</content>
+  <content>InformationRegister.РЭЙ_НастройкиКлиентБанк</content>
+  <content>Enum.РЭЙ_ВидИсходныхДанных</content>
+  <content>Catalog.РЭЙ_БанковскиеСчетаВалютные</content>
+  <content>InformationRegister.РЭЙ_ПоставкиПоКонтрактамВЭД</content>
+  <content>Document.АктВыполненныхРабот</content>
+  <content>Document.РеализацияУслугПрочихАктивов</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

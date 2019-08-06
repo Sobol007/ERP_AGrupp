@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cf9ee31-2dce-4fbe-b3f9-ad469abedc1a">
+  <name>АГ_ЧтениеРеестраПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра сведений Реестр партнеров (А ГРУПП)</value>
+  </synonym>
+</mdclass:Role>

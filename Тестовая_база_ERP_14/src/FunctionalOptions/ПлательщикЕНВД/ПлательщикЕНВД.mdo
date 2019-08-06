@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="283cf0dd-6f3a-4dea-b7b9-94e1637e1273">
+  <name>ПлательщикЕНВД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плательщик ЕНВД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>UTII payer</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПлательщикЕНВД</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ГруппыФинансовогоУчетаНоменклатуры.Attribute.СчетУчетаВыручкиОтПродажЕНВД</content>
+  <content>Catalog.ГруппыФинансовогоУчетаНоменклатуры.Attribute.СчетУчетаСебестоимостиПродажЕНВД</content>
+  <content>Catalog.ГруппыФинансовогоУчетаНоменклатуры.Attribute.СтатьяДоходовЕНВД</content>
+  <content>ChartOfCharacteristicTypes.СтатьиРасходов.Attribute.СчетСписанияЕНВД</content>
+  <content>InformationRegister.ПорядокОтраженияРасходов.Resource.СчетСписанияЕНВД</content>
+  <content>InformationRegister.ПорядокОтраженияНоменклатуры.Resource.СтатьяДоходовЕНВД</content>
+  <content>InformationRegister.ПорядокОтраженияНоменклатуры.Resource.СчетУчетаВыручкиОтПродажЕНВД</content>
+  <content>InformationRegister.ПорядокОтраженияНоменклатуры.Resource.СчетУчетаСебестоимостиПродажЕНВД</content>
+</mdclass:FunctionalOption>

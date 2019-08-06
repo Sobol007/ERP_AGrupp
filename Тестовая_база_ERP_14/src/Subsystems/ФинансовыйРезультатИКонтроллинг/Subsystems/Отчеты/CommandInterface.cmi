@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.ОтрицательныеОстаткиТоваровОрганизаций.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>CommonCommand.ПанельОтчетовГлавноеБюджетированиеИПланирование</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеCRMИМаркетинг</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеПродажи</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеЗакупки</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеСкладИДоставка</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеПроизводство</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеКадры</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеЗарплата</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеКазначейство</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеРегламентированныйУчет</commands>
+      <commands>CommonCommand.ПанельОтчетовГлавноеМеждународныйФинансовыйУчет</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

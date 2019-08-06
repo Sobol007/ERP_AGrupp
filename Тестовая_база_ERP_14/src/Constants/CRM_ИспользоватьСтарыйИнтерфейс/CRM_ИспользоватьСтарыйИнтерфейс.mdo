@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7f2dd3-863d-4ff2-b011-f94249f48d9a">
+  <producedTypes>
+    <managerType typeId="bbc6db9b-2f73-4084-a7d2-849fd66cc363" valueTypeId="fb7dfd12-657f-4eb1-b4db-c54e2ac045c9"/>
+    <valueManagerType typeId="e1e1a3a1-3ea0-4476-9aaa-34ca9b746406" valueTypeId="52c46a6c-95ca-4b71-90f1-b120723d6598"/>
+    <valueKeyType typeId="58c6c391-fa2e-4687-9507-deb04fa37e85" valueTypeId="f86cc468-d447-42f3-a07a-9d3fbe07845a"/>
+  </producedTypes>
+  <name>CRM_ИспользоватьСтарыйИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать старый интерфейс</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

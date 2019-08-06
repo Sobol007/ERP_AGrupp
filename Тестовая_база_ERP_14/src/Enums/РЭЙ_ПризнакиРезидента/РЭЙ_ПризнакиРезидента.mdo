@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23855730-34c0-4ccf-831c-d7de9d7d3457">
+  <producedTypes>
+    <refType typeId="b5bdb3b5-2644-4290-864f-eab938103994" valueTypeId="dc453942-84d2-4f40-ac67-2f7ed6e8edfd"/>
+    <listType typeId="ebf97802-b6a9-4cf1-a447-dbbfecb6aec7" valueTypeId="38a17d40-8abb-4c4a-968b-7b6510191b4a"/>
+    <managerType typeId="91ccd60e-d4f5-4103-b1aa-fd00608004eb" valueTypeId="7cb118bc-052a-4f77-98c2-9d212cab978c"/>
+  </producedTypes>
+  <name>РЭЙ_ПризнакиРезидента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки организации-резидента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ee00286-2e42-4e87-94ec-0b2b1d17731f">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - юридическое лицо или его филиал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9beed866-dad0-4194-826e-b5cc481342e6">
+    <name>ФизЛицоИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - физическое лицо - индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d2895ab-aaee-4993-817e-07d3c95f3e94">
+    <name>ФизЛицоЧП</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - физическое лицо, занимающееся частной практикой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6f4e08b-3038-4d3b-bca6-e730cfee692e">
+    <name>Инструкция117И</name>
+    <synonym>
+      <key>ru</key>
+      <value>0 - ПС оформлен до 01.10.2012 (по Инструкции №117-И от 15.06.2004)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

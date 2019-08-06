@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1021fbbb-31ef-481f-b659-9db60e19fb4c">
+  <name>ВнеоборотныеАктивыКлиентСерверЛокализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внеоборотные активы (Локализация, клиент, сервер)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Capital assets (Localization, client, server)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

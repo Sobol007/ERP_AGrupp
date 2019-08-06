@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4d90146-3d9f-42d6-be2f-105f5ac758e0">
+  <name>ВалютныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валютные платежи</value>
+  </synonym>
+  <content>Catalog.БанковскиеСчетаОрганизаций</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.РЭЙ_КлиринговыеСистемы</content>
+  <content>Enum.РЭЙ_РасходыПоВалютномуПереводу</content>
+  <content>Catalog.РЭЙ_СистемыКлиентБанк</content>
+  <content>Enum.РЭЙ_СрочностьОплаты</content>
+  <content>Enum.РЭЙ_СтандартыТранслитерации</content>
+  <content>InformationRegister.РЭЙ_ДеревоРеквизитовДокумента</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.РЭЙ_ПлатежиПоКонтрактамВЭД</content>
+  <content>DataProcessor.РЭЙ_ПечатьЗаявленияНаПереводИностраннойВалюты</content>
+  <content>Catalog.БанковскиеСчетаКонтрагентов</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

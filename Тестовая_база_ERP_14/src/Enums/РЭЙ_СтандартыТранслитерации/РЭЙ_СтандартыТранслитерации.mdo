@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7fc84c4-25d3-430b-b601-f7e548cbed59">
+  <producedTypes>
+    <refType typeId="13d16ad2-1fb7-41a9-9f16-cd6d41fbec73" valueTypeId="281f71d5-fce1-49b3-88dc-99bf94390741"/>
+    <listType typeId="e662aa52-adc1-42a7-9602-e7bc46e63ebb" valueTypeId="d39369cc-c037-468d-9305-632a8ab64c61"/>
+    <managerType typeId="b95d4290-8a86-47c7-bd79-0abf97e4f3f8" valueTypeId="29a39f02-6480-4a05-ba92-9b2db51fe326"/>
+  </producedTypes>
+  <name>РЭЙ_СтандартыТранслитерации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарты транслитерации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="58366a0c-43d4-4064-9ad4-5d48e198f56f">
+    <name>ISO9</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISO 9 (ГОСТ 7.79)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13b5ae7c-b189-44e8-934d-636b6eed0e45">
+    <name>RUR6</name>
+    <synonym>
+      <key>ru</key>
+      <value>SWIFT-RUR6</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

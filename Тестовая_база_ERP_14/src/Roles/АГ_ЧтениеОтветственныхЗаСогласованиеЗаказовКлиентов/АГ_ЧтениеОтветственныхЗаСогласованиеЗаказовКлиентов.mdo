@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a52619-3c80-41f5-8f20-8b3f2fa63f65">
+  <name>АГ_ЧтениеОтветственныхЗаСогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра сведений Ответственные за согласование заказов клиентов (А ГРУПП)</value>
+  </synonym>
+</mdclass:Role>

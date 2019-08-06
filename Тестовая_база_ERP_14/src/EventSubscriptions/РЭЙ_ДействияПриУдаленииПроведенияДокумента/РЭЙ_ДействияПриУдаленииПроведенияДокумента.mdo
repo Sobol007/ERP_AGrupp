@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4673bcd9-3a90-4856-aa19-3bd3434e0b9d">
+  <name>РЭЙ_ДействияПриУдаленииПроведенияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия при удалении проведения документа (ВЭД)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.РЭЙ_СлужебныйСервер.ДействияПриУдаленииПроведенияДокумента</handler>
+</mdclass:EventSubscription>

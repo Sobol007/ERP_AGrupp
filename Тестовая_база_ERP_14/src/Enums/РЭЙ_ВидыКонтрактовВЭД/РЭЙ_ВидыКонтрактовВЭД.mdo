@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32e884ad-018e-45bb-a0b6-e4261cda6d0e">
+  <producedTypes>
+    <refType typeId="6958320c-3402-45e2-8068-f5917e18846a" valueTypeId="19d6cc09-4d8c-4b10-87b8-be290f61cff9"/>
+    <listType typeId="a26e4bb7-1a86-4868-9aa8-a517a4578756" valueTypeId="1aac4fd2-17a2-4467-b541-d4e1b86bca2f"/>
+    <managerType typeId="25aab598-02ca-43b9-b0a4-1f258b8c502b" valueTypeId="cd2f63c3-6c22-4987-9700-bd579d9e1cdf"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыКонтрактовВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрактов ВЭД</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды контрактов ВЭД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b778e6c-5c13-41ac-b863-90adce5f5577">
+    <name>ВывозТоваровСТаможеннойТерриторииРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 - Вывоз товаров с таможенной территории РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75b3d490-1126-4d03-8f17-9088b08ca43f">
+    <name>ВвозТоваровНаТаможеннуюТерриториюРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>2 - Ввоз товаров на таможенную территорию РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67aab643-31d1-4dac-aa6d-655064611c30">
+    <name>ВыполнениеРаботРезидентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>3 - Выполнение резидентом работ/услуг, передача информации и результатов интеллектуальной деятельности, имущества в аренду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ae1dfee-1ae3-4beb-b0e3-5c2aa32172d6">
+    <name>ВыполнениеРаботНерезидентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>4 - Выполнение нерезидентом работ/услуг, передача информации и результатов интеллектуальной деятельности, имущества в аренду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b04f9a0c-0567-47de-99d7-f3a698cdfe21">
+    <name>ПредоставлениеЗаймаРезидентомНерезиденту</name>
+    <synonym>
+      <key>ru</key>
+      <value>5 - Предоставление займа резидентом нерезиденту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="917207f6-bd96-493c-b994-00b3d35834e8">
+    <name>ПривлечениеКредитаРезидентомОтНерезидента</name>
+    <synonym>
+      <key>ru</key>
+      <value>6 - Привлечение кредита/займа резидентом от нерезидента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e202ba9-c6c4-4e23-aed5-9e99f2f96370">
+    <name>СмешаннаяСделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>9 - Смешанная сделка или посредническая сделка, лизинг</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

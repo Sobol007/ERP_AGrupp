@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddb63b3d-1084-41cc-b63c-b5b0a20b1523">
+  <producedTypes>
+    <objectType typeId="9b9a0c47-ed1a-428a-a17e-cb65831ed947" valueTypeId="ca6f039a-abe3-46a6-aa4c-82518390fdf8"/>
+    <managerType typeId="44a08a25-f973-4b35-a405-df6cb3d6b37f" valueTypeId="054bb6e3-89f1-490c-b539-4e86ba843625"/>
+  </producedTypes>
+  <name>РЭЙ_РеестрСправокВалютногоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр справок валютного контроля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РЭЙ_РеестрСправокВалютногоКонтроля.Form.ФормаОтчета</defaultForm>
+  <auxiliaryForm>Report.РЭЙ_РеестрСправокВалютногоКонтроля.Form.ФормаОтчета</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="26c26257-899b-41db-846b-cfa457398f44">
+    <name>ВариантОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b9b22765-c31f-4cdf-adfd-4cf47b5afe1a">
+    <name>ВидСправкиВалютногоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид справки валютного контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30d2a193-1d08-4f58-a4bf-f483357a6405">
+    <name>ВысотаЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота заголовка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0247da0e-4820-4231-9dd7-55feb7d95b93">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="728081eb-deec-4caa-995b-8a07b9a20bd1">
+    <name>КонтрактВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт ВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4988f6f7-e5a3-4118-8c50-27ffd0adcdc7">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="29911fd2-8b6f-43b8-9681-f6628dc45c3b">
+    <name>ОкончаниеПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ba6bb54a-2b90-4d56-aa8e-fa9abdc66991">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="8f2adc7f-f0bb-4d7b-8b24-8569835da45d">
+    <name>СправкаВалютногоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка валютного контроля</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РЭЙ_СправкаОВалютныхОперациях</types>
+      <types>DocumentRef.РЭЙ_СправкаОПодтверждающихДокументах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="69e110f3-8916-4b4a-80f4-b7a3dc119f7c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6985cd8a-3258-4ac4-a8c3-eb5ff03d5dd4">
+    <name>ПоИерархии</name>
+    <synonym>
+      <key>ru</key>
+      <value>По иерархии</value>
+    </synonym>
+    <comment>По иерархии: Контрагенты -> Контракты ВЭД -> Справки вал. контроля -> Расчетные документы</comment>
+  </templates>
+  <templates uuid="db74dc81-2a44-40d4-8808-807dd22c8d2e">
+    <name>ПоХронологии</name>
+    <synonym>
+      <key>ru</key>
+      <value>По хронологии</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

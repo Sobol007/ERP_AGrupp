@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a578d7c2-3657-484f-9b40-676be978e9e7">
+  <producedTypes>
+    <objectType typeId="da0e6b47-6c3b-4131-bae7-272ba89a3da7" valueTypeId="b1c528d7-bf05-4b40-a7e9-a18a9f51da4b"/>
+    <refType typeId="2397a73c-7ae1-4294-884d-325053b828eb" valueTypeId="b0409f42-7094-4515-8415-b6fcb08a104d"/>
+    <selectionType typeId="8f5f18ec-7be8-4fcc-a4f5-96d317981997" valueTypeId="cfad7cd5-bda4-487d-8277-a45e6d237111"/>
+    <listType typeId="e4be2422-4b7e-41c9-8ebe-7e6e75f65547" valueTypeId="6fa3db35-b807-42b3-985e-e5745045ac7a"/>
+    <managerType typeId="af0a228f-8f66-440e-9524-f348941f9c2c" valueTypeId="4be2d285-7378-4fe4-b11d-91037986ce27"/>
+  </producedTypes>
+  <name>РЭЙ_СистемыКлиентБанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системы клиент-банк</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РЭЙ_СистемыКлиентБанк.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РЭЙ_СистемыКлиентБанк.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4c072b1d-6743-438d-9d62-b75752122081">
+      <name>BSClient</name>
+      <description>BS-Client</description>
+      <code xsi:type="core:StringValue">
+        <value>03</value>
+      </code>
+    </items>
+    <items id="a07665e5-2a9a-4c22-a03e-06aa4bd9e942">
+      <name>CitiDirect</name>
+      <description>CitiDirect Online Business from Citibank, формат CDFF</description>
+      <code xsi:type="core:StringValue">
+        <value>07</value>
+      </code>
+    </items>
+    <items id="125143cc-c186-4d80-9b7c-17315e6e6aa3">
+      <name>iBank2</name>
+      <description>iBank 2, формат iBank2</description>
+      <code xsi:type="core:StringValue">
+        <value>01</value>
+      </code>
+    </items>
+    <items id="ceaaa1ae-21a7-4e2a-b195-7f3c2f39f1dc">
+      <name>OptimClic</name>
+      <description>Optim Clic from Credit Agricole</description>
+      <code xsi:type="core:StringValue">
+        <value>05</value>
+      </code>
+    </items>
+    <items id="37c5560c-a8c0-4828-9795-e922b0bc7a06">
+      <name>PSBOnline</name>
+      <description>PSB On-Line от Промсвязьбанк</description>
+      <code xsi:type="core:StringValue">
+        <value>06</value>
+      </code>
+    </items>
+    <items id="34f75a02-9a29-46bf-bdc6-36e5b88ef7fc">
+      <name>SWIFT</name>
+      <description>SWIFT</description>
+      <code xsi:type="core:StringValue">
+        <value>00</value>
+      </code>
+    </items>
+    <items id="0d06efdb-530d-4b56-bfff-6d60ed60b019">
+      <name>INIST</name>
+      <description>ИНИСТ</description>
+      <code xsi:type="core:StringValue">
+        <value>02</value>
+      </code>
+    </items>
+    <items id="1f0bc8f8-97e4-473d-b1e3-fdecba4acbc9">
+      <name>Sberbank</name>
+      <description>Сбербанк Бизнес ОнЛ@йн от Сбербанк</description>
+      <code xsi:type="core:StringValue">
+        <value>04</value>
+      </code>
+    </items>
+    <items id="f8e66bc9-e2b4-4b18-8773-162e745ce259">
+      <name>SFT</name>
+      <description>СФТ, формат TDIF</description>
+      <code xsi:type="core:StringValue">
+        <value>08</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РЭЙ_СистемыКлиентБанк.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РЭЙ_СистемыКлиентБанк.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РЭЙ_СистемыКлиентБанк.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="2535668d-4e8a-4d59-a6d7-ad4167e966a4">
+    <name>ВыгрузкаМногомерногоМассиваВОдноПоле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможна выгрузка многомерного массива в одно поле</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e0bb5e2-97be-449d-b170-ecab7e6a45fc">
+    <name>ВыгрузкаРазличныхДокументовВОдинФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможна выгрузка различных видов документов в один файл</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24601435-65d5-4751-a7d1-52f50a3ac44c">
+    <name>ИмяМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c61401ad-932e-44c0-8766-b0a08c49e201">
+    <name>КодировкаСимволов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодировка символов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1548389-0b98-47ad-a462-7e7b33404ebf">
+    <name>КодоваяСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодовая страница</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd6b68b4-a339-4927-adaa-14ff1f769214">
+    <name>МакетКлиентБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет клиент банка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bdb2ed8e-6bc5-4135-b9df-b481bcb725b7">
+    <name>МаскаПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маска поля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27cd7130-d2f5-4fb2-a496-0cba8eaae10e">
+    <name>МаскаПоляТабличнойЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маска поля табличной части</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46ddd801-5019-4ed8-8d3f-0cdd56001343">
+    <name>Разделитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0635a99-8472-42fe-9c71-2af21fe253ba">
+    <name>РазделительДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель документов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a28d51c2-64a5-4bf8-a73e-c264a2ffd9b4">
+    <name>РасширениеСловаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение словаря</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2d2e9bab-0c16-4a10-8b84-4c77e44d479d">
+    <name>РасширениеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a23972fb-7fda-4380-af08-c18b52b46cdf">
+    <name>РедактироватьРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактировать расширения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fed5b3f7-dc8d-47fa-9585-3ddc3804e82f">
+    <name>СоздаватьСловарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать словарь</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2f5d0ed-ee66-435b-b04f-d11afa111ab6">
+    <name>СтандартТранслитерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт транслитерации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РЭЙ_СтандартыТранслитерации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5c55bc0-83cd-4d75-be06-bf2404898f25">
+    <name>ТипПоляМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип поля макета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РЭЙ_ВидИсходныхДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51b22a8e-917e-4c36-96fa-0c5cfe6dedb6">
+    <name>Транслитерация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транслитерация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc31e0c7-a51c-4a25-9b97-15e0b9891f44">
+    <name>ФорматДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат даты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0faba64-7cf1-4390-9a95-411f444508da">
+    <name>ФорматЧисел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат чисел</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6effe09-f247-48a7-b60d-f0f41b356970">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>80</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="34faed0b-c503-4343-ba22-307ea5b03db0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6fcc6e6-c779-40c0-b3ef-63f281da7dc1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d12949b5-dadf-4f79-b319-334f7f4bbcfe">
+    <name>BSClient_Common</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДБО BS-Client</value>
+    </synonym>
+  </templates>
+  <templates uuid="9124c102-9427-42ca-b51f-7577f05fc732">
+    <name>BSClient_SDM</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДБО BS-Client для СДМ-банка</value>
+    </synonym>
+  </templates>
+  <templates uuid="05274037-a0bc-4acb-bfee-68d77abf310a">
+    <name>BSClient_UniCredit</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДБО BS-Client для ЮниКредит-банка</value>
+    </synonym>
+  </templates>
+  <templates uuid="f6b91454-590a-4e54-8fdf-02481bd10a58">
+    <name>BusinessOnline_Sberbank</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбербанк Бизнес ОнЛ@йн</value>
+    </synonym>
+  </templates>
+  <templates uuid="6a101c58-b90a-43f5-82b0-c617b929409b">
+    <name>iBank2_2_0_23</name>
+    <synonym>
+      <key>ru</key>
+      <value>iBank 2 вер.2.0.23</value>
+    </synonym>
+  </templates>
+  <templates uuid="d0d01203-80dc-49a3-8f4b-6b233f811ca2">
+    <name>iBank2_2_0_23_20151228</name>
+    <synonym>
+      <key>ru</key>
+      <value>iBank 2 вер.2.0.23 релиз от 28.12.2015</value>
+    </synonym>
+  </templates>
+  <templates uuid="90def68d-5f65-454b-9c02-ed35c166b393">
+    <name>INIST_Rosbank</name>
+    <synonym>
+      <key>ru</key>
+      <value>INIST для Росбанка</value>
+    </synonym>
+  </templates>
+  <templates uuid="662f99ff-c043-42e8-aea3-a3837c4ae5c0">
+    <name>OptimClic_CreditAgricole</name>
+    <synonym>
+      <key>ru</key>
+      <value>Optim Clic для банка Credit Agricole</value>
+    </synonym>
+  </templates>
+  <templates uuid="5194b1ac-3951-4c3c-a5a1-34d8440f16c7">
+    <name>PSBOnlineV2_Promsvyazbank</name>
+    <synonym>
+      <key>ru</key>
+      <value>Промсвязьбанк PSB On-Line вер.2</value>
+    </synonym>
+  </templates>
+  <templates uuid="34f3f42a-5f01-4708-82cd-2576d9ac3500">
+    <name>SFT_7_0_30_808_TDIF</name>
+    <synonym>
+      <key>ru</key>
+      <value>СФТ вер.7.0.30.808, формат TDIF</value>
+    </synonym>
+  </templates>
+  <templates uuid="b449419f-7aea-4707-8055-9d0fb2781e1f">
+    <name>SWIFT</name>
+    <synonym>
+      <key>ru</key>
+      <value>SWIFT</value>
+    </synonym>
+  </templates>
+  <templates uuid="6c0a88f7-8154-4768-bce6-ab17aeac83a9">
+    <name>ВидыДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды документов</value>
+    </synonym>
+  </templates>
+  <templates uuid="ff36caae-ab8d-4673-bf25-caa07a542c24">
+    <name>ПечатныеФормыДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатные формы документов</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed212232-ea1e-45aa-8ead-59348fa7f65a">
+    <name>РасширенияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возможные расширения файлов</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

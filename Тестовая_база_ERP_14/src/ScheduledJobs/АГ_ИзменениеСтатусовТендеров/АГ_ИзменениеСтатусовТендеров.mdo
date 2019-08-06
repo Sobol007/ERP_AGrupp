@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4414826-6d8b-4b4b-be51-a22b02ad5047">
+  <name>АГ_ИзменениеСтатусовТендеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение статусов тендеров</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_24][04.03.2019 21:45][Фирсанов]</comment>
+  <methodName>CommonModule.АГ_РегламентныеЗаданияСерверный.ИзменениеСтатусовТендеров</methodName>
+  <description>Изменение статусов тендеров</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

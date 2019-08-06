@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204efaef-b73f-4e1e-8dec-06c5cd71f771">
+  <producedTypes>
+    <refType typeId="9b3b93d6-42f7-427c-ae7e-d06a7ee7cb4c" valueTypeId="180720fa-5ee7-4c60-8d9d-4814cd6c14b9"/>
+    <listType typeId="5abe8a28-710b-431b-b7c4-26ec014a2008" valueTypeId="2814d8e2-8f1d-4aa3-8ee7-d1825233e5ae"/>
+    <managerType typeId="257c7720-e6de-4d9c-88cb-09c7c437eea7" valueTypeId="e6182241-a8c6-4ae9-8c7c-b90f54173774"/>
+  </producedTypes>
+  <name>АГ_Сортамент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сортамент</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="76647e40-4bda-4736-94b2-8ce33b47b09e">
+    <name>Трубы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трубы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d67a40ba-1303-4c65-8150-634a71a9728a">
+    <name>ТрубыВИзоляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трубы в изоляции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30a9e8e9-930e-4b87-8465-d70fb7cfffb0">
+    <name>МеталлопрокатСортовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлопрокат сортовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75618e72-12c0-49a2-a0fe-c0ef6bcea15e">
+    <name>МеталлопрокатФасонный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлопрокат фасонный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef5e400a-52a8-48ea-8ac3-83dbcdb7939b">
+    <name>МеталлопрокатПлоский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлопрокат плоский</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

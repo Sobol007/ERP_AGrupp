@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c6d58b4-b31f-45e8-a70a-27e0573da564">
+  <producedTypes>
+    <objectType typeId="a90f0094-efda-4e95-b366-45fb4659dbe5" valueTypeId="7c3e3525-5716-43b8-89b4-d634559c8ee8"/>
+    <refType typeId="88f04946-3391-458d-a83f-2636d58b1d84" valueTypeId="34cddec5-bddc-4412-8e80-575eb81981f1"/>
+    <selectionType typeId="c16b2668-6376-45b1-b27e-97b76517d3cf" valueTypeId="35491a1c-4caf-4761-8688-70a4f2577227"/>
+    <listType typeId="7612dbf2-2016-4b8f-9814-60ac95e04194" valueTypeId="920a036c-e8ed-4615-91f7-1825a4a5da69"/>
+    <managerType typeId="f6ca1a11-fc05-4862-995c-b1d41ba78baf" valueTypeId="cb09d362-da96-492c-a24e-d93c0a3798f3"/>
+  </producedTypes>
+  <name>АГ_ТипРазрешенийСверхАкцепта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы разрешений - сверх &quot;Акцепта&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_ТипРазрешенийСверхАкцепта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_ТипРазрешенийСверхАкцепта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Тип разрешения - сверх &quot;Акцепта&quot;</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы разрешений - сверх &quot;Акцепта&quot;</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.АГ_ТипРазрешенийСверхАкцепта.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.АГ_ТипРазрешенийСверхАкцепта.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="e33fdea2-0ae6-433a-a761-02d4e6193e4c">
+    <name>ТипРазрешений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип разрешений</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипРазрешенийСверхАкцепта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5500020b-1d3b-4073-b290-ce0d24c93247">
+    <name>ТипБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="91bdf483-a34b-49b8-b518-18eb3fe5ef53">
+    <name>ТипЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9eb1cda5-7f04-4950-8085-f26561e57305">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09fb92c3-8543-4ed5-8389-c9cd60cc967e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

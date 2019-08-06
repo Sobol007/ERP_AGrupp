@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffcbc41c-32eb-4872-b3b6-1e02e792b0e8">
+  <name>ВалютныйКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валютный контроль</value>
+  </synonym>
+  <content>Catalog.БанковскиеСчетаОрганизаций</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.РЭЙ_ВидыВалютныхОпераций</content>
+  <content>Catalog.РЭЙ_ВидыПодтверждающихДокументов</content>
+  <content>Catalog.РЭЙ_КонтрактыВЭД</content>
+  <content>Enum.РЭЙ_ВидыКонтрактовВЭД</content>
+  <content>Enum.РЭЙ_ВидыОперацийЗаявлениеВБанк</content>
+  <content>Enum.РЭЙ_ВидыОперацийСправкаОВалютныхОперациях</content>
+  <content>Enum.РЭЙ_КредитыЗаймы</content>
+  <content>Enum.РЭЙ_МеждународныеФинОрганизации</content>
+  <content>Enum.РЭЙ_ОснованияЗакрытияПС</content>
+  <content>Enum.РЭЙ_ОтсрочкаПлатежаПредоплаты</content>
+  <content>Enum.РЭЙ_ПроцентныеПлатежиПоКредитамВЭД</content>
+  <content>Enum.РЭЙ_СрокиПогашенияКредитовВЭД</content>
+  <content>Enum.РЭЙ_СтавкаЛИБОР</content>
+  <content>Enum.РЭЙ_ВариантыНаименованияДляПечатныхФорм</content>
+  <content>Enum.РЭЙ_ПризнакиПоставки</content>
+  <content>Enum.РЭЙ_ПризнакиРезидента</content>
+  <content>Enum.РЭЙ_СтатусыСправокВалютногоКонтроля</content>
+  <content>Enum.РЭЙ_ПроцедураДекларирования</content>
+  <content>Enum.РЭЙ_ДниНедели</content>
+  <content>Catalog.РЭЙ_ОбособленныеПодразделения</content>
+  <content>Catalog.РЭЙ_СистемыКлиентБанк</content>
+  <content>Enum.РЭЙ_ОснованияПереоформленияПС</content>
+  <content>InformationRegister.РЭЙ_ИнформацияОРазрешенияхВалКонтроля</content>
+  <content>InformationRegister.РЭЙ_ГрафикПогашения</content>
+  <content>InformationRegister.РЭЙ_ГрафикФинансирования</content>
+  <content>InformationRegister.РЭЙ_ДеревоРеквизитовДокумента</content>
+  <content>InformationRegister.РЭЙ_ДопСоглашения</content>
+  <content>InformationRegister.РЭЙ_КредитныйСиндикат</content>
+  <content>71d35154-dd53-4dbe-b5e2-779faf673960</content>
+  <content>InformationRegister.РЭЙ_НастройкиПараметровВалютногоКонтроля</content>
+  <content>InformationRegister.РЭЙ_СправкиВалютногоКонтроля</content>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияПаспортаСделки</content>
+  <content>f312bb6f-8e9c-4d22-95e2-225a102b49a3</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog.Валюты</content>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияСправкиОВалютныхОперациях</content>
+  <content>InformationRegister.РЭЙ_СрокиПредставленияСправкиОПодтверждающихДокументах</content>
+  <content>InformationRegister.РЭЙ_СрокиКонтроляПриближенияОжидаемыхСроков</content>
+  <content>Document.РЭЙ_ЗаявлениеВБанкПС</content>
+  <content>Document.РЭЙ_ПаспортСделки</content>
+  <content>Document.РЭЙ_СправкаОВалютныхОперациях</content>
+  <content>Document.РЭЙ_СправкаОПодтверждающихДокументах</content>
+  <content>DocumentJournal.РЭЙ_ДокументыВалютногоКонтроля</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

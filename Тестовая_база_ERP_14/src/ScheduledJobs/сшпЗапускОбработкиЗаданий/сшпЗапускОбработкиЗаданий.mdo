@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c70002e3-9451-45b6-8e1a-af3e6aef3c47">
+  <name>сшпЗапускОбработкиЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск обработки заданий подсистемы Datareon (для протокола Pipe)</value>
+  </synonym>
+  <methodName>CommonModule.сшпPipe.ЗапуститьОбработчики</methodName>
+  <description>Запуск обработки заданий подсистемы Datareon</description>
+  <key>сшпЗапускОбработкиЗаданий</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

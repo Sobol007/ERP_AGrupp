@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc203942-dfb6-443f-9209-96f2eefb42b3">
+  <name>РЭЙ_ЗадачиВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи ВЭД</value>
+  </synonym>
+  <transparentPixel>
+    <x>12</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfecaa53-95f9-4707-819a-75e844e1d5ed">
+  <producedTypes>
+    <managerType typeId="b95e964e-5542-4ab4-b82f-4935a2e37cbc" valueTypeId="9068a60d-31a8-4e4d-8f92-cb8592eb3f9c"/>
+    <valueManagerType typeId="c7a84b6f-3ded-4d64-8119-e5e6c1f2f11e" valueTypeId="3c8c0234-7cc0-4da9-bcb9-79df1d740d30"/>
+    <valueKeyType typeId="380a0a68-cdd1-41d4-8af0-24555657cb5a" valueTypeId="8a508651-65b3-4246-a8a6-e3719206554c"/>
+  </producedTypes>
+  <name>АГ_ВыкупТоваровНаХраненииТолькоПоЗаявке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выкуп товаров на хранении только по заявке</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

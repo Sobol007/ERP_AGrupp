@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4adcf5-0ab4-436d-8909-f2afbde2a511">
+  <producedTypes>
+    <selectionType typeId="21dbff70-760e-47c3-ab66-902b28b7aa31" valueTypeId="d04e9f52-4b7a-4f27-99be-4720c2df1b59"/>
+    <listType typeId="4ef15dc3-e924-4ad3-97a8-3022d6df6b82" valueTypeId="b6b261e8-5d4d-4d0f-a92e-1d1148214639"/>
+    <managerType typeId="828981f5-8677-4278-877c-fb8fff4f1ac1" valueTypeId="92b8be6b-d254-4064-a747-1563b79e593d"/>
+    <recordSetType typeId="17549268-bd9b-4225-aa1d-053cbd026b55" valueTypeId="ccac5470-c103-4857-ac8c-0ff9d58a99a7"/>
+    <recordKeyType typeId="7d98e59a-6dde-4282-ae64-acde2c99cd40" valueTypeId="60ac9e11-85c1-43d7-8220-127dc4ffd98f"/>
+    <recordType typeId="118ca933-6c57-44e5-95d4-abc23aecc9c4" valueTypeId="188a9449-eb28-44d7-8d7a-646913728ace"/>
+    <recordManagerType typeId="aac157d1-0527-4512-bcbc-0da85dddf513" valueTypeId="8848c662-bcbb-48d3-9283-17751d31f3df"/>
+  </producedTypes>
+  <name>АГ_ФакторыОтпускнойЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факторы отпускной цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6b72b1bf-8d9b-4431-8469-34f88041499b">
+    <name>ЗначениеТрансформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение трансформации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>8</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7733a71a-473c-460c-8625-057358189bce">
+    <name>ИзмерениеТрансформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение трансформации</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ИзмеренияПараметровЦенообразования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="325e8c4c-4f28-4c38-b0df-78d0498ab9e8">
+    <name>ИндексСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b2c0f777-11f7-474b-b5bd-0bbee15cee7e">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fab78c79-ced7-44e2-9d2a-528abe579b4d">
+    <name>Металлоцентр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металлоцентр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9d24a29f-d0af-476d-b25e-0d4d5283a9dc">
+    <name>ТипПоказателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипыПоказателейФакторовОтпускнойЦены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8e64cb85-5708-4f44-8c8d-fad29a30471a">
+    <name>Ранжирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ранжирование</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

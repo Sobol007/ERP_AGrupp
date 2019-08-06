@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d0b184d-6a4e-48b1-ab75-ca5203adc06c">
+  <name>сшпФорматСериализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат сериализации</value>
+  </synonym>
+  <comment>Формат сериализации объектов исходящего потока</comment>
+  <location>Constant.сшпФорматДляСериализации</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

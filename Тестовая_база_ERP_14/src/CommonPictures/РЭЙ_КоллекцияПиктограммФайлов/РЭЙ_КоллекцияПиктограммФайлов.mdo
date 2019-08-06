@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb87b5d-d7a1-4522-9232-59ef0fa4b6ba">
+  <name>РЭЙ_КоллекцияПиктограммФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция пиктограмм файлов (ВЭД)</value>
+  </synonym>
+</mdclass:CommonPicture>

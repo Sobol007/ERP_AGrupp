@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba595634-6d43-47d8-acce-e54208b5f292">
+  <name>АГ_ПросмотрЛогинаИПароляЭТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр логина и пароля электронной торговой площадки</value>
+  </synonym>
+</mdclass:Role>

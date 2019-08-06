@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf604172-5494-4b2f-917d-9a103db2258d">
+  <name>CRM_ТипДиаграммы_ВогнутаяПоверхность</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM тип диаграммы вогнутая поверхность</value>
+  </synonym>
+</mdclass:CommonPicture>

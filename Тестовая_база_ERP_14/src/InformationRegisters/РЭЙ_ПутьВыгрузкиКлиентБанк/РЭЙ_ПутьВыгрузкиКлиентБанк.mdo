@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5544b796-2e5d-4883-a045-9c6713d54266">
+  <producedTypes>
+    <selectionType typeId="d8bd2416-5388-4410-88d6-6f76a3e04211" valueTypeId="fabe81d2-7c92-409b-82fa-2bcce90fc1bc"/>
+    <listType typeId="0f14d0b1-248e-4c05-bf9e-573c36e959c4" valueTypeId="08f1781f-442b-4581-8f69-f204adcb9ee7"/>
+    <managerType typeId="6a6724e8-395b-44e3-8d3b-dc216a8e3b4c" valueTypeId="25570515-9d34-44f3-9c40-eb3b47bc9e71"/>
+    <recordSetType typeId="ec4cdbb5-a16c-4751-a847-02b1fc97fb38" valueTypeId="5b1650ed-075a-442d-9ad7-389a10162686"/>
+    <recordKeyType typeId="5ff15ca3-3365-42d1-9fc9-e343c8f62c42" valueTypeId="b28f89fd-e736-4614-be11-7dbff431c2bf"/>
+    <recordType typeId="346fdb89-4cc4-4644-80e2-412f9796478c" valueTypeId="81758ca6-6d94-4be7-bfce-801da9b2ff78"/>
+    <recordManagerType typeId="221ff9a3-ecf2-4a83-a4b9-6a1a37eb9fb5" valueTypeId="f0492467-af11-4b52-96af-da45b1c93198"/>
+  </producedTypes>
+  <name>РЭЙ_ПутьВыгрузкиКлиентБанк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь выгрузки файлов из клиент-банка ВЭД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5bc5adff-5fe0-433c-8111-d0305c87fa05">
+    <name>Путь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b4f36afe-d6e4-439b-888f-672c75d54595">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1e7520d1-1935-4456-81d8-4e9415c8b66c">
+    <name>ТипКлиентБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип клиент банка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_СистемыКлиентБанк</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

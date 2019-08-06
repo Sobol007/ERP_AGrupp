@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1985d5dd-0d2d-4d37-93de-967213b6d11b">
+  <producedTypes>
+    <refType typeId="8f3a5c54-9aa8-464d-b652-7ccd7b85ee0c" valueTypeId="e3a416d8-f4e5-4e53-b66d-c746b520cac7"/>
+    <listType typeId="bc3ad184-5ee5-42a6-b603-6c1c46d5d656" valueTypeId="1088089e-e426-4f90-8673-a82d46736ac6"/>
+    <managerType typeId="0a050021-88f9-48d1-b6f8-1bde8ea25f57" valueTypeId="221014d4-431a-4cd6-acc7-af1b86e09d01"/>
+  </producedTypes>
+  <name>РЭЙ_ПроцедураДекларирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процедура декларирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d765ab1c-86ff-4558-a7f2-e9c17a0e71db">
+    <name>БезПодачиГТД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без подачи ГТД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9eb51e2-fb98-4946-aa5a-df4988ee9077">
+    <name>ПодачаГТДДоВыпускаСТаможни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подача ГТД до выпуска с таможни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfa4005f-1a88-49b9-b3da-907fb8cbd7e7">
+    <name>ПодачаГТДПослеВыпускаСТаможни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подача ГТД после выпуска с таможни</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

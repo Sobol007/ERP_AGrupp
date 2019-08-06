@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8b5a7cc-d52c-49a5-b420-4bc035147d64">
+  <name>CRM_ПанельОтчетов_Маркетинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты по маркетингу</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Marketing reports</value>
+  </synonym>
+  <comment>Открыть отчеты по маркетингу</comment>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

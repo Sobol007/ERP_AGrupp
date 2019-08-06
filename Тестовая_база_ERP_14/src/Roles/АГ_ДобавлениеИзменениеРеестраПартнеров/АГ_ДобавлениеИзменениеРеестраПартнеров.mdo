@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e235e7d8-dcc9-436b-925a-f677dd00b9b8">
+  <name>АГ_ДобавлениеИзменениеРеестраПартнеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение  регистра сведений Реестр партнеров (А ГРУПП)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a44bdc6b-40d3-4606-9a9f-c758ecf7d09a">
+  <producedTypes>
+    <refType typeId="b6833ffd-7ea1-490c-a376-fdb0a465a1d2" valueTypeId="9ec126e3-70c5-43a9-b2de-03ffd450f7dd"/>
+    <listType typeId="d8b3f832-cc0d-4f47-9fb2-7c777a9887ea" valueTypeId="5e1838e2-5cbf-4b80-bc8c-13a6f6a9fd3e"/>
+    <managerType typeId="4d7e2d60-c8df-4728-914d-43680a25a7a1" valueTypeId="f206a560-416c-4be2-9364-413c509c6327"/>
+  </producedTypes>
+  <name>сшпТипыКоннекторовESB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы коннекторов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d77f9760-9176-4313-83f5-c6e720cd70e7">
+    <name>REST</name>
+    <synonym>
+      <key>ru</key>
+      <value>REST</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00ad97af-1382-4866-b415-dddceaa0b7a0">
+    <name>SOAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>SOAP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e22b4a0e-30f3-48ed-9d98-1b216643953f">
+    <name>Pipe</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pipe</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

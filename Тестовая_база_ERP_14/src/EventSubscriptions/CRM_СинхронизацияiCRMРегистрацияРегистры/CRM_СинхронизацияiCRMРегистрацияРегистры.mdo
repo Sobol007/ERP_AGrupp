@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c36317f-fa7f-483a-98f5-41636c1e7321">
+  <name>CRM_СинхронизацияiCRMРегистрацияРегистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизацияi CRMРегистрация</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.CRM_СинхронизацияСервер.CRM_СинхронизацияiCRMРегистрацияРегистрыПередЗаписью</handler>
+</mdclass:EventSubscription>

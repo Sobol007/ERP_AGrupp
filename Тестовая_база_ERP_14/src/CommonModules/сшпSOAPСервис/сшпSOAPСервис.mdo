@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b031ee0e-4bb1-4fda-aec7-46d9b4fbccc8">
+  <name>сшпSOAPСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие с адаптером</value>
+  </synonym>
+  <server>true</server>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

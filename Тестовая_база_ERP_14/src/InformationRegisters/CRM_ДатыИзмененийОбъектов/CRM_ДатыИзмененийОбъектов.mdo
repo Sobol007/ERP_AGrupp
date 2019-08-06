@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12f5031e-40ce-4687-a1ec-3e3b5980d693">
+  <producedTypes>
+    <selectionType typeId="51edc70a-cc8e-4c09-a793-c11fb9620e3b" valueTypeId="ce6fc9f5-0040-4f2c-84e0-fca00a246309"/>
+    <listType typeId="ead8c461-e64d-43cd-a042-3dbe4b76d6d5" valueTypeId="18316b17-f7f1-413c-9621-b93d29c7b297"/>
+    <managerType typeId="d594ad83-d11c-4f14-9116-433ec416d40f" valueTypeId="768ba3d4-bd86-4b63-8f87-c067475b6a66"/>
+    <recordSetType typeId="8c5e90da-de11-4aa0-b43a-a58fffe5527e" valueTypeId="ad293bdb-91fe-46aa-b7b4-fd830d299015"/>
+    <recordKeyType typeId="9f4d9ae7-b2f0-4f7a-be64-d6870315f1a6" valueTypeId="f138c696-0a02-4c7c-868d-a728c018f021"/>
+    <recordType typeId="57e67bcb-154e-46b8-8140-443c5bf61513" valueTypeId="d1e8e0c9-a593-446f-92d4-3b3707798754"/>
+    <recordManagerType typeId="752fc99b-dc50-425b-823c-1325e8a190f1" valueTypeId="32aff3ad-7e2b-4529-bdac-55dfe81adfd5"/>
+  </producedTypes>
+  <name>CRM_ДатыИзмененийОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты изменений объектов (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Object change dates (iCRM)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="42ca05a9-2354-4f3d-aa0f-9ed1559cadb3">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of change</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a9dfd137-6a2a-4e57-a3fc-6dcde6ff8757">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

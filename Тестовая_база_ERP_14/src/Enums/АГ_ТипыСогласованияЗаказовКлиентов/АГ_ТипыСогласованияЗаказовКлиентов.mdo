@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b542bcd3-ac57-49be-8589-e80bd84de302">
+  <producedTypes>
+    <refType typeId="c06c2eeb-a227-472f-97fc-38f55ed3980d" valueTypeId="aaab08c4-d48d-4435-9a71-8cdfaff671d1"/>
+    <listType typeId="c8e89339-40d3-49a8-9f2d-0cb182dc2808" valueTypeId="f812a294-b6cd-4c42-8995-e0497d7b276d"/>
+    <managerType typeId="0c7b615d-1cc5-4512-8c36-0d99d0282028" valueTypeId="0c83256a-7d01-4091-bc01-99d43e610c42"/>
+  </producedTypes>
+  <name>АГ_ТипыСогласованияЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы согласования заказов клиентов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da950729-8230-4e1e-8388-69b02133a39d">
+    <name>МинимальнаяЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная цена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

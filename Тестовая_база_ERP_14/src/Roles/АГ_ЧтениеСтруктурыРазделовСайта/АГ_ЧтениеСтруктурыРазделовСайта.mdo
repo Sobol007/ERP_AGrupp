@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fb67729-9de9-478d-a50b-f8a568a8248d">
+  <name>АГ_ЧтениеСтруктурыРазделовСайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение структуры разделовсайта</value>
+  </synonym>
+</mdclass:Role>

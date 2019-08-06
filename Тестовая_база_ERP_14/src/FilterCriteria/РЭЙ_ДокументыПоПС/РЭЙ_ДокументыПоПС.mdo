@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="193e3988-6fef-4151-b9b0-fbe8e9683d4d">
+  <producedTypes>
+    <listType typeId="441e0f3c-fe96-4f33-9710-cee6466a1f08" valueTypeId="efea53b4-b0eb-4a3e-991d-7b751639454c"/>
+    <managerType typeId="3600b06e-bb42-4465-a306-d0030adacd02" valueTypeId="63f4e797-0161-41b1-90cd-e1e36092d5c9"/>
+  </producedTypes>
+  <name>РЭЙ_ДокументыПоПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по Контракту ВЭД</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РЭЙ_ПаспортСделки</types>
+  </type>
+  <content>Document.РЭЙ_ЗаявлениеВБанкПС.TabularSection.ПаспортаСделок.Attribute.ПаспортСделки</content>
+  <content>Document.РЭЙ_СправкаОВалютныхОперациях.Attribute.ПаспортСделки</content>
+  <content>Document.РЭЙ_СправкаОВалютныхОперациях.TabularSection.ВалютныеОперации.Attribute.ПаспортСделки</content>
+  <content>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.ПаспортСделки</content>
+</mdclass:FilterCriterion>

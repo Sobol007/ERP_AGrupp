@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a59090a8-5860-48be-9d50-73b6792a86dc">
+  <producedTypes>
+    <refType typeId="3cae85c0-2e3c-40d5-ab0d-96117a2364f7" valueTypeId="26bb4aa9-8626-4b4d-888a-b5060519e9ed"/>
+    <listType typeId="f7285afb-50fa-4a1d-8eb4-d38cbcba9dde" valueTypeId="90467742-d3e7-4f94-b21e-57376c5a670f"/>
+    <managerType typeId="23ceb615-0c06-4307-bc77-368d6ab93b19" valueTypeId="7e17ca00-28b3-499b-9f78-2f8280c8b3bc"/>
+  </producedTypes>
+  <name>АГ_СтепениНадежностиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени надежности контрагентов</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_3][16.03.2019 15:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="40931c60-c044-43eb-bffd-57ce5907eeab">
+    <name>Предоплата100Процентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>100 % предоплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d4e9a0e-5fa2-462b-b3e4-dbb002c24a7a">
+    <name>Предоплата100ПроцентовИПерегруз</name>
+    <synonym>
+      <key>ru</key>
+      <value>100 % предоплата + перегруз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="351aa0e8-ad70-49c1-9354-da0de0932f82">
+    <name>ПодЛимитСобственнойОтветственности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Под лимит собственной ответственности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17b7f535-0c23-46d8-a5d9-9853262c63c0">
+    <name>ЗаблокированОФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирован ОФК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b66de9f8-19bb-419f-ae18-3f66bc856e7a">
+    <name>ВходитВСписокНенадежныхКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входит в список ненадежных контрагентов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

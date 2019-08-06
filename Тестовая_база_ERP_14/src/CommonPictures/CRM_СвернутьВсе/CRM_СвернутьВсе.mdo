@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45786246-ca5c-4bf2-b3d1-2678d2b64d47">
+  <name>CRM_СвернутьВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM свернуть все</value>
+  </synonym>
+</mdclass:CommonPicture>

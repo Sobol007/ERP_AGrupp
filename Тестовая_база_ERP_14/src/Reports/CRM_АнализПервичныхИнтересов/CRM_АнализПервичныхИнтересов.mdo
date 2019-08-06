@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e8e0098-f091-4fc3-9a6b-0cc12bbd7167">
+  <producedTypes>
+    <objectType typeId="f73236fd-75f7-46ae-8f83-77ccfa601aac" valueTypeId="93bba9b6-fe1d-45be-bd78-76c996260c28"/>
+    <managerType typeId="74760248-454e-4a7a-976e-f6428d66271a" valueTypeId="e40e191d-0146-444a-b59a-e2a214141837"/>
+  </producedTypes>
+  <name>CRM_АнализПервичныхИнтересов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ источников первичного интереса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Sources of Primary Lead Analysis</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.CRM_АнализПервичныхИнтересов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="12a0420c-e7f7-418c-b140-67a1b947e40a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main circuit of configuration of the data</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

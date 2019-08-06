@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8f46e7a-3536-4756-9b3e-460fc0a33bbb">
+  <producedTypes>
+    <managerType typeId="760b5a61-606d-417a-9d17-a0389b461376" valueTypeId="155a18b2-d6e6-4082-b33f-356bc567da80"/>
+    <valueManagerType typeId="f6e40628-6bf8-4fc0-b0ad-a804301c3034" valueTypeId="81caffc4-b58f-44fe-bd3b-170c53eb3e3d"/>
+    <valueKeyType typeId="d5055152-d5dd-541e-9220-e9bb50643e38" valueTypeId="65c9feda-72d5-5e01-9e5b-495156ae073f"/>
+  </producedTypes>
+  <name>сшпАвтоматическийСтартОбработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматический старт обработчиков</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

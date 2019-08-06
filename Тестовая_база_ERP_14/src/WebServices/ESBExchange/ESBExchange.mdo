@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20bd8f4a-068c-42c8-8d3c-ed403a545a1c">
+  <name>ESBExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>ESBExchange</value>
+  </synonym>
+  <namespace>http://www.axelot.ru/ESB/package</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.ESB</value>
+  </xdtoPackages>
+  <descriptorFileName>ESBExchange.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="4cd68755-9d21-4f7e-9248-11f9289f44b4">
+    <name>PushMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push message</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PushMessage</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="50c6d170-7fc4-4c3d-90b8-b9c24567e08e">
+      <name>message</name>
+      <synonym>
+        <key>ru</key>
+        <value>Message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Message</name>
+        <nsUri>http://esb.axelot.ru</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="3987df0c-a45b-4306-b909-916b0cb1222d">
+    <name>PushArrayOfMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push array of message</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>int</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PushArrayOfMessage</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3bcad377-ac19-4f02-8e43-912c3c41684b">
+      <name>ArrayOfMessage</name>
+      <synonym>
+        <key>ru</key>
+        <value>Array of message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ArrayOfMessage1C</name>
+        <nsUri>http://esb.axelot.ru</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="93473090-815e-4672-abaf-929d3dabea10">
+    <name>PushMessageBatch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push message batch</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>int</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PushMessageBatch</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="d2f90493-5478-467e-9f29-cb2ae906221a">
+      <name>Messages</name>
+      <synonym>
+        <key>ru</key>
+        <value>Messages</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Messages</name>
+        <nsUri>http://esb.axelot.ru</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="1bc4fdfa-caf7-4e9c-9888-27ec7f778f34">
+    <name>SendMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PushMessage</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ffdf74d6-8262-43d7-9145-96d70b830337">
+      <name>message</name>
+      <synonym>
+        <key>ru</key>
+        <value>Message</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Message</name>
+        <nsUri>http://esb.axelot.ru</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="c807f069-1164-4e55-a891-26e758173bc3">
+    <name>SendMessageBatch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message batch</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>int</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>PushMessageBatch</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="5b293d51-2ec6-4b77-a979-4dac06681b0e">
+      <name>Messages</name>
+      <synonym>
+        <key>ru</key>
+        <value>Messages</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Messages</name>
+        <nsUri>http://esb.axelot.ru</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

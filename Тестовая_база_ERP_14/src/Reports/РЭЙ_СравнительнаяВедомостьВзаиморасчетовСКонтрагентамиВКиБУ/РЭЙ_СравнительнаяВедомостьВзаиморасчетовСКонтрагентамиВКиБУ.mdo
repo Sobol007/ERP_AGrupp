@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a5eedb3-0520-43a4-99e0-178f30043cea">
+  <producedTypes>
+    <objectType typeId="2fe54dca-54ad-44a9-9e50-cc209b9db6b5" valueTypeId="de3eadaa-fff1-4657-9b67-83206ef94d14"/>
+    <managerType typeId="e71c1465-ce5a-4ac8-89ad-9bf32e5c9050" valueTypeId="256ce21a-cf1a-4324-9640-ed33080ab7af"/>
+  </producedTypes>
+  <name>РЭЙ_СравнительнаяВедомостьВзаиморасчетовСКонтрагентамиВКиБУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнительная ведомость взаиморасчетов по ВК и БУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РЭЙ_СравнительнаяВедомостьВзаиморасчетовСКонтрагентамиВКиБУ.Form.ФормаОтчета</defaultForm>
+  <auxiliaryForm>Report.РЭЙ_СравнительнаяВедомостьВзаиморасчетовСКонтрагентамиВКиБУ.Form.ФормаОтчета</auxiliaryForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Сравнительная ведомость взаиморасчетов по ВК и БУ</value>
+  </extendedPresentation>
+  <attributes uuid="9e6e5683-2ff3-4ee5-9254-0b66a4609429">
+    <name>ВидКонтрактаВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контракта ВЭД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="23ee3949-7faa-4655-868d-7d51b6891715">
+    <name>ВидСправкиВалютногоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид справки валютного контроля</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7bfa6844-c75b-4b1a-a1bb-734eb0802dbd">
+    <name>ВысотаЗаголовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высота заголовка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d083e215-7920-453c-aa94-35ff5ce836c2">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4a0e433-3e21-4c96-8dc9-bb55b2ba7e76">
+    <name>ДатаОтчетаВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51197aec-cafc-400d-9ca1-cc5e729d2dd3">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент-нерезидент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.РЭЙ_НеЯвляетсяРезидентом</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="17387120-8ebb-4cbc-b4bd-e92c289c72d9">
+    <name>КонтрактВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт ВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2df69ba6-b8af-4a12-a3b1-53c275615a13">
+    <name>КредитЗаем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредит/заём</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d8d0be4a-264d-4aa8-96dc-d6d0a46fa951">
+    <name>НаправлениеДвижения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление движения ДС/ТУ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2fa65e05-92db-4370-81e8-97db1743f895">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация-резидент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="992861b1-0cb6-4091-a8a8-64c971a9ab75">
+    <name>СправкаВалютногоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка валютного контроля</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РЭЙ_СправкаОВалютныхОперациях</types>
+      <types>DocumentRef.РЭЙ_СправкаОПодтверждающихДокументах</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d691cf6c-03c2-48df-994a-c239715c839d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f9fc7303-210b-4b74-8e13-67dce3d54c44">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="9652114a-656b-4d02-b5f7-2bc1258b999c">
+    <name>Счета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счета</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

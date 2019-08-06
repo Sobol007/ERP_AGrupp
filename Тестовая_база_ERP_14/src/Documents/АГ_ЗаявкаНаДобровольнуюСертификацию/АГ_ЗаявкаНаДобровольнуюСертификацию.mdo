@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae844bca-9434-487b-ab50-649d9f082dd7">
+  <producedTypes>
+    <objectType typeId="e625aaaf-2dea-4398-9b01-b34549f43e54" valueTypeId="8460d25c-2b47-43e8-8fbc-853bad6aa2aa"/>
+    <refType typeId="53333719-9e08-4db7-854c-44ecf3448f27" valueTypeId="047faacd-587d-4469-9314-94ddbae5d497"/>
+    <selectionType typeId="417a86c7-c439-4853-8e01-ec8c8498c2f4" valueTypeId="9ee6680c-68fd-4439-ab6a-307b5625f69b"/>
+    <listType typeId="0b51f586-738c-43b8-9456-1cf7a82a1bcb" valueTypeId="c5e8d085-be40-4979-a2aa-016f2ffc9e32"/>
+    <managerType typeId="7f422c2c-4a1a-42b6-86fc-522747945458" valueTypeId="7680038f-4f97-4a6b-97da-67c003c5bba3"/>
+  </producedTypes>
+  <name>АГ_ЗаявкаНаДобровольнуюСертификацию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на добровольную сертификацию</value>
+  </synonym>
+  <comment>АГ:[+][DOBS_001_2][29.05.2019 22:57][Коробков]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АГ_ЗаявкаНаДобровольнуюСертификацию.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПриходныйОрдерНаТовары</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.АГ_ЗаявкаНаДобровольнуюСертификацию.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.АГ_ЗаявкаНаДобровольнуюСертификацию.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4fcc93a8-1402-47a0-b92b-c4876618e3ce">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c91698de-d6e1-487f-97d5-d773744901e6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bbe21c1-cbf0-4a47-8726-dc90322d2db1">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="039f6149-027d-4fbf-86b8-bb0d8d2b8e44">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2212bfb1-c21a-497a-a3b7-b7f5d4b3add1">
+    <name>ПодписьЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись заявки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cfdaff3-4c92-4a2d-812a-59a0ce1c9d81">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d12b8c3c-6af0-4d3a-87b6-cdf94467a373">
+    <name>ФайлДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7da6dc11-4080-4122-9fa5-a36f3081d441">
+    <name>ДатаФайлаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата файла данных</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7a3d84c-26a5-4778-af2d-896933ad12ea">
+    <name>ХранилищеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище файла</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7c31d9a7-e291-46f1-b0f6-e7cf3db8bba9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="91b6d94e-1e1e-4db0-906f-13b06032d492">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="777b78cf-cc8c-4692-bdda-b695758aa242">
+    <producedTypes>
+      <objectType typeId="b8e331cd-169e-46b7-8e35-854ce13752b5" valueTypeId="b797a186-73ac-47f9-b300-322c1ae7a42d"/>
+      <rowType typeId="efbe498c-ae54-462c-8cae-749b39a48a19" valueTypeId="3cdc57de-b4c5-44d0-931c-23ea222efc6b"/>
+    </producedTypes>
+    <name>Сертификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификация</value>
+    </synonym>
+    <attributes uuid="84c4e012-ce2d-44a7-a619-be079616d0f4">
+      <name>НоменклатураИзЗаказаПоставщика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура из заказа поставщика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4319020f-6c31-4175-bb17-1308c250ee3a">
+      <name>ХарактеристикаНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f0ad9d92-2320-4a25-b5df-36210654768a">
+      <name>НоменклатураДляСертификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура для сертификации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="766d7dc0-d085-4738-9239-261cdcd7b2a7">
+      <name>ХарактеристикаДляСертификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика для сертификации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c0f75f16-83fa-4936-8258-6afe34e8a0ba">
+      <name>СерияНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="73ce93cd-18f3-4814-85f8-e7ffffb0fe1d">
+      <name>НормативнаяДокументация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нормативная документация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2d7e8dd-aed9-4e41-b740-389b7b7a74a9">
+      <name>ПрилагаемыеДокументы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Прилагаемые документы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5be9693f-738d-431a-9b1d-5c1a96e5818b">
+      <name>НомерВагонаТС</name>
+      <synonym>
+        <key>ru</key>
+        <value>№ вагона/ТС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b922d78-7068-4f5d-a57f-c122cd93d800">
+      <name>ВесПоСертификату</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес по сертификату</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9ff89d52-8a40-4bf4-b005-57968826bf70">
+      <name>ПодлежитСертификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подлежит сертификации</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f481c7fd-e92d-4730-8d0b-4a6afbda58e0">
+      <name>НомерНовогоСертификата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер нового сертификата</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СертификатыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e6cf9c1-f6e4-403f-81e9-ecdf05b18a2f">
+      <name>ДатаНовогоСертификата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата нового сертификата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e4bf2c8-9924-40e7-a352-482e81e029df">
+      <name>ДокументОснование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПриходныйОрдерНаТовары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5ef59336-b634-4750-a1db-ad32f1cb7e6b">
+    <producedTypes>
+      <objectType typeId="c4875a4c-672e-4387-b099-bca0ac1d5763" valueTypeId="f716d74b-272e-4fde-a424-a021af0d098c"/>
+      <rowType typeId="af612ec7-a3fb-4263-8b90-f3ad295bf293" valueTypeId="733194ca-2af6-4a3d-a1c3-26a9fd5d4c44"/>
+    </producedTypes>
+    <name>ПрикрепленныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикрепленные документы</value>
+    </synonym>
+    <attributes uuid="186753c9-5c71-4237-8bc5-840bce96f59c">
+      <name>НаименованиеФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование файла</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.АГ_ЗаявкаНаДобровольнуюСертификациюПрисоединенныеФайлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

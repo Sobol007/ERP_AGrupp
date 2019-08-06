@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e4cda75-3fbd-4922-93c1-4fe57787a4a7">
+  <producedTypes>
+    <selectionType typeId="944c126b-69d6-4b42-b91e-073fc7c27198" valueTypeId="83b3dcdd-cffa-4889-bdbc-d452c5fd9225"/>
+    <listType typeId="9b12c98b-0022-48e8-b3b6-54cda7a4d2c9" valueTypeId="59565556-12d6-4946-86b2-e321231f1b17"/>
+    <managerType typeId="ff831bb7-5990-4bfd-8563-9080325eb302" valueTypeId="9929ca96-ccbc-4dd4-a9c2-137b04fcbda3"/>
+    <recordSetType typeId="ae1f5db4-b629-4f5c-a150-5fbc0f7389f3" valueTypeId="802c32fb-4442-4b70-82f2-7717e77ddab0"/>
+    <recordKeyType typeId="05c8aab1-6981-42e0-9b1a-4c69a26962a5" valueTypeId="c7b15064-e89b-4e9b-b07b-dc1e4390d9e1"/>
+    <recordType typeId="5e17608d-ed1b-4c1f-82f3-fb3d976db556" valueTypeId="1c8a7eae-8f4b-484e-8fa3-63eb2e36c1d8"/>
+    <recordManagerType typeId="6eb9328d-6628-4ea7-b397-0463cb5a4241" valueTypeId="c24a6c42-5e4d-4bf2-9ab1-38272b626612"/>
+  </producedTypes>
+  <name>РЭЙ_КредитныйСиндикат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кредитный синдикат</value>
+  </synonym>
+  <auxiliaryRecordForm>InformationRegister.РЭЙ_КредитныйСиндикат.Form.ФормаЗаписи</auxiliaryRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="244b93a2-5691-4f91-aace-7b549f73fe8b">
+    <name>СтранаКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна регистрации иностранного контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fff58b27-4a26-4645-87fb-bcb0eb093a5f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b447286b-4b04-45be-9110-586c1f0e3fe8">
+    <name>Доля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доля в общей сумме кредита (займа), %</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3714d26e-a64e-4cdb-ba2c-3b35b237390a">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="655343a5-1e01-413f-bf73-6e24ff936d2f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование иностранного контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bad91b52-c37c-4259-94f4-280969b9f0ec">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2facfe51-4042-4cdc-a5d5-32f6860ebf9d">
+  <name>ПФ_MXL_ТрудовойДоговорМикропредприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудовой договор микропредприятий (Постановление Правительства РФ от 27 августа 2016 г. № 858).</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Employment contract of microcompanies (RF Government decree dated 09/27/2016 No.858).</value>
+  </synonym>
+</mdclass:CommonTemplate>

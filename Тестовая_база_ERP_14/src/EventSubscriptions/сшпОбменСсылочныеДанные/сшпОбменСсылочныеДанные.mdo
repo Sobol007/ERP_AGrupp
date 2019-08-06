@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9053d45-e9e8-434f-8332-e0bac06eb916">
+  <name>сшпОбменСсылочныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен сылочные данные</value>
+  </synonym>
+  <source>
+    <types>BusinessProcessObject</types>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>TaskObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.сшпОбработкаСобытий.ВыполнитьОбменСШП</handler>
+</mdclass:EventSubscription>

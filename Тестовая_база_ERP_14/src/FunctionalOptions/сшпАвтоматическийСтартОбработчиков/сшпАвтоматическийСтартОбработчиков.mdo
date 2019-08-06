@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311ed49e-26cd-4230-8a32-99b55ce14171">
+  <name>сшпАвтоматическийСтартОбработчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматический старт обработчиков</value>
+  </synonym>
+  <location>Constant.сшпАвтоматическийСтартОбработчиков</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

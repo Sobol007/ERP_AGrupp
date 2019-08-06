@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a4227e-96b0-4607-ba43-38af6abe5162">
+  <producedTypes>
+    <selectionType typeId="8f27d3cf-3bf3-40a6-b557-7749f5f42f98" valueTypeId="1a309f26-b950-4e7f-a7bd-7daef77fcdfe"/>
+    <listType typeId="4efe99f6-9505-4b6e-aa48-6e933a4f9a4d" valueTypeId="41e670a2-f706-4587-9dff-3bba95456d79"/>
+    <managerType typeId="5a18d5b0-2c76-4c31-bec7-13bcf916065b" valueTypeId="b495dffb-633d-4ee8-baa8-6d448c6407c2"/>
+    <recordSetType typeId="f5837d3e-600a-4439-95b8-2bd9984d83f3" valueTypeId="c4f75514-761f-45d0-8196-5e25b7878d4e"/>
+    <recordKeyType typeId="e5480f21-47b5-4692-8e27-c3536fbea6ad" valueTypeId="931251bd-c8eb-4014-bef2-129d5577487e"/>
+    <recordType typeId="25f1a5d0-bd60-49b6-b0e2-1fe6890e7e52" valueTypeId="3c8fdc39-e49b-45f2-a803-4a3e697701ce"/>
+    <recordManagerType typeId="2bb36cbf-552e-4784-bb8f-cc6408bf4383" valueTypeId="0a2a5b46-7c56-422a-a806-aad5fe95bbcd"/>
+  </producedTypes>
+  <name>сшпЗаписываемыеИдентификаторыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записываемые идентификаторы объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3ada6227-1817-4032-a469-7f5322ffd290">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

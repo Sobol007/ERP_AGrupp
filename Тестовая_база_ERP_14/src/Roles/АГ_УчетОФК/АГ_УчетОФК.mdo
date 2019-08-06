@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dae73499-a7e7-4fe9-b706-8c7bb94cc272">
+  <name>АГ_УчетОФК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ОФК</value>
+  </synonym>
+</mdclass:Role>

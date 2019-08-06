@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb8301a1-4804-4b08-b666-74ffb75b990a">
+  <name>CRM_Шаг3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаг 3</value>
+  </synonym>
+</mdclass:CommonPicture>

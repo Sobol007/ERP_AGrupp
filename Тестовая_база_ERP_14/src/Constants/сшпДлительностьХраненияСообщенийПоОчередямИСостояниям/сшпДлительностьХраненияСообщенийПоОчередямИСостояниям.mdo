@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f2aefe-dc81-482c-8b6a-21d19a4177eb">
+  <producedTypes>
+    <managerType typeId="944fa12d-5e00-4a5d-80a3-3e36a3755871" valueTypeId="1c7eb701-df7b-40cf-bd2f-d62189f65f0b"/>
+    <valueManagerType typeId="677685a4-0975-4c97-8bfe-c71f96d96532" valueTypeId="69712139-c0f3-4d18-8288-77bc1d6431cb"/>
+    <valueKeyType typeId="f4cee17a-b989-56e5-906f-292ae193de91" valueTypeId="5ff54b6d-43b0-5034-b946-0c81c6670d8b"/>
+  </producedTypes>
+  <name>сшпДлительностьХраненияСообщенийПоОчередямИСостояниям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность хранения сообщений в разрезе очередей и состояний</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.сшпФормаКонстант</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Длительность хранения обработанного сообщения в архиве</value>
+  </explanation>
+  <minValue xsi:type="core:StringValue">
+    <value>1</value>
+  </minValue>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

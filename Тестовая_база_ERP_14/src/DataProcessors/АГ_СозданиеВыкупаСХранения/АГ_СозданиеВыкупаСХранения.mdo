@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7814e4b4-5887-4f68-8873-72fde8ac885d">
+  <producedTypes>
+    <objectType typeId="d4cf52d1-81b5-49f9-a65a-0eee8761356b" valueTypeId="d551ed0e-0df4-4aae-83b8-47d40a39ebc3"/>
+    <managerType typeId="4d007d22-474e-4349-b413-633ee00eb6bc" valueTypeId="16ba02e8-de33-444d-a41d-1bd85c6ce58d"/>
+  </producedTypes>
+  <name>АГ_СозданиеВыкупаСХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание выкупа с хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_СозданиеВыкупаСХранения.Form.Форма</defaultForm>
+  <attributes uuid="b7d5abb8-b975-4f2e-8b96-588df096e1dd">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec6dacf3-5ba2-4ae0-9e52-f0d8615cac9f">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4641b4f-1631-4085-b147-894ac3fb8b57">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12ba15ca-4f5d-43a8-9769-8505e38834f7">
+    <name>ДоговорНаХранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор на хранение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2bb17e13-e950-46f7-9cbd-8c6df22b1a37">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

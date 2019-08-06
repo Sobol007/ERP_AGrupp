@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d77627e8-4c02-486a-a9d8-0aae6f37eac5">
+  <name>ЗадачиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи пользователей</value>
+  </synonym>
+  <content>Catalog.РЭЙ_ВидыЗадачПользователей</content>
+  <content>Enum.РЭЙ_СтатусыСправокВалютногоКонтроля</content>
+  <content>Enum.РЭЙ_ДниНедели</content>
+  <content>Enum.РЭЙ_ПроцедураДекларирования</content>
+  <content>Task.РЭЙ_ЗадачиВЭД</content>
+  <parentSubsystem>Subsystem.РЭЙ_ВнешнеэкономическаяДеятельность</parentSubsystem>
+</mdclass:Subsystem>

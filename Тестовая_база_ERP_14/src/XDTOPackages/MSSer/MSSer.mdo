@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="044d39d4-b714-42fa-9303-3ad09cdcae10">
+  <name>MSSer</name>
+  <synonym>
+    <key>ru</key>
+    <value>MSSer</value>
+  </synonym>
+  <namespace>http://schemas.microsoft.com/2003/10/Serialization/</namespace>
+</mdclass:XDTOPackage>

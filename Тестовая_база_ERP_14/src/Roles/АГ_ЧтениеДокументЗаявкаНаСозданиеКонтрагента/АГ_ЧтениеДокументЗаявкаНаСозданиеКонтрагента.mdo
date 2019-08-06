@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752ca70c-fb5f-421e-9762-f34b70b684b1">
+  <name>АГ_ЧтениеДокументЗаявкаНаСозданиеКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документа &quot;Заявка на создание/изменение нового контрагента&quot;</value>
+  </synonym>
+</mdclass:Role>

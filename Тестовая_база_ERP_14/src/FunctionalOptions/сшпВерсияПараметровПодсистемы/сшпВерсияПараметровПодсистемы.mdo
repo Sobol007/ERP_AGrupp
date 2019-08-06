@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c32e3fa-08f8-439e-b97b-80fa3c3e28f6">
+  <name>сшпВерсияПараметровПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия параметров подсистемы</value>
+  </synonym>
+  <location>Constant.сшпВерсияПараметровПодсистемы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22416e75-a5a3-4302-bcc0-c5a56e540058">
+  <name>АГ_ЧтениеИспользованиеЛимитовОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Использование лимитов отгрузки</value>
+  </synonym>
+</mdclass:Role>

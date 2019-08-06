@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec74b2bd-efb8-4d3a-a674-448aefbf3d55">
+  <producedTypes>
+    <objectType typeId="9f942955-329f-4e60-b00c-71e1b722f6c7" valueTypeId="2a4ea98d-6b75-4367-aead-0426b4d5b1d5"/>
+    <managerType typeId="5a424f20-6712-4f01-8bfc-e65888768059" valueTypeId="a93afca1-c82d-41ca-b975-a0d547b04b9b"/>
+  </producedTypes>
+  <name>РЭЙ_ВедомостьБанковскогоКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость банковского контроля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.РЭЙ_ВедомостьБанковскогоКонтроля.Form.ФормаОтчета</defaultForm>
+  <auxiliaryForm>Report.РЭЙ_ВедомостьБанковскогоКонтроля.Form.ФормаОтчета</auxiliaryForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="c2bef97e-7ed7-4147-a739-60929722ca29">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a40f17be-a52d-41a0-9cc5-0e09e34ace4a">
+    <name>ДатаОтчетаВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета вручную</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb9607bd-710f-45e3-a030-1ef5739b5e7e">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.РЭЙ_НеЯвляетсяРезидентом</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+  </attributes>
+  <attributes uuid="2ab7a7a1-66c3-4cd0-b86d-714c9a26ece9">
+    <name>КонтрактВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт ВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РЭЙ_КонтрактыВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f4169d5b-5fd7-4803-84cf-003ada68e4d6">
+    <name>НеПечататьРазделы456</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не печатать разделы456</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5743283a-8dd8-4528-8161-fd957cb9b0a0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="74584df4-ba0d-4da7-8dec-f96154afda94">
+    <name>ВидКонтрактаВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид контракта ВЭД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3383e9bb-6060-487d-acab-0cafe3114019">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="577b7927-251f-4502-be01-06498b2b2067">
+    <name>ВедомостьБанковскогоКонтроля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость банковского контроля</value>
+    </synonym>
+  </templates>
+  <templates uuid="f87c7817-6065-4199-8f98-a69c83e73b08">
+    <name>ВедомостьБанковскогоКонтроля_2012</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость банковского контроля</value>
+    </synonym>
+  </templates>
+  <templates uuid="c6d5b6be-b540-49e8-a9aa-3bf2f4ce6284">
+    <name>ВедомостьБанковскогоКонтроля_2015</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость банковского контроля</value>
+    </synonym>
+  </templates>
+  <templates uuid="290950c8-c96f-451e-acc5-bde30be3c5bd">
+    <name>ВедомостьБанковскогоКонтроля_2018_Контракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость банковского контроля по контракту с 01.03.2018</value>
+    </synonym>
+  </templates>
+  <templates uuid="9de693e2-4dc4-41ee-82d7-41f2bf881fc9">
+    <name>ВедомостьБанковскогоКонтроля_2018_КредитныйДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость банковского контроля по кредитному договору с 01.03.2018</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

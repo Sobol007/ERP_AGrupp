@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58fd20af-d1f5-4f8e-bbed-b6fc33b5ec43">
+  <name>АГ_УведомлениеОбОкончанииСроковКредитныхЛимитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об окончании сроков кредитных лимитов</value>
+  </synonym>
+  <comment>АГ:[+][SAPDZ_0001_8][14.03.2019 20:45][Фирсанов]</comment>
+  <methodName>CommonModule.АГ_РегламентныеЗаданияСерверный.УведомлениеОбОкончанииСроковКредитныхЛимитов</methodName>
+  <description>Уведомление об окончании сроков кредитных лимитов</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

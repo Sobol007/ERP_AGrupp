@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc234ac4-8bd3-4966-b426-acb77de94077">
+  <producedTypes>
+    <refType typeId="d468d79c-bfff-41d3-a830-26cde64e2598" valueTypeId="abfcc1b1-9562-4868-8e16-d2127cd928de"/>
+    <listType typeId="32bdb90f-c888-4b77-a4b3-b96ab20f0ec6" valueTypeId="f264e0bd-3fa7-474c-9a81-bfb51d236636"/>
+    <managerType typeId="d28245d9-44d1-4746-b214-8a2373308d9f" valueTypeId="d43e7b81-5fb2-4e27-bcfb-410633eaec07"/>
+  </producedTypes>
+  <name>АГ_РолиСогласованияТендера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли согласования тендера</value>
+  </synonym>
+  <comment>АГ:[+][TEND_0001_20][17.02.2019 15:45][Фирсанов] </comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c29c4f42-5f81-46da-bd82-15deb49fbff4">
+    <name>НОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>НОП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="315224e2-16ac-4369-adfc-55ff4bbe17a8">
+    <name>РуководительДивизиона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор МЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66142371-960e-4c03-9b03-8f7407ea95c4">
+    <name>ДиректорПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель дивизиона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a47b6b3-8085-4237-bd00-c05e7c7196ed">
+    <name>ГенеральныйДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор по продажам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

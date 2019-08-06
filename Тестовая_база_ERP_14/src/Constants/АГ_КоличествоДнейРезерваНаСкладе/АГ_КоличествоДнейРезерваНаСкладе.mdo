@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45bfa3d-3b18-4c3d-ab5d-a13a8c9cccc2">
+  <producedTypes>
+    <managerType typeId="cba569ef-b107-4695-8804-2c2b347cc51e" valueTypeId="e231ec71-209f-41c0-837e-fe95cee1e905"/>
+    <valueManagerType typeId="a8efbbe5-045a-41f9-a386-7fc2186ae3dc" valueTypeId="f07baafd-6b0a-4a5f-9232-1c7817218629"/>
+    <valueKeyType typeId="20a97aae-efbb-42da-aca7-684662f16e09" valueTypeId="5e20729c-6514-43b3-aded-519c13d53738"/>
+  </producedTypes>
+  <name>АГ_КоличествоДнейРезерваНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней резерва на складе</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

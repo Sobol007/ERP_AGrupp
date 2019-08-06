@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0307bce6-987e-4c78-970e-a56c226a5037">
+  <producedTypes>
+    <objectType typeId="49393708-83f4-44f0-ad13-743e3082d19f" valueTypeId="725f0074-7cf1-4eb4-8087-2ddb13567a01"/>
+    <managerType typeId="52e9b4e6-ff02-4a86-9e06-126f5f4ca136" valueTypeId="eb73c1fb-5df3-4d88-b210-5197595c6782"/>
+  </producedTypes>
+  <name>АГ_ФормированиеФинансовыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование финансовых документов</value>
+  </synonym>
+  <comment>АГ:[УСЛ0017][11.05.2019 18:05][Давиденко А.В.]</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АГ_ФормированиеФинансовыхДокументов.Form.Форма</defaultForm>
+  <forms uuid="178e6d76-42b5-42cf-a6c4-3618f8431bcd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e21db5f-4caf-48bf-980a-ceacf748dee9">
+  <name>АГ_ЧтениеПлановПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение планов продаж (А Групп)</value>
+  </synonym>
+  <comment>АГ:[+][PLAN_001_1][01.03.2019 10:30][Масгутов]</comment>
+</mdclass:Role>

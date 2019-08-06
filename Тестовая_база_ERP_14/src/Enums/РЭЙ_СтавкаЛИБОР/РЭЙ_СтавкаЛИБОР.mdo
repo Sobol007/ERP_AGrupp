@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2746bcf8-584a-4db2-8465-1542856cd74b">
+  <producedTypes>
+    <refType typeId="e2975f37-978a-4893-bd38-536f532c24b4" valueTypeId="3fc03f58-5a2f-4e4b-b78d-104f328de182"/>
+    <listType typeId="c59154fa-cc39-4f6a-87b3-efc874a4cec9" valueTypeId="ec050a2b-6895-40e8-84a9-83e24dd4589d"/>
+    <managerType typeId="4687a750-9492-4651-bb37-8e4c5f97c45d" valueTypeId="ca901a81-a660-4f1c-aa28-55ae54badd5a"/>
+  </producedTypes>
+  <name>РЭЙ_СтавкаЛИБОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставка LIBOR</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кредиты и займы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6997fff-de6b-4e80-b788-4b44dc8d2221">
+    <name>Л01</name>
+    <synonym>
+      <key>ru</key>
+      <value>     месячная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71e1a79c-8e8d-44b7-ad22-dbe8960958e8">
+    <name>Л03</name>
+    <synonym>
+      <key>ru</key>
+      <value>  3-месячная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="004b25a5-f605-4d66-a668-fd0165020936">
+    <name>Л06</name>
+    <synonym>
+      <key>ru</key>
+      <value>  6-месячная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="169fa8f7-87ad-4f68-89fd-85714cf16e59">
+    <name>Л12</name>
+    <synonym>
+      <key>ru</key>
+      <value>12-месячная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84f6b07b-5dde-496c-9c84-737ebeeca148">
+  <producedTypes>
+    <refType typeId="170b7ae4-18f4-4205-b731-317d07caf3be" valueTypeId="ed1d3a3b-3ebd-49ba-a126-1fa327d533e9"/>
+    <listType typeId="87b752ca-8c2b-43d3-a52a-9e57252c47f6" valueTypeId="12ecee28-9cf7-4173-983f-5f5b30233ff9"/>
+    <managerType typeId="98bcd89a-9201-4551-bfd0-e4241ee7f59e" valueTypeId="b416c63c-228a-41e1-b198-02560c932683"/>
+  </producedTypes>
+  <name>АГ_ТипыАссортиментныхПортфелей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ассортиментных портфелей</value>
+  </synonym>
+  <comment>АГ:[+][УЗП0010][02.06.2019 11:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa7847b9-29dc-40c4-9a1c-d5460ed249a7">
+    <name>Базовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c9b6669-0f7f-4d12-81a5-d99f7b6f97da">
+    <name>Развитие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Развитие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97b764ae-8deb-4d4f-9e82-a78c36331028">
+    <name>РазвитиеЗвездочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Развитие*</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="675a6a49-0cc8-4c90-85af-73cf49936bb3">
+    <name>НаВывод</name>
+    <synonym>
+      <key>ru</key>
+      <value>На вывод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

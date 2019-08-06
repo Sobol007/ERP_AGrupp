@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f97d124e-302a-4bb6-b545-4746955f033c">
+  <producedTypes>
+    <refType typeId="145757c2-4776-49b8-8a71-2a97d0c69276" valueTypeId="e378af7d-9c7e-4fa1-8758-b41b2aacac67"/>
+    <listType typeId="851c1be4-e871-4148-91c2-ffc2f938ef7a" valueTypeId="15383ced-23f1-4e17-ab1d-db1f5c030dc9"/>
+    <managerType typeId="f8065910-0cd7-4665-9ba9-29162fc80c00" valueTypeId="1fe4a3e9-e088-4f21-bf90-c2313b39a2af"/>
+  </producedTypes>
+  <name>АГ_СтатусыДокументаАссортиментныйПортфель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документа ассортиментный портфель</value>
+  </synonym>
+  <comment>АГ:[+][УЗП0010][02.06.2019 19:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7547b75-c69d-4227-b906-928224b1b0ba">
+    <name>НаСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c74838e-52da-48ca-93f8-7bf91c0c1e4c">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

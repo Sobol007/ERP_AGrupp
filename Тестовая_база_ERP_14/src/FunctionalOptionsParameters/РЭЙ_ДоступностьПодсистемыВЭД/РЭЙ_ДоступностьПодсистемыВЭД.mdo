@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOptionsParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c4ce0bb-3795-41c5-8738-defface22984">
+  <name>РЭЙ_ДоступностьПодсистемыВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступность подсистемы ВЭД</value>
+  </synonym>
+  <use>InformationRegister.РЭЙ_НастройкиВидимостиПодсистемыВЭД.Dimension.ДоступностьПодсистемыВЭД</use>
+</mdclass:FunctionalOptionsParameter>

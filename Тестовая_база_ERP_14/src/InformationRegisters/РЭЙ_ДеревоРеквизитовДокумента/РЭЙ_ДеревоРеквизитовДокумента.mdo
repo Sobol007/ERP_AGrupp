@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a0ff36a-7a3b-42f0-82ec-22a3bccce122">
+  <producedTypes>
+    <selectionType typeId="e93b69a4-a3ec-4519-9139-a3b1654bf755" valueTypeId="652d9c59-0693-437f-968e-40b6984ac42f"/>
+    <listType typeId="e2bbdbf6-97b2-4cd5-96b2-3ca52cb711c2" valueTypeId="7eae12ce-5fe4-4efb-9924-3855719082fd"/>
+    <managerType typeId="c23b6fb9-9979-46cb-9020-2bfdb513e37c" valueTypeId="03d4abc0-c520-4e1a-8c57-1300a4737e67"/>
+    <recordSetType typeId="1ecc820b-ec46-4920-81b6-cb7912aa583e" valueTypeId="d0414689-0bf8-472b-b77a-f685926d361f"/>
+    <recordKeyType typeId="cbabd390-7b29-42b0-b5a5-0d659bb033a2" valueTypeId="a333885b-9ac7-4ce6-824f-1bc5636cb6fa"/>
+    <recordType typeId="f97dcd28-a910-44cf-8b3f-d49ed4118e16" valueTypeId="c0731ac9-62c2-4c84-85f0-714ba6501394"/>
+    <recordManagerType typeId="7bb00d50-7a38-4b8d-aa9b-6bfe3f377f37" valueTypeId="a8ec7710-50fa-423c-92eb-dafa6be35a7c"/>
+  </producedTypes>
+  <name>РЭЙ_ДеревоРеквизитовДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дерево реквизитов документа</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fddde3fe-eff2-41f7-856b-06413fa8848e">
+    <name>ДеревоРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево реквизитов</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="89a820b4-1f44-4343-89d9-fc1a18209571">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

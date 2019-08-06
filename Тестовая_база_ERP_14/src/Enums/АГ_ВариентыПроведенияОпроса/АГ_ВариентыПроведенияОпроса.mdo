@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fd595af-dbb3-478f-908e-4dcfe4f15164">
+  <producedTypes>
+    <refType typeId="689af47f-ced1-4dad-baf4-87d221c931bf" valueTypeId="1c18c152-e8ab-497a-bbee-cec84ee08e9d"/>
+    <listType typeId="c2132d19-7c55-4ac8-a448-3214fe64dd80" valueTypeId="595aac3c-c5e1-429b-a6ca-77eff7dd0ec4"/>
+    <managerType typeId="bfdcf662-cae7-4fa1-9b16-6b4fe68257fe" valueTypeId="b28faa80-0c0d-40df-a79d-a8f4e1a674a4"/>
+  </producedTypes>
+  <name>АГ_ВариентыПроведенияОпроса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариенты проведения опроса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c05a1a7b-45fd-47b4-8603-be73272ad471">
+    <name>ЭлектроннаяРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная рассылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25446310-c15d-4f70-89b7-9347d108c382">
+    <name>ОпросСотрудниками</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опрос сотрудниками</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

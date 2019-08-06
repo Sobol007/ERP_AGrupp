@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd98961a-15ed-4b82-a433-ed4c46321d0e">
+  <producedTypes>
+    <refType typeId="9beacd48-fbc6-4ba2-a15f-73bdf912ec87" valueTypeId="68fafd9b-0a08-4519-9296-121edce77065"/>
+    <listType typeId="890252a6-fa3b-44a9-bbc7-c5a8e39dfad6" valueTypeId="06817eb6-dde8-4b05-bf27-dfdcd227ea36"/>
+    <managerType typeId="2be4c323-cd2b-4181-aa29-8b59282a66f8" valueTypeId="5f83d141-39e0-4bd8-a87c-e3afdda42d6f"/>
+  </producedTypes>
+  <name>РЭЙ_ВидИсходныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды исходных данных для документов, выгружаемых в клиент-банк</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9c5e8e3a-d3c8-4a10-b439-84ebceef0fd6">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e281286e-2860-416d-af13-b97b668e16e6">
+    <name>ПолеМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле макета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09ad398a-caac-4a09-adf2-624bf60dd8a2">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f03b812-4219-41fe-8296-07c77da71fa3">
+    <name>Выражение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выражение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

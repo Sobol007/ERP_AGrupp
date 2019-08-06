@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77dcdbe3-3795-4e5d-8d86-d30e7d289d5e">
+  <name>АГ_ДобавлениеИзменениеДокументаАссортиментныйПортфель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение документов ассортиментный портфель (АГРУПП)</value>
+  </synonym>
+</mdclass:Role>

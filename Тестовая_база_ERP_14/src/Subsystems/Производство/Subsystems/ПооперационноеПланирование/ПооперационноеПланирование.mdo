@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f9abca-492f-4ffc-b07a-8e1ae9402bac">
+  <name>ПооперационноеПланирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пооперационное планирование</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Operation planning</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОперативныйУчетПроизводстваПриПланированииСервер</content>
+  <content>CommonModule.ОперативныйУчетПроизводстваПриПланированииКлиент</content>
+  <content>Report.ДиаграммаПооперационногоРасписания2_2</content>
+  <content>DataProcessor.ПооперационноеПланирование2_2</content>
+  <content>DataProcessor.ВыполнениеОперацийПриПланировании</content>
+  <content>InformationRegister.ПооперационноеРасписание2_2</content>
+  <content>Constant.ИспользоватьПооперационноеПланирование</content>
+  <content>FunctionalOption.ИспользоватьПооперационноеПланирование</content>
+  <content>Report.АнализПооперационногоРасписания2_2</content>
+  <content>InformationRegister.БлокировкиПооперационногоРасписания2_2</content>
+  <content>Role.ДобавлениеИзменениеПооперационногоРасписания2_2</content>
+  <content>Role.ИспользованиеВыполненияОперацийПриПланировании</content>
+  <content>Role.ЧтениеПооперационногоРасписания2_2</content>
+  <content>38275e11-8ffc-46ee-88e4-51a9e72e7bdb</content>
+  <content>3650bcb3-c33d-4b2a-82fa-cb10799d8243</content>
+  <content>c9e61d71-53c9-4c94-b835-f68df94e074b</content>
+  <content>8439e74e-e5ad-4182-b307-58add114a7c3</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

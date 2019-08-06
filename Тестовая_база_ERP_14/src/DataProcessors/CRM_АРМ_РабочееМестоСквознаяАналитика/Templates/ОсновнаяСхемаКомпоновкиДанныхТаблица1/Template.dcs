@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CRM_РекламнаяКампания</dataPath>
+			<field>CRM_РекламнаяКампания</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаявкаКоличество</dataPath>
+			<field>ЗаявкаКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявка количество</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КаналПервичногоИнтереса</dataPath>
+			<field>КаналПервичногоИнтереса</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>CRM_Сайт</dataPath>
+			<field>CRM_Сайт</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выручка</dataPath>
+			<field>Выручка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъявлениеРекламнаяКомпания</dataPath>
+			<field>ОбъявлениеРекламнаяКомпания</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Визиты</dataPath>
+			<field>Визиты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Посетители</dataPath>
+			<field>Посетители</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отказы</dataPath>
+			<field>Отказы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГлубинаПросмотра</dataPath>
+			<field>ГлубинаПросмотра</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Показы</dataPath>
+			<field>Показы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клики</dataPath>
+			<field>Клики</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СредняяЦенаКлика</dataPath>
+			<field>СредняяЦенаКлика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИнтересыКоличество</dataPath>
+			<field>ИнтересыКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интересы количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПродажиКоличество</dataPath>
+			<field>ПродажиКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продажи количество</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументЗаявка</dataPath>
+			<field>ДокументЗаявка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ заявка</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументТелефонныйЗвонок</dataPath>
+			<field>ДокументТелефонныйЗвонок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ телефонный звонок</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>URL</dataPath>
+			<field>URL</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Medium</dataPath>
+			<field>Medium</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	CRM_ПоказателиКампаний.CRM_Сайт КАК CRM_Сайт,
+	CRM_ПоказателиКампаний.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	CRM_ПоказателиКампаний.CRM_РекламнаяКампания КАК CRM_РекламнаяКампания,
+	CRM_ПоказателиКампаний.ОбъявлениеРекламнаяКомпания КАК ОбъявлениеРекламнаяКомпания,
+	СУММА(CRM_ПоказателиКампаний.Визиты) КАК Визиты,
+	СУММА(CRM_ПоказателиКампаний.Посетители) КАК Посетители,
+	СУММА(CRM_ПоказателиКампаний.Отказы) КАК Отказы,
+	СУММА(CRM_ПоказателиКампаний.ГлубинаПросмотра) КАК ГлубинаПросмотра,
+	CRM_ПоказателиКампаний.URL КАК URL,
+	CRM_ПоказателиКампаний.Medium КАК Medium
+ПОМЕСТИТЬ ВременнаяТаблица
+ИЗ
+	РегистрСведений.CRM_ПоказателиКампаний КАК CRM_ПоказателиКампаний
+ГДЕ
+	CRM_ПоказателиКампаний.ПериодДанных МЕЖДУ &amp;Период1 И &amp;Период2
+
+СГРУППИРОВАТЬ ПО
+	CRM_ПоказателиКампаний.CRM_Сайт,
+	CRM_ПоказателиКампаний.КаналПервичногоИнтереса,
+	CRM_ПоказателиКампаний.CRM_РекламнаяКампания,
+	CRM_ПоказателиКампаний.ОбъявлениеРекламнаяКомпания,
+	CRM_ПоказателиКампаний.URL,
+	CRM_ПоказателиКампаний.Medium
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблица.CRM_Сайт КАК CRM_Сайт,
+	ВременнаяТаблица.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	ВременнаяТаблица.CRM_РекламнаяКампания КАК CRM_РекламнаяКампания,
+	ВременнаяТаблица.ОбъявлениеРекламнаяКомпания КАК ОбъявлениеРекламнаяКомпания,
+	ВременнаяТаблица.Визиты КАК Визиты,
+	ВременнаяТаблица.Посетители КАК Посетители,
+	ВременнаяТаблица.Отказы КАК Отказы,
+	ВременнаяТаблица.ГлубинаПросмотра КАК ГлубинаПросмотра,
+	СУММА(CRM_ЗатратыРекламныхКампаний.Показы) КАК Показы,
+	СУММА(CRM_ЗатратыРекламныхКампаний.Клики) КАК Клики,
+	СРЕДНЕЕ(CRM_ЗатратыРекламныхКампаний.СредняяЦенаКлика) КАК СредняяЦенаКлика,
+	ВременнаяТаблица.URL КАК URL,
+	ВременнаяТаблица.Medium КАК Medium
+ПОМЕСТИТЬ ВременнаяТаблицаПоказателиИтоговая
+ИЗ
+	ВременнаяТаблица КАК ВременнаяТаблица
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.CRM_ЗатратыРекламныхКампаний КАК CRM_ЗатратыРекламныхКампаний
+		ПО ВременнаяТаблица.CRM_РекламнаяКампания = CRM_ЗатратыРекламныхКампаний.CRM_РекламнаяКампания
+			И ВременнаяТаблица.ОбъявлениеРекламнаяКомпания = CRM_ЗатратыРекламныхКампаний.ОбъявленияРекламныхКампаний
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблица.CRM_Сайт,
+	ВременнаяТаблица.КаналПервичногоИнтереса,
+	ВременнаяТаблица.CRM_РекламнаяКампания,
+	ВременнаяТаблица.ОбъявлениеРекламнаяКомпания,
+	ВременнаяТаблица.Визиты,
+	ВременнаяТаблица.Посетители,
+	ВременнаяТаблица.Отказы,
+	ВременнаяТаблица.ГлубинаПросмотра,
+	ВременнаяТаблица.URL,
+	ВременнаяТаблица.Medium
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсточникиПервичногоИнтереса.Сделка КАК Сделка,
+	ИсточникиПервичногоИнтереса.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	ИсточникиПервичногоИнтереса.Период КАК Период,
+	ИсточникиПервичногоИнтереса.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса,
+	ИсточникиПервичногоИнтереса.CRM_Сайт КАК CRM_Сайт
+ПОМЕСТИТЬ ВременнаяТаблицаЗаявки
+ИЗ
+	РегистрСведений.ИсточникиПервичногоИнтереса КАК ИсточникиПервичногоИнтереса
+ГДЕ
+	ИсточникиПервичногоИнтереса.Период МЕЖДУ &amp;Период1 И &amp;Период2
+
+ИНДЕКСИРОВАТЬ ПО
+	КаналПервичногоИнтереса,
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаЗаявки.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ВременнаяТаблицаЗаявки.Сделка) КАК ЗаявкаКоличество,
+	ВременнаяТаблицаЗаявки.Период КАК Период,
+	ВременнаяТаблицаЗаявки.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ВЫРАЗИТЬ(ВременнаяТаблицаЗаявки.Сделка КАК Документ.CRM_Заявка)) КАК ДокументЗаявка,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ВЫРАЗИТЬ(ВременнаяТаблицаЗаявки.Сделка КАК Документ.ТелефонныйЗвонок)) КАК ДокументТелефонныйЗвонок,
+	ВременнаяТаблицаЗаявки.CRM_Сайт КАК CRM_Сайт
+ПОМЕСТИТЬ ВременнаяТаблицаЗаявкаКоличество
+ИЗ
+	ВременнаяТаблицаЗаявки КАК ВременнаяТаблицаЗаявки
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблицаЗаявки.КаналПервичногоИнтереса,
+	ВременнаяТаблицаЗаявки.Период,
+	ВременнаяТаблицаЗаявки.ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаЗаявки.CRM_Сайт
+
+ИНДЕКСИРОВАТЬ ПО
+	КаналПервичногоИнтереса,
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	CRM_Интерес.СостояниеИнтереса.Родитель КАК СостояниеИнтересаРодитель
+ПОМЕСТИТЬ ВоронкаПродаж
+ИЗ
+	ВременнаяТаблицаЗаявки КАК ВременнаяТаблицаЗаявки
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.CRM_Интерес КАК CRM_Интерес
+		ПО ВременнаяТаблицаЗаявки.Сделка = CRM_Интерес.ДокументОснование
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	CRM_Интерес.Ссылка КАК Ссылка,
+	ВременнаяТаблицаЗаявки.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	ВременнаяТаблицаЗаявки.Сделка КАК Сделка,
+	CRM_Интерес.ОжидаемаяВыручка КАК ОжидаемаяВыручка,
+	ВременнаяТаблицаЗаявки.Период КАК Период,
+	ВременнаяТаблицаЗаявки.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса
+ПОМЕСТИТЬ ВременнаяТаблицаИнтересы
+ИЗ
+	ВременнаяТаблицаЗаявки КАК ВременнаяТаблицаЗаявки
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.CRM_Интерес КАК CRM_Интерес
+		ПО ВременнаяТаблицаЗаявки.Сделка = CRM_Интерес.ДокументОснование
+ГДЕ
+	НЕ CRM_Интерес.ПометкаУдаления
+
+ИНДЕКСИРОВАТЬ ПО
+	КаналПервичногоИнтереса,
+	Период,
+	ИсточникПервичногоИнтереса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ВременнаяТаблицаИнтересы.Ссылка) КАК ИнтересыКоличество,
+	СУММА(ВременнаяТаблицаИнтересы.ОжидаемаяВыручка) КАК ВыручкаСумма,
+	ВременнаяТаблицаИнтересы.Период КАК Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса
+ПОМЕСТИТЬ ВременнаяТаблицаИнтересыКоличество
+ИЗ
+	ВременнаяТаблицаИнтересы КАК ВременнаяТаблицаИнтересы
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса,
+	ВременнаяТаблицаИнтересы.Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса
+
+ИНДЕКСИРОВАТЬ ПО
+	КаналПервичногоИнтереса,
+	Период,
+	ИсточникПервичногоИнтереса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗаказКлиента.Сделка КАК Документ,
+	СУММА(ДолгРегл) КАК СуммаПриход
+ПОМЕСТИТЬ РасчетыСПокупателями
+ИЗ
+	РегистрНакопления.РасчетыСКлиентамиПоДокументам
+ГДЕ
+	ВидДвижения = &amp;ВидДвижения
+СГРУППИРОВАТЬ ПО
+	ЗаказКлиента
+
+ИНДЕКСИРОВАТЬ ПО
+	Документ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РегистрСведенийCRM_ЖурналДокументов.Объект КАК Объект,
+	РегистрСведенийCRM_ЖурналДокументов.CRM_Интерес КАК CRM_Интерес,
+	РасчетыСПокупателями.СуммаПриход КАК СуммаПриход
+ПОМЕСТИТЬ ПродажиПо
+ИЗ
+	РегистрСведений.CRM_ЖурналДокументов КАК РегистрСведенийCRM_ЖурналДокументов
+	ЛЕВОЕ СОЕДИНЕНИЕ РасчетыСПокупателями КАК РасчетыСПокупателями
+	ПО РегистрСведенийCRM_ЖурналДокументов.Объект = РасчетыСПокупателями.Документ
+ГДЕ
+	НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.CRM_Интерес
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.CRM_Взаимодействие
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.ЭлектронноеПисьмоВходящее
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.ЭлектронноеПисьмоИсходящее
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.ТелефонныйЗвонок
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.СообщениеSMS
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.CRM_Заявка
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Документ.CRM_СообщениеМессенджера
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА БизнесПроцесс.CRM_БизнесПроцесс
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.Объект ССЫЛКА Задача.ЗадачаИсполнителя
+	И НЕ РегистрСведенийCRM_ЖурналДокументов.CRM_Интерес = ЗНАЧЕНИЕ(Документ.CRM_Интерес.ПустаяСсылка)
+	И РегистрСведенийCRM_ЖурналДокументов.ГлавнаяЗапись = ИСТИНА
+	И РегистрСведенийCRM_ЖурналДокументов.CRM_Интерес В
+			(ВЫБРАТЬ
+				ВременнаяТаблицаИнтересы.Ссылка
+			ИЗ
+				ВременнаяТаблицаИнтересы)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаИнтересы.Период КАК Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	СУММА(ПродажиПо.СуммаПриход) КАК СуммаПриход
+ПОМЕСТИТЬ ВременнаяТаблицаИтговыеПродажи
+ИЗ
+	ВременнаяТаблицаИнтересы КАК ВременнаяТаблицаИнтересы
+		ЛЕВОЕ СОЕДИНЕНИЕ ПродажиПо КАК ПродажиПо
+		ПО ВременнаяТаблицаИнтересы.Ссылка = ПродажиПо.CRM_Интерес
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблицаИнтересы.Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаИнтересы.Период КАК Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ПродажиПо.CRM_Интерес) КАК Объект
+ПОМЕСТИТЬ ВременнаяТаблицаИтговыеПродажиКоличество
+ИЗ
+	ВременнаяТаблицаИнтересы КАК ВременнаяТаблицаИнтересы
+		ЛЕВОЕ СОЕДИНЕНИЕ ПродажиПо КАК ПродажиПо
+		ПО ВременнаяТаблицаИнтересы.Ссылка = ПродажиПо.CRM_Интерес
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблицаИнтересы.Период,
+	ВременнаяТаблицаИнтересы.ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаИнтересы.КаналПервичногоИнтереса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаЗаявкаКоличество.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	СУММА(ВременнаяТаблицаЗаявкаКоличество.ЗаявкаКоличество) КАК ЗаявкаКоличество,
+	СУММА(ВременнаяТаблицаИнтересыКоличество.ИнтересыКоличество) КАК ИнтересыКоличество,
+	СУММА(ВременнаяТаблицаИнтересыКоличество.ВыручкаСумма) КАК ВыручкаСумма,
+	ВременнаяТаблицаЗаявкаКоличество.ИсточникПервичногоИнтереса КАК ИсточникПервичногоИнтереса,
+	СУММА(ВременнаяТаблицаИтговыеПродажи.СуммаПриход) КАК Продажа,
+	СУММА(ВременнаяТаблицаИтговыеПродажиКоличество.Объект) КАК ПродажиКоличество,
+	СУММА(ВременнаяТаблицаЗаявкаКоличество.ДокументЗаявка) КАК ДокументЗаявка,
+	СУММА(ВременнаяТаблицаЗаявкаКоличество.ДокументТелефонныйЗвонок) КАК ДокументТелефонныйЗвонок,
+	ВременнаяТаблицаЗаявкаКоличество.CRM_Сайт КАК CRM_Сайт
+ПОМЕСТИТЬ Итоговая
+ИЗ
+	ВременнаяТаблицаЗаявкаКоличество КАК ВременнаяТаблицаЗаявкаКоличество
+		ЛЕВОЕ СОЕДИНЕНИЕ ВременнаяТаблицаИнтересыКоличество КАК ВременнаяТаблицаИнтересыКоличество
+		ПО ВременнаяТаблицаЗаявкаКоличество.Период = ВременнаяТаблицаИнтересыКоличество.Период
+			И ВременнаяТаблицаЗаявкаКоличество.КаналПервичногоИнтереса = ВременнаяТаблицаИнтересыКоличество.КаналПервичногоИнтереса
+			И ВременнаяТаблицаЗаявкаКоличество.ИсточникПервичногоИнтереса = ВременнаяТаблицаИнтересыКоличество.ИсточникПервичногоИнтереса
+		ЛЕВОЕ СОЕДИНЕНИЕ ВременнаяТаблицаИтговыеПродажи КАК ВременнаяТаблицаИтговыеПродажи
+		ПО ВременнаяТаблицаЗаявкаКоличество.Период = ВременнаяТаблицаИтговыеПродажи.Период
+			И ВременнаяТаблицаЗаявкаКоличество.КаналПервичногоИнтереса = ВременнаяТаблицаИтговыеПродажи.КаналПервичногоИнтереса
+			И ВременнаяТаблицаЗаявкаКоличество.ИсточникПервичногоИнтереса = ВременнаяТаблицаИтговыеПродажи.ИсточникПервичногоИнтереса
+		ЛЕВОЕ СОЕДИНЕНИЕ ВременнаяТаблицаИтговыеПродажиКоличество КАК ВременнаяТаблицаИтговыеПродажиКоличество
+		ПО ВременнаяТаблицаЗаявкаКоличество.Период = ВременнаяТаблицаИтговыеПродажиКоличество.Период
+			И ВременнаяТаблицаЗаявкаКоличество.КаналПервичногоИнтереса = ВременнаяТаблицаИтговыеПродажиКоличество.КаналПервичногоИнтереса
+			И ВременнаяТаблицаЗаявкаКоличество.ИсточникПервичногоИнтереса = ВременнаяТаблицаИтговыеПродажиКоличество.ИсточникПервичногоИнтереса
+
+СГРУППИРОВАТЬ ПО
+	ВременнаяТаблицаЗаявкаКоличество.КаналПервичногоИнтереса,
+	ВременнаяТаблицаЗаявкаКоличество.ИсточникПервичногоИнтереса,
+	ВременнаяТаблицаЗаявкаКоличество.CRM_Сайт
+
+ИНДЕКСИРОВАТЬ ПО
+	КаналПервичногоИнтереса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Итоговая.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	Итоговая.ЗаявкаКоличество КАК ЗаявкаКоличество,
+	Итоговая.ИнтересыКоличество КАК ИнтересыКоличество,
+	Итоговая.ИсточникПервичногоИнтереса КАК РекламнаяКампания,
+	Итоговая.Продажа КАК Выручка,
+	Итоговая.ПродажиКоличество КАК ПродажиКоличество,
+	Итоговая.ДокументЗаявка КАК ДокументЗаявка,
+	Итоговая.ДокументТелефонныйЗвонок КАК ДокументТелефонныйЗвонок,
+	Итоговая.CRM_Сайт КАК CRM_Сайт
+ПОМЕСТИТЬ ВременнаяТаблицаЗаявкиИтоговая
+ИЗ
+	Итоговая КАК Итоговая
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВременнаяТаблицаПоказателиИтоговая.CRM_Сайт КАК CRM_Сайт,
+	ВременнаяТаблицаПоказателиИтоговая.КаналПервичногоИнтереса КАК КаналПервичногоИнтереса,
+	ВременнаяТаблицаПоказателиИтоговая.CRM_РекламнаяКампания КАК CRM_РекламнаяКампания,
+	ВременнаяТаблицаПоказателиИтоговая.ОбъявлениеРекламнаяКомпания КАК ОбъявлениеРекламнаяКомпания,
+	ВременнаяТаблицаПоказателиИтоговая.Визиты КАК Визиты,
+	ВременнаяТаблицаПоказателиИтоговая.Посетители КАК Посетители,
+	ВременнаяТаблицаПоказателиИтоговая.Отказы КАК Отказы,
+	ВременнаяТаблицаПоказателиИтоговая.ГлубинаПросмотра КАК ГлубинаПросмотра,
+	ВременнаяТаблицаПоказателиИтоговая.Показы КАК Показы,
+	ВременнаяТаблицаПоказателиИтоговая.Клики КАК Клики,
+	ВременнаяТаблицаПоказателиИтоговая.СредняяЦенаКлика КАК СредняяЦенаКлика,
+	ВременнаяТаблицаЗаявкиИтоговая.ЗаявкаКоличество КАК ЗаявкаКоличество,
+	ВременнаяТаблицаЗаявкиИтоговая.ИнтересыКоличество КАК ИнтересыКоличество,
+	ВременнаяТаблицаЗаявкиИтоговая.Выручка КАК Выручка,
+	ВременнаяТаблицаЗаявкиИтоговая.ПродажиКоличество КАК ПродажиКоличество,
+	ВременнаяТаблицаЗаявкиИтоговая.ДокументЗаявка КАК ДокументЗаявка,
+	ВременнаяТаблицаЗаявкиИтоговая.ДокументТелефонныйЗвонок КАК ДокументТелефонныйЗвонок,
+	ВременнаяТаблицаПоказателиИтоговая.URL КАК URL,
+	ВременнаяТаблицаПоказателиИтоговая.Medium КАК Medium
+{ВЫБРАТЬ
+	CRM_Сайт.*,
+	КаналПервичногоИнтереса.*,
+	CRM_РекламнаяКампания.*,
+	ОбъявлениеРекламнаяКомпания.*,
+	Визиты,
+	Посетители,
+	Отказы,
+	ГлубинаПросмотра,
+	Показы,
+	Клики,
+	СредняяЦенаКлика,
+	ЗаявкаКоличество,
+	ИнтересыКоличество,
+	Выручка,
+	ПродажиКоличество,
+	ДокументЗаявка,
+	ДокументТелефонныйЗвонок,
+	URL,
+	Medium}
+ИЗ
+	ВременнаяТаблицаПоказателиИтоговая КАК ВременнаяТаблицаПоказателиИтоговая
+		ЛЕВОЕ СОЕДИНЕНИЕ ВременнаяТаблицаЗаявкиИтоговая КАК ВременнаяТаблицаЗаявкиИтоговая
+		ПО ВременнаяТаблицаПоказателиИтоговая.CRM_Сайт = ВременнаяТаблицаЗаявкиИтоговая.CRM_Сайт
+			И ВременнаяТаблицаПоказателиИтоговая.КаналПервичногоИнтереса = ВременнаяТаблицаЗаявкиИтоговая.КаналПервичногоИнтереса
+			И ВременнаяТаблицаПоказателиИтоговая.CRM_РекламнаяКампания = ВременнаяТаблицаЗаявкиИтоговая.РекламнаяКампания</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Расходы</dataPath>
+		<expression>Выбор когда Клики = 0 Тогда 0 Иначе СредняяЦенаКлика * Клики Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расходы, руб</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ROI</dataPath>
+		<expression>выбор когда (СредняяЦенаКлика * Клики) = 0 Тогда 0 Иначе (Продажа - (СредняяЦенаКлика * Клики)) / (СредняяЦенаКлика * Клики) * 100 Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ROI, %</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧЦ=10; ЧДЦ=2</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>CTR</dataPath>
+		<expression>выбор когда Показы = 0 Тогда 0 Иначе Клики / Показы * 100 Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>CTR, %</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧЦ=10; ЧДЦ=2</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>CPL</dataPath>
+		<expression>Выбор Когда Заявки = 0 Тогда 0  Иначе (СредняяЦенаКлика * Клики) / Заявки Конец</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>CPL, %</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧЦ=10; ЧДЦ=2</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<totalField>
+		<dataPath>CPL</dataPath>
+		<expression>Сумма(CPL)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>CTR</dataPath>
+		<expression>Сумма(CTR)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ROI</dataPath>
+		<expression>Сумма(ROI)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Расходы</dataPath>
+		<expression>Сумма(Расходы)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Визиты</dataPath>
+		<expression>Сумма(Визиты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Выручка</dataPath>
+		<expression>Сумма(Выручка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ГлубинаПросмотра</dataPath>
+		<expression>Среднее(ГлубинаПросмотра)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДокументЗаявка</dataPath>
+		<expression>Сумма(ДокументЗаявка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДокументТелефонныйЗвонок</dataPath>
+		<expression>Сумма(ДокументТелефонныйЗвонок)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЗаявкаКоличество</dataPath>
+		<expression>Сумма(ЗаявкаКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ИнтересыКоличество</dataPath>
+		<expression>Сумма(ИнтересыКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Клики</dataPath>
+		<expression>Сумма(Клики)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Отказы</dataPath>
+		<expression>Сумма(Отказы)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Показы</dataPath>
+		<expression>Сумма(Показы)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Посетители</dataPath>
+		<expression>Сумма(Посетители)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПродажиКоличество</dataPath>
+		<expression>Сумма(ПродажиКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СредняяЦенаКлика</dataPath>
+		<expression>Среднее(СредняяЦенаКлика)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>Период2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ВидДвижения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид движения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise">d4p1:AccumulationRecordType</v8:Type>
+		</valueType>
+		<value xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d3p1:AccumulationRecordType">Receipt</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Вариант1</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вариант1</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Расходы</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СредняяЦенаКлика</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>CPL</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>CTR</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ROI</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ГлубинаПросмотра</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Выручка</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧЦ=10; ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОбъявлениеРекламнаяКомпания</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>CRM_РекламнаяКампания</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ИсточникПервичногоИнтереса</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ОбъявлениеРекламнаяКомпания</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Устройства</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">География</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;&lt;Неопределено&gt;&gt;</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:ChartType">Line</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

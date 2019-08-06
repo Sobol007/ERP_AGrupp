@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2eb0331-19a5-48aa-bb65-6bb481196c19">
+  <name>АГ_ЧтениеДокументКорректировкаЭкспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение документа корректировка экспорта</value>
+  </synonym>
+</mdclass:Role>

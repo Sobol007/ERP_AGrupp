@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fcd8c79-b59d-4e55-8761-8b80cb84617b">
+  <name>ТерминалыСбораДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Терминалы сбора данных</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Portable data terminals</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>405058f8-6b71-44be-9cdd-6440c7d45386</content>
+  <content>0f641485-eb4f-4e4e-8be9-9ed765dce093</content>
+  <content>4c9053b2-42e8-4eff-9030-0990bd390930</content>
+  <content>89ecdd8b-c59c-40e0-9ed3-7b1a4adfcd43</content>
+  <content>CommonTemplate.ДрайверАТОЛТСДMobileLogistics</content>
+  <content>CommonTemplate.ДрайверГексагонТСД</content>
+  <content>CommonTemplate.ДрайверКлеверенсТСД</content>
+  <content>CommonTemplate.ДрайверСканкодТерминалыСбораДанныхNative</content>
+  <content>CommonTemplate.ДрайверСканситиТСДCipherLab</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных32</content>
+  <content>CommonTemplate.ДрайверRightScanТерминалыСбораДанных</content>
+  <content>CommonPicture.ВыгрузитьВТСД</content>
+  <content>CommonPicture.ЗагрузитьИзТСД</content>
+  <content>CommonTemplate.ДрайверСканситиТерминалСбораДанныхCitySoftBusiness</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

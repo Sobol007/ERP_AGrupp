@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65627b6d-f2db-4df8-83a2-72e4312da81d">
+  <producedTypes>
+    <selectionType typeId="663f3724-5797-4244-a65d-2fb98ef62ee1" valueTypeId="eb52a4cc-5590-4791-8e2d-659e12c910c2"/>
+    <listType typeId="b0b2272a-476c-404f-a4ba-2f6d0148e417" valueTypeId="4b9f4de6-e2ba-433d-9465-c3b5f095bb33"/>
+    <managerType typeId="41d90fc6-45df-41da-b74e-4df4062b0d61" valueTypeId="33f3a306-7907-47f1-abf3-9cd24139ed1f"/>
+    <recordSetType typeId="5d58091d-44d9-49e2-975f-d6499db9b3d1" valueTypeId="3f267a90-a260-453d-89a8-8497e5f3e193"/>
+    <recordKeyType typeId="8359d8c4-ef3a-4753-9fa4-057950aeb205" valueTypeId="c5e96b19-d75a-40bc-b070-966b5ba357d7"/>
+    <recordType typeId="0575c490-79d9-4c43-857c-e76d00b84926" valueTypeId="6a67c1d5-170a-4cbd-844b-89d691e38e62"/>
+    <recordManagerType typeId="32518685-d15d-499b-8561-ece6b309d98f" valueTypeId="61096f0f-1368-4d72-8877-6cd4ac547c06"/>
+  </producedTypes>
+  <name>сшпРепозиторийОбъектовИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Репозиторий объектов интеграции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.сшпРепозиторийОбъектовИнтеграции.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.сшпРепозиторийОбъектовИнтеграции.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Объект интеграции</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Объекты интеграции</value>
+  </listPresentation>
+  <resources uuid="a3b0ad69-f383-4f1d-ab29-a377472f5200">
+    <name>ДляУдаленияПроцедураОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для удаления процедура обработки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Процедура обработки объекта на встроенном языке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="adc73a91-3db1-4e0b-ab90-4988ceb1de59">
+    <name>ПроцедураОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процедура обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Процедура обработки объекта на встроенном языке</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  </resources>
+  <resources uuid="83049a96-80a3-4223-a643-55605251e877">
+    <name>МетодХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод хранения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сшпМетодХранения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Метод, по которому будут храниться данные в сформированном сообщении</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="bf811ce0-5658-4cb6-a8ca-268a16bf288a">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текущая версия записи репозитория (обработчика)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="025cbc6a-6ed5-47e8-b82b-86cde28dfbb6">
+    <name>ИдентификаторШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор шаблона</value>
+    </synonym>
+    <comment>Внутренний идентификатор загруженного шаблона</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор шаблона</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="388b310c-1e7f-48e1-96ef-13cd57b9cb3e">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование записи репозитория (обработчика)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="9d8a8352-8579-482c-8ae3-ce8fc6a7e962">
+    <name>ВерсияПеременных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия переменных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текущая версия переменных, используемых для обработчика</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="6d62652f-8fbb-4baa-951e-40469da94e55">
+    <name>ИмяКлассаОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя класса/объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя класса, по которому обработчик &quot;связывает&quot; сообщение в очереди сообщений с репозиторием</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="20ad9dcc-5ff8-4013-be1d-5963580cc7c3">
+    <name>ТипИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип интеграции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.сшпТипыИнтеграции</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип интеграции, в зависимости от которого обработчик либо формирует объект из входящего сообщения, либо формирует исходящее сообщение</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d66ba88e-5123-4cb2-8358-e9c7e60cf381">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2e08d539-c53d-47c1-b72a-74e85cc7ba83">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

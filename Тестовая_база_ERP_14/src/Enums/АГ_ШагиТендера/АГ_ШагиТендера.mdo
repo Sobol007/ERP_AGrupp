@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6229d9a6-8141-4418-9c1d-4c036c9779a2">
+  <producedTypes>
+    <refType typeId="d7f1e09b-7b35-42bb-8ab5-ec32eda5c0f0" valueTypeId="68c6caf9-331d-48ab-ae2e-712eb402e64d"/>
+    <listType typeId="1229f046-ed2d-401b-8161-d515f9d52d93" valueTypeId="eb775fe5-8ddb-4170-a639-59b4d90d9f7d"/>
+    <managerType typeId="710d3b53-b94d-4c2b-be3f-e0b2c8804e33" valueTypeId="c9773ee1-8d32-4d83-8f8c-283153c97691"/>
+  </producedTypes>
+  <name>АГ_ШагиТендера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаги тендера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f67469ec-56d2-4ffd-9af4-f4f59b714607">
+    <name>Шаг1_ПередачаВРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ1. Передача тендера в работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57cec115-18a2-48ce-8135-98e923442d3a">
+    <name>Шаг2_Распределение</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ2. Этап распределения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbcef2d5-a8df-4ac8-9763-56188cf0b8f0">
+    <name>Шаг3_ПредварительноеПодтверждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ3. Предварительное подтверждение/не подтверждение участия в торгах (с указанием конкретных причин)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="81f9c2a5-7cad-4d2c-86b5-1f230d4fbe7c">
+    <name>Шаг4_Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ4. На согласовании в ДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ef71078-2931-4985-a923-6cf0dc46cb75">
+    <name>Шаг5_ПередачаКоммерческойИТехЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ5. Передача в ОЭТ коммерческой и технической части заявки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="298849cc-1867-49af-a3c6-ac701caf8a5c">
+    <name>Шаг6_ПодачаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ6. Подача документов/Торги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bac73dd6-1eb1-4588-9c75-d96d0bb85517">
+    <name>Шаг7_Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ7. Результат тендера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d5f3cdf-401d-409e-b61e-1acca3ad52a6">
+    <name>Шаг8_ОбязательстваВыполнены</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШАГ8. Обязательства выполнены</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1012015-d27a-464f-9534-7965baa284ae">
+  <name>CRM_СистемаЛицензированияСЛК_iCRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cистема лицензирования  iCRM</value>
+  </synonym>
+  <comment>719B</comment>
+  <content>Role.ПолныеПрава</content>
+  <content>SessionParameter.слкМенеджерЗащиты</content>
+  <content>FunctionalOption.CRM_ИспользуетсяОбменСiCRM</content>
+  <parentSubsystem>Subsystem.CRM_МодульCRM.Subsystem.CRM_Лицензирование</parentSubsystem>
+</mdclass:Subsystem>

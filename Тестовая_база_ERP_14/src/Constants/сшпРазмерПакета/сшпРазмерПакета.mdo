@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41a1334d-1e7d-4e0f-a911-70f54e0d626e">
+  <producedTypes>
+    <managerType typeId="ed2cce90-52a8-493a-b4c1-a7bbfb84fcea" valueTypeId="0ab85900-28eb-4976-99bb-1fdd51efc1e6"/>
+    <valueManagerType typeId="acd4b361-6d4b-41aa-99d2-ad58d25bc6bd" valueTypeId="4f8eb627-d8eb-4a35-ac5a-5315467282a2"/>
+    <valueKeyType typeId="d085fe52-9126-59da-a706-1063f6f2100f" valueTypeId="2c550d2c-db14-5afd-a2ef-1d60baeb0311"/>
+  </producedTypes>
+  <name>сшпРазмерПакета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер пакета (в сообщениях)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет максимальное количество сообщений, передаваемых в пакетном режиме</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

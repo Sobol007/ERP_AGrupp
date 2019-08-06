@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a475e8f-5c60-4588-b8bb-059de610f760">
+  <producedTypes>
+    <refType typeId="fc6b3164-543e-402a-bad2-1d501e61a927" valueTypeId="d20592fb-691b-43e6-bf94-4cec1ff52ba9"/>
+    <listType typeId="99d32403-dc4e-4d1b-9096-b16b43b7757d" valueTypeId="3c548649-fa84-484c-8dc1-33b4b119528a"/>
+    <managerType typeId="6144db39-ad8b-4d77-9d15-434d61c24810" valueTypeId="291e1930-73ab-428e-9dc0-8ba2bc642e38"/>
+  </producedTypes>
+  <name>РЭЙ_ПричиныВалютообменныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины валютообменных операций</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Виды контрактов ВЭД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0f8e621b-a4f3-4687-938a-74f4dec083b3">
+    <name>ФормированиеВалФонда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование собственного валютного фонда (валютного фонда предприятия-поставщика)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc28173c-14c6-422f-afc8-18f0fa46c7aa">
+    <name>НеЯвляетсяЭкспортнойВыручкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма не является экспортной выручкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5c861e2-6bb3-4244-8bf7-e14202f0d9f2">
+    <name>ПокрытиеДляИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покрытие для импорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a2d3e8-e138-4f04-bd21-f124cfb9a5cf">
+    <name>ВозвратАвансаПоИмпорту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат аванса по импорту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcf1efe4-5298-4cc9-a89a-fe25961de3c4">
+    <name>ВозмещениеРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возмещение транспортных, страховых, экспедиторских расходов, таможенных пошлин и процедур, комиссии банку, оплаченные ранее с текущего счета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0daf32ce-e268-4b58-a09f-ba5c1a50d11e">
+    <name>ИныеСуммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иные суммы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="976abe08-1351-4bc1-8784-e84da8d90578">
+    <name>ПлатежПоКредиту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж по кредиту/займу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9eaba8cc-4afa-44fa-b8ff-fb35ace62a69">
+    <name>ПлатежПоКонтракту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платеж по контракту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b406b020-d37e-47ed-9081-420b0b93bafa">
+    <name>ИныеПлатежи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иные платежи</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

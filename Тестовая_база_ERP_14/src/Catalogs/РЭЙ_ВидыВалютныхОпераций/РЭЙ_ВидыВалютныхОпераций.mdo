@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e468388-cd97-4110-b49d-8a745be185f7">
+  <producedTypes>
+    <objectType typeId="56517e56-a85d-4cab-905b-2bb114df6d9c" valueTypeId="45cf87c0-5232-4d0c-baa4-2e5a2560c8ec"/>
+    <refType typeId="ac2f9579-fb33-433d-995e-4f17bc711245" valueTypeId="725528ae-b3e6-4adf-b006-e8202bbe7879"/>
+    <selectionType typeId="ea001c71-8040-4815-9f80-d7a8df7e16d4" valueTypeId="a0c03583-f314-4853-a2d3-c38d1a50c6b5"/>
+    <listType typeId="9961ecad-8c32-4c0b-a95a-72ac7a4b00f0" valueTypeId="4f6d18d3-7f71-4473-892a-bb1d683d74b9"/>
+    <managerType typeId="f38e0467-10e7-4098-8d99-5623e6bb46b3" valueTypeId="f95e91e9-65db-448d-83e6-05f8b7c61890"/>
+  </producedTypes>
+  <name>РЭЙ_ВидыВалютныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечень кодов видов операций</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перечень видов валютных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РЭЙ_ВидыВалютныхОпераций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов операций</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов операций резидентов и нерезидентов</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов операций</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Перечень кодов видов операций резидентов и нерезидентов</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="c347ad65-08d3-48c4-8768-48d9fadb9abe">
+      <name>КонверсионныеОперацииРезидентовВБезналичнойФорме</name>
+      <description>Конверсионные операции резидентов в безналичной форме</description>
+      <code xsi:type="core:StringValue">
+        <value>01000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="13ab8175-c71e-4770-911c-b436940117bf">
+      <name>КонверсионныеОперацииНерезидентовВБезналичнойФорме</name>
+      <description>Конверсионные операции нерезидентов в безналичной форме</description>
+      <code xsi:type="core:StringValue">
+        <value>02000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="6e33e67e-3696-4f09-944c-82f58dbd1ee4">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиЗаТоварыВывозимыеСТаможеннойТерриторииРФ</name>
+      <description>Расчеты между резидентами и нерезидентами по сделкам ВЭД, связанной с вывозом с территории РФ товаров, вкл. различные суда и космические объекты</description>
+      <code xsi:type="core:StringValue">
+        <value>10000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="d94455aa-3264-4019-acfc-77abc589ea14">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиЗаТоварыВвозимыеНаТаможеннуюТерриториюРФ</name>
+      <description>Расчеты между резидентами и нерезидентами по сделкам ВЭД, связанной с ввозом на территорию РФ товаров, вкл. различные суда и космические объекты</description>
+      <code xsi:type="core:StringValue">
+        <value>11000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="f30ac607-4b96-4527-b16a-53b9b6ad988d">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиЗаТоварыБезИхВвозаНаТаможеннуюТерриториюРФ</name>
+      <description>Расчеты между резидентами и нерезидентами за продаваемые товары без их ввоза на территорию РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>12000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="05dc3498-3df1-4243-8cd7-a66b1e1ab010">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиЗаТоварыНаТерриторииРФ</name>
+      <description>Расчеты между резидентами и нерезидентами за продаваемые товары на территории РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>13000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a7b3287e-f2c4-4f52-9131-cb433b9ca94e">
+      <name>РасчетыПереводыНерезидентовВПользуРезидентовПоВнешнеторговымСделкам</name>
+      <description>Расчеты между резидентами и нерезидентам по сделкам ВЭД, связанным с выполнением резидентами работ/услуг, передачей информации и результатов ИД</description>
+      <code xsi:type="core:StringValue">
+        <value>20000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="af042732-ad7a-4348-92ea-7bb6cd163fa4">
+      <name>РасчетыПереводыОтРезидентовВПользуНерезидентовПоВнешнеторговымСделкам</name>
+      <description>Расчеты между резидентами и нерезидентами по сделкам ВЭД, связанным с выполнением нерезидентами работ/услуг, передачей информации и результатов ИД</description>
+      <code xsi:type="core:StringValue">
+        <value>21000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="40b7423d-63bd-4e7f-b309-d34dd061db13">
+      <name>РасчетыМеждуРезидентамиИНерезидентамиПоПередачеРезидентамиТоваровУслуг</name>
+      <description>Расчеты между резидентами и нерезидентами, связанные с передачей резидентами товаров, работ/услуг, информации и результатов ИД</description>
+      <code xsi:type="core:StringValue">
+        <value>22000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="5e566f9a-13f9-4e39-add0-567b5e7a4d71">
+      <name>РасчетыМеждуРезидентамиИНерезидентамиПоПередачеНерезидентамиТоваровУслуг</name>
+      <description>Расчеты между резидентами и нерезидентами, связанные с передачей нерезидентами товаров, работ/услуг, информации и результатов ИД</description>
+      <code xsi:type="core:StringValue">
+        <value>23000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="6760c3af-603e-4816-b500-59a767bdd7c9">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиПоОперациямСНедвижимымИмуществом</name>
+      <description>Расчеты между резидентами и нерезидентами по операциям с недвижимым имуществом, за исключением платежей за различные суда и космические объекты</description>
+      <code xsi:type="core:StringValue">
+        <value>30000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="3fa8ef30-9e20-41e1-95f7-e4dc1889eff0">
+      <name>РасчетыМеждуРезидентамиИНерезидентамиПоДоговорамУступкиТребования</name>
+      <description>Расчеты между резидентами и нерезидентами в соответствии с договорами уступки требования,перевода долга,заключенными между резидентами и нерезидентами</description>
+      <code xsi:type="core:StringValue">
+        <value>32000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="6cc06beb-56d5-4921-8333-00729f21d90e">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиПопрочимОперациям</name>
+      <description>Расчеты между резидентами и нерезидентами по прочим операциям, связанным с ВЭД и прямо не указанным в группах 10-23 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>35000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ee17299c-b0ad-40bf-afd7-eda6c612b232">
+      <name>РасчетыПереводыСвязанныеСПредоставлениемРезидентамиНерезидентамКредитовЗаймов</name>
+      <description>Расчеты, связанные с предоставлением резидентами, за исключением уполномоченных банков, нерезидентам денежных средств по договорам займа</description>
+      <code xsi:type="core:StringValue">
+        <value>40000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="2ce7b735-a75c-4356-b425-acbf0bc33f56">
+      <name>РасчетыПереводыСвязанныеСПредоставлениемНерезидентамиРезидентамКредитовЗаймов</name>
+      <description>Расчеты, связанные с предоставлением нерезидентами резидентам, за исключением уполномоченных банков, кредитов и займов</description>
+      <code xsi:type="core:StringValue">
+        <value>41000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="92dcb6c6-643b-4b15-99d2-fce1f083f104">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиСвязанныеСИсполнениемРезидентамиОбязательствПоПривлеченнымКредитамЗаймам</name>
+      <description>Расчеты между резидентами и нерезидентами, за искл.уполномоч.банков,связанные с исполнением резидентами обязательств по привлеченным кредитам и займам</description>
+      <code xsi:type="core:StringValue">
+        <value>42000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="0ef443e6-5ff0-42ef-afee-8847f19ea92d">
+      <name>РасчетыПереводыМеждуРезидентамиНерезидентамиСвязанныеСИсполнениемНерезидентамиОбязательствПоПривлеченнымЗаймам</name>
+      <description>Расчеты, связанные с исполнением нерезидентами обязательств по привлеченным в денежной форме займам по договорам займа</description>
+      <code xsi:type="core:StringValue">
+        <value>43000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a443c6fe-cf68-42c6-9fa3-11243bc989ab">
+      <name>РасчетыПереводыСвязанныеСИнвестициямиВФормеКапитальныхВложений</name>
+      <description>Расчеты, связанные с инвестициями в форме капитальных вложений</description>
+      <code xsi:type="core:StringValue">
+        <value>50000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="725d40fc-7512-4e5e-b237-d2e804eecb24">
+      <name>РасчетыПереводыСвязанныеСПриобретениемНерезидентамиУРезидентовВнутреннихЦенныхБумаг</name>
+      <description>Расчеты,связанные с приобретением нерезидентами у резидентов ценных бумаг (удостоверенных прав) за искл.расчетов по кодам группы 58 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>51000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="48de5e56-0772-4d3d-85a4-6e5c872bb86c">
+      <name>РасчетыПереводыСвязанныеСОтчуждениемНерезидентомВПользуРезидентаВнутреннихЦенныхБумаг</name>
+      <description>Расчеты,связанные с приобретением резидентами у нерезидентов ценных бумаг (удостоверенных прав) за искл.расчетов по кодам группы 58 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>52000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="644e9202-6af5-4614-96c1-2078858c89cd">
+      <name>РасчетыПереводыСвязанныеСИсполнениемРезидентамиНерезидентамиОбязательствПоЦеннымБумагам</name>
+      <description>Расчеты, связанные с исполнением резидентами и нерезидентами обязательств по ценным бумагам, за искл. расчетов по кодам группы 58 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>55000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="68ecbe35-54c2-4d29-8fbd-c6f9d4cbf07c">
+      <name>РасчетыПереводыПоОперациямСоСрочнымиПроизводнымиФинансовымиИнструментами</name>
+      <description>Расчеты между резидентами и нерезидентами по операциям с производными финансовыми инструментами и прочим срочным сделкам</description>
+      <code xsi:type="core:StringValue">
+        <value>56000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="08d35751-d666-45c0-9b19-ade2e6046bfc">
+      <name>РасчетыПоДоговорамДоверительногоУправленияИмуществом</name>
+      <description>Расчеты по договорам доверительного управления имуществом</description>
+      <code xsi:type="core:StringValue">
+        <value>57000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="e2197b11-069f-48ee-8506-a3f3fb9e97f9">
+      <name>РасчетыПоДоговорамБрокерскогоОбслуживания</name>
+      <description>Расчеты по договорам о брокерском обслуживании, за исключением расчетов по кодам групп 51-55 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>58000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="eeaaa187-16df-477a-8381-a6c2adb24e28">
+      <name>ПереводыПоСчетамНерезидентов</name>
+      <description>Переводы нерезидентов, снятие (зачисление) наличной валюты РФ, осуществляемые по счетам нерезидентов в валюте РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>60000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="723eb165-34f2-4653-b231-d44c05b0ae1f">
+      <name>ПереводыСОдногоСчетаРезидентаНаДругойСчетРезидента</name>
+      <description>Расчеты и переводы резидентов, снятие (зачисление) резидентами наличной иностранной валюты</description>
+      <code xsi:type="core:StringValue">
+        <value>61000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="7b64fec3-46c5-46b2-9567-ece535f25587">
+      <name>НеторговыеОперации</name>
+      <description>Неторговые операции</description>
+      <code xsi:type="core:StringValue">
+        <value>70000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="de93d087-d6a0-422a-b8f8-29a3a9263c91">
+      <name>РасчетыМеждуБанкомИНерезидентомВРубляхИМеждуБанкомИРезидентомВИнвалюте</name>
+      <description>Расчеты между уполномоченным банком и нерезидентом в валюте РФ и между уполномоченным банком и резидентом в иностранной валюте</description>
+      <code xsi:type="core:StringValue">
+        <value>80000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="d14eac05-ca29-4bdf-8e2d-4fa74f82c42b">
+      <name>РасчетыПереводыПоПрочимВалютнымОперациям</name>
+      <description>Расчеты по прочим валютным операциям, прямо не указанным в группах 01-80 настоящего Перечня</description>
+      <code xsi:type="core:StringValue">
+        <value>99000</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <defaultObjectForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаСписка</defaultChoiceForm>
+  <auxiliaryObjectForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаЭлемента</auxiliaryObjectForm>
+  <auxiliaryFolderForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаГруппы</auxiliaryFolderForm>
+  <auxiliaryFolderChoiceForm>Catalog.РЭЙ_ВидыВалютныхОпераций.Form.ФормаСписка</auxiliaryFolderChoiceForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="9ed96c86-681c-4f9a-b254-7928553d3f5f">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b062991-f538-437d-9991-11771d6f52d1">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <comment>(Общ)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44ad335b-5011-48a2-b9bc-da94176e8d00">
+    <name>ОжидаемыйСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидаемый срок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a28a9a11-b40f-4ddc-b599-3549908612ea">
+    <name>СрокВозвратаАванса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок возврата аванса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fd467fb7-43f5-4865-bc50-93476d09d989">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="34456799-c505-473f-b14c-7e956753d880">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95c5fbb5-30f9-461b-b319-81ca600fc0c2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e6196996-bebf-43ac-8cec-65844b396b25">
+    <name>КлассификаторВидовВалютныхОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перечень валютных и иных операций резидентов и нерезидентов</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

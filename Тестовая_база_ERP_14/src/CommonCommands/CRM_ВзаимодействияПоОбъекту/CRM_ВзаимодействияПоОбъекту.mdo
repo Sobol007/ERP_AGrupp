@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94e2f4dd-1694-4048-b08a-99e4e6644f6b">
+  <name>CRM_ВзаимодействияПоОбъекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия</value>
+  </synonym>
+  <comment>Взаимодействия по объекту</comment>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DefinedType.CRM_ОбъектыВзаимодействий</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Взаимодействия по объекту</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

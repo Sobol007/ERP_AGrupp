@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4acda0ce-7e3d-49a7-8a1d-b736a132cb51">
+  <name>РЭЙ_Универсализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>РЭЙ универсализация</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

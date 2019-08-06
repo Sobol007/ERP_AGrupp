@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2378e754-1e0c-4399-8590-eed824cd80bb">
+  <producedTypes>
+    <refType typeId="73985ac1-ecef-4026-a5e4-50416a97c76c" valueTypeId="55fe2625-7a2a-4a52-8059-ac1fa0292fd0"/>
+    <listType typeId="b35a1740-c513-4852-a53c-56036f58b332" valueTypeId="8b1bbbde-7eb4-42cb-8b7b-90c3b7aa630a"/>
+    <managerType typeId="3a055ce8-76b5-4039-8468-0b0055e7973a" valueTypeId="a4df312b-1848-451c-9859-55b7130d1ecc"/>
+  </producedTypes>
+  <name>АГ_НаименованияЗонФакторовВнешнейЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименования зон факторов внешней цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e795efbf-1122-474a-b635-e277d27a46ca">
+    <name>Красная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красная зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b01eeb8-4911-48df-816e-754a73da9c6d">
+    <name>Желтая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтая зона</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64336798-a957-4798-9661-6a8ca7c39846">
+    <name>Зеленая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зеленая зона</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

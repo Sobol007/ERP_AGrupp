@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1721f3ed-0fc8-45d3-9805-66726c63848e">
+  <name>CRM_СинхронизацияСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация сервер (iCRM)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronization server (iCRM)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

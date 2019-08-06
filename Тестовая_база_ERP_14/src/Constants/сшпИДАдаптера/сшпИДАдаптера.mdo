@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2901530-492a-42a4-9f3b-ae4c3ca408e2">
+  <producedTypes>
+    <managerType typeId="2fa2bcf7-b14e-4e04-b08f-b71f99eea9ea" valueTypeId="6ce5bab5-f404-44c4-8fb8-a42dec01fe08"/>
+    <valueManagerType typeId="a262da7d-dbce-435a-95be-e783b9ac989a" valueTypeId="fb9115df-e8a7-4d96-b2cc-e313291cd620"/>
+    <valueKeyType typeId="b0ac5b9c-e6a5-5682-bdc5-23b6896b81a0" valueTypeId="6f3acdcc-9f18-5659-9434-2bf2f1f85b00"/>
+  </producedTypes>
+  <name>сшпИДАдаптера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор адаптера Datareon</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

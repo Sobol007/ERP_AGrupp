@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac124f84-fb83-4f20-9ac5-1eeb9153c852">
+  <name>ВесыСПечатьюЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Весы с печатью этикеток</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Label printing scales</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonTemplate.ДрайверCASВесыСПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверМассаКЭлектронныеВесыИСПечатьюЭтикеток</content>
+  <content>CommonForm.ФормаНастройкиACOMВесыСПечатьюЭтикеток</content>
+  <content>45f3f2e7-ad46-4247-9226-61e2b883dc9a</content>
+  <content>138ad3bc-beaf-4a88-91f3-39fb44a2aad2</content>
+  <content>CommonModule.ПодключаемоеОборудованиеACOMВесыСПечатьюЭтикетокКлиент</content>
+  <content>56adc714-ebf1-42a3-861e-d16bab97f574</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеВесыСПечатьюЭтикеток16</content>
+  <content>CommonPicture.ПодключаемоеОборудованиеВесыСПечатьюЭтикеток32</content>
+  <content>CommonTemplate.ДрайверАТОЛВесыСПечатьюЭтикеток8X</content>
+  <content>CommonTemplate.ДрайверРБСВесыCПечатьюЭтикеток</content>
+  <content>CommonTemplate.ДрайверШтрихМВесыСПечатьюЭтикетокШтрихПринт</content>
+  <parentSubsystem>Subsystem.ПодключаемоеОборудование</parentSubsystem>
+</mdclass:Subsystem>

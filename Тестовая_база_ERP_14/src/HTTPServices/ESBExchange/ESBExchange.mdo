@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ea90b9f-510c-4b1c-bbdc-bc3dc91772fd">
+  <name>ESBExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>ESBExchange</value>
+  </synonym>
+  <rootURL>ESBExchange</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="08a44142-777b-48af-a21a-88f69d77e2ca">
+    <name>PushArrayOfMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push array of message</value>
+    </synonym>
+    <template>/ArrayOfMessage</template>
+    <methods uuid="b96f8a2b-10e5-47bd-a333-10dbbc857d43">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>PushArrayOfMessagePUT</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2101aee1-2a58-4705-a519-df98cc2dabc9">
+    <name>PushMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push message</value>
+    </synonym>
+    <template>/PushMessage</template>
+    <methods uuid="2b8cacf6-9486-48c6-aaf0-69963afbad41">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushMessagePOST</handler>
+    </methods>
+    <methods uuid="775e2f24-560c-474d-81dd-943dab0a0a9b">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PushMessageGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ce36ecc2-5377-4891-989c-ffcefa33378c">
+    <name>PushMessageBatch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Push message batch</value>
+    </synonym>
+    <template>/PushMessageBatch</template>
+    <methods uuid="cf3d0a10-826b-414f-8082-130c6bf6a3c0">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PushMessageBatchGET</handler>
+    </methods>
+    <methods uuid="82aca5a7-5fd1-457d-9232-dc4d1382a82d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushMessageBatchPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="68c1720a-30c9-4c8f-a957-64215813fe58">
+    <name>SendMessage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message</value>
+    </synonym>
+    <template>/SendMessage</template>
+    <methods uuid="c07c6ba8-7e47-4924-b14b-31c852e8a061">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushMessagePOST</handler>
+    </methods>
+    <methods uuid="4b8da72c-3903-44c7-b163-69e624052701">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PushMessageGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a4bc99f7-f17d-45fa-b63b-f4da27997927">
+    <name>SendMessageBatch</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send message batch</value>
+    </synonym>
+    <template>/SendMessageBatch</template>
+    <methods uuid="b792c429-3546-4e3e-b8b6-81c436f3876a">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PushMessageBatchGET</handler>
+    </methods>
+    <methods uuid="01a421d6-a7ad-448f-9df8-aa2d700f237d">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>PushMessageBatchPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

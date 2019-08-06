@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f580bc-4fe5-47ee-9c5b-c9e484c4e6f5">
+  <producedTypes>
+    <refType typeId="4f099262-b447-4e9b-9cd9-bf759e13ed04" valueTypeId="6c9e3a93-ec71-476a-ad7f-b165da0522ee"/>
+    <listType typeId="047d15d0-a9d9-49d5-a84c-22e93360bc76" valueTypeId="ea95f116-68ca-494f-9601-251b064ff078"/>
+    <managerType typeId="c7b063ee-4798-4ff5-be96-479ed3c4573e" valueTypeId="e0a16b41-a131-41bf-86c0-fc7673176847"/>
+  </producedTypes>
+  <name>АГ_КлассыABCXYZ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классы ABCXYZ</value>
+  </synonym>
+  <comment>АГ:[+][УЗП0010][02.06.2019 11:45][Фирсанов]</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a5bc7a9c-724c-4ad7-9282-2b7decdf740f">
+    <name>AX</name>
+    <synonym>
+      <key>ru</key>
+      <value>AX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5208ef5-8d2c-4930-b2f3-8b5541616314">
+    <name>BX</name>
+    <synonym>
+      <key>ru</key>
+      <value>BX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d68bbf4b-f1bc-4a3d-ad1f-af5d6b3dc7a2">
+    <name>CX</name>
+    <synonym>
+      <key>ru</key>
+      <value>CX</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f68da5e3-51bb-4844-8184-b12a1ffbe22a">
+    <name>AY</name>
+    <synonym>
+      <key>ru</key>
+      <value>AY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbfa34c6-6347-49c1-b6c7-447ca1067e0b">
+    <name>BY</name>
+    <synonym>
+      <key>ru</key>
+      <value>BY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a5a869a-ece9-4009-ba53-da8d7b154671">
+    <name>CY</name>
+    <synonym>
+      <key>ru</key>
+      <value>CY</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ac4d195-430f-41f2-bb03-1b139f5b0430">
+    <name>AZ</name>
+    <synonym>
+      <key>ru</key>
+      <value>AZ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee37115a-e73e-428b-b2a9-3e31d7d621f4">
+    <name>BZ</name>
+    <synonym>
+      <key>ru</key>
+      <value>BZ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cddfabb9-11e4-4550-80c0-feb4d2e77c8d">
+    <name>CZ</name>
+    <synonym>
+      <key>ru</key>
+      <value>CZ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

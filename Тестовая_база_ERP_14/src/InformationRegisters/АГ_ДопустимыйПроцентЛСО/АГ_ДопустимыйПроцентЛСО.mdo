@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95e60996-49b6-416c-b6f5-2bd31b106aa0">
+  <producedTypes>
+    <selectionType typeId="e3509cb3-9270-4a21-97ce-d4b0f0be99d3" valueTypeId="a26d9f93-1f3d-450a-84af-ba7e3aefd6b4"/>
+    <listType typeId="5cc24a13-ecb1-4e9d-bb13-b6beac356eb3" valueTypeId="18fa91a3-80d7-42d6-9018-9ccd417f3f99"/>
+    <managerType typeId="1305f3da-dc6f-4bf1-892f-742d102884a6" valueTypeId="edbd92d0-eae8-4fb7-b833-fd8b0956dfb1"/>
+    <recordSetType typeId="4fbef448-02d0-4a6f-b72f-5e0c0e22ca22" valueTypeId="365df441-e33d-46f3-8f24-44bd07ebd798"/>
+    <recordKeyType typeId="9183c256-6127-4b89-a576-10aa7b9b4116" valueTypeId="fb4859ae-50ed-4384-8f13-6819e8ea67c7"/>
+    <recordType typeId="cb4b67cb-4317-4a39-a879-6aa4a67d5972" valueTypeId="0d469922-7633-4d0b-ae0f-8d2b097a9fe6"/>
+    <recordManagerType typeId="0d847984-f414-4fcd-9527-115ae11c93f2" valueTypeId="a95f9dd7-07d2-43c3-9d20-3b4262e1045f"/>
+  </producedTypes>
+  <name>АГ_ДопустимыйПроцентЛСО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимый процент ЛСО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="46d3a41a-c82a-4229-a591-b965c26df6b2">
+    <name>ПроцентЛСО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент ЛСО</value>
+    </synonym>
+    <comment>Процент допустимого лимита от суммы лимита по договору</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6095da8a-671c-44e9-a2a4-12f183c2990b">
+    <name>СуммаОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="948545f5-8737-4b2e-8584-254f7c237b47">
+    <name>СуммаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

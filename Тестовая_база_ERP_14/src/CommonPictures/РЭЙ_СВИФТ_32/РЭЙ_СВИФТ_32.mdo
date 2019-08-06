@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4f23fa9-a2ef-48a7-bd0c-c149ce322e5c">
+  <name>РЭЙ_СВИФТ_32</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система SWIFT (32х32)</value>
+  </synonym>
+</mdclass:CommonPicture>

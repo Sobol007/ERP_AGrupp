@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dafb137e-aa18-4dfb-8224-c2d1fd19837c">
+  <producedTypes>
+    <selectionType typeId="7928ef1a-51bc-474c-8ef9-f3acc0103f4a" valueTypeId="4323bb7a-aa3a-498c-8bfb-6f2d89225835"/>
+    <listType typeId="1cc77ac2-0392-41dd-8619-56ed626d1498" valueTypeId="7db83d11-7fd2-4c35-a0af-775e0bac6f32"/>
+    <managerType typeId="4b9d4c9e-2fc7-4981-bf47-84508f8fce6a" valueTypeId="e289c4b8-33bd-465d-95b5-ae733a144112"/>
+  </producedTypes>
+  <name>РЭЙ_ДокументыВалютногоКонтроля</name>
+  <synonym>
+    <key>en</key>
+    <value>Документы валютного контроля</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Документы валютного контроля</value>
+  </synonym>
+  <defaultForm>DocumentJournal.РЭЙ_ДокументыВалютногоКонтроля.Form.ФормаСписка</defaultForm>
+  <auxiliaryForm>DocumentJournal.РЭЙ_ДокументыВалютногоКонтроля.Form.ФормаСписка</auxiliaryForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РЭЙ_СправкаОПодтверждающихДокументах</registeredDocuments>
+  <registeredDocuments>Document.РЭЙ_ПаспортСделки</registeredDocuments>
+  <registeredDocuments>Document.РЭЙ_СправкаОВалютныхОперациях</registeredDocuments>
+  <registeredDocuments>Document.РЭЙ_ЗаявлениеВБанкПС</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал документов валютного контроля</value>
+  </listPresentation>
+  <columns uuid="218ce47b-2f92-4cc3-8b02-52340d59413e">
+    <name>БанкПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк УК</value>
+    </synonym>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.Банк</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.Банк</references>
+    <references>Document.РЭЙ_ЗаявлениеВБанкПС.Attribute.Банк</references>
+    <references>Document.РЭЙ_СправкаОВалютныхОперациях.Attribute.Банк</references>
+  </columns>
+  <columns uuid="c30ed69b-77e7-4ea7-bdd6-f49d0a4ee1dd">
+    <name>ВалютаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта документа</value>
+    </synonym>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="cd84dc8a-cef5-4c8a-b1ef-b44edb4a3ebb">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.РЭЙ_ЗаявлениеВБанкПС.Attribute.Комментарий</references>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.Комментарий</references>
+    <references>Document.РЭЙ_СправкаОВалютныхОперациях.Attribute.Комментарий</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="fac26baf-92dd-4081-afef-ed6e0e5df1c1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.Контрагент</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="1a5cd3cb-9000-4a65-8a1f-2bc6ff1fc8dc">
+    <name>КонтрактВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт ВЭД</value>
+    </synonym>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.КонтрактВЭД</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.КонтрактВЭД</references>
+  </columns>
+  <columns uuid="fddda8c9-7c7c-43d7-b3d2-61f98dae0cc5">
+    <name>НомерПаспортаСделки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер паспорта сделки</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.НомерПаспортаСделки</references>
+  </columns>
+  <columns uuid="b69434f5-74e3-43fa-97e0-4d2c94e1170e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment>(общ)</comment>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.Организация</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.Организация</references>
+    <references>Document.РЭЙ_СправкаОВалютныхОперациях.Attribute.Организация</references>
+    <references>Document.РЭЙ_ЗаявлениеВБанкПС.Attribute.Организация</references>
+  </columns>
+  <columns uuid="feae210d-8061-4cac-822e-1a6946848093">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.РЭЙ_ПаспортСделки.Attribute.Ответственный</references>
+    <references>Document.РЭЙ_СправкаОПодтверждающихДокументах.Attribute.Ответственный</references>
+    <references>Document.РЭЙ_СправкаОВалютныхОперациях.Attribute.Ответственный</references>
+    <references>Document.РЭЙ_ЗаявлениеВБанкПС.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="cc55b6a5-0d58-4e05-a10a-f980f6217c1c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка (управляемая)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

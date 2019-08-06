@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b192cffb-ad7b-4c12-825a-b60ce5e809e8">
+  <producedTypes>
+    <selectionType typeId="9c65a801-900f-4718-837b-955415990dea" valueTypeId="0798fb83-ebb6-488b-906e-e465ab9f6625"/>
+    <listType typeId="c07796fe-c116-4c4c-b535-af4ee47f9d97" valueTypeId="de1e4835-1013-49b8-9ed6-6bde3a7fa668"/>
+    <managerType typeId="46f4087a-6673-403b-802b-c2e18bc77716" valueTypeId="7e77f262-fc74-4552-bb6f-a7d7b9471974"/>
+    <recordSetType typeId="cd04c2e8-9942-4e7f-9653-b8f80503c26c" valueTypeId="e63022a2-da04-4d28-8aa6-eeed6e2fbc72"/>
+    <recordKeyType typeId="f2d8e19c-9a69-4119-980f-b4db3ac4f79a" valueTypeId="2b06521c-139f-416f-88ca-c77843632681"/>
+    <recordType typeId="9c9b3070-eea8-4792-aacc-812ea8f8f258" valueTypeId="75976348-adda-4a58-ba7c-239b82f8e525"/>
+    <recordManagerType typeId="8305ef98-6ea4-4aee-86d5-da870f8ebc14" valueTypeId="ee1acbef-326c-4777-a33a-2a351819aab0"/>
+  </producedTypes>
+  <name>АГ_ОтветственныеЗаСогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные за согласование заказов клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d563968f-f3b2-41ff-8ea3-851f2e06996a">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f7a0e8f4-c17b-4edf-9503-1c1f29d66106">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Подразделение</name>
+      <field>InformationRegister.АГ_ОтветственныеЗаСогласованиеЗаказовКлиентов.Dimension.Подразделение</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e07d46e5-a017-4504-9f8e-12329d6ac1fb">
+    <name>ТипСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.АГ_ТипыСогласованияЗаказовКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

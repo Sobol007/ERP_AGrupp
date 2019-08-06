@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0dd5169-4c04-43d3-b6e8-44d540b1582b">
+  <producedTypes>
+    <managerType typeId="b14a2672-5244-468d-a76f-378ad95b4dbe" valueTypeId="ee11dd8a-9207-4b27-8a8f-da4a775ce7ee"/>
+    <valueManagerType typeId="6166202d-31d3-4223-92db-87fc2ed6a4ce" valueTypeId="2d3b58b7-07f3-415f-9a85-943eb8686a5a"/>
+    <valueKeyType typeId="42c30316-96ff-5125-afb3-ba0d6dbabe00" valueTypeId="3913d7a3-21ba-5c91-bd3d-7964c1440f80"/>
+  </producedTypes>
+  <name>CRM_ДанныеДоступаКUniSender</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные доступа к API UniSender</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Data access to the UniSender API</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

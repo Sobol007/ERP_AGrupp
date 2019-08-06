@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56ce6d2c-20a8-486a-8b96-8f30d48e4fe6">
+  <producedTypes>
+    <managerType typeId="c01b050d-a0b7-46d4-b9d6-51d94a3bfe57" valueTypeId="ef8b4265-3bab-40c2-91dd-37e5a475bd63"/>
+    <valueManagerType typeId="15830f42-c022-491e-ae8f-6f9d9c5174c0" valueTypeId="04bd82b4-c81d-4610-a36e-d51f830bc671"/>
+    <valueKeyType typeId="22cc0239-d632-5435-9b36-fef0f53d2e2f" valueTypeId="110e62bb-d6c9-56af-b150-8ccdff3b816d"/>
+  </producedTypes>
+  <name>Удалить_CRM_ОбязательноУказыватьРезультатПриИзмененииСостоянияИнтереса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательно указывать результат взаимодействия перед изменением состояния интереса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Obligatorily to indicate the result of the interaction before changing the status of lead</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

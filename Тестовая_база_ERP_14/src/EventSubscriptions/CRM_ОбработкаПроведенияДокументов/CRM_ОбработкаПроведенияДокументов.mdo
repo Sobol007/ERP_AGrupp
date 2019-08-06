@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e146828f-cefd-4fa8-ad7c-5716f86bc9a4">
+  <name>CRM_ОбработкаПроведенияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM обработка проведения документов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>CRM document processing</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.КоммерческоеПредложениеКлиенту</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.CRM_МетодыМодулейОбъектовДокументов.ОбработкаПроведенияДокументов</handler>
+</mdclass:EventSubscription>

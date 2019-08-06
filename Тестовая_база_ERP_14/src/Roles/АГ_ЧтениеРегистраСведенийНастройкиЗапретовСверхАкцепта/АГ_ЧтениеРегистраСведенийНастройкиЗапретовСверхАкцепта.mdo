@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c16d0013-fac2-493d-8d9f-695eceb0429c">
+  <name>АГ_ЧтениеРегистраСведенийНастройкиЗапретовСверхАкцепта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра сведений Настройки запретов сверх акцепта</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ae80c70-5c86-45b0-804f-f5d0042dba17">
+  <name>ПроверкаДокументовПередУдалениемДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка документов перед удалением документа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Check documents before removing document</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ПроверяемыйДокументРеглУчета</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ПроверкаДокументовСервер.ПередУдалениемДокумента</handler>
+</mdclass:EventSubscription>

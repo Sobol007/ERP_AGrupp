@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c79eb00b-f619-4203-b302-1a74ab26e7b7">
+  <name>CRM_МессенджерViber</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мессенджер Viber</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Viber messenger</value>
+  </synonym>
+</mdclass:CommonPicture>

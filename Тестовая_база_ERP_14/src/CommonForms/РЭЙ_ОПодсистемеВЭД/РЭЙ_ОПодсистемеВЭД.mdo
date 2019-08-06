@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c0ebf70-d6e0-480f-aa9c-cb163f45fa0a">
+  <name>РЭЙ_ОПодсистемеВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>О подсистеме ВЭД</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

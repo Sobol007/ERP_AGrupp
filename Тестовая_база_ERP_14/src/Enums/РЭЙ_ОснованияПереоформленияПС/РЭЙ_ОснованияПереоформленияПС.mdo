@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57ac65e-82e9-4144-917d-0294b70b383c">
+  <producedTypes>
+    <refType typeId="bedc5b6e-7592-4128-b517-984b34cbda07" valueTypeId="83e03d79-6771-4404-adca-7c51e3b4cb98"/>
+    <listType typeId="87751c1e-b5fa-499e-abba-1ba5f36d8f7d" valueTypeId="aac1ad27-a1e5-438b-944c-df3f8dcaa35f"/>
+    <managerType typeId="5625f0ec-bb63-4af9-a71c-b12fe9ca3a89" valueTypeId="2bcf6324-f12c-403c-8020-1144c17e3a6a"/>
+  </producedTypes>
+  <name>РЭЙ_ОснованияПереоформленияПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основания для внесения изменений в раздел I &quot;Учетная информация&quot; ВБК</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Основания закрытия ПС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="802a5a18-e47e-4fad-b418-b16e9c5a1527">
+    <name>пункт_7_10</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.10 - изменение суммы либо продление срока контракта после даты закрытия ПС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1f90f55-543c-401b-af9a-66a2932dfa1f">
+    <name>пункт_8_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.4   - изменение сведений об организации в ЕГРЮЛ/ЕГРИП/иных реестрах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b16569d-dc4d-4318-9ceb-7057c7be5600">
+    <name>пункт_8_8</name>
+    <synonym>
+      <key>ru</key>
+      <value>8.8   - пролонгация контракта без подписания дополнений и изменений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="006b3b28-a64f-439f-8687-548f56ee3a25">
+    <name>пункт181_6_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>6.9 - внесение изменений в контракт либо продолжение исполнения обязательств после даты снятия с учета контракта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbbdf547-7065-4581-a4ae-870ab77b3389">
+    <name>пункт181_7_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.1 - внесение изменений и (или) дополнений в контракт, изменение иных сведений, содержащихся в разделе I ВБК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92a6d957-ad3c-4540-a0ec-99a632cd40a5">
+    <name>пункт181_7_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>7.9 - пролонгация контракта без подписания дополнений и изменений, внесение изменений в раздел I ВБК для указания иной даты завершения исполнения обязательств</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

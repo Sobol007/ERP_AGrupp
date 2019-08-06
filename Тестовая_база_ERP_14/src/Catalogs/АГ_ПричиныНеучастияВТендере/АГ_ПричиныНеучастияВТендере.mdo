@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1734f2c-6671-4256-9569-420b6df4f2e0">
+  <producedTypes>
+    <objectType typeId="aeea25bd-fbd2-497d-9526-3ab9d8e0337f" valueTypeId="43c543e3-e6d1-4d6b-a3ce-4b9cdf177791"/>
+    <refType typeId="f7bf9b80-ec01-4e2b-9fac-b6148e11aaa0" valueTypeId="9c912e19-c6dc-49f2-b08c-b46f9d25b65e"/>
+    <selectionType typeId="698843f2-602e-4f55-bb82-1c8e5b453a39" valueTypeId="467efe61-0ed9-48b0-b2f8-9daab2814ed2"/>
+    <listType typeId="6fe37628-1e1a-418e-a7e7-9d8ff41d6231" valueTypeId="158c8f55-3cc9-4029-a8ce-0c91df37408c"/>
+    <managerType typeId="de89098e-ef19-446f-b61e-1c281ca693fe" valueTypeId="5a4866a1-12c4-44a7-99a8-4a44b2739bf3"/>
+  </producedTypes>
+  <name>АГ_ПричиныНеучастияВТендере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины неучастия в Тендере</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АГ_ПричиныНеучастияВТендере.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.АГ_ПричиныНеучастияВТендере.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bf6051d7-c3f8-4cf0-b405-fb7b4a813111">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e01e1846-23e3-4a1f-a0e7-0d7831694dcc">
+  <name>CRM_МессенджерTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мессенджер Telegram</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Telegram messenger</value>
+  </synonym>
+</mdclass:CommonPicture>

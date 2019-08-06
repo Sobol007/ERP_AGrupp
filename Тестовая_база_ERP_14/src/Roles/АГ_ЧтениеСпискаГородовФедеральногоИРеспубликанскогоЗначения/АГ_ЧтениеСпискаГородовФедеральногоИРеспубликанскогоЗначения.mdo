@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3abc8269-4e6e-4a16-9540-e4f8e7365696">
+  <name>АГ_ЧтениеСпискаГородовФедеральногоИРеспубликанскогоЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение списка городов федерального и республиканского значения</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="230f86c3-0b3e-4a8d-9acf-19d5d4cf8dcb">
+  <producedTypes>
+    <refType typeId="bacf6bea-d429-4583-9d3d-a095bd12efdd" valueTypeId="ee3b9455-e316-44d5-856b-61a69ad65709"/>
+    <listType typeId="5c29a7da-ff70-4eb7-955f-34176edb0cf8" valueTypeId="8114e305-d469-46b3-aeb6-c37663e7c1e3"/>
+    <managerType typeId="687ba4bd-2d01-4a82-a774-627237d7600a" valueTypeId="c598da05-c674-4497-993a-5857f003599e"/>
+  </producedTypes>
+  <name>АГ_ВидПодачиПредложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид подачи предложения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="54e188eb-21d0-4a89-aae7-1e4b3fc60b53">
+    <name>НаЭТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>На ЭТП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61899bbd-1f24-4db1-bedd-257750bb8ffb">
+    <name>НаБумаге</name>
+    <synonym>
+      <key>ru</key>
+      <value>На бумаге</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38865a3c-a864-44b4-a543-38764a4b9abb">
+    <name>НаЭлектронныйАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>На электронный адрес</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
